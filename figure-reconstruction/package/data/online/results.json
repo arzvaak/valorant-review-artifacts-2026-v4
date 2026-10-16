@@ -1,0 +1,1746 @@
+{
+  "metrics": [
+    {
+      "task": "map_winner",
+      "scope": "broad_nonglobal",
+      "predictor": "online_rich_residual",
+      "rows": 55943,
+      "events": 1049,
+      "row_accuracy": 0.619934576265127,
+      "event_accuracy": 0.6102292781937017,
+      "brier": 0.22710284102020833,
+      "log_loss": 0.6456411481761511,
+      "balanced_accuracy": 0.6166801632329464
+    },
+    {
+      "task": "map_winner",
+      "scope": "broad_nonglobal",
+      "predictor": "paper_xgboost",
+      "rows": 55943,
+      "events": 1049,
+      "row_accuracy": 0.5254097921098261,
+      "event_accuracy": 0.535575696938637,
+      "brier": 0.23759339866706025,
+      "log_loss": 0.668195189183327,
+      "balanced_accuracy": 0.5534295157297159
+    },
+    {
+      "task": "map_winner",
+      "scope": "broad_nonglobal",
+      "predictor": "paper_stack",
+      "rows": 55943,
+      "events": 1049,
+      "row_accuracy": 0.5321309189710955,
+      "event_accuracy": 0.5411639698994057,
+      "brier": 0.2415917496704571,
+      "log_loss": 0.6758513963109739,
+      "balanced_accuracy": 0.5577323904057927
+    },
+    {
+      "task": "map_winner",
+      "scope": "broad_nonglobal",
+      "predictor": "previous_residual",
+      "rows": 55943,
+      "events": 1049,
+      "row_accuracy": 0.6166633895214773,
+      "event_accuracy": 0.6074900224045728,
+      "brier": 0.22912148389478115,
+      "log_loss": 0.6502936212943462,
+      "balanced_accuracy": 0.6148985964681905
+    },
+    {
+      "task": "map_winner",
+      "scope": "broad_nonglobal",
+      "predictor": "dynamic_strength",
+      "rows": 55943,
+      "events": 1049,
+      "row_accuracy": 0.6143038449850741,
+      "event_accuracy": 0.6020531062136447,
+      "brier": 0.2354935247785688,
+      "log_loss": 0.6632834207121125,
+      "balanced_accuracy": 0.6066663049432323
+    },
+    {
+      "task": "map_winner",
+      "scope": "broad_nonglobal",
+      "predictor": "online_elo",
+      "rows": 55943,
+      "events": 1049,
+      "row_accuracy": 0.6140357149241192,
+      "event_accuracy": 0.5966490201263815,
+      "brier": 0.23342116857092277,
+      "log_loss": 0.6586425438763385,
+      "balanced_accuracy": 0.6035639639268033
+    },
+    {
+      "task": "map_winner",
+      "scope": "reviewed_six_circuits",
+      "predictor": "online_rich_residual",
+      "rows": 24254,
+      "events": 340,
+      "row_accuracy": 0.6075698853797312,
+      "event_accuracy": 0.6258446577105187,
+      "brier": 0.2205760014799657,
+      "log_loss": 0.6323912014022983,
+      "balanced_accuracy": 0.6093897938703947
+    },
+    {
+      "task": "map_winner",
+      "scope": "reviewed_six_circuits",
+      "predictor": "paper_xgboost",
+      "rows": 24254,
+      "events": 340,
+      "row_accuracy": 0.5639069844149419,
+      "event_accuracy": 0.578263765464842,
+      "brier": 0.22784277136069372,
+      "log_loss": 0.6469658084609297,
+      "balanced_accuracy": 0.5764306241258814
+    },
+    {
+      "task": "map_winner",
+      "scope": "reviewed_six_circuits",
+      "predictor": "paper_stack",
+      "rows": 24254,
+      "events": 340,
+      "row_accuracy": 0.5810587944256618,
+      "event_accuracy": 0.5950132657336724,
+      "brier": 0.23650635838131648,
+      "log_loss": 0.6650906685665138,
+      "balanced_accuracy": 0.589885803953921
+    },
+    {
+      "task": "map_winner",
+      "scope": "reviewed_six_circuits",
+      "predictor": "previous_residual",
+      "rows": 24254,
+      "events": 340,
+      "row_accuracy": 0.60348808443968,
+      "event_accuracy": 0.6251330215456864,
+      "brier": 0.22366493861413514,
+      "log_loss": 0.639540497179689,
+      "balanced_accuracy": 0.6065471465279737
+    },
+    {
+      "task": "map_winner",
+      "scope": "reviewed_six_circuits",
+      "predictor": "dynamic_strength",
+      "rows": 24254,
+      "events": 340,
+      "row_accuracy": 0.6079409581924631,
+      "event_accuracy": 0.613249601970159,
+      "brier": 0.23227808357368893,
+      "log_loss": 0.6566075005104839,
+      "balanced_accuracy": 0.6035155495890989
+    },
+    {
+      "task": "map_winner",
+      "scope": "reviewed_six_circuits",
+      "predictor": "online_elo",
+      "rows": 24254,
+      "events": 340,
+      "row_accuracy": 0.6076935763173085,
+      "event_accuracy": 0.6078292016375321,
+      "brier": 0.23019260721412318,
+      "log_loss": 0.6518547082040318,
+      "balanced_accuracy": 0.5995431630374245
+    },
+    {
+      "task": "map_winner",
+      "scope": "known_globals",
+      "predictor": "online_rich_residual",
+      "rows": 859,
+      "events": 14,
+      "row_accuracy": 0.5518044237485448,
+      "event_accuracy": 0.5400875536081688,
+      "brier": 0.24821890609332908,
+      "log_loss": 0.6920646115899001,
+      "balanced_accuracy": 0.549666328633583
+    },
+    {
+      "task": "map_winner",
+      "scope": "known_globals",
+      "predictor": "paper_xgboost",
+      "rows": 859,
+      "events": 14,
+      "row_accuracy": 0.5040745052386496,
+      "event_accuracy": 0.5018280998002916,
+      "brier": 0.2442185830666032,
+      "log_loss": 0.6814164139160177,
+      "balanced_accuracy": 0.5164573042406795
+    },
+    {
+      "task": "map_winner",
+      "scope": "known_globals",
+      "predictor": "paper_stack",
+      "rows": 859,
+      "events": 14,
+      "row_accuracy": 0.5285215366705471,
+      "event_accuracy": 0.5218418127825148,
+      "brier": 0.24635185331944462,
+      "log_loss": 0.6859423943311973,
+      "balanced_accuracy": 0.5359950712595549
+    },
+    {
+      "task": "map_winner",
+      "scope": "known_globals",
+      "predictor": "previous_residual",
+      "rows": 859,
+      "events": 14,
+      "row_accuracy": 0.5622817229336438,
+      "event_accuracy": 0.5517496445165222,
+      "brier": 0.25066455908730617,
+      "log_loss": 0.6978342690589026,
+      "balanced_accuracy": 0.5620645097975072
+    },
+    {
+      "task": "map_winner",
+      "scope": "known_globals",
+      "predictor": "dynamic_strength",
+      "rows": 859,
+      "events": 14,
+      "row_accuracy": 0.5739231664726426,
+      "event_accuracy": 0.5661201231128863,
+      "brier": 0.24620190587645868,
+      "log_loss": 0.6859725777978936,
+      "balanced_accuracy": 0.5666852039648009
+    },
+    {
+      "task": "map_winner",
+      "scope": "known_globals",
+      "predictor": "online_elo",
+      "rows": 859,
+      "events": 14,
+      "row_accuracy": 0.5785797438882422,
+      "event_accuracy": 0.5715989991673982,
+      "brier": 0.24893425084584883,
+      "log_loss": 0.6941880619766636,
+      "balanced_accuracy": 0.5694194554396066
+    },
+    {
+      "task": "map_winner",
+      "scope": "year2025_nonglobal",
+      "predictor": "online_rich_residual",
+      "rows": 7161,
+      "events": 167,
+      "row_accuracy": 0.6018712470325374,
+      "event_accuracy": 0.61475499247602,
+      "brier": 0.2350362584299108,
+      "log_loss": 0.6644654788840544,
+      "balanced_accuracy": 0.5840526175827232
+    },
+    {
+      "task": "map_winner",
+      "scope": "year2025_nonglobal",
+      "predictor": "paper_xgboost",
+      "rows": 7161,
+      "events": 167,
+      "row_accuracy": 0.5395894428152492,
+      "event_accuracy": 0.5310603191977533,
+      "brier": 0.2403349154473791,
+      "log_loss": 0.6731966686804927,
+      "balanced_accuracy": 0.5375890540842031
+    },
+    {
+      "task": "map_winner",
+      "scope": "year2025_nonglobal",
+      "predictor": "paper_stack",
+      "rows": 7161,
+      "events": 167,
+      "row_accuracy": 0.546711353162966,
+      "event_accuracy": 0.5371637740271072,
+      "brier": 0.23951100828261399,
+      "log_loss": 0.6715949335630584,
+      "balanced_accuracy": 0.5473516835904
+    },
+    {
+      "task": "map_winner",
+      "scope": "year2025_nonglobal",
+      "predictor": "previous_residual",
+      "rows": 7161,
+      "events": 167,
+      "row_accuracy": 0.6032677000418936,
+      "event_accuracy": 0.616870821873787,
+      "brier": 0.23662689385869465,
+      "log_loss": 0.6679639872279194,
+      "balanced_accuracy": 0.5889671340065878
+    },
+    {
+      "task": "map_winner",
+      "scope": "year2025_nonglobal",
+      "predictor": "dynamic_strength",
+      "rows": 7161,
+      "events": 167,
+      "row_accuracy": 0.5905599776567518,
+      "event_accuracy": 0.6024562858161553,
+      "brier": 0.23806491684030495,
+      "log_loss": 0.66867950050101,
+      "balanced_accuracy": 0.58645534003313
+    },
+    {
+      "task": "map_winner",
+      "scope": "year2025_nonglobal",
+      "predictor": "online_elo",
+      "rows": 7161,
+      "events": 167,
+      "row_accuracy": 0.5873481357352325,
+      "event_accuracy": 0.6058017240136274,
+      "brier": 0.2310178800906662,
+      "log_loss": 0.65351007749685,
+      "balanced_accuracy": 0.5784279357243994
+    },
+    {
+      "task": "map_winner",
+      "scope": "year2025_reviewed",
+      "predictor": "online_rich_residual",
+      "rows": 5888,
+      "events": 89,
+      "row_accuracy": 0.6073369565217391,
+      "event_accuracy": 0.6253398431167261,
+      "brier": 0.22999688973016458,
+      "log_loss": 0.6542409891936876,
+      "balanced_accuracy": 0.5887289822118807
+    },
+    {
+      "task": "map_winner",
+      "scope": "year2025_reviewed",
+      "predictor": "paper_xgboost",
+      "rows": 5888,
+      "events": 89,
+      "row_accuracy": 0.5516304347826086,
+      "event_accuracy": 0.5690321581501783,
+      "brier": 0.23465258594224853,
+      "log_loss": 0.6615023854243843,
+      "balanced_accuracy": 0.5443505385455758
+    },
+    {
+      "task": "map_winner",
+      "scope": "year2025_reviewed",
+      "predictor": "paper_stack",
+      "rows": 5888,
+      "events": 89,
+      "row_accuracy": 0.5606317934782609,
+      "event_accuracy": 0.5773653279643517,
+      "brier": 0.23396675519986215,
+      "log_loss": 0.660246526033154,
+      "balanced_accuracy": 0.556136382556881
+    },
+    {
+      "task": "map_winner",
+      "scope": "year2025_reviewed",
+      "predictor": "previous_residual",
+      "rows": 5888,
+      "events": 89,
+      "row_accuracy": 0.6076766304347826,
+      "event_accuracy": 0.6263591939332187,
+      "brier": 0.23243098999963563,
+      "log_loss": 0.6594914817620723,
+      "balanced_accuracy": 0.592641047595439
+    },
+    {
+      "task": "map_winner",
+      "scope": "year2025_reviewed",
+      "predictor": "dynamic_strength",
+      "rows": 5888,
+      "events": 89,
+      "row_accuracy": 0.5945991847826086,
+      "event_accuracy": 0.6055925983017123,
+      "brier": 0.23574001399217404,
+      "log_loss": 0.6639484623814533,
+      "balanced_accuracy": 0.5895567178555101
+    },
+    {
+      "task": "map_winner",
+      "scope": "year2025_reviewed",
+      "predictor": "online_elo",
+      "rows": 5888,
+      "events": 89,
+      "row_accuracy": 0.5895040760869565,
+      "event_accuracy": 0.5906229435047614,
+      "brier": 0.23422480903760567,
+      "log_loss": 0.6606761214118193,
+      "balanced_accuracy": 0.5806424270385737
+    },
+    {
+      "task": "series_winner",
+      "scope": "broad_nonglobal",
+      "predictor": "online_rich_residual",
+      "rows": 25186,
+      "events": 1047,
+      "row_accuracy": 0.6357897244500913,
+      "event_accuracy": 0.6154797044608847,
+      "brier": 0.22728985618896116,
+      "log_loss": 0.6461505733584534,
+      "balanced_accuracy": 0.6334321487109693
+    },
+    {
+      "task": "series_winner",
+      "scope": "broad_nonglobal",
+      "predictor": "paper_xgboost",
+      "rows": 25186,
+      "events": 1047,
+      "row_accuracy": 0.5220360517747955,
+      "event_accuracy": 0.5198834218868771,
+      "brier": 0.2359986250222798,
+      "log_loss": 0.6640780776363395,
+      "balanced_accuracy": 0.5588651197074159
+    },
+    {
+      "task": "series_winner",
+      "scope": "broad_nonglobal",
+      "predictor": "paper_stack",
+      "rows": 25186,
+      "events": 1047,
+      "row_accuracy": 0.5264432621297547,
+      "event_accuracy": 0.5267306405624061,
+      "brier": 0.23867839397369245,
+      "log_loss": 0.6703487133799103,
+      "balanced_accuracy": 0.5606464658586281
+    },
+    {
+      "task": "series_winner",
+      "scope": "broad_nonglobal",
+      "predictor": "previous_residual",
+      "rows": 25186,
+      "events": 1047,
+      "row_accuracy": 0.6245930278726276,
+      "event_accuracy": 0.5993636926077403,
+      "brier": 0.23091628426803099,
+      "log_loss": 0.6538634768659736,
+      "balanced_accuracy": 0.6228814047369122
+    },
+    {
+      "task": "series_winner",
+      "scope": "broad_nonglobal",
+      "predictor": "dynamic_strength",
+      "rows": 25186,
+      "events": 1047,
+      "row_accuracy": 0.6425792106725959,
+      "event_accuracy": 0.6116274800149812,
+      "brier": 0.22943873670065984,
+      "log_loss": 0.6504701954710692,
+      "balanced_accuracy": 0.6372152183463932
+    },
+    {
+      "task": "series_winner",
+      "scope": "broad_nonglobal",
+      "predictor": "online_elo",
+      "rows": 25186,
+      "events": 1047,
+      "row_accuracy": 0.6383705233065989,
+      "event_accuracy": 0.6159613865590522,
+      "brier": 0.23096115081183305,
+      "log_loss": 0.6537029527284756,
+      "balanced_accuracy": 0.6257129431438544
+    },
+    {
+      "task": "series_winner",
+      "scope": "reviewed_six_circuits",
+      "predictor": "online_rich_residual",
+      "rows": 10515,
+      "events": 340,
+      "row_accuracy": 0.6325249643366619,
+      "event_accuracy": 0.6432017207853401,
+      "brier": 0.22336931803106871,
+      "log_loss": 0.638310405089128,
+      "balanced_accuracy": 0.6274370913413909
+    },
+    {
+      "task": "series_winner",
+      "scope": "reviewed_six_circuits",
+      "predictor": "paper_xgboost",
+      "rows": 10515,
+      "events": 340,
+      "row_accuracy": 0.5865905848787446,
+      "event_accuracy": 0.5830574017973111,
+      "brier": 0.22394871449830314,
+      "log_loss": 0.6383022562254208,
+      "balanced_accuracy": 0.6020116460823812
+    },
+    {
+      "task": "series_winner",
+      "scope": "reviewed_six_circuits",
+      "predictor": "paper_stack",
+      "rows": 10515,
+      "events": 340,
+      "row_accuracy": 0.588492629576795,
+      "event_accuracy": 0.5842276308698574,
+      "brier": 0.22867659441082044,
+      "log_loss": 0.648658938184411,
+      "balanced_accuracy": 0.6010399467230257
+    },
+    {
+      "task": "series_winner",
+      "scope": "reviewed_six_circuits",
+      "predictor": "previous_residual",
+      "rows": 10515,
+      "events": 340,
+      "row_accuracy": 0.6158820732287209,
+      "event_accuracy": 0.6128386676962166,
+      "brier": 0.22775931952104506,
+      "log_loss": 0.6476608002628819,
+      "balanced_accuracy": 0.6152056777403518
+    },
+    {
+      "task": "series_winner",
+      "scope": "reviewed_six_circuits",
+      "predictor": "dynamic_strength",
+      "rows": 10515,
+      "events": 340,
+      "row_accuracy": 0.6423204945316215,
+      "event_accuracy": 0.6356024911197634,
+      "brier": 0.22437416261771614,
+      "log_loss": 0.6399746860799086,
+      "balanced_accuracy": 0.6380913854214825
+    },
+    {
+      "task": "series_winner",
+      "scope": "reviewed_six_circuits",
+      "predictor": "online_elo",
+      "rows": 10515,
+      "events": 340,
+      "row_accuracy": 0.633095577746077,
+      "event_accuracy": 0.6241403666497504,
+      "brier": 0.22666162010969731,
+      "log_loss": 0.6447176052572277,
+      "balanced_accuracy": 0.6211864033639345
+    },
+    {
+      "task": "series_winner",
+      "scope": "known_globals",
+      "predictor": "online_rich_residual",
+      "rows": 336,
+      "events": 14,
+      "row_accuracy": 0.6011904761904762,
+      "event_accuracy": 0.5810493982539251,
+      "brier": 0.2402807321648849,
+      "log_loss": 0.6737477337607232,
+      "balanced_accuracy": 0.5968947671075331
+    },
+    {
+      "task": "series_winner",
+      "scope": "known_globals",
+      "predictor": "paper_xgboost",
+      "rows": 336,
+      "events": 14,
+      "row_accuracy": 0.5327380952380952,
+      "event_accuracy": 0.5213912984548659,
+      "brier": 0.2403116981216507,
+      "log_loss": 0.6735386923575766,
+      "balanced_accuracy": 0.547225416906268
+    },
+    {
+      "task": "series_winner",
+      "scope": "known_globals",
+      "predictor": "paper_stack",
+      "rows": 336,
+      "events": 14,
+      "row_accuracy": 0.5535714285714286,
+      "event_accuracy": 0.5445880771663503,
+      "brier": 0.23561459016384803,
+      "log_loss": 0.6636412447988176,
+      "balanced_accuracy": 0.5679988499137435
+    },
+    {
+      "task": "series_winner",
+      "scope": "known_globals",
+      "predictor": "previous_residual",
+      "rows": 336,
+      "events": 14,
+      "row_accuracy": 0.5803571428571429,
+      "event_accuracy": 0.5609469540504374,
+      "brier": 0.24138831109262354,
+      "log_loss": 0.6761982333982718,
+      "balanced_accuracy": 0.5768401380103507
+    },
+    {
+      "task": "series_winner",
+      "scope": "known_globals",
+      "predictor": "dynamic_strength",
+      "rows": 336,
+      "events": 14,
+      "row_accuracy": 0.5922619047619048,
+      "event_accuracy": 0.5851927598996587,
+      "brier": 0.24102238007073185,
+      "log_loss": 0.6753912485708806,
+      "balanced_accuracy": 0.5802903967797585
+    },
+    {
+      "task": "series_winner",
+      "scope": "known_globals",
+      "predictor": "online_elo",
+      "rows": 336,
+      "events": 14,
+      "row_accuracy": 0.5952380952380952,
+      "event_accuracy": 0.5839996643818818,
+      "brier": 0.23957275209215181,
+      "log_loss": 0.6710379834344553,
+      "balanced_accuracy": 0.5764807360552041
+    },
+    {
+      "task": "series_winner",
+      "scope": "year2025_nonglobal",
+      "predictor": "online_rich_residual",
+      "rows": 3045,
+      "events": 166,
+      "row_accuracy": 0.6243021346469623,
+      "event_accuracy": 0.6268934546741411,
+      "brier": 0.24685890034862962,
+      "log_loss": 0.6924394105409015,
+      "balanced_accuracy": 0.6057003933029731
+    },
+    {
+      "task": "series_winner",
+      "scope": "year2025_nonglobal",
+      "predictor": "paper_xgboost",
+      "rows": 3045,
+      "events": 166,
+      "row_accuracy": 0.548111658456486,
+      "event_accuracy": 0.5219679838469261,
+      "brier": 0.23949447646353114,
+      "log_loss": 0.6715600401943832,
+      "balanced_accuracy": 0.5482914476777231
+    },
+    {
+      "task": "series_winner",
+      "scope": "year2025_nonglobal",
+      "predictor": "paper_stack",
+      "rows": 3045,
+      "events": 166,
+      "row_accuracy": 0.5333333333333333,
+      "event_accuracy": 0.5169152393452956,
+      "brier": 0.24215412987730092,
+      "log_loss": 0.6773192852345783,
+      "balanced_accuracy": 0.524609942390412
+    },
+    {
+      "task": "series_winner",
+      "scope": "year2025_nonglobal",
+      "predictor": "previous_residual",
+      "rows": 3045,
+      "events": 166,
+      "row_accuracy": 0.6098522167487684,
+      "event_accuracy": 0.6045285565930483,
+      "brier": 0.24946287336243103,
+      "log_loss": 0.697803810653291,
+      "balanced_accuracy": 0.6004790858249538
+    },
+    {
+      "task": "series_winner",
+      "scope": "year2025_nonglobal",
+      "predictor": "dynamic_strength",
+      "rows": 3045,
+      "events": 166,
+      "row_accuracy": 0.6180623973727422,
+      "event_accuracy": 0.6141254627582555,
+      "brier": 0.2335300633046937,
+      "log_loss": 0.6592425837167126,
+      "balanced_accuracy": 0.6152656637031528
+    },
+    {
+      "task": "series_winner",
+      "scope": "year2025_nonglobal",
+      "predictor": "online_elo",
+      "rows": 3045,
+      "events": 166,
+      "row_accuracy": 0.6091954022988506,
+      "event_accuracy": 0.6191343385223456,
+      "brier": 0.2286739973963432,
+      "log_loss": 0.6484994647918876,
+      "balanced_accuracy": 0.5954610521293093
+    },
+    {
+      "task": "series_winner",
+      "scope": "year2025_reviewed",
+      "predictor": "online_rich_residual",
+      "rows": 2430,
+      "events": 89,
+      "row_accuracy": 0.6316872427983539,
+      "event_accuracy": 0.6385528517730079,
+      "brier": 0.24821784162634844,
+      "log_loss": 0.6972447937803615,
+      "balanced_accuracy": 0.6106495779570483
+    },
+    {
+      "task": "series_winner",
+      "scope": "year2025_reviewed",
+      "predictor": "paper_xgboost",
+      "rows": 2430,
+      "events": 89,
+      "row_accuracy": 0.5670781893004115,
+      "event_accuracy": 0.5863878554261069,
+      "brier": 0.2339876766434159,
+      "log_loss": 0.6603042795930641,
+      "balanced_accuracy": 0.559818268744642
+    },
+    {
+      "task": "series_winner",
+      "scope": "year2025_reviewed",
+      "predictor": "paper_stack",
+      "rows": 2430,
+      "events": 89,
+      "row_accuracy": 0.5497942386831276,
+      "event_accuracy": 0.5695800077360674,
+      "brier": 0.2375405031183295,
+      "log_loss": 0.6679874347099225,
+      "balanced_accuracy": 0.5331561998549228
+    },
+    {
+      "task": "series_winner",
+      "scope": "year2025_reviewed",
+      "predictor": "previous_residual",
+      "rows": 2430,
+      "events": 89,
+      "row_accuracy": 0.6201646090534979,
+      "event_accuracy": 0.610122537737207,
+      "brier": 0.2513083969295978,
+      "log_loss": 0.7034300840840425,
+      "balanced_accuracy": 0.6085915690325985
+    },
+    {
+      "task": "series_winner",
+      "scope": "year2025_reviewed",
+      "predictor": "dynamic_strength",
+      "rows": 2430,
+      "events": 89,
+      "row_accuracy": 0.6283950617283951,
+      "event_accuracy": 0.6078690054874724,
+      "brier": 0.22937717877177563,
+      "log_loss": 0.6507288236123583,
+      "balanced_accuracy": 0.6237154617193854
+    },
+    {
+      "task": "series_winner",
+      "scope": "year2025_reviewed",
+      "predictor": "online_elo",
+      "rows": 2430,
+      "events": 89,
+      "row_accuracy": 0.6119341563786008,
+      "event_accuracy": 0.5988522496489813,
+      "brier": 0.23205844574230328,
+      "log_loss": 0.6561124183686381,
+      "balanced_accuracy": 0.5979862286505616
+    }
+  ],
+  "contrasts": [
+    {
+      "task": "map_winner",
+      "scope": "broad_nonglobal",
+      "a": "online_rich_residual",
+      "b": "previous_residual",
+      "row_difference": 0.0032711867436497864,
+      "row_ci95": [
+        0.0010305770206035798,
+        0.005534338965502081
+      ],
+      "event_difference": 0.0027392557891286343,
+      "event_ci95": [
+        -0.0020616873546499643,
+        0.007696625434925848
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "broad_nonglobal",
+      "a": "online_rich_residual",
+      "b": "online_elo",
+      "row_difference": 0.005898861341007811,
+      "row_ci95": [
+        0.0008251851216598256,
+        0.010956744603548669
+      ],
+      "event_difference": 0.013580258067319854,
+      "event_ci95": [
+        0.0011531508754730121,
+        0.02603833187862988
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "broad_nonglobal",
+      "a": "paper_xgboost",
+      "b": "previous_residual",
+      "row_difference": -0.09125359741165115,
+      "row_ci95": [
+        -0.10513032701960053,
+        -0.07772016351123757
+      ],
+      "event_difference": -0.07191432546593574,
+      "event_ci95": [
+        -0.08538409768830196,
+        -0.05821991325324461
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "broad_nonglobal",
+      "a": "paper_xgboost",
+      "b": "online_elo",
+      "row_difference": -0.08862592281429311,
+      "row_ci95": [
+        -0.10242454529190623,
+        -0.0756267076598552
+      ],
+      "event_difference": -0.06107332318774451,
+      "event_ci95": [
+        -0.07511045030708859,
+        -0.04720511646021206
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "broad_nonglobal",
+      "a": "paper_stack",
+      "b": "previous_residual",
+      "row_difference": -0.08453247055038164,
+      "row_ci95": [
+        -0.09872701860220472,
+        -0.07068191121713932
+      ],
+      "event_difference": -0.06632605250516709,
+      "event_ci95": [
+        -0.07975738097682936,
+        -0.052261422608965054
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "broad_nonglobal",
+      "a": "paper_stack",
+      "b": "online_elo",
+      "row_difference": -0.0819047959530236,
+      "row_ci95": [
+        -0.09592534809065463,
+        -0.06849578053540431
+      ],
+      "event_difference": -0.05548505022697586,
+      "event_ci95": [
+        -0.06982440556831235,
+        -0.0415963608299813
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "reviewed_six_circuits",
+      "a": "online_rich_residual",
+      "b": "previous_residual",
+      "row_difference": 0.0040818009400511255,
+      "row_ci95": [
+        0.0004897444521954773,
+        0.00769578742991885
+      ],
+      "event_difference": 0.0007116361648321857,
+      "event_ci95": [
+        -0.00784616979200695,
+        0.008361755631283876
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "reviewed_six_circuits",
+      "a": "online_rich_residual",
+      "b": "online_elo",
+      "row_difference": -0.00012369093757730684,
+      "row_ci95": [
+        -0.008753597473816523,
+        0.008360729547401836
+      ],
+      "event_difference": 0.01801545607298642,
+      "event_ci95": [
+        0.0020451931035241765,
+        0.03406227712267959
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "reviewed_six_circuits",
+      "a": "paper_xgboost",
+      "b": "previous_residual",
+      "row_difference": -0.039581100024738185,
+      "row_ci95": [
+        -0.051229142752232726,
+        -0.028507993334304874
+      ],
+      "event_difference": -0.04686925608084427,
+      "event_ci95": [
+        -0.06014811854466869,
+        -0.03394813701447341
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "reviewed_six_circuits",
+      "a": "paper_xgboost",
+      "b": "online_elo",
+      "row_difference": -0.04378659190236662,
+      "row_ci95": [
+        -0.055851343550923804,
+        -0.031853270288395186
+      ],
+      "event_difference": -0.02956543617269007,
+      "event_ci95": [
+        -0.045121254581157885,
+        -0.013076404368819882
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "reviewed_six_circuits",
+      "a": "paper_stack",
+      "b": "previous_residual",
+      "row_difference": -0.022429290014018305,
+      "row_ci95": [
+        -0.03391754164382486,
+        -0.011671676239429326
+      ],
+      "event_difference": -0.030119755812013833,
+      "event_ci95": [
+        -0.04311584197838824,
+        -0.0173957890020889
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "reviewed_six_circuits",
+      "a": "paper_stack",
+      "b": "online_elo",
+      "row_difference": -0.02663478189164674,
+      "row_ci95": [
+        -0.038489369814563267,
+        -0.014926535584608496
+      ],
+      "event_difference": -0.012815935903859623,
+      "event_ci95": [
+        -0.028496471616813502,
+        0.0033374235042146465
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "known_globals",
+      "a": "online_rich_residual",
+      "b": "previous_residual",
+      "row_difference": -0.010477299185098952,
+      "row_ci95": [
+        -0.022055729614095375,
+        0.0
+      ],
+      "event_difference": -0.011662090908353365,
+      "event_ci95": [
+        -0.025256128837939467,
+        0.0005799755799755799
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "known_globals",
+      "a": "online_rich_residual",
+      "b": "online_elo",
+      "row_difference": -0.02677532013969732,
+      "row_ci95": [
+        -0.06302021403091558,
+        0.003401360544217687
+      ],
+      "event_difference": -0.031511445559229426,
+      "event_ci95": [
+        -0.06827339184296735,
+        0.002146766188891392
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "known_globals",
+      "a": "paper_xgboost",
+      "b": "previous_residual",
+      "row_difference": -0.05820721769499418,
+      "row_ci95": [
+        -0.09314910345424264,
+        -0.017614025668558575
+      ],
+      "event_difference": -0.0499215447162306,
+      "event_ci95": [
+        -0.09009623144766879,
+        -0.005584238219019894
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "known_globals",
+      "a": "paper_xgboost",
+      "b": "online_elo",
+      "row_difference": -0.07450523864959255,
+      "row_ci95": [
+        -0.11424096736596737,
+        -0.024286341966920463
+      ],
+      "event_difference": -0.06977089936710665,
+      "event_ci95": [
+        -0.1130489385263384,
+        -0.018365455004126594
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "known_globals",
+      "a": "paper_stack",
+      "b": "previous_residual",
+      "row_difference": -0.033760186263096625,
+      "row_ci95": [
+        -0.07772432669950018,
+        0.011001402707507914
+      ],
+      "event_difference": -0.02990783173400744,
+      "event_ci95": [
+        -0.07870728614353766,
+        0.01909868063024756
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "known_globals",
+      "a": "paper_stack",
+      "b": "online_elo",
+      "row_difference": -0.050058207217694994,
+      "row_ci95": [
+        -0.09553627530739264,
+        0.003487979703934387
+      ],
+      "event_difference": -0.049757186384883495,
+      "event_ci95": [
+        -0.0966971059063005,
+        0.004785504739238211
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "year2025_nonglobal",
+      "a": "online_rich_residual",
+      "b": "previous_residual",
+      "row_difference": -0.0013964530093562352,
+      "row_ci95": [
+        -0.006808940293569675,
+        0.0041452771564660556
+      ],
+      "event_difference": -0.0021158293977668295,
+      "event_ci95": [
+        -0.006314598677657482,
+        0.0016550746301854792
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "year2025_nonglobal",
+      "a": "online_rich_residual",
+      "b": "online_elo",
+      "row_difference": 0.014523111297304846,
+      "row_ci95": [
+        0.0012045146273649847,
+        0.027759078405260842
+      ],
+      "event_difference": 0.008953268462392548,
+      "event_ci95": [
+        -0.022719593643233917,
+        0.03893017924109381
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "year2025_nonglobal",
+      "a": "paper_xgboost",
+      "b": "previous_residual",
+      "row_difference": -0.06367825722664433,
+      "row_ci95": [
+        -0.08112700649959564,
+        -0.04756404566293836
+      ],
+      "event_difference": -0.08581050267603352,
+      "event_ci95": [
+        -0.1233572951494826,
+        -0.049243955720018454
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "year2025_nonglobal",
+      "a": "paper_xgboost",
+      "b": "online_elo",
+      "row_difference": -0.04775869291998324,
+      "row_ci95": [
+        -0.06897461459890722,
+        -0.02770177156893735
+      ],
+      "event_difference": -0.07474140481587413,
+      "event_ci95": [
+        -0.11313762238935902,
+        -0.037721573068416774
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "year2025_nonglobal",
+      "a": "paper_stack",
+      "b": "previous_residual",
+      "row_difference": -0.05655634687892752,
+      "row_ci95": [
+        -0.07454340681969088,
+        -0.04007052002079778
+      ],
+      "event_difference": -0.07970704784667967,
+      "event_ci95": [
+        -0.11626399787135516,
+        -0.04410715120535114
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "year2025_nonglobal",
+      "a": "paper_stack",
+      "b": "online_elo",
+      "row_difference": -0.040636782572266446,
+      "row_ci95": [
+        -0.06329578104787596,
+        -0.01844858503461827
+      ],
+      "event_difference": -0.0686379499865203,
+      "event_ci95": [
+        -0.1063136376158271,
+        -0.0324824875614147
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "year2025_reviewed",
+      "a": "online_rich_residual",
+      "b": "previous_residual",
+      "row_difference": -0.00033967391304347825,
+      "row_ci95": [
+        -0.00660261477939499,
+        0.005947325146375206
+      ],
+      "event_difference": -0.0010193508164926147,
+      "event_ci95": [
+        -0.006393922787130665,
+        0.00428856477231461
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "year2025_reviewed",
+      "a": "online_rich_residual",
+      "b": "online_elo",
+      "row_difference": 0.017832880434782608,
+      "row_ci95": [
+        0.004050889900121193,
+        0.0318960354454917
+      ],
+      "event_difference": 0.03471689961196466,
+      "event_ci95": [
+        0.01267179194851136,
+        0.06034077707311384
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "year2025_reviewed",
+      "a": "paper_xgboost",
+      "b": "previous_residual",
+      "row_difference": -0.05604619565217391,
+      "row_ci95": [
+        -0.07515709837501217,
+        -0.03764339763037459
+      ],
+      "event_difference": -0.05732703578304031,
+      "event_ci95": [
+        -0.08254794564800955,
+        -0.032711661800335
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "year2025_reviewed",
+      "a": "paper_xgboost",
+      "b": "online_elo",
+      "row_difference": -0.037873641304347824,
+      "row_ci95": [
+        -0.060545081258810564,
+        -0.01592961083136808
+      ],
+      "event_difference": -0.021590785354583038,
+      "event_ci95": [
+        -0.0563617320328412,
+        0.014415678942000779
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "year2025_reviewed",
+      "a": "paper_stack",
+      "b": "previous_residual",
+      "row_difference": -0.047044836956521736,
+      "row_ci95": [
+        -0.06710761311317172,
+        -0.028423984036649877
+      ],
+      "event_difference": -0.048993865968866984,
+      "event_ci95": [
+        -0.07425190361133585,
+        -0.02422151768820015
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "map_winner",
+      "scope": "year2025_reviewed",
+      "a": "paper_stack",
+      "b": "online_elo",
+      "row_difference": -0.028872282608695652,
+      "row_ci95": [
+        -0.053603378649306345,
+        -0.004858116583611397
+      ],
+      "event_difference": -0.013257615540409714,
+      "event_ci95": [
+        -0.04853207956329534,
+        0.02311780827401649
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "broad_nonglobal",
+      "a": "online_rich_residual",
+      "b": "previous_residual",
+      "row_difference": 0.01119669657746367,
+      "row_ci95": [
+        0.006718165205713746,
+        0.01569303589854947
+      ],
+      "event_difference": 0.016116011853144697,
+      "event_ci95": [
+        0.0038553783009693723,
+        0.028706061649843375
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "broad_nonglobal",
+      "a": "online_rich_residual",
+      "b": "online_elo",
+      "row_difference": -0.0025807988565075836,
+      "row_ci95": [
+        -0.008741720728703634,
+        0.003567297750777457
+      ],
+      "event_difference": -0.0004816820981674511,
+      "event_ci95": [
+        -0.014031267874899703,
+        0.012973482558906325
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "broad_nonglobal",
+      "a": "paper_xgboost",
+      "b": "previous_residual",
+      "row_difference": -0.10255697609783213,
+      "row_ci95": [
+        -0.11951207937352655,
+        -0.0857520732052148
+      ],
+      "event_difference": -0.07948027072086299,
+      "event_ci95": [
+        -0.09593072566080384,
+        -0.06281263531656256
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "broad_nonglobal",
+      "a": "paper_xgboost",
+      "b": "online_elo",
+      "row_difference": -0.11633447153180339,
+      "row_ci95": [
+        -0.13260771096481913,
+        -0.09978044898548771
+      ],
+      "event_difference": -0.09607796467217515,
+      "event_ci95": [
+        -0.11351775109635648,
+        -0.07756364201918366
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "broad_nonglobal",
+      "a": "paper_stack",
+      "b": "previous_residual",
+      "row_difference": -0.09814976574287303,
+      "row_ci95": [
+        -0.11495688163235446,
+        -0.0814446088828969
+      ],
+      "event_difference": -0.07263305204533399,
+      "event_ci95": [
+        -0.0894591323187978,
+        -0.05569917332397919
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "broad_nonglobal",
+      "a": "paper_stack",
+      "b": "online_elo",
+      "row_difference": -0.11192726117684428,
+      "row_ci95": [
+        -0.12818014080761553,
+        -0.09562949892949751
+      ],
+      "event_difference": -0.08923074599664614,
+      "event_ci95": [
+        -0.10625992838407304,
+        -0.07148401826757353
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "reviewed_six_circuits",
+      "a": "online_rich_residual",
+      "b": "previous_residual",
+      "row_difference": 0.016642891107941038,
+      "row_ci95": [
+        0.009792918643717593,
+        0.023597740717305936
+      ],
+      "event_difference": 0.030363053089123494,
+      "event_ci95": [
+        0.01707830508854631,
+        0.04475054515836908
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "reviewed_six_circuits",
+      "a": "online_rich_residual",
+      "b": "online_elo",
+      "row_difference": -0.0005706134094151213,
+      "row_ci95": [
+        -0.011094951597869093,
+        0.00994609737590376
+      ],
+      "event_difference": 0.019061354135589924,
+      "event_ci95": [
+        0.003091360823153127,
+        0.03561863797542004
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "reviewed_six_circuits",
+      "a": "paper_xgboost",
+      "b": "previous_residual",
+      "row_difference": -0.029291488349976226,
+      "row_ci95": [
+        -0.044804894596116196,
+        -0.014004198824799237
+      ],
+      "event_difference": -0.029781265898905618,
+      "event_ci95": [
+        -0.04960421859700136,
+        -0.009543527946698434
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "reviewed_six_circuits",
+      "a": "paper_xgboost",
+      "b": "online_elo",
+      "row_difference": -0.04650499286733238,
+      "row_ci95": [
+        -0.06164629513061835,
+        -0.031480129392756365
+      ],
+      "event_difference": -0.041082964852439195,
+      "event_ci95": [
+        -0.06027575903037864,
+        -0.02203818227328674
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "reviewed_six_circuits",
+      "a": "paper_stack",
+      "b": "previous_residual",
+      "row_difference": -0.027389443651925822,
+      "row_ci95": [
+        -0.042559522108328314,
+        -0.012216211794017318
+      ],
+      "event_difference": -0.028611036826359258,
+      "event_ci95": [
+        -0.04861464978250344,
+        -0.008170164747610956
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "reviewed_six_circuits",
+      "a": "paper_stack",
+      "b": "online_elo",
+      "row_difference": -0.04460294816928198,
+      "row_ci95": [
+        -0.05922793212100225,
+        -0.03017732819195689
+      ],
+      "event_difference": -0.03991273577989283,
+      "event_ci95": [
+        -0.058320560405889676,
+        -0.021165155501205606
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "known_globals",
+      "a": "online_rich_residual",
+      "b": "previous_residual",
+      "row_difference": 0.020833333333333332,
+      "row_ci95": [
+        -0.017922513182590045,
+        0.06268867262433911
+      ],
+      "event_difference": 0.020102444203487852,
+      "event_ci95": [
+        -0.018638655462184874,
+        0.06749337275232672
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "known_globals",
+      "a": "online_rich_residual",
+      "b": "online_elo",
+      "row_difference": 0.005952380952380952,
+      "row_ci95": [
+        -0.06576389390763894,
+        0.07345445028068083
+      ],
+      "event_difference": -0.002950266127956555,
+      "event_ci95": [
+        -0.0850229285262492,
+        0.07008702674618225
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "known_globals",
+      "a": "paper_xgboost",
+      "b": "previous_residual",
+      "row_difference": -0.047619047619047616,
+      "row_ci95": [
+        -0.12886937793985517,
+        0.027777777777777776
+      ],
+      "event_difference": -0.03955565559557156,
+      "event_ci95": [
+        -0.11971872082166199,
+        0.040810899359743885
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "known_globals",
+      "a": "paper_xgboost",
+      "b": "online_elo",
+      "row_difference": -0.0625,
+      "row_ci95": [
+        -0.14285714285714285,
+        0.003343468468468444
+      ],
+      "event_difference": -0.06260836592701596,
+      "event_ci95": [
+        -0.1255671935440843,
+        -0.006443951236408554
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "known_globals",
+      "a": "paper_stack",
+      "b": "previous_residual",
+      "row_difference": -0.026785714285714284,
+      "row_ci95": [
+        -0.1055478609398092,
+        0.04396329476974637
+      ],
+      "event_difference": -0.016358876884086968,
+      "event_ci95": [
+        -0.09370182656395891,
+        0.05897775776977457
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "known_globals",
+      "a": "paper_stack",
+      "b": "online_elo",
+      "row_difference": -0.041666666666666664,
+      "row_ci95": [
+        -0.12244897959183673,
+        0.02298919738462987
+      ],
+      "event_difference": -0.039411587215531375,
+      "event_ci95": [
+        -0.10278307330996915,
+        0.015181291602662553
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "year2025_nonglobal",
+      "a": "online_rich_residual",
+      "b": "previous_residual",
+      "row_difference": 0.01444991789819376,
+      "row_ci95": [
+        0.003680565586860289,
+        0.025575856414076944
+      ],
+      "event_difference": 0.02236489808109288,
+      "event_ci95": [
+        -0.003072621141947944,
+        0.04951791811934199
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "year2025_nonglobal",
+      "a": "online_rich_residual",
+      "b": "online_elo",
+      "row_difference": 0.015106732348111659,
+      "row_ci95": [
+        -0.0016809441375389288,
+        0.03263883694595248
+      ],
+      "event_difference": 0.00775911615179555,
+      "event_ci95": [
+        -0.036269670957283055,
+        0.051362619694589925
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "year2025_nonglobal",
+      "a": "paper_xgboost",
+      "b": "previous_residual",
+      "row_difference": -0.06174055829228243,
+      "row_ci95": [
+        -0.08953402955472031,
+        -0.03408346914317838
+      ],
+      "event_difference": -0.08256057274612214,
+      "event_ci95": [
+        -0.13638846184160694,
+        -0.029200718447106432
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "year2025_nonglobal",
+      "a": "paper_xgboost",
+      "b": "online_elo",
+      "row_difference": -0.061083743842364535,
+      "row_ci95": [
+        -0.09161104430493254,
+        -0.030906769861629397
+      ],
+      "event_difference": -0.09716635467541945,
+      "event_ci95": [
+        -0.14983434080920738,
+        -0.045231460076294305
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "year2025_nonglobal",
+      "a": "paper_stack",
+      "b": "previous_residual",
+      "row_difference": -0.07651888341543514,
+      "row_ci95": [
+        -0.10296487908687264,
+        -0.05053012326411008
+      ],
+      "event_difference": -0.0876133172477526,
+      "event_ci95": [
+        -0.1419099991819439,
+        -0.032403420720866896
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "year2025_nonglobal",
+      "a": "paper_stack",
+      "b": "online_elo",
+      "row_difference": -0.07586206896551724,
+      "row_ci95": [
+        -0.10550323799244468,
+        -0.046603738428848226
+      ],
+      "event_difference": -0.10221909917704992,
+      "event_ci95": [
+        -0.15466910579908383,
+        -0.052005787666197296
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "year2025_reviewed",
+      "a": "online_rich_residual",
+      "b": "previous_residual",
+      "row_difference": 0.011522633744855968,
+      "row_ci95": [
+        0.0,
+        0.023547008477922522
+      ],
+      "event_difference": 0.028430314035800965,
+      "event_ci95": [
+        -0.002439224870712145,
+        0.06368288626330097
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "year2025_reviewed",
+      "a": "online_rich_residual",
+      "b": "online_elo",
+      "row_difference": 0.019753086419753086,
+      "row_ci95": [
+        0.0012967157763456897,
+        0.03844032302217354
+      ],
+      "event_difference": 0.039700602124026624,
+      "event_ci95": [
+        0.004976928251342419,
+        0.07820843980974847
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "year2025_reviewed",
+      "a": "paper_xgboost",
+      "b": "previous_residual",
+      "row_difference": -0.05308641975308642,
+      "row_ci95": [
+        -0.08377688179141694,
+        -0.02362205249019275
+      ],
+      "event_difference": -0.023734682311100243,
+      "event_ci95": [
+        -0.072449600641137,
+        0.027654076795300096
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "year2025_reviewed",
+      "a": "paper_xgboost",
+      "b": "online_elo",
+      "row_difference": -0.0448559670781893,
+      "row_ci95": [
+        -0.07917994255928532,
+        -0.010785804555974934
+      ],
+      "event_difference": -0.012464394222874601,
+      "event_ci95": [
+        -0.06148093603408709,
+        0.03948635591796443
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "year2025_reviewed",
+      "a": "paper_stack",
+      "b": "previous_residual",
+      "row_difference": -0.07037037037037037,
+      "row_ci95": [
+        -0.0986312946231124,
+        -0.042485028078827945
+      ],
+      "event_difference": -0.04054253000113977,
+      "event_ci95": [
+        -0.08828450531703949,
+        0.010805606996398074
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    },
+    {
+      "task": "series_winner",
+      "scope": "year2025_reviewed",
+      "a": "paper_stack",
+      "b": "online_elo",
+      "row_difference": -0.06213991769547325,
+      "row_ci95": [
+        -0.09500350650356826,
+        -0.029653184917329847
+      ],
+      "event_difference": -0.029272241912914124,
+      "event_ci95": [
+        -0.07752383816556824,
+        0.0223382435245772
+      ],
+      "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+    }
+  ]
+}

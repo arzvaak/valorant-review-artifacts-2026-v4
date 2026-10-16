@@ -1,0 +1,10 @@
+# Additional fixed diagnostic inventory
+
+Recorded before executing these new summaries. No original forecasts change.
+
+- Rich versus commonly calibrated online Glicko-2 and player Gaussian: both horizons and both losses, eight new pointwise exploratory contrasts, 131072 complete-event draws, seed 20261022. Preserve raw and common-calibration rating results. No corrected primary-family insertion.
+- Reviewed-2025 series degradation: all qualifying original events, event-specific loss/accuracy/probability extremity, leave-one-event-out differences and event-size summaries; event-equal/row weighting. Reporting-only reliability coefficients use 2048 event resamples seed 20261023. Describe observed support (roster/profile coverage, recent-ACS channels) without claiming those values caused error. Display all events; no result-based exclusion.
+- Canonical balance by block/task, exact tied versus nontied label fractions and accuracy contribution; use completed diagnostic records without refitting.
+- Original accuracy policy: all 12 blocks and both horizons, retained raw mixture arms/weights/thresholds; compare retained decisions against p>.5 on the same raw mixture. To quantify swap consistency, symmetric components complement under swapping while the canonical training prior stays a scalar tied to source ordering; report both zero-prior and prior-containing policy rows separately. Compute actual non-complementary decisions from these transformed mixtures, not merely threshold!=.5 counts. This is a reporting diagnostic, not a new threshold selection.
+
+Broad online reliability inventory: reporting-only canonical intercept/slope and 5/10/20-bin ECE for rich residual, original residual, dynamic strength and matched online K20, separately for map/series. Use 2048 complete-event resamples, seed 20261024, the same guarded CUDA solver, explicit failed-draw accounting, and no predictive recalibration. These eight diagnostics complement the original core and later intervals; they do not select a forecasting model.

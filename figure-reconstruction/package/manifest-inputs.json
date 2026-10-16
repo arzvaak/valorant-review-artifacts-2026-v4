@@ -1,0 +1,48 @@
+{
+  "data/core/report/core/results.json": {
+    "original_sha256": "6a36fbbe75d41fa99e61c317aa877edae0830f95fa39cc6435601a92a424787e",
+    "projection": [
+      "metrics",
+      "contrasts"
+    ],
+    "original_values_retained": true,
+    "package_sha256": "4399b4feb605ed683fec5baf54ca8e227e73e93849c08e9f84d0fd529933da83"
+  },
+  "data/core/report/players/results.json": {
+    "original_sha256": "caf945da3ccda051a5efc62346fba3e0b3b3c66d161a54662670a713e4720fa6",
+    "projection": [
+      "metrics",
+      "contrasts"
+    ],
+    "original_values_retained": true,
+    "package_sha256": "6a7b7c2a6c1361d9854ca7373e0a791abe1390bce10ea7bea3a3edf421624858"
+  },
+  "data/core/report/removals/results.json": {
+    "original_sha256": "4b5309b4cd51f0198391f28542b751aed4f8a8bbefe154dc0988b37ed607566d",
+    "projection": [
+      "metrics",
+      "contrasts"
+    ],
+    "original_values_retained": true,
+    "package_sha256": "dc1f6eab91ef0a45990b7941c3d26d5ea062206fb69273b3d7862782fca616e9"
+  },
+  "data/online/results.json": {
+    "original_sha256": "76484041980af3219c8805d6392c0e69aeaef1cf8fd950081d410d2d9a81e61d",
+    "projection": [
+      "metrics",
+      "contrasts"
+    ],
+    "original_values_retained": true,
+    "package_sha256": "821a1ee7d3f24fd4b42aff22595a4c84f666716fb9f92730f1b8a398e355873c"
+  },
+  "data/later/results.json": {
+    "original_sha256": "030b48fbdf62d5b5a54bb64ea82005db24221a6c965051d20d96deaf406e5e56",
+    "projection": [
+      "metrics",
+      "primary_contrasts",
+      "denominators"
+    ],
+    "original_values_retained": true,
+    "package_sha256": "259910817f9e17f763652436822fe426026f2018127afde8948f86ca75994b69"
+  }
+}

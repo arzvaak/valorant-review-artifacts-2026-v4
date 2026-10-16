@@ -1,0 +1,56 @@
+{
+  "identity_checks": {
+    "figure-reconstruction/Dockerfile": {
+      "sha256": "78f5a01ae0dd562dbe16728b172de54a67e97bbbde43c580469705176701d8a3"
+    },
+    "figure-reconstruction/compose.yaml": {
+      "sha256": "d4232b74c16f344bfbc195431b5a4b6e801dfad1a56d5f88f9e62c8b9899c844"
+    },
+    "figure-reconstruction/outputs-v3": {
+      "file_count": 111,
+      "total_size_bytes": 4876782,
+      "tree_sha256": "ea9dc2874cc7ffd47845c4ca9206fd3a3b7b80626acbfdf94763b0221a1e55b3"
+    },
+    "figure-reconstruction/package/code": {
+      "file_count": 6,
+      "total_size_bytes": 38881,
+      "tree_sha256": "1ea28c55d0c6b19cb92f2a6140cf144abc65e1676b6b340888f8a7986cc5db2f"
+    },
+    "figure-reconstruction/package/data": {
+      "file_count": 19,
+      "total_size_bytes": 4649780,
+      "tree_sha256": "65266bab775da66eb5a8c52fa97aee95452b1da461f78b4dd4fe6c549cf55183"
+    },
+    "figure-reconstruction/requirements-plotting.lock": {
+      "sha256": "8c20390e50a36565dd56754710887a35a0b53af45f50d2c74820a550f7aded6c"
+    },
+    "software/revision-20261016/current-live-source": {
+      "file_count": 20,
+      "total_size_bytes": 173370,
+      "tree_sha256": "1bda14ac14fcfe7133eb815f1323c74c87838cb8b17f894dee13d905f9e0d1c9"
+    }
+  },
+  "limits": [
+    "grouped aggregate and figure reconstruction only",
+    "no scientific refit or independent score recomputation",
+    "no row-level/source inputs",
+    "no source-record to rendered-raster byte identity claim"
+  ],
+  "qualification_source": "release-preparation-access-20261016-v3/figure-reconstruction/outputs-v3/reconstruction-receipt.json",
+  "reuse_basis": "The v3-qualified aggregate inputs, renderer source, pinned plotting lock and carried-forward output tree are unchanged in v4.1. The Compose file changes only its output bind so reconstruction writes to a fresh directory; one aggregate-only v4.1 reconstruction is recorded separately.",
+  "candidate": "release-preparation-access-20261017-v4.1",
+  "v4_1_rerun": "bounded aggregate-only reconstruction completed; see figure-reconstruction/reconstruction-qualification-v4.1.json",
+  "compose_output_bind": "${VALORANT_RENDER_OUTPUT:-./reconstructed}:/work/rendered; no v3 output tree overlay",
+  "actual_reconstruction": {
+    "status": "completed",
+    "command": "VALORANT_RENDER_OUTPUT=<fresh-empty-directory> docker compose run --build --rm render",
+    "output_directory": "fresh host directory, not included in the release package",
+    "figure_stems": 20,
+    "aggregate_table_csv_count": 36,
+    "generated_file_count_including_receipt": 110,
+    "container_python": "3.12.14",
+    "matplotlib": "3.10.8",
+    "receipt_path": "figure-reconstruction/reconstruction-qualification-v4.1.json",
+    "receipt_sha256": "33015b7b82ea51667ec8551b0cde0e4c5b7e2f82347c93b684b965753320a0cc"
+  }
+}

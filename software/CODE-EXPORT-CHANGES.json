@@ -1,0 +1,146 @@
+{
+  "original_source": "paper-release-candidate-20261011-v1/implementation",
+  "export_scope": "historical source snapshots for private deposit; no code execution or model refit",
+  "formatter": "Black 25.9.0, line length 88, applied to exported Python only",
+  "edits": "Formatting; five absolute workstation path literals replaced by environment-root paths; conversational wording in report/authorization metadata made neutral while retaining decision dates and scope identifiers. No model equations, feature calculations, inference rules, or saved numerical artifacts were changed.",
+  "files": [
+    {
+      "file": "implementation/core-original/bootstrap.py",
+      "original_sha256": "f7956e2093a4cd96f23f67a193b9ca3623d165be7ea40d2664f99a387f18dea9",
+      "export_sha256": "d316ef3317a5b5eb05bae8d3aeb793a89dc1d576014053ccdea5285d7281fc0b",
+      "changed": true
+    },
+    {
+      "file": "implementation/core-original/common.py",
+      "original_sha256": "7b60cd364e8d5a153a065f5071d8ef404ad530eb753a14cc952558800786d14c",
+      "export_sha256": "8a7dbdc9f90e7a7818745a6c66d75c44ecb3f46838f4bbac2b87245ea9e59b9b",
+      "changed": true
+    },
+    {
+      "file": "implementation/core-original/fit.py",
+      "original_sha256": "ca90544c8eef3dbc887167111986f5c255fb24f2e6903ec5c2d9f54c453fc213",
+      "export_sha256": "890c667bf7d672b9e3da26d2ee7a11710a795e904f3e297c8ef5558160d6983a",
+      "changed": true
+    },
+    {
+      "file": "implementation/core-original/gpu_runtime.py",
+      "original_sha256": "05dc0f5a2de3a532b7c30d41eb157ec78898f0ed2cd26e18eb649aebb1bac09c",
+      "export_sha256": "a55813657a13caccebee015cd457c6048fe214b0878bb1bbbc5f480e86f23989",
+      "changed": true
+    },
+    {
+      "file": "implementation/core-original/legacy_prepare.py",
+      "original_sha256": "1faa49b49d1136430c7534abb69dcd365d7ce73860ff4f240c7a1ea8efae7255",
+      "export_sha256": "38ed8c983a153838960aa87bd098a58326f9c3a7f779edc98e0ff70cc19916e6",
+      "changed": true
+    },
+    {
+      "file": "implementation/core-original/models.py",
+      "original_sha256": "ba66b30116f3ef610a87ba5962090858bb6072540979fb0d5b1696845a093416",
+      "export_sha256": "826df3a5d1e4ac939747267c850a3daa8018647a8f86e00d67bfaec3efc1e12d",
+      "changed": true
+    },
+    {
+      "file": "implementation/core-original/player_snapshot.py",
+      "original_sha256": "b513a921da0fc99cb3645b58042f928e51f0af28d9f6a6e04dc72e2326d91419",
+      "export_sha256": "f97e539d654dd50b2bef3a03848d5eec572821594ecba3873843af19474980e7",
+      "changed": true
+    },
+    {
+      "file": "implementation/core-original/preprocess.py",
+      "original_sha256": "8613f6c0c7a11000f93f00a6f7d5c85fa7b06b6f8cd10b3b2dc2f111a0bde70e",
+      "export_sha256": "fef03dda18fa08f690049eb6fe4b6327624e4228669fd795b1168f01cd783fed",
+      "changed": true
+    },
+    {
+      "file": "implementation/core-original/recovery.py",
+      "original_sha256": "15f13d825c1c29424a35d9c9d1f9a7eafa58ba51c7ac7e1ff37684f80a5bf162",
+      "export_sha256": "c9cd424540fd590e25a82aa7b77395a33a2b40aae1c042a6005a2d4d13179df0",
+      "changed": true
+    },
+    {
+      "file": "implementation/core-original/report.py",
+      "original_sha256": "fea56cde9995be3ca69a2cca0402284b146b3ce595aea82e960d22dc71fe450b",
+      "export_sha256": "643c075572b894c64f5f54873d2339cbf733e454ecad9486e0326353df566057",
+      "changed": true
+    },
+    {
+      "file": "implementation/core-original/run.py",
+      "original_sha256": "4a729105e730e660eb3115e548791ebaf90ad31a616d1cf864922b8fc30f9e55",
+      "export_sha256": "ce3a03b7bb2040ff61c5bb0ed1a8ba791e3a4fc967777a652178ded7b37331c1",
+      "changed": true
+    },
+    {
+      "file": "implementation/core-original/score.py",
+      "original_sha256": "b0ff4f0d31393a1916ed9d1202ff2160332d6449602ee88e7967a83b662ccf72",
+      "export_sha256": "93e3a6037ad078a55d76b9da1ced24fac79ebd1220554e76f9704396f6461dcc",
+      "changed": true
+    },
+    {
+      "file": "implementation/core-original/selector.py",
+      "original_sha256": "0b540e1ef042a1f57299e6ae3cc703f35d6ec4a226bc4327beceee9f95a86e19",
+      "export_sha256": "2e8e77f026a91cc662dd5864e4eabcf5598afc23c6dd48dde87a368c7d3bf86e",
+      "changed": true
+    },
+    {
+      "file": "implementation/core-original/set_modules.py",
+      "original_sha256": "26c11c9f18209cd2ddcf52073a28b0052b356673ab356a1a5bf8ec41e9c95787",
+      "export_sha256": "c665154bc0a8ed4f6fdba31b5ffc45af8a169dce20a50b0f4d13da3310dea882",
+      "changed": true
+    },
+    {
+      "file": "implementation/core-original/snapshot.py",
+      "original_sha256": "ca4cffab7a8785284644d057e7037294bf12edf8068638f81a5939313181e7b6",
+      "export_sha256": "aec6e39589f6f4af6c3dcf98f0c68915f6b2b6a085a863b23ae932d18f2fb360",
+      "changed": true
+    },
+    {
+      "file": "implementation/core-original/targets.py",
+      "original_sha256": "a4d1e49a2b31cbf8e7a3bf16168414c10c4b9dc863d554a61a89738033f76947",
+      "export_sha256": "578a330fd43c36f0b88527d21726632c0f2c97b426c74770e43143fa8f514454",
+      "changed": true
+    },
+    {
+      "file": "implementation/later-original/later_pipeline.py",
+      "original_sha256": "98bc83168793c96f361bfb68b4b6919cf7281406c1d058bc978fbe81d54ac998",
+      "export_sha256": "d8d1a491fea7422cf9cec3b7a8859450c782d98a3e0be4c42dba59b9b19301ad",
+      "changed": true
+    },
+    {
+      "file": "implementation/later-original/later_reference_state.py",
+      "original_sha256": "810b7ea92858e7ebdecf79bd93e527ae1de9edbeed44fa90881ecd132a4aae3d",
+      "export_sha256": "f9be9fd3ccc1a1cbda35c8d5936074fe3ec7fefc5e68917deda0a7a387af52a6",
+      "changed": true
+    },
+    {
+      "file": "implementation/later-original/later_residual_features.py",
+      "original_sha256": "34be62ef3d0fe8a8a32671132a80829735eb1c0c1b35c304bdf48a0a5a08af6d",
+      "export_sha256": "9fb96f29b80d6a5c17a0f365f3937f279b047482fea84736923ba435910b4ec5",
+      "changed": true
+    },
+    {
+      "file": "implementation/later-original/later_retained_inference.py",
+      "original_sha256": "1a4fca311d05d31d50faef1851268125f2a509b8b6e6c2d4d92fddc40602fafc",
+      "export_sha256": "b5c81039d826d961b5eeaca0c2e5a606472833dd1b107305b83752e8bd05632a",
+      "changed": true
+    },
+    {
+      "file": "implementation/later-original/later_score.py",
+      "original_sha256": "27e47bcb9580e437cbf52559464fd799bdc755f8e4f3a335e5f01681449943ae",
+      "export_sha256": "1d4da5a6e42aaf3407689a43eb7530e093efd8359012a5f527855414362b71fd",
+      "changed": true
+    },
+    {
+      "file": "implementation/later-original/later_targets.py",
+      "original_sha256": "afc1c9bedfc024d03dd1eda9b01ff160538ff177bf6e8c8804d6ddbd96220e14",
+      "export_sha256": "455f839329fca28b96c65c9eb1b7afbd1a477af15c95799f395abd43cb90750c",
+      "changed": true
+    },
+    {
+      "file": "implementation/later-original/project_later_context.py",
+      "original_sha256": "6b33994d3501de9f582db959072caa4c4e0454ee7799fa8ab062dd3b33f3d82d",
+      "export_sha256": "0f669ba5e8a5ca6f215e04ad77f5504bdbbe4993f1b02ef7e62cf7c38bd68779",
+      "changed": true
+    }
+  ]
+}

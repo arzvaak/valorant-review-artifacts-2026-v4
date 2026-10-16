@@ -1,0 +1,1116 @@
+{
+  "metrics": [
+    {
+      "task": "map_winner",
+      "arm": "rich_residual",
+      "status": "scored",
+      "rows": 1613,
+      "events": 23,
+      "matches": 735,
+      "equal_event_brier": 0.2365919299214147,
+      "equal_event_log_loss": 0.6784295124067551,
+      "row_brier": 0.2276102432601246,
+      "row_log_loss": 0.6571280514151729,
+      "equal_event_accuracy": 0.5970089427005296,
+      "row_accuracy": 0.6267823930564166,
+      "row_team_a_win_fraction": 0.5213887095451355,
+      "equal_event_team_a_win_fraction": 0.5389169938888937,
+      "balanced_accuracy": 0.6317308225465612,
+      "equal_event_weighted_roc_auc": 0.6699583679469734,
+      "ece_5": 0.0900573380424152,
+      "ece_10": 0.09005733804241521,
+      "ece_20": 0.0931315718594035,
+      "calibration_diagnostic": {
+        "status": "point_estimate",
+        "intercept": 0.12572772653826567,
+        "slope": 0.5095406379378814,
+        "maximum_gradient": 2.3960037383568417e-06,
+        "interval": null,
+        "use": "reporting only; never applied to saved probabilities"
+      },
+      "equal_event_brier_ci95_pointwise": [
+        0.2095706237035817,
+        0.2743001368127496
+      ],
+      "equal_event_log_loss_ci95_pointwise": [
+        0.6087245857655742,
+        0.7775498556932093
+      ],
+      "equal_event_accuracy_ci95_pointwise": [
+        0.537653254486862,
+        0.6467954502888082
+      ]
+    },
+    {
+      "task": "map_winner",
+      "arm": "original_residual",
+      "status": "scored",
+      "rows": 1613,
+      "events": 23,
+      "matches": 735,
+      "equal_event_brier": 0.2428787992313287,
+      "equal_event_log_loss": 0.6930619587305876,
+      "row_brier": 0.23132276133856108,
+      "row_log_loss": 0.665793656652901,
+      "equal_event_accuracy": 0.5838189763824732,
+      "row_accuracy": 0.6267823930564166,
+      "row_team_a_win_fraction": 0.5213887095451355,
+      "equal_event_team_a_win_fraction": 0.5389169938888937,
+      "balanced_accuracy": 0.6318370986920333,
+      "equal_event_weighted_roc_auc": 0.6525336359276891,
+      "ece_5": 0.10045331064805982,
+      "ece_10": 0.10235353105976937,
+      "ece_20": 0.10820943759392623,
+      "calibration_diagnostic": {
+        "status": "point_estimate",
+        "intercept": 0.11962700091178603,
+        "slope": 0.46350245809478013,
+        "maximum_gradient": 1.9766919390866444e-06,
+        "interval": null,
+        "use": "reporting only; never applied to saved probabilities"
+      },
+      "equal_event_brier_ci95_pointwise": [
+        0.21505611333757943,
+        0.2784233339738587
+      ],
+      "equal_event_log_loss_ci95_pointwise": [
+        0.6238628236956287,
+        0.7824281596687749
+      ],
+      "equal_event_accuracy_ci95_pointwise": [
+        0.5231602459624568,
+        0.6358692939056332
+      ]
+    },
+    {
+      "task": "map_winner",
+      "arm": "dynamic_strength",
+      "status": "scored",
+      "rows": 1613,
+      "events": 23,
+      "matches": 735,
+      "equal_event_brier": 0.24705062249031368,
+      "equal_event_log_loss": 0.6871627728758268,
+      "row_brier": 0.24907348245171065,
+      "row_log_loss": 0.691250554496327,
+      "equal_event_accuracy": 0.5274582535369843,
+      "row_accuracy": 0.5065096094234346,
+      "row_team_a_win_fraction": 0.5213887095451355,
+      "equal_event_team_a_win_fraction": 0.5389169938888937,
+      "balanced_accuracy": 0.5088463339350514,
+      "equal_event_weighted_roc_auc": 0.5669541130801925,
+      "ece_5": 0.04016174444049784,
+      "ece_10": 0.04016174444049783,
+      "ece_20": 0.040161744440497825,
+      "calibration_diagnostic": {
+        "status": "point_estimate",
+        "intercept": 0.14417005685800047,
+        "slope": 2.5066439174041024,
+        "maximum_gradient": 1.1110077173404759e-06,
+        "interval": null,
+        "use": "reporting only; never applied to saved probabilities"
+      },
+      "equal_event_brier_ci95_pointwise": [
+        0.24281464537249098,
+        0.2502578749311476
+      ],
+      "equal_event_log_loss_ci95_pointwise": [
+        0.678510804752014,
+        0.693693701232335
+      ],
+      "equal_event_accuracy_ci95_pointwise": [
+        0.48395335230467795,
+        0.5722418115473785
+      ]
+    },
+    {
+      "task": "map_winner",
+      "arm": "online_elo_k20",
+      "status": "scored",
+      "rows": 1613,
+      "events": 23,
+      "matches": 735,
+      "equal_event_brier": 0.24659634060152183,
+      "equal_event_log_loss": 0.6861342193082932,
+      "row_brier": 0.24834221138106563,
+      "row_log_loss": 0.6898028930174165,
+      "equal_event_accuracy": 0.5135102471700844,
+      "row_accuracy": 0.513949163050217,
+      "row_team_a_win_fraction": 0.5213887095451355,
+      "equal_event_team_a_win_fraction": 0.5389169938888937,
+      "balanced_accuracy": 0.5273522453531141,
+      "equal_event_weighted_roc_auc": 0.5675779863192906,
+      "ece_5": 0.04013236378040683,
+      "ece_10": 0.06806530853951046,
+      "ece_20": 0.06875491549472719,
+      "calibration_diagnostic": {
+        "status": "point_estimate",
+        "intercept": 0.11599958645125402,
+        "slope": 1.0875084249185503,
+        "maximum_gradient": 7.270926656761934e-07,
+        "interval": null,
+        "use": "reporting only; never applied to saved probabilities"
+      },
+      "equal_event_brier_ci95_pointwise": [
+        0.24202309839632727,
+        0.2503450137523893
+      ],
+      "equal_event_log_loss_ci95_pointwise": [
+        0.6762430751631611,
+        0.6941857761425799
+      ],
+      "equal_event_accuracy_ci95_pointwise": [
+        0.4616411257257146,
+        0.5643249932971083
+      ]
+    },
+    {
+      "task": "map_winner",
+      "arm": "chance",
+      "status": "scored",
+      "rows": 1613,
+      "events": 23,
+      "matches": 735,
+      "equal_event_brier": 0.25000000000000006,
+      "equal_event_log_loss": 0.6931471805599455,
+      "row_brier": 0.25,
+      "row_log_loss": 0.6931471805599452,
+      "equal_event_accuracy": 0.46108300611110675,
+      "row_accuracy": 0.4786112833230006,
+      "row_team_a_win_fraction": 0.5213887095451355,
+      "equal_event_team_a_win_fraction": 0.5389169938888937,
+      "balanced_accuracy": 0.5,
+      "equal_event_weighted_roc_auc": 0.5,
+      "ece_5": 0.038916993888893435,
+      "ece_10": 0.038916993888893435,
+      "ece_20": 0.038916993888893435,
+      "calibration_diagnostic": {
+        "status": "unresolved_one_class_or_constant_forecast",
+        "intercept": null,
+        "slope": null
+      },
+      "equal_event_brier_ci95_pointwise": [
+        0.25,
+        0.25
+      ],
+      "equal_event_log_loss_ci95_pointwise": [
+        0.6931471805599452,
+        0.6931471805599454
+      ],
+      "equal_event_accuracy_ci95_pointwise": [
+        0.41697460651624285,
+        0.5037990995194529
+      ]
+    },
+    {
+      "task": "map_winner",
+      "arm": "training_prior",
+      "status": "scored",
+      "rows": 1613,
+      "events": 23,
+      "matches": 735,
+      "equal_event_brier": 0.2492683619955137,
+      "equal_event_log_loss": 0.6917021699181248,
+      "row_brier": 0.2516135780089461,
+      "row_log_loss": 0.6964208949106543,
+      "equal_event_accuracy": 0.5389169938888937,
+      "row_accuracy": 0.5213887166769994,
+      "row_team_a_win_fraction": 0.5213887095451355,
+      "equal_event_team_a_win_fraction": 0.5389169938888937,
+      "balanced_accuracy": 0.5,
+      "equal_event_weighted_roc_auc": 0.49783081041875765,
+      "ece_5": 0.02797918941345993,
+      "ece_10": 0.02797918941345993,
+      "ece_20": 0.02797918941345993,
+      "calibration_diagnostic": {
+        "status": "point_estimate",
+        "intercept": -0.10556307974090898,
+        "slope": 0.9715811859868599,
+        "maximum_gradient": 4.6325277830092104e-07,
+        "interval": null,
+        "use": "reporting only; never applied to saved probabilities"
+      },
+      "equal_event_brier_ci95_pointwise": [
+        0.24336697758851134,
+        0.2549834649832003
+      ],
+      "equal_event_log_loss_ci95_pointwise": [
+        0.6798282097462552,
+        0.703201320022439
+      ],
+      "equal_event_accuracy_ci95_pointwise": [
+        0.49620090048054705,
+        0.5830253934837571
+      ]
+    },
+    {
+      "task": "series_winner",
+      "arm": "rich_residual",
+      "status": "scored",
+      "rows": 734,
+      "events": 23,
+      "matches": 734,
+      "equal_event_brier": 0.24551057519202635,
+      "equal_event_log_loss": 0.6841545197545081,
+      "row_brier": 0.24766834988990635,
+      "row_log_loss": 0.6889431793414582,
+      "equal_event_accuracy": 0.4752196736206821,
+      "row_accuracy": 0.4986376021798365,
+      "row_team_a_win_fraction": 0.528610348701477,
+      "equal_event_team_a_win_fraction": 0.5549441016169708,
+      "balanced_accuracy": 0.5193596925093856,
+      "equal_event_weighted_roc_auc": 0.5502531367583267,
+      "ece_5": 0.052228251168983976,
+      "ece_10": 0.07220008047529636,
+      "ece_20": 0.0809272239725415,
+      "calibration_diagnostic": {
+        "status": "point_estimate",
+        "intercept": 0.15066958602300087,
+        "slope": 0.7099566083340174,
+        "maximum_gradient": 3.707345208291135e-07,
+        "interval": null,
+        "use": "reporting only; never applied to saved probabilities"
+      },
+      "equal_event_brier_ci95_pointwise": [
+        0.2393693154793767,
+        0.25152518727031414
+      ],
+      "equal_event_log_loss_ci95_pointwise": [
+        0.6709317053089289,
+        0.6971761808260312
+      ],
+      "equal_event_accuracy_ci95_pointwise": [
+        0.40905530904832155,
+        0.53341193359891
+      ]
+    },
+    {
+      "task": "series_winner",
+      "arm": "original_residual",
+      "status": "scored",
+      "rows": 734,
+      "events": 23,
+      "matches": 734,
+      "equal_event_brier": 0.24880565261710733,
+      "equal_event_log_loss": 0.6908868656242756,
+      "row_brier": 0.24918799572109487,
+      "row_log_loss": 0.6920190346746027,
+      "equal_event_accuracy": 0.45408872123972976,
+      "row_accuracy": 0.49182561307901906,
+      "row_team_a_win_fraction": 0.528610348701477,
+      "equal_event_team_a_win_fraction": 0.5549441016169708,
+      "balanced_accuracy": 0.5130728204517013,
+      "equal_event_weighted_roc_auc": 0.5267439278156039,
+      "ece_5": 0.0676906121473842,
+      "ece_10": 0.06834564916482765,
+      "ece_20": 0.08018401526834756,
+      "calibration_diagnostic": {
+        "status": "point_estimate",
+        "intercept": 0.1842780588699738,
+        "slope": 0.43094630263896083,
+        "maximum_gradient": 1.4114289862560137e-07,
+        "interval": null,
+        "use": "reporting only; never applied to saved probabilities"
+      },
+      "equal_event_brier_ci95_pointwise": [
+        0.2444863452644102,
+        0.25314339465709307
+      ],
+      "equal_event_log_loss_ci95_pointwise": [
+        0.681548767708291,
+        0.7002964673854248
+      ],
+      "equal_event_accuracy_ci95_pointwise": [
+        0.3784254998603402,
+        0.5190460131018344
+      ]
+    },
+    {
+      "task": "series_winner",
+      "arm": "dynamic_strength",
+      "status": "scored",
+      "rows": 734,
+      "events": 23,
+      "matches": 734,
+      "equal_event_brier": 0.24597984770665193,
+      "equal_event_log_loss": 0.6849588460559793,
+      "row_brier": 0.24965354771849804,
+      "row_log_loss": 0.69239812982843,
+      "equal_event_accuracy": 0.5012386834025713,
+      "row_accuracy": 0.47956403269754766,
+      "row_team_a_win_fraction": 0.528610348701477,
+      "equal_event_team_a_win_fraction": 0.5549441016169708,
+      "balanced_accuracy": 0.5005363208390442,
+      "equal_event_weighted_roc_auc": 0.5754018534494162,
+      "ece_5": 0.05586901522525631,
+      "ece_10": 0.07330640848906338,
+      "ece_20": 0.08283064110582704,
+      "calibration_diagnostic": {
+        "status": "point_estimate",
+        "intercept": 0.20673023575334212,
+        "slope": 2.9380744347474916,
+        "maximum_gradient": 9.656737551475003e-07,
+        "interval": null,
+        "use": "reporting only; never applied to saved probabilities"
+      },
+      "equal_event_brier_ci95_pointwise": [
+        0.24001869197598752,
+        0.2507718150678706
+      ],
+      "equal_event_log_loss_ci95_pointwise": [
+        0.6727493287434322,
+        0.6947357699400001
+      ],
+      "equal_event_accuracy_ci95_pointwise": [
+        0.41699594726198463,
+        0.5848248184247413
+      ]
+    },
+    {
+      "task": "series_winner",
+      "arm": "online_elo_k20",
+      "status": "scored",
+      "rows": 734,
+      "events": 23,
+      "matches": 734,
+      "equal_event_brier": 0.24734684202656784,
+      "equal_event_log_loss": 0.687624333475304,
+      "row_brier": 0.24881205214418942,
+      "row_log_loss": 0.690626113373065,
+      "equal_event_accuracy": 0.49943042410327465,
+      "row_accuracy": 0.49727520435967304,
+      "row_team_a_win_fraction": 0.528610348701477,
+      "equal_event_team_a_win_fraction": 0.5549441016169708,
+      "balanced_accuracy": 0.5165067636016923,
+      "equal_event_weighted_roc_auc": 0.5765811429514973,
+      "ece_5": 0.05723799365459664,
+      "ece_10": 0.0886312896636727,
+      "ece_20": 0.09271035655797132,
+      "calibration_diagnostic": {
+        "status": "point_estimate",
+        "intercept": 0.19434660757220493,
+        "slope": 1.125894595548044,
+        "maximum_gradient": 3.551803646507923e-07,
+        "interval": null,
+        "use": "reporting only; never applied to saved probabilities"
+      },
+      "equal_event_brier_ci95_pointwise": [
+        0.24341598020494445,
+        0.25091574059272304
+      ],
+      "equal_event_log_loss_ci95_pointwise": [
+        0.6793260043813809,
+        0.6951140953786966
+      ],
+      "equal_event_accuracy_ci95_pointwise": [
+        0.42219740628353974,
+        0.5701930855602344
+      ]
+    },
+    {
+      "task": "series_winner",
+      "arm": "chance",
+      "status": "scored",
+      "rows": 734,
+      "events": 23,
+      "matches": 734,
+      "equal_event_brier": 0.25000000000000006,
+      "equal_event_log_loss": 0.6931471805599458,
+      "row_brier": 0.25,
+      "row_log_loss": 0.6931471805599453,
+      "equal_event_accuracy": 0.4450558983830292,
+      "row_accuracy": 0.4713896457765668,
+      "row_team_a_win_fraction": 0.528610348701477,
+      "equal_event_team_a_win_fraction": 0.5549441016169708,
+      "balanced_accuracy": 0.5,
+      "equal_event_weighted_roc_auc": 0.5,
+      "ece_5": 0.05494410161697083,
+      "ece_10": 0.05494410161697083,
+      "ece_20": 0.05494410161697083,
+      "calibration_diagnostic": {
+        "status": "unresolved_one_class_or_constant_forecast",
+        "intercept": null,
+        "slope": null
+      },
+      "equal_event_brier_ci95_pointwise": [
+        0.25,
+        0.25
+      ],
+      "equal_event_log_loss_ci95_pointwise": [
+        0.6931471805599452,
+        0.6931471805599454
+      ],
+      "equal_event_accuracy_ci95_pointwise": [
+        0.36933818150498143,
+        0.5120882659272274
+      ]
+    },
+    {
+      "task": "series_winner",
+      "arm": "training_prior",
+      "status": "scored",
+      "rows": 734,
+      "events": 23,
+      "matches": 734,
+      "equal_event_brier": 0.24795048633145073,
+      "equal_event_log_loss": 0.68908190046156,
+      "row_brier": 0.25248403858915003,
+      "row_log_loss": 0.6982402100191989,
+      "equal_event_accuracy": 0.5549441016169708,
+      "row_accuracy": 0.5286103542234333,
+      "row_team_a_win_fraction": 0.528610348701477,
+      "equal_event_team_a_win_fraction": 0.5549441016169708,
+      "balanced_accuracy": 0.5,
+      "equal_event_weighted_roc_auc": 0.4974811022216163,
+      "ece_5": 0.031133192033798173,
+      "ece_10": 0.031133192033798173,
+      "ece_20": 0.031133192033798173,
+      "calibration_diagnostic": {
+        "status": "point_estimate",
+        "intercept": -0.11338607483943465,
+        "slope": 0.9605659885484643,
+        "maximum_gradient": 1.1819779142073494e-06,
+        "interval": null,
+        "use": "reporting only; never applied to saved probabilities"
+      },
+      "equal_event_brier_ci95_pointwise": [
+        0.23491521746899857,
+        0.25949050997353346
+      ],
+      "equal_event_log_loss_ci95_pointwise": [
+        0.6627491262380155,
+        0.712394103577761
+      ],
+      "equal_event_accuracy_ci95_pointwise": [
+        0.48791173407277255,
+        0.6306618184950185
+      ]
+    }
+  ],
+  "primary_contrasts": [
+    {
+      "id": "map_winner/rich_residual-original_residual/brier",
+      "candidate": "rich_residual",
+      "parent": "original_residual",
+      "task": "map_winner",
+      "metric": "brier",
+      "direction": "negative favors candidate",
+      "conditional_on_saved_fits": true,
+      "events": 23,
+      "difference": -0.00628686930991409,
+      "seed": 20261011,
+      "draws": 131072,
+      "status": "scored",
+      "ci95": [
+        -0.015059088870689795,
+        0.0012033741854472052
+      ],
+      "extreme_count": 16566,
+      "p_approx": 0.12639521488025757,
+      "mc_upper_p": 0.12929772310801643,
+      "mc_simultaneous_confidence": 0.99,
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "id": "map_winner/rich_residual-original_residual/log_loss",
+      "candidate": "rich_residual",
+      "parent": "original_residual",
+      "task": "map_winner",
+      "metric": "log_loss",
+      "direction": "negative favors candidate",
+      "conditional_on_saved_fits": true,
+      "events": 23,
+      "difference": -0.014632446323832425,
+      "seed": 20261011,
+      "draws": 131072,
+      "status": "scored",
+      "ci95": [
+        -0.03716969020958437,
+        0.006405354286212432
+      ],
+      "extreme_count": 23885,
+      "p_approx": 0.18223432743585635,
+      "mc_upper_p": 0.18560101151537836,
+      "mc_simultaneous_confidence": 0.99,
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "id": "map_winner/rich_residual-dynamic_strength/brier",
+      "candidate": "rich_residual",
+      "parent": "dynamic_strength",
+      "task": "map_winner",
+      "metric": "brier",
+      "direction": "negative favors candidate",
+      "conditional_on_saved_fits": true,
+      "events": 23,
+      "difference": -0.010458692568899013,
+      "seed": 20261011,
+      "draws": 131072,
+      "status": "scored",
+      "ci95": [
+        -0.03677775721883788,
+        0.026607952294899123
+      ],
+      "extreme_count": 70186,
+      "p_approx": 0.5354802285749163,
+      "mc_upper_p": 0.5398096400219726,
+      "mc_simultaneous_confidence": 0.99,
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "id": "map_winner/rich_residual-dynamic_strength/log_loss",
+      "candidate": "rich_residual",
+      "parent": "dynamic_strength",
+      "task": "map_winner",
+      "metric": "log_loss",
+      "direction": "negative favors candidate",
+      "conditional_on_saved_fits": true,
+      "events": 23,
+      "difference": -0.00873326046907176,
+      "seed": 20261011,
+      "draws": 131072,
+      "status": "scored",
+      "ci95": [
+        -0.07687462361563545,
+        0.08896663344736641
+      ],
+      "extreme_count": 110336,
+      "p_approx": 0.8417980819848482,
+      "mc_upper_p": 0.844951668566784,
+      "mc_simultaneous_confidence": 0.99,
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "id": "map_winner/rich_residual-online_elo_k20/brier",
+      "candidate": "rich_residual",
+      "parent": "online_elo_k20",
+      "task": "map_winner",
+      "metric": "brier",
+      "direction": "negative favors candidate",
+      "conditional_on_saved_fits": true,
+      "events": 23,
+      "difference": -0.010004410680107085,
+      "seed": 20261011,
+      "draws": 131072,
+      "status": "scored",
+      "ci95": [
+        -0.03595372312493864,
+        0.026791850332969196
+      ],
+      "extreme_count": 72214,
+      "p_approx": 0.5509525226400556,
+      "mc_upper_p": 0.5552695768160916,
+      "mc_simultaneous_confidence": 0.99,
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "id": "map_winner/rich_residual-online_elo_k20/log_loss",
+      "candidate": "rich_residual",
+      "parent": "online_elo_k20",
+      "task": "map_winner",
+      "metric": "log_loss",
+      "direction": "negative favors candidate",
+      "conditional_on_saved_fits": true,
+      "events": 23,
+      "difference": -0.007704706901538011,
+      "seed": 20261011,
+      "draws": 131072,
+      "status": "scored",
+      "ci95": [
+        -0.07504424445258744,
+        0.08955637411254366
+      ],
+      "extreme_count": 112519,
+      "p_approx": 0.8584529231802126,
+      "mc_upper_p": 0.8614638175385421,
+      "mc_simultaneous_confidence": 0.99,
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "id": "series_winner/rich_residual-original_residual/brier",
+      "candidate": "rich_residual",
+      "parent": "original_residual",
+      "task": "series_winner",
+      "metric": "brier",
+      "direction": "negative favors candidate",
+      "conditional_on_saved_fits": true,
+      "events": 23,
+      "difference": -0.003295077425081053,
+      "seed": 20261011,
+      "draws": 131072,
+      "status": "scored",
+      "ci95": [
+        -0.006890208710354986,
+        -0.0006486353003703699
+      ],
+      "extreme_count": 4960,
+      "p_approx": 0.03784913750352857,
+      "mc_upper_p": 0.039527208343656285,
+      "mc_simultaneous_confidence": 0.99,
+      "holm_p": 0.45418965004234285,
+      "holm_mc_upper_p": 0.47432650012387545,
+      "conservative_rejection": false
+    },
+    {
+      "id": "series_winner/rich_residual-original_residual/log_loss",
+      "candidate": "rich_residual",
+      "parent": "original_residual",
+      "task": "series_winner",
+      "metric": "log_loss",
+      "direction": "negative favors candidate",
+      "conditional_on_saved_fits": true,
+      "events": 23,
+      "difference": -0.006732345869767226,
+      "seed": 20261011,
+      "draws": 131072,
+      "status": "scored",
+      "ci95": [
+        -0.01409830685007252,
+        -0.0012208453919095343
+      ],
+      "extreme_count": 5200,
+      "p_approx": 0.039680178221296526,
+      "mc_upper_p": 0.04139616149893556,
+      "mc_simultaneous_confidence": 0.99,
+      "holm_p": 0.45418965004234285,
+      "holm_mc_upper_p": 0.47432650012387545,
+      "conservative_rejection": false
+    },
+    {
+      "id": "series_winner/rich_residual-dynamic_strength/brier",
+      "candidate": "rich_residual",
+      "parent": "dynamic_strength",
+      "task": "series_winner",
+      "metric": "brier",
+      "direction": "negative favors candidate",
+      "conditional_on_saved_fits": true,
+      "events": 23,
+      "difference": -0.0004692725146254872,
+      "seed": 20261011,
+      "draws": 131072,
+      "status": "scored",
+      "ci95": [
+        -0.004847077531721601,
+        0.004178648317591765
+      ],
+      "extreme_count": 109521,
+      "p_approx": 0.8355801728807611,
+      "mc_upper_p": 0.8387837631442293,
+      "mc_simultaneous_confidence": 0.99,
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "id": "series_winner/rich_residual-dynamic_strength/log_loss",
+      "candidate": "rich_residual",
+      "parent": "dynamic_strength",
+      "task": "series_winner",
+      "metric": "log_loss",
+      "direction": "negative favors candidate",
+      "conditional_on_saved_fits": true,
+      "events": 23,
+      "difference": -0.000804326301470875,
+      "seed": 20261011,
+      "draws": 131072,
+      "status": "scored",
+      "ci95": [
+        -0.010018502476654945,
+        0.008636039209311974
+      ],
+      "extreme_count": 113069,
+      "p_approx": 0.8626490581584308,
+      "mc_upper_p": 0.8656218358359203,
+      "mc_simultaneous_confidence": 0.99,
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "id": "series_winner/rich_residual-online_elo_k20/brier",
+      "candidate": "rich_residual",
+      "parent": "online_elo_k20",
+      "task": "series_winner",
+      "metric": "brier",
+      "direction": "negative favors candidate",
+      "conditional_on_saved_fits": true,
+      "events": 23,
+      "difference": -0.0018362668345414535,
+      "seed": 20261011,
+      "draws": 131072,
+      "status": "scored",
+      "ci95": [
+        -0.005192511487265326,
+        0.0014539184217744316
+      ],
+      "extreme_count": 36542,
+      "p_approx": 0.27879883728914423,
+      "mc_upper_p": 0.2827027777402027,
+      "mc_simultaneous_confidence": 0.99,
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "id": "series_winner/rich_residual-online_elo_k20/log_loss",
+      "candidate": "rich_residual",
+      "parent": "online_elo_k20",
+      "task": "series_winner",
+      "metric": "log_loss",
+      "direction": "negative favors candidate",
+      "conditional_on_saved_fits": true,
+      "events": 23,
+      "difference": -0.0034698137207955977,
+      "seed": 20261011,
+      "draws": 131072,
+      "status": "scored",
+      "ci95": [
+        -0.010520821512501864,
+        0.003575580087671534
+      ],
+      "extreme_count": 43818,
+      "p_approx": 0.33430988838280956,
+      "mc_upper_p": 0.33841400461645077,
+      "mc_simultaneous_confidence": 0.99,
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    }
+  ],
+  "denominators": [
+    {
+      "task": "map_winner",
+      "event_id": "3143",
+      "frozen_rows": 42,
+      "valid_targets": 42,
+      "invalid_targets": 0
+    },
+    {
+      "task": "map_winner",
+      "event_id": "3150",
+      "frozen_rows": 252,
+      "valid_targets": 252,
+      "invalid_targets": 0
+    },
+    {
+      "task": "map_winner",
+      "event_id": "3145",
+      "frozen_rows": 18,
+      "valid_targets": 18,
+      "invalid_targets": 0
+    },
+    {
+      "task": "map_winner",
+      "event_id": "3149",
+      "frozen_rows": 8,
+      "valid_targets": 8,
+      "invalid_targets": 0
+    },
+    {
+      "task": "map_winner",
+      "event_id": "3148",
+      "frozen_rows": 8,
+      "valid_targets": 8,
+      "invalid_targets": 0
+    },
+    {
+      "task": "map_winner",
+      "event_id": "3147",
+      "frozen_rows": 19,
+      "valid_targets": 19,
+      "invalid_targets": 0
+    },
+    {
+      "task": "map_winner",
+      "event_id": "3142",
+      "frozen_rows": 112,
+      "valid_targets": 112,
+      "invalid_targets": 0
+    },
+    {
+      "task": "map_winner",
+      "event_id": "3140",
+      "frozen_rows": 60,
+      "valid_targets": 60,
+      "invalid_targets": 0
+    },
+    {
+      "task": "map_winner",
+      "event_id": "3116",
+      "frozen_rows": 76,
+      "valid_targets": 76,
+      "invalid_targets": 0
+    },
+    {
+      "task": "map_winner",
+      "event_id": "3107",
+      "frozen_rows": 33,
+      "valid_targets": 33,
+      "invalid_targets": 0
+    },
+    {
+      "task": "map_winner",
+      "event_id": "3125",
+      "frozen_rows": 95,
+      "valid_targets": 95,
+      "invalid_targets": 0
+    },
+    {
+      "task": "map_winner",
+      "event_id": "3110",
+      "frozen_rows": 47,
+      "valid_targets": 47,
+      "invalid_targets": 0
+    },
+    {
+      "task": "map_winner",
+      "event_id": "3135",
+      "frozen_rows": 248,
+      "valid_targets": 248,
+      "invalid_targets": 0
+    },
+    {
+      "task": "map_winner",
+      "event_id": "3115",
+      "frozen_rows": 75,
+      "valid_targets": 75,
+      "invalid_targets": 0
+    },
+    {
+      "task": "map_winner",
+      "event_id": "3065",
+      "frozen_rows": 35,
+      "valid_targets": 35,
+      "invalid_targets": 0
+    },
+    {
+      "task": "map_winner",
+      "event_id": "3141",
+      "frozen_rows": 19,
+      "valid_targets": 19,
+      "invalid_targets": 0
+    },
+    {
+      "task": "map_winner",
+      "event_id": "3138",
+      "frozen_rows": 19,
+      "valid_targets": 19,
+      "invalid_targets": 0
+    },
+    {
+      "task": "map_winner",
+      "event_id": "3097",
+      "frozen_rows": 35,
+      "valid_targets": 35,
+      "invalid_targets": 0
+    },
+    {
+      "task": "map_winner",
+      "event_id": "3131",
+      "frozen_rows": 28,
+      "valid_targets": 8,
+      "invalid_targets": 20
+    },
+    {
+      "task": "map_winner",
+      "event_id": "3127",
+      "frozen_rows": 134,
+      "valid_targets": 134,
+      "invalid_targets": 0
+    },
+    {
+      "task": "map_winner",
+      "event_id": "3137",
+      "frozen_rows": 21,
+      "valid_targets": 21,
+      "invalid_targets": 0
+    },
+    {
+      "task": "map_winner",
+      "event_id": "3085",
+      "frozen_rows": 66,
+      "valid_targets": 66,
+      "invalid_targets": 0
+    },
+    {
+      "task": "map_winner",
+      "event_id": "3120",
+      "frozen_rows": 183,
+      "valid_targets": 183,
+      "invalid_targets": 0
+    },
+    {
+      "task": "series_winner",
+      "event_id": "3143",
+      "frozen_rows": 21,
+      "valid_targets": 18,
+      "invalid_targets": 3
+    },
+    {
+      "task": "series_winner",
+      "event_id": "3150",
+      "frozen_rows": 111,
+      "valid_targets": 111,
+      "invalid_targets": 0
+    },
+    {
+      "task": "series_winner",
+      "event_id": "3145",
+      "frozen_rows": 8,
+      "valid_targets": 8,
+      "invalid_targets": 0
+    },
+    {
+      "task": "series_winner",
+      "event_id": "3149",
+      "frozen_rows": 3,
+      "valid_targets": 3,
+      "invalid_targets": 0
+    },
+    {
+      "task": "series_winner",
+      "event_id": "3148",
+      "frozen_rows": 4,
+      "valid_targets": 4,
+      "invalid_targets": 0
+    },
+    {
+      "task": "series_winner",
+      "event_id": "3147",
+      "frozen_rows": 8,
+      "valid_targets": 8,
+      "invalid_targets": 0
+    },
+    {
+      "task": "series_winner",
+      "event_id": "3142",
+      "frozen_rows": 49,
+      "valid_targets": 48,
+      "invalid_targets": 1
+    },
+    {
+      "task": "series_winner",
+      "event_id": "3140",
+      "frozen_rows": 31,
+      "valid_targets": 31,
+      "invalid_targets": 0
+    },
+    {
+      "task": "series_winner",
+      "event_id": "3116",
+      "frozen_rows": 31,
+      "valid_targets": 30,
+      "invalid_targets": 1
+    },
+    {
+      "task": "series_winner",
+      "event_id": "3107",
+      "frozen_rows": 16,
+      "valid_targets": 15,
+      "invalid_targets": 1
+    },
+    {
+      "task": "series_winner",
+      "event_id": "3125",
+      "frozen_rows": 40,
+      "valid_targets": 40,
+      "invalid_targets": 0
+    },
+    {
+      "task": "series_winner",
+      "event_id": "3110",
+      "frozen_rows": 31,
+      "valid_targets": 31,
+      "invalid_targets": 0
+    },
+    {
+      "task": "series_winner",
+      "event_id": "3135",
+      "frozen_rows": 111,
+      "valid_targets": 109,
+      "invalid_targets": 2
+    },
+    {
+      "task": "series_winner",
+      "event_id": "3115",
+      "frozen_rows": 32,
+      "valid_targets": 32,
+      "invalid_targets": 0
+    },
+    {
+      "task": "series_winner",
+      "event_id": "3065",
+      "frozen_rows": 14,
+      "valid_targets": 14,
+      "invalid_targets": 0
+    },
+    {
+      "task": "series_winner",
+      "event_id": "3141",
+      "frozen_rows": 8,
+      "valid_targets": 8,
+      "invalid_targets": 0
+    },
+    {
+      "task": "series_winner",
+      "event_id": "3138",
+      "frozen_rows": 7,
+      "valid_targets": 7,
+      "invalid_targets": 0
+    },
+    {
+      "task": "series_winner",
+      "event_id": "3097",
+      "frozen_rows": 16,
+      "valid_targets": 15,
+      "invalid_targets": 1
+    },
+    {
+      "task": "series_winner",
+      "event_id": "3131",
+      "frozen_rows": 13,
+      "valid_targets": 3,
+      "invalid_targets": 10
+    },
+    {
+      "task": "series_winner",
+      "event_id": "3127",
+      "frozen_rows": 55,
+      "valid_targets": 55,
+      "invalid_targets": 0
+    },
+    {
+      "task": "series_winner",
+      "event_id": "3137",
+      "frozen_rows": 7,
+      "valid_targets": 7,
+      "invalid_targets": 0
+    },
+    {
+      "task": "series_winner",
+      "event_id": "3085",
+      "frozen_rows": 54,
+      "valid_targets": 54,
+      "invalid_targets": 0
+    },
+    {
+      "task": "series_winner",
+      "event_id": "3120",
+      "frozen_rows": 83,
+      "valid_targets": 83,
+      "invalid_targets": 0
+    }
+  ]
+}

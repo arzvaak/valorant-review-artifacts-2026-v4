@@ -1,0 +1,24 @@
+{
+  "artifact_type": "public software and grouped aggregate release",
+  "candidate": "release-preparation-public-software-aggregate-20261017-v4.1",
+  "date": "2026-10-17",
+  "license_scope": "MIT project-authored code; CC BY 4.0 authored documentation and aggregate tables/figures within owner-held rights; third-party notices preserved",
+  "aggregate_counts": {
+    "retuned_removal_contrasts": 40,
+    "retuned_removal_denominator_groups": 16,
+    "retuned_removal_fit_package_summaries": 160,
+    "secondary_metric_records": 104
+  },
+  "qualification_basis": "same v3-qualified aggregate inputs, renderer source, pinned environment and carried-forward outputs; no v4.1 rerender, refit, rescoring or row-level access",
+  "access_boundary": "no raw or row-level data, protected inputs, private correspondence, author-identity records, or credentials",
+  "status": "candidate qualified for public release; unauthenticated download proof is maintained in the internal release inventory",
+  "actual_reconstruction": {
+    "status": "completed",
+    "figure_stems": 20,
+    "aggregate_table_csv_count": 36,
+    "receipt_path": "figure-reconstruction/reconstruction-qualification-v4.1.json",
+    "receipt_sha256": "33015b7b82ea51667ec8551b0cde0e4c5b7e2f82347c93b684b965753320a0cc",
+    "fresh_output_bind": "VALORANT_RENDER_OUTPUT; bundled outputs-v3 not overwritten"
+  },
+  "target_release_tag": "v4.1"
+}

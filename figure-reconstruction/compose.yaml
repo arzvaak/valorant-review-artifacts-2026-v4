@@ -1,0 +1,11 @@
+services:
+  render:
+    platform: linux/amd64
+    build:
+      context: .
+    working_dir: /work
+    volumes:
+      - "${VALORANT_RENDER_OUTPUT:-./reconstructed}:/work/rendered"
+    environment:
+      MPLBACKEND: Agg
+    command: ["python", "render_all.py"]

@@ -1,0 +1,1634 @@
+{
+  "tasks": [
+    {
+      "task": "map_winner",
+      "metrics": [
+        {
+          "arm": "rich_residual",
+          "mode": "feedback",
+          "rows": 1613,
+          "events": 23,
+          "event_size_quantiles": [
+            8.0,
+            19.0,
+            42.0,
+            85.5,
+            252.0
+          ],
+          "row_a_fraction": 0.5213887095451355,
+          "event_a_fraction": 0.5389169938888937,
+          "row_accuracy": 0.6391816491010539,
+          "event_accuracy": 0.5911252344724798,
+          "row_fixed_half_accuracy": 0.6676999380037197,
+          "event_fixed_half_accuracy": 0.6162019439458651,
+          "row_tie_averaged_accuracy": 0.6391816491010539,
+          "event_tie_averaged_accuracy": 0.5911252344724798,
+          "exact_ties": 0,
+          "tie_row_mass": 0.0,
+          "tie_event_mass": 0.0,
+          "tied_a_fraction": null,
+          "event_brier": 0.223033552636374,
+          "row_brier": 0.21181291341781616,
+          "event_log_loss": 0.6342636307584919
+        },
+        {
+          "arm": "rich_residual",
+          "mode": "score_only",
+          "rows": 1613,
+          "events": 23,
+          "event_size_quantiles": [
+            8.0,
+            19.0,
+            42.0,
+            85.5,
+            252.0
+          ],
+          "row_a_fraction": 0.5213887095451355,
+          "event_a_fraction": 0.5389169938888937,
+          "row_accuracy": 0.6267823930564166,
+          "event_accuracy": 0.5970089427005296,
+          "row_fixed_half_accuracy": 0.6460012399256044,
+          "event_fixed_half_accuracy": 0.6200127708223787,
+          "row_tie_averaged_accuracy": 0.6267823930564166,
+          "event_tie_averaged_accuracy": 0.5970089427005296,
+          "exact_ties": 0,
+          "tie_row_mass": 0.0,
+          "tie_event_mass": 0.0,
+          "tied_a_fraction": null,
+          "event_brier": 0.23659193070411635,
+          "row_brier": 0.227610245347023,
+          "event_log_loss": 0.6784295133868913
+        },
+        {
+          "arm": "original_residual",
+          "mode": "feedback",
+          "rows": 1613,
+          "events": 23,
+          "event_size_quantiles": [
+            8.0,
+            19.0,
+            42.0,
+            85.5,
+            252.0
+          ],
+          "row_a_fraction": 0.5213887095451355,
+          "event_a_fraction": 0.5389169938888937,
+          "row_accuracy": 0.6398016119032858,
+          "event_accuracy": 0.5926087813205267,
+          "row_fixed_half_accuracy": 0.6484810911345319,
+          "event_fixed_half_accuracy": 0.6180326562061065,
+          "row_tie_averaged_accuracy": 0.6398016119032858,
+          "event_tie_averaged_accuracy": 0.5926087813205267,
+          "exact_ties": 0,
+          "tie_row_mass": 0.0,
+          "tie_event_mass": 0.0,
+          "tied_a_fraction": null,
+          "event_brier": 0.24021732010757432,
+          "row_brier": 0.22458994388580322,
+          "event_log_loss": 0.6850298310338682
+        },
+        {
+          "arm": "original_residual",
+          "mode": "score_only",
+          "rows": 1613,
+          "events": 23,
+          "event_size_quantiles": [
+            8.0,
+            19.0,
+            42.0,
+            85.5,
+            252.0
+          ],
+          "row_a_fraction": 0.5213887095451355,
+          "event_a_fraction": 0.5389169938888937,
+          "row_accuracy": 0.6267823930564166,
+          "event_accuracy": 0.5838189763824732,
+          "row_fixed_half_accuracy": 0.6416615003099814,
+          "event_fixed_half_accuracy": 0.6279190703724673,
+          "row_tie_averaged_accuracy": 0.6267823930564166,
+          "event_tie_averaged_accuracy": 0.5838189763824732,
+          "exact_ties": 0,
+          "tie_row_mass": 0.0,
+          "tie_event_mass": 0.0,
+          "tied_a_fraction": null,
+          "event_brier": 0.2428787981457904,
+          "row_brier": 0.2313227504491806,
+          "event_log_loss": 0.6930619610691015
+        },
+        {
+          "arm": "dynamic_strength",
+          "mode": "feedback",
+          "rows": 1613,
+          "events": 23,
+          "event_size_quantiles": [
+            8.0,
+            19.0,
+            42.0,
+            85.5,
+            252.0
+          ],
+          "row_a_fraction": 0.5213887095451355,
+          "event_a_fraction": 0.5389169938888937,
+          "row_accuracy": 0.5809051456912585,
+          "event_accuracy": 0.5572843212997496,
+          "row_fixed_half_accuracy": 0.5809051456912585,
+          "event_fixed_half_accuracy": 0.5572843212997496,
+          "row_tie_averaged_accuracy": 0.578735275883447,
+          "event_tie_averaged_accuracy": 0.5516664366022611,
+          "exact_ties": 25,
+          "tie_row_mass": 0.015499070055796652,
+          "tie_event_mass": 0.02158906792023797,
+          "tied_a_fraction": 0.36000001430511475,
+          "event_brier": 0.241655764775496,
+          "row_brier": 0.23697896301746368,
+          "event_log_loss": 0.6758594848384551
+        },
+        {
+          "arm": "dynamic_strength",
+          "mode": "score_only",
+          "rows": 1613,
+          "events": 23,
+          "event_size_quantiles": [
+            8.0,
+            19.0,
+            42.0,
+            85.5,
+            252.0
+          ],
+          "row_a_fraction": 0.5213887095451355,
+          "event_a_fraction": 0.5389169938888937,
+          "row_accuracy": 0.5065096094234346,
+          "event_accuracy": 0.5274582535369843,
+          "row_fixed_half_accuracy": 0.5065096094234346,
+          "event_fixed_half_accuracy": 0.5274582535369843,
+          "row_tie_averaged_accuracy": 0.5068195908245505,
+          "event_tie_averaged_accuracy": 0.5284867777503359,
+          "exact_ties": 55,
+          "tie_row_mass": 0.034097954122752634,
+          "tie_event_mass": 0.043446008233109484,
+          "tied_a_fraction": 0.5090909004211426,
+          "event_brier": 0.24705062232482083,
+          "row_brier": 0.24907347559928894,
+          "event_log_loss": 0.687162774477632
+        },
+        {
+          "arm": "online_elo_k20",
+          "mode": "feedback",
+          "rows": 1613,
+          "events": 23,
+          "event_size_quantiles": [
+            8.0,
+            19.0,
+            42.0,
+            85.5,
+            252.0
+          ],
+          "row_a_fraction": 0.5213887095451355,
+          "event_a_fraction": 0.5389169938888937,
+          "row_accuracy": 0.5802851828890266,
+          "event_accuracy": 0.5445464265767074,
+          "row_fixed_half_accuracy": 0.5802851828890266,
+          "event_fixed_half_accuracy": 0.5445464265767074,
+          "row_tie_averaged_accuracy": 0.5840049597024178,
+          "event_tie_averaged_accuracy": 0.5607922874936554,
+          "exact_ties": 448,
+          "tie_row_mass": 0.277743335399876,
+          "tie_event_mass": 0.31460953634392386,
+          "tied_a_fraction": 0.5133928656578064,
+          "event_brier": 0.24212414254750855,
+          "row_brier": 0.23828979167097697,
+          "event_log_loss": 0.6768196956692449
+        },
+        {
+          "arm": "online_elo_k20",
+          "mode": "score_only",
+          "rows": 1613,
+          "events": 23,
+          "event_size_quantiles": [
+            8.0,
+            19.0,
+            42.0,
+            85.5,
+            252.0
+          ],
+          "row_a_fraction": 0.5213887095451355,
+          "event_a_fraction": 0.5389169938888937,
+          "row_accuracy": 0.513949163050217,
+          "event_accuracy": 0.5135102471700844,
+          "row_fixed_half_accuracy": 0.513949163050217,
+          "event_fixed_half_accuracy": 0.5135102471700844,
+          "row_tie_averaged_accuracy": 0.527898326100434,
+          "event_tie_averaged_accuracy": 0.5438136820903046,
+          "exact_ties": 1115,
+          "tie_row_mass": 0.6912585244885306,
+          "tie_event_mass": 0.6856074451453927,
+          "tied_a_fraction": 0.5201793909072876,
+          "event_brier": 0.24659634060152183,
+          "row_brier": 0.24834221138106563,
+          "event_log_loss": 0.6861342193082932
+        }
+      ],
+      "accuracy": [
+        {
+          "arm": "rich_residual",
+          "row_difference": 0.012399256044637322,
+          "event_difference": -0.005883708228049928,
+          "row_ci95": [
+            -0.017505977505200034,
+            0.0342691990090834
+          ],
+          "event_ci95": [
+            -0.023454395066151032,
+            0.00981445606238055
+          ],
+          "draws": 131072,
+          "seed": 20261021
+        },
+        {
+          "arm": "original_residual",
+          "row_difference": 0.013019218846869188,
+          "event_difference": 0.008789804938053567,
+          "row_ci95": [
+            0.006038647342995169,
+            0.01998061115098773
+          ],
+          "event_ci95": [
+            0.0031684130721953804,
+            0.015350728163023547
+          ],
+          "draws": 131072,
+          "seed": 20261021
+        },
+        {
+          "arm": "dynamic_strength",
+          "row_difference": 0.07439553626782393,
+          "event_difference": 0.02982606776276528,
+          "row_ci95": [
+            0.030503732771194465,
+            0.10640550555849657
+          ],
+          "event_ci95": [
+            -0.009572774648703639,
+            0.0672111083861411
+          ],
+          "draws": 131072,
+          "seed": 20261021
+        },
+        {
+          "arm": "online_elo_k20",
+          "row_difference": 0.06633601983880967,
+          "event_difference": 0.03103617940662295,
+          "row_ci95": [
+            0.015925635741400206,
+            0.10530082836988733
+          ],
+          "event_ci95": [
+            -0.0021758820067693716,
+            0.06541142452961857
+          ],
+          "draws": 131072,
+          "seed": 20261021
+        }
+      ],
+      "coverage": {
+        "score_only": {
+          "rows": 1613,
+          "both_zero_team_exposure": 1115,
+          "both_full_player_state": 201,
+          "either_zero_player_state": 522
+        },
+        "feedback": {
+          "rows": 1613,
+          "both_zero_team_exposure": 416,
+          "both_full_player_state": 792,
+          "either_zero_player_state": 248
+        }
+      }
+    },
+    {
+      "task": "series_winner",
+      "metrics": [
+        {
+          "arm": "rich_residual",
+          "mode": "feedback",
+          "rows": 734,
+          "events": 23,
+          "event_size_quantiles": [
+            3.0,
+            8.0,
+            18.0,
+            44.0,
+            111.0
+          ],
+          "row_a_fraction": 0.528610348701477,
+          "event_a_fraction": 0.5549441016169708,
+          "row_accuracy": 0.5572207084468664,
+          "event_accuracy": 0.507152929631923,
+          "row_fixed_half_accuracy": 0.6158038147138964,
+          "event_fixed_half_accuracy": 0.6251792036552054,
+          "row_tie_averaged_accuracy": 0.5572207084468664,
+          "event_tie_averaged_accuracy": 0.507152929631923,
+          "exact_ties": 0,
+          "tie_row_mass": 0.0,
+          "tie_event_mass": 0.0,
+          "tied_a_fraction": null,
+          "event_brier": 0.23563609376732791,
+          "row_brier": 0.22840896248817444,
+          "event_log_loss": 0.6631110691897435
+        },
+        {
+          "arm": "rich_residual",
+          "mode": "score_only",
+          "rows": 734,
+          "events": 23,
+          "event_size_quantiles": [
+            3.0,
+            8.0,
+            18.0,
+            44.0,
+            111.0
+          ],
+          "row_a_fraction": 0.528610348701477,
+          "event_a_fraction": 0.5549441016169708,
+          "row_accuracy": 0.4986376021798365,
+          "event_accuracy": 0.4752196736206821,
+          "row_fixed_half_accuracy": 0.5544959128065395,
+          "event_fixed_half_accuracy": 0.5879989121454275,
+          "row_tie_averaged_accuracy": 0.4986376021798365,
+          "event_tie_averaged_accuracy": 0.4752196736206821,
+          "exact_ties": 0,
+          "tie_row_mass": 0.0,
+          "tie_event_mass": 0.0,
+          "tied_a_fraction": null,
+          "event_brier": 0.2455105791417171,
+          "row_brier": 0.24766835570335388,
+          "event_log_loss": 0.6841545408718303
+        },
+        {
+          "arm": "original_residual",
+          "mode": "feedback",
+          "rows": 734,
+          "events": 23,
+          "event_size_quantiles": [
+            3.0,
+            8.0,
+            18.0,
+            44.0,
+            111.0
+          ],
+          "row_a_fraction": 0.528610348701477,
+          "event_a_fraction": 0.5549441016169708,
+          "row_accuracy": 0.5068119891008175,
+          "event_accuracy": 0.4600955078882196,
+          "row_fixed_half_accuracy": 0.6021798365122616,
+          "event_fixed_half_accuracy": 0.5900287608992015,
+          "row_tie_averaged_accuracy": 0.5068119891008175,
+          "event_tie_averaged_accuracy": 0.4600955078882196,
+          "exact_ties": 0,
+          "tie_row_mass": 0.0,
+          "tie_event_mass": 0.0,
+          "tied_a_fraction": null,
+          "event_brier": 0.24361956018138173,
+          "row_brier": 0.2385491132736206,
+          "event_log_loss": 0.6798348797278334
+        },
+        {
+          "arm": "original_residual",
+          "mode": "score_only",
+          "rows": 734,
+          "events": 23,
+          "event_size_quantiles": [
+            3.0,
+            8.0,
+            18.0,
+            44.0,
+            111.0
+          ],
+          "row_a_fraction": 0.528610348701477,
+          "event_a_fraction": 0.5549441016169708,
+          "row_accuracy": 0.49182561307901906,
+          "event_accuracy": 0.45408872123972976,
+          "row_fixed_half_accuracy": 0.547683923705722,
+          "event_fixed_half_accuracy": 0.560639943322954,
+          "row_tie_averaged_accuracy": 0.49182561307901906,
+          "event_tie_averaged_accuracy": 0.45408872123972976,
+          "exact_ties": 0,
+          "tie_row_mass": 0.0,
+          "tie_event_mass": 0.0,
+          "tied_a_fraction": null,
+          "event_brier": 0.24880564989060147,
+          "row_brier": 0.24918800592422485,
+          "event_log_loss": 0.6908868518829954
+        },
+        {
+          "arm": "dynamic_strength",
+          "mode": "feedback",
+          "rows": 734,
+          "events": 23,
+          "event_size_quantiles": [
+            3.0,
+            8.0,
+            18.0,
+            44.0,
+            111.0
+          ],
+          "row_a_fraction": 0.528610348701477,
+          "event_a_fraction": 0.5549441016169708,
+          "row_accuracy": 0.5667574931880109,
+          "event_accuracy": 0.5385028051971106,
+          "row_fixed_half_accuracy": 0.5667574931880109,
+          "event_fixed_half_accuracy": 0.5385028051971106,
+          "row_tie_averaged_accuracy": 0.5708446866485014,
+          "event_tie_averaged_accuracy": 0.5694187388457594,
+          "exact_ties": 208,
+          "tie_row_mass": 0.28337874659400547,
+          "tie_event_mass": 0.31114164867141664,
+          "tied_a_fraction": 0.5144230723381042,
+          "event_brier": 0.23771566654772308,
+          "row_brier": 0.23397980630397797,
+          "event_log_loss": 0.6675424391051389
+        },
+        {
+          "arm": "dynamic_strength",
+          "mode": "score_only",
+          "rows": 734,
+          "events": 23,
+          "event_size_quantiles": [
+            3.0,
+            8.0,
+            18.0,
+            44.0,
+            111.0
+          ],
+          "row_a_fraction": 0.528610348701477,
+          "event_a_fraction": 0.5549441016169708,
+          "row_accuracy": 0.47956403269754766,
+          "event_accuracy": 0.5012386834025713,
+          "row_fixed_half_accuracy": 0.47956403269754766,
+          "event_fixed_half_accuracy": 0.5012386834025713,
+          "row_tie_averaged_accuracy": 0.5,
+          "event_tie_averaged_accuracy": 0.5429153188941088,
+          "exact_ties": 518,
+          "tie_row_mass": 0.7057220708446866,
+          "tie_event_mass": 0.6934128536859856,
+          "tied_a_fraction": 0.5289575457572937,
+          "event_brier": 0.24597984791227231,
+          "row_brier": 0.24965353310108185,
+          "event_log_loss": 0.6849588487481664
+        },
+        {
+          "arm": "online_elo_k20",
+          "mode": "feedback",
+          "rows": 734,
+          "events": 23,
+          "event_size_quantiles": [
+            3.0,
+            8.0,
+            18.0,
+            44.0,
+            111.0
+          ],
+          "row_a_fraction": 0.528610348701477,
+          "event_a_fraction": 0.5549441016169708,
+          "row_accuracy": 0.5749318801089919,
+          "event_accuracy": 0.5269531544296909,
+          "row_fixed_half_accuracy": 0.5749318801089919,
+          "event_fixed_half_accuracy": 0.5269531544296909,
+          "row_tie_averaged_accuracy": 0.579700272479564,
+          "event_tie_averaged_accuracy": 0.569682203538019,
+          "exact_ties": 235,
+          "tie_row_mass": 0.3201634877384196,
+          "tie_event_mass": 0.3915716927194671,
+          "tied_a_fraction": 0.5148935914039612,
+          "event_brier": 0.24284842640309767,
+          "row_brier": 0.24034751908241847,
+          "event_log_loss": 0.6784462439886303
+        },
+        {
+          "arm": "online_elo_k20",
+          "mode": "score_only",
+          "rows": 734,
+          "events": 23,
+          "event_size_quantiles": [
+            3.0,
+            8.0,
+            18.0,
+            44.0,
+            111.0
+          ],
+          "row_a_fraction": 0.528610348701477,
+          "event_a_fraction": 0.5549441016169708,
+          "row_accuracy": 0.49727520435967304,
+          "event_accuracy": 0.49943042410327465,
+          "row_fixed_half_accuracy": 0.49727520435967304,
+          "event_fixed_half_accuracy": 0.49943042410327465,
+          "row_tie_averaged_accuracy": 0.5183923705722071,
+          "event_tie_averaged_accuracy": 0.5483534364064063,
+          "exact_ties": 519,
+          "tie_row_mass": 0.7070844686648501,
+          "tie_event_mass": 0.707905607309174,
+          "tied_a_fraction": 0.5298651456832886,
+          "event_brier": 0.24734684202656784,
+          "row_brier": 0.24881205214418942,
+          "event_log_loss": 0.687624333475304
+        }
+      ],
+      "accuracy": [
+        {
+          "arm": "rich_residual",
+          "row_difference": 0.05858310626702997,
+          "event_difference": 0.03193325601124088,
+          "row_ci95": [
+            0.021247916737206038,
+            0.08748824082784572
+          ],
+          "event_ci95": [
+            0.011731638721470417,
+            0.054584221237591796
+          ],
+          "draws": 131072,
+          "seed": 20261021
+        },
+        {
+          "arm": "original_residual",
+          "row_difference": 0.014986376021798364,
+          "event_difference": 0.00600678664848988,
+          "row_ci95": [
+            0.001937984496124031,
+            0.025411061285500747
+          ],
+          "event_ci95": [
+            -0.0005681818181818182,
+            0.01369341519421296
+          ],
+          "draws": 131072,
+          "seed": 20261021
+        },
+        {
+          "arm": "dynamic_strength",
+          "row_difference": 0.08719346049046321,
+          "event_difference": 0.03726412179453923,
+          "row_ci95": [
+            0.024601328185773142,
+            0.13715046604527298
+          ],
+          "event_ci95": [
+            -0.010246513478366203,
+            0.08493814326825719
+          ],
+          "draws": 131072,
+          "seed": 20261021
+        },
+        {
+          "arm": "online_elo_k20",
+          "row_difference": 0.0776566757493188,
+          "event_difference": 0.027522730326416153,
+          "row_ci95": [
+            0.01728275071327627,
+            0.12374581939799331
+          ],
+          "event_ci95": [
+            -0.009781783314637558,
+            0.06681877348472154
+          ],
+          "draws": 131072,
+          "seed": 20261021
+        }
+      ],
+      "coverage": {
+        "score_only": {
+          "rows": 734,
+          "both_zero_team_exposure": 518,
+          "both_full_player_state": 27,
+          "either_zero_player_state": 707
+        },
+        "feedback": {
+          "rows": 734,
+          "both_zero_team_exposure": 208,
+          "both_full_player_state": 321,
+          "either_zero_player_state": 413
+        }
+      }
+    }
+  ],
+  "contrasts": [
+    {
+      "id": "map_winner/rich_residual/brier",
+      "task": "map_winner",
+      "a": "rich_residual_new",
+      "b": "rich_residual_old",
+      "metric": "brier",
+      "correction_family": "later_feedback16",
+      "difference": -0.013558384516964788,
+      "ci95": [
+        -0.033159887094212616,
+        -0.00024510730543862746
+      ],
+      "rows": 1613,
+      "events": 23,
+      "draws": 131072,
+      "p_approx": 0.09632800042724284,
+      "mc_upper_p": 0.09897728335529507,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 12625,
+      "seed": 20261021,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2026": {
+          "events": 0,
+          "difference": null
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.02746138948461284,
+            -0.00036687760249428124
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "status": "insufficient_events"
+        },
+        "50": {
+          "status": "insufficient_events"
+        }
+      },
+      "row_weighted": {
+        "event_difference": -0.013558378108506,
+        "event_ci95": [
+          -0.03325258124932865,
+          -0.0002440105887239339
+        ],
+        "row_difference": -0.015797328266129822,
+        "row_ci95": [
+          -0.023438945149433732,
+          -0.005479408826573421
+        ],
+        "draws": 131072,
+        "seed": 20261021,
+        "events": 23
+      },
+      "holm_p": 0.3004127470951302,
+      "holm_mc_upper_p": 0.31414692120696,
+      "conservative_rejection": false
+    },
+    {
+      "id": "map_winner/rich_residual/log_loss",
+      "task": "map_winner",
+      "a": "rich_residual_new",
+      "b": "rich_residual_old",
+      "metric": "log_loss",
+      "correction_family": "later_feedback16",
+      "difference": -0.0441658704177193,
+      "ci95": [
+        -0.10428564593843792,
+        -0.004807610291501753
+      ],
+      "rows": 1613,
+      "events": 23,
+      "draws": 131072,
+      "p_approx": 0.07431736513240714,
+      "mc_upper_p": 0.07667574339904909,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 9740,
+      "seed": 20261021,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2026": {
+          "events": 0,
+          "difference": null
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.08551682927038358,
+            -0.004759822202765423
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "status": "insufficient_events"
+        },
+        "50": {
+          "status": "insufficient_events"
+        }
+      },
+      "row_weighted": {
+        "event_difference": -0.044165882547724904,
+        "event_ci95": [
+          -0.10447776437614263,
+          -0.004876528263710186
+        ],
+        "row_difference": -0.04509996990248866,
+        "row_ci95": [
+          -0.06456466251210595,
+          -0.019413187042028844
+        ],
+        "draws": 131072,
+        "seed": 20261021,
+        "events": 23
+      },
+      "holm_p": 0.3004127470951302,
+      "holm_mc_upper_p": 0.31414692120696,
+      "conservative_rejection": false
+    },
+    {
+      "id": "map_winner/original_residual/brier",
+      "task": "map_winner",
+      "a": "original_residual_new",
+      "b": "original_residual_old",
+      "metric": "brier",
+      "correction_family": "later_feedback16",
+      "difference": -0.002661481499671936,
+      "ci95": [
+        -0.006147025881902031,
+        0.0004548914730548855
+      ],
+      "rows": 1613,
+      "events": 23,
+      "draws": 131072,
+      "p_approx": 0.11250219343419315,
+      "mc_upper_p": 0.11533738003471436,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 14745,
+      "seed": 20261021,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2026": {
+          "events": 0,
+          "difference": null
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.006028061327726945,
+            0.00040034755416538405
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "status": "insufficient_events"
+        },
+        "50": {
+          "status": "insufficient_events"
+        }
+      },
+      "row_weighted": {
+        "event_difference": -0.002661478038411133,
+        "event_ci95": [
+          -0.006146245145142113,
+          0.00043558836275398456
+        ],
+        "row_difference": -0.006732823861553868,
+        "row_ci95": [
+          -0.010599100786193225,
+          -0.002357171414652474
+        ],
+        "draws": 131072,
+        "seed": 20261021,
+        "events": 23
+      },
+      "holm_p": 0.3004127470951302,
+      "holm_mc_upper_p": 0.31414692120696,
+      "conservative_rejection": false
+    },
+    {
+      "id": "map_winner/original_residual/log_loss",
+      "task": "map_winner",
+      "a": "original_residual_new",
+      "b": "original_residual_old",
+      "metric": "log_loss",
+      "correction_family": "later_feedback16",
+      "difference": -0.008032130158465841,
+      "ci95": [
+        -0.016399339359739553,
+        -0.0004052466996338064
+      ],
+      "rows": 1613,
+      "events": 23,
+      "draws": 131072,
+      "p_approx": 0.04848443233923081,
+      "mc_upper_p": 0.05042065548403015,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 6354,
+      "seed": 20261021,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2026": {
+          "events": 0,
+          "difference": null
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.018330671508675036,
+            0.0009814423063526983
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "status": "insufficient_events"
+        },
+        "50": {
+          "status": "insufficient_events"
+        }
+      },
+      "row_weighted": {
+        "event_difference": -0.00803213003688844,
+        "event_ci95": [
+          -0.016355544524911083,
+          -0.0004410480531959193
+        ],
+        "row_difference": -0.016128022620952136,
+        "row_ci95": [
+          -0.02492903748810218,
+          -0.006590844835756218
+        ],
+        "draws": 131072,
+        "seed": 20261021,
+        "events": 23
+      },
+      "holm_p": 0.3004127470951302,
+      "holm_mc_upper_p": 0.31414692120696,
+      "conservative_rejection": false
+    },
+    {
+      "id": "map_winner/dynamic_strength/brier",
+      "task": "map_winner",
+      "a": "dynamic_strength_new",
+      "b": "dynamic_strength_old",
+      "metric": "brier",
+      "correction_family": "later_feedback16",
+      "difference": -0.005394855919091598,
+      "ci95": [
+        -0.010825336432975272,
+        -0.0005476278293391936
+      ],
+      "rows": 1613,
+      "events": 23,
+      "draws": 131072,
+      "p_approx": 0.03957336751276006,
+      "mc_upper_p": 0.04133323388075367,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 5186,
+      "seed": 20261021,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2026": {
+          "events": 0,
+          "difference": null
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.010607030858164248,
+            -0.0007912335188492484
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "status": "insufficient_events"
+        },
+        "50": {
+          "status": "insufficient_events"
+        }
+      },
+      "row_weighted": {
+        "event_difference": -0.005394857525089653,
+        "event_ci95": [
+          -0.010814320666957873,
+          -0.0005702701610981762
+        ],
+        "row_difference": -0.012094518434203196,
+        "row_ci95": [
+          -0.017990924640250188,
+          -0.004165148437048392
+        ],
+        "draws": 131072,
+        "seed": 20261021,
+        "events": 23
+      },
+      "holm_p": 0.3004127470951302,
+      "holm_mc_upper_p": 0.31414692120696,
+      "conservative_rejection": false
+    },
+    {
+      "id": "map_winner/dynamic_strength/log_loss",
+      "task": "map_winner",
+      "a": "dynamic_strength_new",
+      "b": "dynamic_strength_old",
+      "metric": "log_loss",
+      "correction_family": "later_feedback16",
+      "difference": -0.011303295259890348,
+      "ci95": [
+        -0.022593157576478045,
+        -0.0012722508414931962
+      ],
+      "rows": 1613,
+      "events": 23,
+      "draws": 131072,
+      "p_approx": 0.03755159338689128,
+      "mc_upper_p": 0.03926836515087,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 4921,
+      "seed": 20261021,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2026": {
+          "events": 0,
+          "difference": null
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.02216927337905635,
+            -0.0017064550648564878
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "status": "insufficient_events"
+        },
+        "50": {
+          "status": "insufficient_events"
+        }
+      },
+      "row_weighted": {
+        "event_difference": -0.011303289644961712,
+        "event_ci95": [
+          -0.02257101217287282,
+          -0.0013196630840813274
+        ],
+        "row_difference": -0.025263638911746853,
+        "row_ci95": [
+          -0.037695437596498196,
+          -0.008610265555682022
+        ],
+        "draws": 131072,
+        "seed": 20261021,
+        "events": 23
+      },
+      "holm_p": 0.3004127470951302,
+      "holm_mc_upper_p": 0.31414692120696,
+      "conservative_rejection": false
+    },
+    {
+      "id": "map_winner/online_elo_k20/brier",
+      "task": "map_winner",
+      "a": "online_elo_k20_new",
+      "b": "online_elo_k20_old",
+      "metric": "brier",
+      "correction_family": "later_feedback16",
+      "difference": -0.00447219805401315,
+      "ci95": [
+        -0.009026477121280978,
+        -0.00039139081325639157
+      ],
+      "rows": 1613,
+      "events": 23,
+      "draws": 131072,
+      "p_approx": 0.04209867783601504,
+      "mc_upper_p": 0.04391065397734002,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 5517,
+      "seed": 20261021,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2026": {
+          "events": 0,
+          "difference": null
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.00861623929458443,
+            -0.0008845097622073739
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "status": "insufficient_events"
+        },
+        "50": {
+          "status": "insufficient_events"
+        }
+      },
+      "row_weighted": {
+        "event_difference": -0.004472198054013157,
+        "event_ci95": [
+          -0.00900732276414055,
+          -0.0004143969413060677
+        ],
+        "row_difference": -0.01005241971008866,
+        "row_ci95": [
+          -0.014998179371001464,
+          -0.003531086520314736
+        ],
+        "draws": 131072,
+        "seed": 20261021,
+        "events": 23
+      },
+      "holm_p": 0.3004127470951302,
+      "holm_mc_upper_p": 0.31414692120696,
+      "conservative_rejection": false
+    },
+    {
+      "id": "map_winner/online_elo_k20/log_loss",
+      "task": "map_winner",
+      "a": "online_elo_k20_new",
+      "b": "online_elo_k20_old",
+      "metric": "log_loss",
+      "correction_family": "later_feedback16",
+      "difference": -0.00931452363904794,
+      "ci95": [
+        -0.018674971819389433,
+        -0.0009391403878754245
+      ],
+      "rows": 1613,
+      "events": 23,
+      "draws": 131072,
+      "p_approx": 0.0393978927773073,
+      "mc_upper_p": 0.041154068914057824,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 5163,
+      "seed": 20261021,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2026": {
+          "events": 0,
+          "difference": null
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.017875221359710508,
+            -0.0018814279911004367
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "status": "insufficient_events"
+        },
+        "50": {
+          "status": "insufficient_events"
+        }
+      },
+      "row_weighted": {
+        "event_difference": -0.009314523639047915,
+        "event_ci95": [
+          -0.01864353735593079,
+          -0.000991083193712999
+        ],
+        "row_difference": -0.02088246213970763,
+        "row_ci95": [
+          -0.031213528963974616,
+          -0.007307088787025678
+        ],
+        "draws": 131072,
+        "seed": 20261021,
+        "events": 23
+      },
+      "holm_p": 0.3004127470951302,
+      "holm_mc_upper_p": 0.31414692120696,
+      "conservative_rejection": false
+    },
+    {
+      "id": "series_winner/rich_residual/brier",
+      "task": "series_winner",
+      "a": "rich_residual_new",
+      "b": "rich_residual_old",
+      "metric": "brier",
+      "correction_family": "later_feedback16",
+      "difference": -0.009874485757039942,
+      "ci95": [
+        -0.018370735191780587,
+        -0.0020515817177036585
+      ],
+      "rows": 734,
+      "events": 23,
+      "draws": 131072,
+      "p_approx": 0.017249929428639003,
+      "mc_upper_p": 0.018433681877408375,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 2260,
+      "seed": 20261021,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2026": {
+          "events": 0,
+          "difference": null
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.017178953730541725,
+            -0.003426509010403061
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "status": "insufficient_events"
+        },
+        "50": {
+          "status": "insufficient_events"
+        }
+      },
+      "row_weighted": {
+        "event_difference": -0.009874485418743329,
+        "event_ci95": [
+          -0.018321483197240925,
+          -0.0020994497216381405
+        ],
+        "row_difference": -0.019259389078787627,
+        "row_ci95": [
+          -0.029164542051333935,
+          -0.006725117876549532
+        ],
+        "draws": 131072,
+        "seed": 20261021,
+        "events": 23
+      },
+      "holm_p": 0.18974922371502903,
+      "holm_mc_upper_p": 0.20277050065149213,
+      "conservative_rejection": false
+    },
+    {
+      "id": "series_winner/rich_residual/log_loss",
+      "task": "series_winner",
+      "a": "rich_residual_new",
+      "b": "rich_residual_old",
+      "metric": "log_loss",
+      "correction_family": "later_feedback16",
+      "difference": -0.02104348203410273,
+      "ci95": [
+        -0.03881388973930608,
+        -0.004710332595783732
+      ],
+      "rows": 734,
+      "events": 23,
+      "draws": 131072,
+      "p_approx": 0.01529681932968651,
+      "mc_upper_p": 0.01641407710123254,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 2004,
+      "seed": 20261021,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2026": {
+          "events": 0,
+          "difference": null
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.03659914906906045,
+            -0.007191582671974039
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "status": "insufficient_events"
+        },
+        "50": {
+          "status": "insufficient_events"
+        }
+      },
+      "row_weighted": {
+        "event_difference": -0.02104347170324516,
+        "event_ci95": [
+          -0.03871850983655765,
+          -0.004809513618120882
+        ],
+        "row_difference": -0.04097598437879651,
+        "row_ci95": [
+          -0.06206420508155986,
+          -0.014367134000085427
+        ],
+        "draws": 131072,
+        "seed": 20261021,
+        "events": 23
+      },
+      "holm_p": 0.18356183195623813,
+      "holm_mc_upper_p": 0.19696892521479048,
+      "conservative_rejection": false
+    },
+    {
+      "id": "series_winner/original_residual/brier",
+      "task": "series_winner",
+      "a": "original_residual_new",
+      "b": "original_residual_old",
+      "metric": "brier",
+      "correction_family": "later_feedback16",
+      "difference": -0.0051860867635063505,
+      "ci95": [
+        -0.010074633311318314,
+        -0.0007342770047809794
+      ],
+      "rows": 734,
+      "events": 23,
+      "draws": 131072,
+      "p_approx": 0.029708635645785172,
+      "mc_upper_p": 0.03124459795675793,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 3893,
+      "seed": 20261021,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2026": {
+          "events": 0,
+          "difference": null
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.00971892931215141,
+            -0.001004514292530396
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "status": "insufficient_events"
+        },
+        "50": {
+          "status": "insufficient_events"
+        }
+      },
+      "row_weighted": {
+        "event_difference": -0.005186089715619613,
+        "event_ci95": [
+          -0.010054818316066657,
+          -0.0007644641329933262
+        ],
+        "row_difference": -0.010638867512507725,
+        "row_ci95": [
+          -0.015878421662191555,
+          -0.003911068910462224
+        ],
+        "draws": 131072,
+        "seed": 20261021,
+        "events": 23
+      },
+      "holm_p": 0.26737772081206657,
+      "holm_mc_upper_p": 0.28120138161082137,
+      "conservative_rejection": false
+    },
+    {
+      "id": "series_winner/original_residual/log_loss",
+      "task": "series_winner",
+      "a": "original_residual_new",
+      "b": "original_residual_old",
+      "metric": "log_loss",
+      "correction_family": "later_feedback16",
+      "difference": -0.011051947655885117,
+      "ci95": [
+        -0.02114528514768766,
+        -0.0018395730334779552
+      ],
+      "rows": 734,
+      "events": 23,
+      "draws": 131072,
+      "p_approx": 0.024993705797532673,
+      "mc_upper_p": 0.026407987421133126,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 3275,
+      "seed": 20261021,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2026": {
+          "events": 0,
+          "difference": null
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.0205719922547755,
+            -0.0022862968237503715
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "status": "insufficient_events"
+        },
+        "50": {
+          "status": "insufficient_events"
+        }
+      },
+      "row_weighted": {
+        "event_difference": -0.011051972149325146,
+        "event_ci95": [
+          -0.021113089398582675,
+          -0.0018997857193775696
+        ],
+        "row_difference": -0.022671099660831837,
+        "row_ci95": [
+          -0.03380019215989869,
+          -0.008377543246761078
+        ],
+        "draws": 131072,
+        "seed": 20261021,
+        "events": 23
+      },
+      "holm_p": 0.24993705797532673,
+      "holm_mc_upper_p": 0.2640798742113313,
+      "conservative_rejection": false
+    },
+    {
+      "id": "series_winner/dynamic_strength/brier",
+      "task": "series_winner",
+      "a": "dynamic_strength_new",
+      "b": "dynamic_strength_old",
+      "metric": "brier",
+      "correction_family": "later_feedback16",
+      "difference": -0.008264178815095322,
+      "ci95": [
+        -0.014848555203365242,
+        -0.0026751215529182684
+      ],
+      "rows": 734,
+      "events": 23,
+      "draws": 131072,
+      "p_approx": 0.009071280889275442,
+      "mc_upper_p": 0.009939974222766757,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 1188,
+      "seed": 20261021,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2026": {
+          "events": 0,
+          "difference": null
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.015195024402245232,
+            -0.0022113932053680068
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "status": "insufficient_events"
+        },
+        "50": {
+          "status": "insufficient_events"
+        }
+      },
+      "row_weighted": {
+        "event_difference": -0.008264181380076488,
+        "event_ci95": [
+          -0.01485396133877427,
+          -0.0026964950431329557
+        ],
+        "row_difference": -0.015673741018171206,
+        "row_ci95": [
+          -0.02418478855613027,
+          -0.005231724656686636
+        ],
+        "draws": 131072,
+        "seed": 20261021,
+        "events": 23
+      },
+      "holm_p": 0.14514049422840708,
+      "holm_mc_upper_p": 0.15903958756426811,
+      "conservative_rejection": false
+    },
+    {
+      "id": "series_winner/dynamic_strength/log_loss",
+      "task": "series_winner",
+      "a": "dynamic_strength_new",
+      "b": "dynamic_strength_old",
+      "metric": "log_loss",
+      "correction_family": "later_feedback16",
+      "difference": -0.017416409824205482,
+      "ci95": [
+        -0.031450473290422686,
+        -0.0056092947073604765
+      ],
+      "rows": 734,
+      "events": 23,
+      "draws": 131072,
+      "p_approx": 0.009582446422985665,
+      "mc_upper_p": 0.010474374436511077,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 1255,
+      "seed": 20261021,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2026": {
+          "events": 0,
+          "difference": null
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.03206675104472948,
+            -0.004581140435260275
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "status": "insufficient_events"
+        },
+        "50": {
+          "status": "insufficient_events"
+        }
+      },
+      "row_weighted": {
+        "event_difference": -0.0174164096121274,
+        "event_ci95": [
+          -0.0314581181641608,
+          -0.005643183392125533
+        ],
+        "row_difference": -0.03312496410566065,
+        "row_ci95": [
+          -0.051328403396515496,
+          -0.010916334174008793
+        ],
+        "draws": 131072,
+        "seed": 20261021,
+        "events": 23
+      },
+      "holm_p": 0.14514049422840708,
+      "holm_mc_upper_p": 0.15903958756426811,
+      "conservative_rejection": false
+    },
+    {
+      "id": "series_winner/online_elo_k20/brier",
+      "task": "series_winner",
+      "a": "online_elo_k20_new",
+      "b": "online_elo_k20_old",
+      "metric": "brier",
+      "correction_family": "later_feedback16",
+      "difference": -0.004498415623470126,
+      "ci95": [
+        -0.008266213985587505,
+        -0.0015079450498162183
+      ],
+      "rows": 734,
+      "events": 23,
+      "draws": 131072,
+      "p_approx": 0.011581332539882356,
+      "mc_upper_p": 0.012558480321184428,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 1517,
+      "seed": 20261021,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2026": {
+          "events": 0,
+          "difference": null
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.008153066839334474,
+            -0.0012941223568018285
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "status": "insufficient_events"
+        },
+        "50": {
+          "status": "insufficient_events"
+        }
+      },
+      "row_weighted": {
+        "event_difference": -0.004498415623470125,
+        "event_ci95": [
+          -0.008257623240008274,
+          -0.0015173561406063402
+        ],
+        "row_difference": -0.008464533061770956,
+        "row_ci95": [
+          -0.013485581414063306,
+          -0.0026447937423442294
+        ],
+        "draws": 131072,
+        "seed": 20261021,
+        "events": 23
+      },
+      "holm_p": 0.16213865555835297,
+      "holm_mc_upper_p": 0.175818724496582,
+      "conservative_rejection": false
+    },
+    {
+      "id": "series_winner/online_elo_k20/log_loss",
+      "task": "series_winner",
+      "a": "online_elo_k20_new",
+      "b": "online_elo_k20_old",
+      "metric": "log_loss",
+      "correction_family": "later_feedback16",
+      "difference": -0.009178089486673592,
+      "ci95": [
+        -0.01694876392472632,
+        -0.003038150091274992
+      ],
+      "rows": 734,
+      "events": 23,
+      "draws": 131072,
+      "p_approx": 0.012176420773156943,
+      "mc_upper_p": 0.013177439570384772,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 1595,
+      "seed": 20261021,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2026": {
+          "events": 0,
+          "difference": null
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.01672327396800155,
+            -0.002585164305859316
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "status": "insufficient_events"
+        },
+        "50": {
+          "status": "insufficient_events"
+        }
+      },
+      "row_weighted": {
+        "event_difference": -0.009178089486673566,
+        "event_ci95": [
+          -0.016940731373954052,
+          -0.0030569503429861175
+        ],
+        "row_difference": -0.0173373416853232,
+        "row_ci95": [
+          -0.027709792027254966,
+          -0.005335129747655785
+        ],
+        "draws": 131072,
+        "seed": 20261021,
+        "events": 23
+      },
+      "holm_p": 0.16213865555835297,
+      "holm_mc_upper_p": 0.175818724496582,
+      "conservative_rejection": false
+    }
+  ],
+  "feedback_accounting": {
+    "contexts": 2386,
+    "contexts_with_acquired_feedback": 2196,
+    "admitted_events": [
+      "3097",
+      "3107",
+      "3110",
+      "3115",
+      "3116",
+      "3120",
+      "3125",
+      "3127",
+      "3135",
+      "3137",
+      "3138",
+      "3140",
+      "3141",
+      "3142",
+      "3143",
+      "3147",
+      "3148",
+      "3150"
+    ],
+    "projected_map_observations": 1478,
+    "interpretation": "all-context acquired-feedback count; performance metrics/coverage use valid-target rows only; source admission differs from feedback already released"
+  }
+}

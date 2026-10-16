@@ -1,0 +1,5253 @@
+{
+  "metrics": [
+    {
+      "task": "map_winner",
+      "regime": "online_raw",
+      "model": "elo_k20",
+      "rows": 55943,
+      "events": 1049,
+      "event_size_quantiles": [
+        1.0,
+        12.0,
+        35.0,
+        78.0,
+        586.0
+      ],
+      "row_a_fraction": 0.5644852519035339,
+      "event_a_fraction": 0.5584025469453283,
+      "row_accuracy": 0.6140357149241192,
+      "event_accuracy": 0.5966490201263815,
+      "row_fixed_half_accuracy": 0.6140357149241192,
+      "event_fixed_half_accuracy": 0.5966490201263815,
+      "row_tie_averaged_accuracy": 0.6159841267003915,
+      "event_tie_averaged_accuracy": 0.5997315486530856,
+      "exact_ties": 2386,
+      "tie_row_mass": 0.04265055502922618,
+      "tie_event_mass": 0.0799399494142762,
+      "tied_a_fraction": 0.5456831455230713,
+      "event_brier": 0.23342116857092277,
+      "row_brier": 0.23004247799406327,
+      "event_log_loss": 0.6586425438763385
+    },
+    {
+      "task": "map_winner",
+      "regime": "online_raw",
+      "model": "glicko2",
+      "rows": 55943,
+      "events": 1049,
+      "event_size_quantiles": [
+        1.0,
+        12.0,
+        35.0,
+        78.0,
+        586.0
+      ],
+      "row_a_fraction": 0.5644852519035339,
+      "event_a_fraction": 0.5584025469453283,
+      "row_accuracy": 0.6224371235007061,
+      "event_accuracy": 0.6025534868132578,
+      "row_fixed_half_accuracy": 0.6224371235007061,
+      "event_fixed_half_accuracy": 0.6025534868132578,
+      "row_tie_averaged_accuracy": 0.6242335949091039,
+      "event_tie_averaged_accuracy": 0.605527832550971,
+      "exact_ties": 2337,
+      "tie_row_mass": 0.0417746634967735,
+      "tie_event_mass": 0.07952136073119434,
+      "tied_a_fraction": 0.5430038571357727,
+      "event_brier": 0.24085446731753488,
+      "row_brier": 0.23272429986302565,
+      "event_log_loss": 0.6870361043924802
+    },
+    {
+      "task": "map_winner",
+      "regime": "online_raw",
+      "model": "player_gaussian",
+      "rows": 55943,
+      "events": 1049,
+      "event_size_quantiles": [
+        1.0,
+        12.0,
+        35.0,
+        78.0,
+        586.0
+      ],
+      "row_a_fraction": 0.5644852519035339,
+      "event_a_fraction": 0.5584025469453283,
+      "row_accuracy": 0.6292655023863576,
+      "event_accuracy": 0.6163469303988085,
+      "row_fixed_half_accuracy": 0.6292655023863576,
+      "event_fixed_half_accuracy": 0.6163469303988085,
+      "row_tie_averaged_accuracy": 0.6297391988273778,
+      "event_tie_averaged_accuracy": 0.6171991787274436,
+      "exact_ties": 297,
+      "tie_row_mass": 0.00530897520690703,
+      "tie_event_mass": 0.00882586967321062,
+      "tied_a_fraction": 0.5892255902290344,
+      "event_brier": 0.24251838670767484,
+      "row_brier": 0.2341563825792247,
+      "event_log_loss": 0.7074474588991277
+    },
+    {
+      "task": "map_winner",
+      "regime": "online_calibrated",
+      "model": "elo_k20",
+      "rows": 55943,
+      "events": 1049,
+      "event_size_quantiles": [
+        1.0,
+        12.0,
+        35.0,
+        78.0,
+        586.0
+      ],
+      "row_a_fraction": 0.5644852519035339,
+      "event_a_fraction": 0.5584025469453283,
+      "row_accuracy": 0.6140357149241192,
+      "event_accuracy": 0.5966490201263815,
+      "row_fixed_half_accuracy": 0.6140357149241192,
+      "event_fixed_half_accuracy": 0.5966490201263815,
+      "row_tie_averaged_accuracy": 0.6159841267003915,
+      "event_tie_averaged_accuracy": 0.5997315486530856,
+      "exact_ties": 2386,
+      "tie_row_mass": 0.04265055502922618,
+      "tie_event_mass": 0.0799399494142762,
+      "tied_a_fraction": 0.5456831455230713,
+      "event_brier": 0.23468284611673593,
+      "row_brier": 0.22989166800925118,
+      "event_log_loss": 0.6621109181090219
+    },
+    {
+      "task": "map_winner",
+      "regime": "online_calibrated",
+      "model": "glicko2",
+      "rows": 55943,
+      "events": 1049,
+      "event_size_quantiles": [
+        1.0,
+        12.0,
+        35.0,
+        78.0,
+        586.0
+      ],
+      "row_a_fraction": 0.5644852519035339,
+      "event_a_fraction": 0.5584025469453283,
+      "row_accuracy": 0.6224371235007061,
+      "event_accuracy": 0.6025534868132578,
+      "row_fixed_half_accuracy": 0.6224371235007061,
+      "event_fixed_half_accuracy": 0.6025534868132578,
+      "row_tie_averaged_accuracy": 0.6242335949091039,
+      "event_tie_averaged_accuracy": 0.605527832550971,
+      "exact_ties": 2337,
+      "tie_row_mass": 0.0417746634967735,
+      "tie_event_mass": 0.07952136073119434,
+      "tied_a_fraction": 0.5430038571357727,
+      "event_brier": 0.23425842547561979,
+      "row_brier": 0.22816201933089322,
+      "event_log_loss": 0.6627748479594088
+    },
+    {
+      "task": "map_winner",
+      "regime": "online_calibrated",
+      "model": "player_gaussian",
+      "rows": 55943,
+      "events": 1049,
+      "event_size_quantiles": [
+        1.0,
+        12.0,
+        35.0,
+        78.0,
+        586.0
+      ],
+      "row_a_fraction": 0.5644852519035339,
+      "event_a_fraction": 0.5584025469453283,
+      "row_accuracy": 0.6292655023863576,
+      "event_accuracy": 0.6163469303988085,
+      "row_fixed_half_accuracy": 0.6292655023863576,
+      "event_fixed_half_accuracy": 0.6163469303988085,
+      "row_tie_averaged_accuracy": 0.6297391988273778,
+      "event_tie_averaged_accuracy": 0.6171991787274436,
+      "exact_ties": 297,
+      "tie_row_mass": 0.00530897520690703,
+      "tie_event_mass": 0.00882586967321062,
+      "tied_a_fraction": 0.5892255902290344,
+      "event_brier": 0.23159662537591816,
+      "row_brier": 0.2243712917016819,
+      "event_log_loss": 0.6589681474250392
+    },
+    {
+      "task": "map_winner",
+      "regime": "frozen_raw",
+      "model": "elo_k20",
+      "rows": 55943,
+      "events": 1049,
+      "event_size_quantiles": [
+        1.0,
+        12.0,
+        35.0,
+        78.0,
+        586.0
+      ],
+      "row_a_fraction": 0.5644852519035339,
+      "event_a_fraction": 0.5584025469453283,
+      "row_accuracy": 0.5408004576086374,
+      "event_accuracy": 0.5363270031094436,
+      "row_fixed_half_accuracy": 0.5408004576086374,
+      "event_fixed_half_accuracy": 0.5363270031094436,
+      "row_tie_averaged_accuracy": 0.5587026080117262,
+      "event_tie_averaged_accuracy": 0.5519779152193628,
+      "exact_ties": 16623,
+      "tie_row_mass": 0.2971417335502208,
+      "tie_event_mass": 0.32766869492846584,
+      "tied_a_fraction": 0.5602478384971619,
+      "event_brier": 0.24553010620659557,
+      "row_brier": 0.24615032164590628,
+      "event_log_loss": 0.6851211950862558
+    },
+    {
+      "task": "map_winner",
+      "regime": "frozen_raw",
+      "model": "glicko2",
+      "rows": 55943,
+      "events": 1049,
+      "event_size_quantiles": [
+        1.0,
+        12.0,
+        35.0,
+        78.0,
+        586.0
+      ],
+      "row_a_fraction": 0.5644852519035339,
+      "event_a_fraction": 0.5584025469453283,
+      "row_accuracy": 0.5438035142913322,
+      "event_accuracy": 0.5385863680720919,
+      "row_fixed_half_accuracy": 0.5438035142913322,
+      "event_fixed_half_accuracy": 0.5385863680720919,
+      "row_tie_averaged_accuracy": 0.5610621525481293,
+      "event_tie_averaged_accuracy": 0.5539403191656075,
+      "exact_ties": 16213,
+      "tie_row_mass": 0.2898128452174535,
+      "tie_event_mass": 0.32447892839006287,
+      "tied_a_fraction": 0.5595510005950928,
+      "event_brier": 0.2646616671306958,
+      "row_brier": 0.2644755462731633,
+      "event_log_loss": 0.7513069305032891
+    },
+    {
+      "task": "map_winner",
+      "regime": "frozen_raw",
+      "model": "player_gaussian",
+      "rows": 55943,
+      "events": 1049,
+      "event_size_quantiles": [
+        1.0,
+        12.0,
+        35.0,
+        78.0,
+        586.0
+      ],
+      "row_a_fraction": 0.5644852519035339,
+      "event_a_fraction": 0.5584025469453283,
+      "row_accuracy": 0.5880092236740968,
+      "event_accuracy": 0.5833333732382489,
+      "row_fixed_half_accuracy": 0.5880092236740968,
+      "event_fixed_half_accuracy": 0.5833333732382489,
+      "row_tie_averaged_accuracy": 0.597080957403071,
+      "event_tie_averaged_accuracy": 0.5888832790378067,
+      "exact_ties": 3933,
+      "tie_row_mass": 0.07030370198237491,
+      "tie_event_mass": 0.05904319090431802,
+      "tied_a_fraction": 0.6290363669395447,
+      "event_brier": 0.2614265654396433,
+      "row_brier": 0.25906311352847244,
+      "event_log_loss": 0.7789031404071277
+    },
+    {
+      "task": "map_winner",
+      "regime": "frozen_calibrated",
+      "model": "elo_k20",
+      "rows": 55943,
+      "events": 1049,
+      "event_size_quantiles": [
+        1.0,
+        12.0,
+        35.0,
+        78.0,
+        586.0
+      ],
+      "row_a_fraction": 0.5644852519035339,
+      "event_a_fraction": 0.5584025469453283,
+      "row_accuracy": 0.5408004576086374,
+      "event_accuracy": 0.5363270031094436,
+      "row_fixed_half_accuracy": 0.5408004576086374,
+      "event_fixed_half_accuracy": 0.5363270031094436,
+      "row_tie_averaged_accuracy": 0.5587026080117262,
+      "event_tie_averaged_accuracy": 0.5519779152193628,
+      "exact_ties": 16623,
+      "tie_row_mass": 0.2971417335502208,
+      "tie_event_mass": 0.32766869492846584,
+      "tied_a_fraction": 0.5602478384971619,
+      "event_brier": 0.24612673120777342,
+      "row_brier": 0.24570745225156343,
+      "event_log_loss": 0.686655792446668
+    },
+    {
+      "task": "map_winner",
+      "regime": "frozen_calibrated",
+      "model": "glicko2",
+      "rows": 55943,
+      "events": 1049,
+      "event_size_quantiles": [
+        1.0,
+        12.0,
+        35.0,
+        78.0,
+        586.0
+      ],
+      "row_a_fraction": 0.5644852519035339,
+      "event_a_fraction": 0.5584025469453283,
+      "row_accuracy": 0.5438035142913322,
+      "event_accuracy": 0.5385863680720919,
+      "row_fixed_half_accuracy": 0.5438035142913322,
+      "event_fixed_half_accuracy": 0.5385863680720919,
+      "row_tie_averaged_accuracy": 0.5610621525481293,
+      "event_tie_averaged_accuracy": 0.5539403191656075,
+      "exact_ties": 16213,
+      "tie_row_mass": 0.2898128452174535,
+      "tie_event_mass": 0.32447892839006287,
+      "tied_a_fraction": 0.5595510005950928,
+      "event_brier": 0.2478119045380077,
+      "row_brier": 0.24579707751649216,
+      "event_log_loss": 0.6928130257273745
+    },
+    {
+      "task": "map_winner",
+      "regime": "frozen_calibrated",
+      "model": "player_gaussian",
+      "rows": 55943,
+      "events": 1049,
+      "event_size_quantiles": [
+        1.0,
+        12.0,
+        35.0,
+        78.0,
+        586.0
+      ],
+      "row_a_fraction": 0.5644852519035339,
+      "event_a_fraction": 0.5584025469453283,
+      "row_accuracy": 0.5880092236740968,
+      "event_accuracy": 0.5833333732382489,
+      "row_fixed_half_accuracy": 0.5880092236740968,
+      "event_fixed_half_accuracy": 0.5833333732382489,
+      "row_tie_averaged_accuracy": 0.597080957403071,
+      "event_tie_averaged_accuracy": 0.5888832790378067,
+      "exact_ties": 3933,
+      "tie_row_mass": 0.07030370198237491,
+      "tie_event_mass": 0.05904319090431802,
+      "tied_a_fraction": 0.6290363669395447,
+      "event_brier": 0.24100150517497623,
+      "row_brier": 0.23819391393029007,
+      "event_log_loss": 0.6815866346060097
+    },
+    {
+      "task": "series_winner",
+      "regime": "online_raw",
+      "model": "elo_k20",
+      "rows": 25186,
+      "events": 1047,
+      "event_size_quantiles": [
+        1.0,
+        5.0,
+        15.0,
+        34.0,
+        249.0
+      ],
+      "row_a_fraction": 0.5831811428070068,
+      "event_a_fraction": 0.5719459996949154,
+      "row_accuracy": 0.6383705233065989,
+      "event_accuracy": 0.6159613865590522,
+      "row_fixed_half_accuracy": 0.6383705233065989,
+      "event_fixed_half_accuracy": 0.6159613865590522,
+      "row_tie_averaged_accuracy": 0.6409314698642102,
+      "event_tie_averaged_accuracy": 0.6183514960467561,
+      "exact_ties": 1263,
+      "tie_row_mass": 0.05014690701183197,
+      "tie_event_mass": 0.08919934681357235,
+      "tied_a_fraction": 0.551068902015686,
+      "event_brier": 0.23096115081183305,
+      "row_brier": 0.22630011030322944,
+      "event_log_loss": 0.6537029527284756
+    },
+    {
+      "task": "series_winner",
+      "regime": "online_raw",
+      "model": "glicko2",
+      "rows": 25186,
+      "events": 1047,
+      "event_size_quantiles": [
+        1.0,
+        5.0,
+        15.0,
+        34.0,
+        249.0
+      ],
+      "row_a_fraction": 0.5831811428070068,
+      "event_a_fraction": 0.5719459996949154,
+      "row_accuracy": 0.6524656555229096,
+      "event_accuracy": 0.6306007038166291,
+      "row_fixed_half_accuracy": 0.6524656555229096,
+      "event_fixed_half_accuracy": 0.6306007038166291,
+      "row_tie_averaged_accuracy": 0.6547089652981816,
+      "event_tie_averaged_accuracy": 0.6329743391738223,
+      "exact_ties": 1203,
+      "tie_row_mass": 0.04776463114428651,
+      "tie_event_mass": 0.08747907107449047,
+      "tied_a_fraction": 0.5469658970832825,
+      "event_brier": 0.22646008120590103,
+      "row_brier": 0.21603206840062986,
+      "event_log_loss": 0.6506442920693662
+    },
+    {
+      "task": "series_winner",
+      "regime": "online_raw",
+      "model": "player_gaussian",
+      "rows": 25186,
+      "events": 1047,
+      "event_size_quantiles": [
+        1.0,
+        5.0,
+        15.0,
+        34.0,
+        249.0
+      ],
+      "row_a_fraction": 0.5831811428070068,
+      "event_a_fraction": 0.5719459996949154,
+      "row_accuracy": 0.6480187405701581,
+      "event_accuracy": 0.6299469677335634,
+      "row_fixed_half_accuracy": 0.6480187405701581,
+      "event_fixed_half_accuracy": 0.6299469677335634,
+      "row_tie_averaged_accuracy": 0.6503017549432224,
+      "event_tie_averaged_accuracy": 0.6325909735595893,
+      "exact_ties": 1235,
+      "tie_row_mass": 0.049035178273644085,
+      "tie_event_mass": 0.08696832611133071,
+      "tied_a_fraction": 0.546558678150177,
+      "event_brier": 0.2273516420481158,
+      "row_brier": 0.22020956008342155,
+      "event_log_loss": 0.65675326828617
+    },
+    {
+      "task": "series_winner",
+      "regime": "online_calibrated",
+      "model": "elo_k20",
+      "rows": 25186,
+      "events": 1047,
+      "event_size_quantiles": [
+        1.0,
+        5.0,
+        15.0,
+        34.0,
+        249.0
+      ],
+      "row_a_fraction": 0.5831811428070068,
+      "event_a_fraction": 0.5719459996949154,
+      "row_accuracy": 0.6383705233065989,
+      "event_accuracy": 0.6159613865590522,
+      "row_fixed_half_accuracy": 0.6383705233065989,
+      "event_fixed_half_accuracy": 0.6159613865590522,
+      "row_tie_averaged_accuracy": 0.6409314698642102,
+      "event_tie_averaged_accuracy": 0.6183514960467561,
+      "exact_ties": 1263,
+      "tie_row_mass": 0.05014690701183197,
+      "tie_event_mass": 0.08919934681357235,
+      "tied_a_fraction": 0.551068902015686,
+      "event_brier": 0.23248552036647757,
+      "row_brier": 0.2244662818536202,
+      "event_log_loss": 0.6606271434875748
+    },
+    {
+      "task": "series_winner",
+      "regime": "online_calibrated",
+      "model": "glicko2",
+      "rows": 25186,
+      "events": 1047,
+      "event_size_quantiles": [
+        1.0,
+        5.0,
+        15.0,
+        34.0,
+        249.0
+      ],
+      "row_a_fraction": 0.5831811428070068,
+      "event_a_fraction": 0.5719459996949154,
+      "row_accuracy": 0.6524656555229096,
+      "event_accuracy": 0.6306007038166291,
+      "row_fixed_half_accuracy": 0.6524656555229096,
+      "event_fixed_half_accuracy": 0.6306007038166291,
+      "row_tie_averaged_accuracy": 0.6547089652981816,
+      "event_tie_averaged_accuracy": 0.6329743391738223,
+      "exact_ties": 1203,
+      "tie_row_mass": 0.04776463114428651,
+      "tie_event_mass": 0.08747907107449047,
+      "tied_a_fraction": 0.5469658970832825,
+      "event_brier": 0.22491592815648842,
+      "row_brier": 0.21639928644001036,
+      "event_log_loss": 0.64234790558503
+    },
+    {
+      "task": "series_winner",
+      "regime": "online_calibrated",
+      "model": "player_gaussian",
+      "rows": 25186,
+      "events": 1047,
+      "event_size_quantiles": [
+        1.0,
+        5.0,
+        15.0,
+        34.0,
+        249.0
+      ],
+      "row_a_fraction": 0.5831811428070068,
+      "event_a_fraction": 0.5719459996949154,
+      "row_accuracy": 0.6480187405701581,
+      "event_accuracy": 0.6299469677335634,
+      "row_fixed_half_accuracy": 0.6480187405701581,
+      "event_fixed_half_accuracy": 0.6299469677335634,
+      "row_tie_averaged_accuracy": 0.6503017549432224,
+      "event_tie_averaged_accuracy": 0.6325909735595893,
+      "exact_ties": 1235,
+      "tie_row_mass": 0.049035178273644085,
+      "tie_event_mass": 0.08696832611133071,
+      "tied_a_fraction": 0.546558678150177,
+      "event_brier": 0.22600151500948884,
+      "row_brier": 0.22035265410033214,
+      "event_log_loss": 0.6460704501706765
+    },
+    {
+      "task": "series_winner",
+      "regime": "frozen_raw",
+      "model": "elo_k20",
+      "rows": 25186,
+      "events": 1047,
+      "event_size_quantiles": [
+        1.0,
+        5.0,
+        15.0,
+        34.0,
+        249.0
+      ],
+      "row_a_fraction": 0.5831811428070068,
+      "event_a_fraction": 0.5719459996949154,
+      "row_accuracy": 0.547248471372985,
+      "event_accuracy": 0.5398106518777116,
+      "row_fixed_half_accuracy": 0.547248471372985,
+      "event_fixed_half_accuracy": 0.5398106518777116,
+      "row_tie_averaged_accuracy": 0.5707734455649964,
+      "event_tie_averaged_accuracy": 0.5582085865133438,
+      "exact_ties": 7865,
+      "tie_row_mass": 0.31227666163741763,
+      "tie_event_mass": 0.3347304733604379,
+      "tied_a_fraction": 0.5753337740898132,
+      "event_brier": 0.24262771129574937,
+      "row_brier": 0.2414902474237325,
+      "event_log_loss": 0.6783399626848451
+    },
+    {
+      "task": "series_winner",
+      "regime": "frozen_raw",
+      "model": "glicko2",
+      "rows": 25186,
+      "events": 1047,
+      "event_size_quantiles": [
+        1.0,
+        5.0,
+        15.0,
+        34.0,
+        249.0
+      ],
+      "row_a_fraction": 0.5831811428070068,
+      "event_a_fraction": 0.5719459996949154,
+      "row_accuracy": 0.5554673231160169,
+      "event_accuracy": 0.5492111925009435,
+      "row_fixed_half_accuracy": 0.5554673231160169,
+      "event_fixed_half_accuracy": 0.5492111925009435,
+      "row_tie_averaged_accuracy": 0.5780790915588025,
+      "event_tie_averaged_accuracy": 0.5674132769762575,
+      "exact_ties": 7609,
+      "tie_row_mass": 0.30211228460255696,
+      "tie_event_mass": 0.3289522002123408,
+      "tied_a_fraction": 0.574845552444458,
+      "event_brier": 0.25597534992678517,
+      "row_brier": 0.2513375477981761,
+      "event_log_loss": 0.7280659959093505
+    },
+    {
+      "task": "series_winner",
+      "regime": "frozen_raw",
+      "model": "player_gaussian",
+      "rows": 25186,
+      "events": 1047,
+      "event_size_quantiles": [
+        1.0,
+        5.0,
+        15.0,
+        34.0,
+        249.0
+      ],
+      "row_a_fraction": 0.5831811428070068,
+      "event_a_fraction": 0.5719459996949154,
+      "row_accuracy": 0.5513777495433971,
+      "event_accuracy": 0.5445339168357584,
+      "row_fixed_half_accuracy": 0.5513777495433971,
+      "event_fixed_half_accuracy": 0.5445339168357584,
+      "row_tie_averaged_accuracy": 0.5741483363773525,
+      "event_tie_averaged_accuracy": 0.562795940594296,
+      "exact_ties": 7663,
+      "tie_row_mass": 0.3042563328833479,
+      "tie_event_mass": 0.3298577413717076,
+      "tied_a_fraction": 0.5748401284217834,
+      "event_brier": 0.25962185630032875,
+      "row_brier": 0.2563092282852338,
+      "event_log_loss": 0.7492008101017581
+    },
+    {
+      "task": "series_winner",
+      "regime": "frozen_calibrated",
+      "model": "elo_k20",
+      "rows": 25186,
+      "events": 1047,
+      "event_size_quantiles": [
+        1.0,
+        5.0,
+        15.0,
+        34.0,
+        249.0
+      ],
+      "row_a_fraction": 0.5831811428070068,
+      "event_a_fraction": 0.5719459996949154,
+      "row_accuracy": 0.547248471372985,
+      "event_accuracy": 0.5398106518777116,
+      "row_fixed_half_accuracy": 0.547248471372985,
+      "event_fixed_half_accuracy": 0.5398106518777116,
+      "row_tie_averaged_accuracy": 0.5707734455649964,
+      "event_tie_averaged_accuracy": 0.5582085865133438,
+      "exact_ties": 7865,
+      "tie_row_mass": 0.31227666163741763,
+      "tie_event_mass": 0.3347304733604379,
+      "tied_a_fraction": 0.5753337740898132,
+      "event_brier": 0.245068893040426,
+      "row_brier": 0.2434027807971459,
+      "event_log_loss": 0.687773323049857
+    },
+    {
+      "task": "series_winner",
+      "regime": "frozen_calibrated",
+      "model": "glicko2",
+      "rows": 25186,
+      "events": 1047,
+      "event_size_quantiles": [
+        1.0,
+        5.0,
+        15.0,
+        34.0,
+        249.0
+      ],
+      "row_a_fraction": 0.5831811428070068,
+      "event_a_fraction": 0.5719459996949154,
+      "row_accuracy": 0.5554673231160169,
+      "event_accuracy": 0.5492111925009435,
+      "row_fixed_half_accuracy": 0.5554673231160169,
+      "event_fixed_half_accuracy": 0.5492111925009435,
+      "row_tie_averaged_accuracy": 0.5780790915588025,
+      "event_tie_averaged_accuracy": 0.5674132769762575,
+      "exact_ties": 7609,
+      "tie_row_mass": 0.30211228460255696,
+      "tie_event_mass": 0.3289522002123408,
+      "tied_a_fraction": 0.574845552444458,
+      "event_brier": 0.24560681611983484,
+      "row_brier": 0.24184291421472653,
+      "event_log_loss": 0.6894689650371163
+    },
+    {
+      "task": "series_winner",
+      "regime": "frozen_calibrated",
+      "model": "player_gaussian",
+      "rows": 25186,
+      "events": 1047,
+      "event_size_quantiles": [
+        1.0,
+        5.0,
+        15.0,
+        34.0,
+        249.0
+      ],
+      "row_a_fraction": 0.5831811428070068,
+      "event_a_fraction": 0.5719459996949154,
+      "row_accuracy": 0.5513777495433971,
+      "event_accuracy": 0.5445339168357584,
+      "row_fixed_half_accuracy": 0.5513777495433971,
+      "event_fixed_half_accuracy": 0.5445339168357584,
+      "row_tie_averaged_accuracy": 0.5741483363773525,
+      "event_tie_averaged_accuracy": 0.562795940594296,
+      "exact_ties": 7663,
+      "tie_row_mass": 0.3042563328833479,
+      "tie_event_mass": 0.3298577413717076,
+      "tied_a_fraction": 0.5748401284217834,
+      "event_brier": 0.24616175625726885,
+      "row_brier": 0.2433540525350974,
+      "event_log_loss": 0.6919077163707726
+    }
+  ],
+  "contrasts": [
+    {
+      "task": "map_winner",
+      "mode": "raw",
+      "a": "online_elo_k20",
+      "b": "frozen_elo_k20",
+      "brier": {
+        "event_difference": -0.012108937635672824,
+        "event_ci95": [
+          -0.013901781076035197,
+          -0.010320758692771258
+        ],
+        "row_difference": -0.016107843651843,
+        "row_ci95": [
+          -0.017410945772883678,
+          -0.014809327554235214
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1049
+      },
+      "log_loss": {
+        "event_difference": -0.026478651209917173,
+        "event_ci95": [
+          -0.03042977667827672,
+          -0.02255489412423333
+        ],
+        "row_difference": -0.03524552682194369,
+        "row_ci95": [
+          -0.03816381388705823,
+          -0.03234526565851846
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1049
+      }
+    },
+    {
+      "task": "map_winner",
+      "mode": "raw",
+      "a": "online_glicko2",
+      "b": "frozen_glicko2",
+      "brier": {
+        "event_difference": -0.023807199813160835,
+        "event_ci95": [
+          -0.028280577662947025,
+          -0.0194125134877078
+        ],
+        "row_difference": -0.031751246410137615,
+        "row_ci95": [
+          -0.03465474434781018,
+          -0.028874657348324038
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1049
+      },
+      "log_loss": {
+        "event_difference": -0.06427082611080875,
+        "event_ci95": [
+          -0.0763162158380488,
+          -0.0523909602874666
+        ],
+        "row_difference": -0.0862023220690991,
+        "row_ci95": [
+          -0.09496587807763712,
+          -0.07758219654036969
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1049
+      }
+    },
+    {
+      "task": "map_winner",
+      "mode": "raw",
+      "a": "online_player_gaussian",
+      "b": "frozen_player_gaussian",
+      "brier": {
+        "event_difference": -0.01890817873196844,
+        "event_ci95": [
+          -0.02361874624055139,
+          -0.014202942783571119
+        ],
+        "row_difference": -0.024906730949247755,
+        "row_ci95": [
+          -0.02762553826827814,
+          -0.022225763032864155
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1049
+      },
+      "log_loss": {
+        "event_difference": -0.07145568150799979,
+        "event_ci95": [
+          -0.08643666628989125,
+          -0.05660743809185275
+        ],
+        "row_difference": -0.09334156469914229,
+        "row_ci95": [
+          -0.10389068208672926,
+          -0.08309382495249518
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1049
+      }
+    },
+    {
+      "task": "map_winner",
+      "mode": "raw",
+      "a": "online_glicko2",
+      "b": "online_elo_k20",
+      "brier": {
+        "event_difference": 0.007433298746612168,
+        "event_ci95": [
+          0.004214233719232119,
+          0.010726833335640189
+        ],
+        "row_difference": 0.0026818218689623505,
+        "row_ci95": [
+          0.0007716716712072411,
+          0.004598746198510627
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1049
+      },
+      "log_loss": {
+        "event_difference": 0.028393560516141704,
+        "event_ci95": [
+          0.0198479337991965,
+          0.03721759118488729
+        ],
+        "row_difference": 0.015290290067214198,
+        "row_ci95": [
+          0.009868769364127112,
+          0.02074748167714024
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1049
+      }
+    },
+    {
+      "task": "map_winner",
+      "mode": "raw",
+      "a": "online_player_gaussian",
+      "b": "online_elo_k20",
+      "brier": {
+        "event_difference": 0.009097218136752145,
+        "event_ci95": [
+          0.004281687964465243,
+          0.014025511391575046
+        ],
+        "row_difference": 0.004113904585161416,
+        "row_ci95": [
+          0.0017295522597141114,
+          0.0065145931778528236
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1049
+      },
+      "log_loss": {
+        "event_difference": 0.04880491502278929,
+        "event_ci95": [
+          0.03450639614718323,
+          0.06396632961034525
+        ],
+        "row_difference": 0.031369505144184344,
+        "row_ci95": [
+          0.024316919450450804,
+          0.038472290442717175
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1049
+      }
+    },
+    {
+      "task": "map_winner",
+      "mode": "calibrated",
+      "a": "online_elo_k20",
+      "b": "frozen_elo_k20",
+      "brier": {
+        "event_difference": -0.011443885091037519,
+        "event_ci95": [
+          -0.013385147193639112,
+          -0.009489853691696607
+        ],
+        "row_difference": -0.01581578424231225,
+        "row_ci95": [
+          -0.017326946045041338,
+          -0.014298274992557735
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1049
+      },
+      "log_loss": {
+        "event_difference": -0.024544874337646135,
+        "event_ci95": [
+          -0.028992671523423906,
+          -0.020076816164906645
+        ],
+        "row_difference": -0.0340478423364059,
+        "row_ci95": [
+          -0.03754072283950261,
+          -0.030560412724240316
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1049
+      }
+    },
+    {
+      "task": "map_winner",
+      "mode": "calibrated",
+      "a": "online_glicko2",
+      "b": "frozen_glicko2",
+      "brier": {
+        "event_difference": -0.013553479062387925,
+        "event_ci95": [
+          -0.016450826998842955,
+          -0.01073883478266488
+        ],
+        "row_difference": -0.01763505818559895,
+        "row_ci95": [
+          -0.019283236866780438,
+          -0.015971739280441013
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1049
+      },
+      "log_loss": {
+        "event_difference": -0.030038177767965468,
+        "event_ci95": [
+          -0.036840888784272156,
+          -0.02348784273689243
+        ],
+        "row_difference": -0.03849687452410113,
+        "row_ci95": [
+          -0.04237932105369647,
+          -0.03460114815613588
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1049
+      }
+    },
+    {
+      "task": "map_winner",
+      "mode": "calibrated",
+      "a": "online_player_gaussian",
+      "b": "frozen_player_gaussian",
+      "brier": {
+        "event_difference": -0.009404879799058035,
+        "event_ci95": [
+          -0.012427510347895968,
+          -0.006421728524606679
+        ],
+        "row_difference": -0.013822622228608215,
+        "row_ci95": [
+          -0.015670762940262463,
+          -0.011973909370394211
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1049
+      },
+      "log_loss": {
+        "event_difference": -0.022618487180970506,
+        "event_ci95": [
+          -0.030666855410903682,
+          -0.014472468755985535
+        ],
+        "row_difference": -0.0335836678003005,
+        "row_ci95": [
+          -0.03859087127896986,
+          -0.02872372313286653
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1049
+      }
+    },
+    {
+      "task": "map_winner",
+      "mode": "calibrated",
+      "a": "online_glicko2",
+      "b": "online_elo_k20",
+      "brier": {
+        "event_difference": -0.00042442064111617285,
+        "event_ci95": [
+          -0.0023702846202448514,
+          0.0015446292563584803
+        ],
+        "row_difference": -0.0017296486783579751,
+        "row_ci95": [
+          -0.0027335508630078097,
+          -0.0007058330032192767
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1049
+      },
+      "log_loss": {
+        "event_difference": 0.0006639298503871326,
+        "event_ci95": [
+          -0.004001666599872245,
+          0.00539594782176509
+        ],
+        "row_difference": -0.0029029066696769565,
+        "row_ci95": [
+          -0.005380805040275013,
+          -0.0003423664002715645
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1049
+      }
+    },
+    {
+      "task": "map_winner",
+      "mode": "calibrated",
+      "a": "online_player_gaussian",
+      "b": "online_elo_k20",
+      "brier": {
+        "event_difference": -0.0030862207408177468,
+        "event_ci95": [
+          -0.006328839897746726,
+          0.00026714009591041586
+        ],
+        "row_difference": -0.005520376307569302,
+        "row_ci95": [
+          -0.006999372671603256,
+          -0.004032409238531276
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1049
+      },
+      "log_loss": {
+        "event_difference": -0.003142770683982563,
+        "event_ci95": [
+          -0.011209051038739185,
+          0.005489684603213866
+        ],
+        "row_difference": -0.011459616087941125,
+        "row_ci95": [
+          -0.015126901537035263,
+          -0.0076907881675539825
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1049
+      }
+    },
+    {
+      "task": "series_winner",
+      "mode": "raw",
+      "a": "online_elo_k20",
+      "b": "frozen_elo_k20",
+      "brier": {
+        "event_difference": -0.011666560483916307,
+        "event_ci95": [
+          -0.013377734378028977,
+          -0.009963111513906378
+        ],
+        "row_difference": -0.015190137120503079,
+        "row_ci95": [
+          -0.016454147115005213,
+          -0.013945909718600349
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1047
+      },
+      "log_loss": {
+        "event_difference": -0.024637009956369717,
+        "event_ci95": [
+          -0.028290238877548494,
+          -0.021008588136917732
+        ],
+        "row_difference": -0.03202922424167819,
+        "row_ci95": [
+          -0.03471728464035628,
+          -0.029383511726394956
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1047
+      }
+    },
+    {
+      "task": "series_winner",
+      "mode": "raw",
+      "a": "online_glicko2",
+      "b": "frozen_glicko2",
+      "brier": {
+        "event_difference": -0.029515268720884152,
+        "event_ci95": [
+          -0.0349119700496015,
+          -0.024310242154096082
+        ],
+        "row_difference": -0.03530547939754622,
+        "row_ci95": [
+          -0.03878845984390826,
+          -0.031882655964824716
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1047
+      },
+      "log_loss": {
+        "event_difference": -0.07742170383998433,
+        "event_ci95": [
+          -0.09211234635624456,
+          -0.0634707508957335
+        ],
+        "row_difference": -0.09089507473715262,
+        "row_ci95": [
+          -0.10028149206738124,
+          -0.08164973950626113
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1047
+      }
+    },
+    {
+      "task": "series_winner",
+      "mode": "raw",
+      "a": "online_player_gaussian",
+      "b": "frozen_player_gaussian",
+      "brier": {
+        "event_difference": -0.03227021425221288,
+        "event_ci95": [
+          -0.0383644006816309,
+          -0.026347756395744184
+        ],
+        "row_difference": -0.036099668201812256,
+        "row_ci95": [
+          -0.040055958298687175,
+          -0.03222141484648707
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1047
+      },
+      "log_loss": {
+        "event_difference": -0.09244754181558808,
+        "event_ci95": [
+          -0.10979809067184287,
+          -0.0757206869995019
+        ],
+        "row_difference": -0.10197679469758068,
+        "row_ci95": [
+          -0.1138181405422682,
+          -0.09045259646126032
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1047
+      }
+    },
+    {
+      "task": "series_winner",
+      "mode": "raw",
+      "a": "online_glicko2",
+      "b": "online_elo_k20",
+      "brier": {
+        "event_difference": -0.004501069605932005,
+        "event_ci95": [
+          -0.008637042668670965,
+          -0.00033550022487015464
+        ],
+        "row_difference": -0.01026804190259961,
+        "row_ci95": [
+          -0.012888996450399516,
+          -0.0076371255647591195
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1047
+      },
+      "log_loss": {
+        "event_difference": -0.0030586606591091756,
+        "event_ci95": [
+          -0.013799815280994577,
+          0.00782536902387795
+        ],
+        "row_difference": -0.018575620038257835,
+        "row_ci95": [
+          -0.025618820763171787,
+          -0.011500261574852264
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1047
+      }
+    },
+    {
+      "task": "series_winner",
+      "mode": "raw",
+      "a": "online_player_gaussian",
+      "b": "online_elo_k20",
+      "brier": {
+        "event_difference": -0.003609508763717222,
+        "event_ci95": [
+          -0.008133311799781322,
+          0.0009359846598433712
+        ],
+        "row_difference": -0.00609055021980791,
+        "row_ci95": [
+          -0.008838635952672102,
+          -0.0033057426579748096
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1047
+      },
+      "log_loss": {
+        "event_difference": 0.0030503155576945577,
+        "event_ci95": [
+          -0.008794829509429544,
+          0.015041430600839133
+        ],
+        "row_difference": -0.004092355010582559,
+        "row_ci95": [
+          -0.011765809997090183,
+          0.0037380666506353273
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1047
+      }
+    },
+    {
+      "task": "series_winner",
+      "mode": "calibrated",
+      "a": "online_elo_k20",
+      "b": "frozen_elo_k20",
+      "brier": {
+        "event_difference": -0.012583372673948441,
+        "event_ci95": [
+          -0.015444314367741253,
+          -0.009816434035092168
+        ],
+        "row_difference": -0.01893649894352569,
+        "row_ci95": [
+          -0.020852572689056163,
+          -0.017021664851658878
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1047
+      },
+      "log_loss": {
+        "event_difference": -0.027146179562282373,
+        "event_ci95": [
+          -0.03493033241820064,
+          -0.019988055888974326
+        ],
+        "row_difference": -0.04043902404788249,
+        "row_ci95": [
+          -0.0452526853951844,
+          -0.0356550762986248
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1047
+      }
+    },
+    {
+      "task": "series_winner",
+      "mode": "calibrated",
+      "a": "online_glicko2",
+      "b": "frozen_glicko2",
+      "brier": {
+        "event_difference": -0.02069088796334636,
+        "event_ci95": [
+          -0.02450010800495959,
+          -0.016920137580311863
+        ],
+        "row_difference": -0.02544362777471618,
+        "row_ci95": [
+          -0.027742535099901492,
+          -0.023147658269267523
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1047
+      },
+      "log_loss": {
+        "event_difference": -0.04712105945208615,
+        "event_ci95": [
+          -0.055962236933200966,
+          -0.03835048112347118
+        ],
+        "row_difference": -0.057172587630741505,
+        "row_ci95": [
+          -0.06267024768709838,
+          -0.05169674482116397
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1047
+      }
+    },
+    {
+      "task": "series_winner",
+      "mode": "calibrated",
+      "a": "online_player_gaussian",
+      "b": "frozen_player_gaussian",
+      "brier": {
+        "event_difference": -0.020160241247780014,
+        "event_ci95": [
+          -0.02403255463439598,
+          -0.016397032805000496
+        ],
+        "row_difference": -0.023001398434765275,
+        "row_ci95": [
+          -0.02546904372123429,
+          -0.020561739807506713
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1047
+      },
+      "log_loss": {
+        "event_difference": -0.04583726620009605,
+        "event_ci95": [
+          -0.05549531233166595,
+          -0.036501923093600924
+        ],
+        "row_difference": -0.05164009505083492,
+        "row_ci95": [
+          -0.057678034336381086,
+          -0.045683306756501535
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1047
+      }
+    },
+    {
+      "task": "series_winner",
+      "mode": "calibrated",
+      "a": "online_glicko2",
+      "b": "online_elo_k20",
+      "brier": {
+        "event_difference": -0.007569592209989096,
+        "event_ci95": [
+          -0.010408018166533785,
+          -0.004703318378048181
+        ],
+        "row_difference": -0.008066995413609819,
+        "row_ci95": [
+          -0.009600733620568227,
+          -0.006556678702496307
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1047
+      },
+      "log_loss": {
+        "event_difference": -0.018279237902544574,
+        "event_ci95": [
+          -0.02531222647390197,
+          -0.011130342717921477
+        ],
+        "row_difference": -0.02009596871289931,
+        "row_ci95": [
+          -0.02412074142010166,
+          -0.016137508910821108
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1047
+      }
+    },
+    {
+      "task": "series_winner",
+      "mode": "calibrated",
+      "a": "online_player_gaussian",
+      "b": "online_elo_k20",
+      "brier": {
+        "event_difference": -0.006484005356988684,
+        "event_ci95": [
+          -0.009970015685490698,
+          -0.002987749436097723
+        ],
+        "row_difference": -0.0041136277532880594,
+        "row_ci95": [
+          -0.006291822113047115,
+          -0.002011636333633466
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1047
+      },
+      "log_loss": {
+        "event_difference": -0.014556693316897988,
+        "event_ci95": [
+          -0.023256388460380736,
+          -0.005807966286517689
+        ],
+        "row_difference": -0.010737890442256258,
+        "row_ci95": [
+          -0.016207029090514254,
+          -0.005459125197597756
+        ],
+        "draws": 131072,
+        "seed": 20261018,
+        "events": 1047
+      }
+    }
+  ],
+  "calibrations": [
+    {
+      "block": "rolling_01",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "elo_k20",
+      "scale": 1.6728641506864963,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.687178889343128
+          },
+          {
+            "scale": 1.6728641506864963,
+            "log_loss": 0.6860483762585108
+          }
+        ],
+        "selected": {
+          "scale": 1.6728641506864963,
+          "log_loss": 0.6860483762585108
+        }
+      }
+    },
+    {
+      "block": "rolling_01",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "glicko2",
+      "scale": 0.41935483784324046,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7041568333172084
+          },
+          {
+            "scale": 0.41935483784324046,
+            "log_loss": 0.6739084676838725
+          }
+        ],
+        "selected": {
+          "scale": 0.41935483784324046,
+          "log_loss": 0.6739084676838725
+        }
+      }
+    },
+    {
+      "block": "rolling_01",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "player_gaussian",
+      "scale": 0.43836244408993663,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6996343118201411
+          },
+          {
+            "scale": 0.43836244408993663,
+            "log_loss": 0.671757729726611
+          }
+        ],
+        "selected": {
+          "scale": 0.43836244408993663,
+          "log_loss": 0.671757729726611
+        }
+      }
+    },
+    {
+      "block": "rolling_01",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "elo_k20",
+      "scale": 0.7928465397281398,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6919386951628984
+          },
+          {
+            "scale": 0.7928465397281398,
+            "log_loss": 0.69185155252379
+          }
+        ],
+        "selected": {
+          "scale": 0.7928465397281398,
+          "log_loss": 0.69185155252379
+        }
+      }
+    },
+    {
+      "block": "rolling_01",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "glicko2",
+      "scale": 0.18323185648573942,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7412016242531512
+          },
+          {
+            "scale": 0.18323185648573942,
+            "log_loss": 0.6899764608574275
+          }
+        ],
+        "selected": {
+          "scale": 0.18323185648573942,
+          "log_loss": 0.6899764608574275
+        }
+      }
+    },
+    {
+      "block": "rolling_01",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "player_gaussian",
+      "scale": 0.23256556824474567,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7478138218935684
+          },
+          {
+            "scale": 0.23256556824474567,
+            "log_loss": 0.6843726593104693
+          }
+        ],
+        "selected": {
+          "scale": 0.23256556824474567,
+          "log_loss": 0.6843726593104693
+        }
+      }
+    },
+    {
+      "block": "rolling_02",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "elo_k20",
+      "scale": 1.9966010436669526,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6481485882225899
+          },
+          {
+            "scale": 1.9966010436669526,
+            "log_loss": 0.6348645613443841
+          }
+        ],
+        "selected": {
+          "scale": 1.9966010436669526,
+          "log_loss": 0.6348645613443841
+        }
+      }
+    },
+    {
+      "block": "rolling_02",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "glicko2",
+      "scale": 0.8116894507496899,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.628528760190008
+          },
+          {
+            "scale": 0.8116894507496899,
+            "log_loss": 0.6259363179793634
+          }
+        ],
+        "selected": {
+          "scale": 0.8116894507496899,
+          "log_loss": 0.6259363179793634
+        }
+      }
+    },
+    {
+      "block": "rolling_02",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "player_gaussian",
+      "scale": 0.5285364158431721,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6677383478921258
+          },
+          {
+            "scale": 0.5285364158431721,
+            "log_loss": 0.6401835122657618
+          }
+        ],
+        "selected": {
+          "scale": 0.5285364158431721,
+          "log_loss": 0.6401835122657618
+        }
+      }
+    },
+    {
+      "block": "rolling_02",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "elo_k20",
+      "scale": 1.570160566001617,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6610794415605247
+          },
+          {
+            "scale": 1.570160566001617,
+            "log_loss": 0.6566283506750412
+          }
+        ],
+        "selected": {
+          "scale": 1.570160566001617,
+          "log_loss": 0.6566283506750412
+        }
+      }
+    },
+    {
+      "block": "rolling_02",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "glicko2",
+      "scale": 0.5054960121078429,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6808786966540659
+          },
+          {
+            "scale": 0.5054960121078429,
+            "log_loss": 0.6545932470103841
+          }
+        ],
+        "selected": {
+          "scale": 0.5054960121078429,
+          "log_loss": 0.6545932470103841
+        }
+      }
+    },
+    {
+      "block": "rolling_02",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "player_gaussian",
+      "scale": 0.19685123924710318,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.8813453379405524
+          },
+          {
+            "scale": 0.19685123924710318,
+            "log_loss": 0.6670098140000482
+          }
+        ],
+        "selected": {
+          "scale": 0.19685123924710318,
+          "log_loss": 0.6670098140000482
+        }
+      }
+    },
+    {
+      "block": "rolling_03",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "elo_k20",
+      "scale": 1.0602679058601283,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6586653502569464
+          },
+          {
+            "scale": 1.0602679058601283,
+            "log_loss": 0.6585665972857696
+          }
+        ],
+        "selected": {
+          "scale": 1.0602679058601283,
+          "log_loss": 0.6585665972857696
+        }
+      }
+    },
+    {
+      "block": "rolling_03",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "glicko2",
+      "scale": 0.48682248669222117,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6832330996851791
+          },
+          {
+            "scale": 0.48682248669222117,
+            "log_loss": 0.6484505837933253
+          }
+        ],
+        "selected": {
+          "scale": 0.48682248669222117,
+          "log_loss": 0.6484505837933253
+        }
+      }
+    },
+    {
+      "block": "rolling_03",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "player_gaussian",
+      "scale": 0.40080084731980925,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7089811122572133
+          },
+          {
+            "scale": 0.40080084731980925,
+            "log_loss": 0.63058334465828
+          }
+        ],
+        "selected": {
+          "scale": 0.40080084731980925,
+          "log_loss": 0.63058334465828
+        }
+      }
+    },
+    {
+      "block": "rolling_03",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "elo_k20",
+      "scale": 0.7563174038942082,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.678168603236952
+          },
+          {
+            "scale": 0.7563174038942082,
+            "log_loss": 0.6766457547168918
+          }
+        ],
+        "selected": {
+          "scale": 0.7563174038942082,
+          "log_loss": 0.6766457547168918
+        }
+      }
+    },
+    {
+      "block": "rolling_03",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "glicko2",
+      "scale": 0.30416876256271835,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7489759378926273
+          },
+          {
+            "scale": 0.30416876256271835,
+            "log_loss": 0.6728280345484214
+          }
+        ],
+        "selected": {
+          "scale": 0.30416876256271835,
+          "log_loss": 0.6728280345484214
+        }
+      }
+    },
+    {
+      "block": "rolling_03",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "player_gaussian",
+      "scale": 0.3556144612650441,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7418835005970685
+          },
+          {
+            "scale": 0.3556144612650441,
+            "log_loss": 0.6356751141156047
+          }
+        ],
+        "selected": {
+          "scale": 0.3556144612650441,
+          "log_loss": 0.6356751141156047
+        }
+      }
+    },
+    {
+      "block": "rolling_04",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "elo_k20",
+      "scale": 1.512951637799135,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6218806947234983
+          },
+          {
+            "scale": 1.512951637799135,
+            "log_loss": 0.6141412248094416
+          }
+        ],
+        "selected": {
+          "scale": 1.512951637799135,
+          "log_loss": 0.6141412248094416
+        }
+      }
+    },
+    {
+      "block": "rolling_04",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "glicko2",
+      "scale": 0.5737487935164399,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6471573261480364
+          },
+          {
+            "scale": 0.5737487935164399,
+            "log_loss": 0.6170318409520151
+          }
+        ],
+        "selected": {
+          "scale": 0.5737487935164399,
+          "log_loss": 0.6170318409520151
+        }
+      }
+    },
+    {
+      "block": "rolling_04",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "player_gaussian",
+      "scale": 0.4896674532275916,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6598519886337134
+          },
+          {
+            "scale": 0.4896674532275916,
+            "log_loss": 0.6035259139727418
+          }
+        ],
+        "selected": {
+          "scale": 0.4896674532275916,
+          "log_loss": 0.6035259139727418
+        }
+      }
+    },
+    {
+      "block": "rolling_04",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "elo_k20",
+      "scale": 1.3839569038770938,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6612715711896979
+          },
+          {
+            "scale": 1.3839569038770938,
+            "log_loss": 0.6589615430606854
+          }
+        ],
+        "selected": {
+          "scale": 1.3839569038770938,
+          "log_loss": 0.6589615430606854
+        }
+      }
+    },
+    {
+      "block": "rolling_04",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "glicko2",
+      "scale": 0.4168555928063401,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7085001976076508
+          },
+          {
+            "scale": 0.4168555928063401,
+            "log_loss": 0.6598462716677849
+          }
+        ],
+        "selected": {
+          "scale": 0.4168555928063401,
+          "log_loss": 0.6598462716677849
+        }
+      }
+    },
+    {
+      "block": "rolling_04",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "player_gaussian",
+      "scale": 0.4023706997528186,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7108027706856137
+          },
+          {
+            "scale": 0.4023706997528186,
+            "log_loss": 0.6278721974543726
+          }
+        ],
+        "selected": {
+          "scale": 0.4023706997528186,
+          "log_loss": 0.6278721974543726
+        }
+      }
+    },
+    {
+      "block": "rolling_05",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "elo_k20",
+      "scale": 0.6833133825758214,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599454
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6831170958837789
+          },
+          {
+            "scale": 0.6833133825758214,
+            "log_loss": 0.6806316340660057
+          }
+        ],
+        "selected": {
+          "scale": 0.6833133825758214,
+          "log_loss": 0.6806316340660057
+        }
+      }
+    },
+    {
+      "block": "rolling_05",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "glicko2",
+      "scale": 0.452309093901755,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599454
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6966249884987512
+          },
+          {
+            "scale": 0.452309093901755,
+            "log_loss": 0.6702238279166661
+          }
+        ],
+        "selected": {
+          "scale": 0.452309093901755,
+          "log_loss": 0.6702238279166661
+        }
+      }
+    },
+    {
+      "block": "rolling_05",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "player_gaussian",
+      "scale": 0.29962336875789974,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599454
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7564071464652259
+          },
+          {
+            "scale": 0.29962336875789974,
+            "log_loss": 0.6618667066635724
+          }
+        ],
+        "selected": {
+          "scale": 0.29962336875789974,
+          "log_loss": 0.6618667066635724
+        }
+      }
+    },
+    {
+      "block": "rolling_05",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "elo_k20",
+      "scale": 0.3198624471247266,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599454
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7018420086362633
+          },
+          {
+            "scale": 0.3198624471247266,
+            "log_loss": 0.6904144821564759
+          }
+        ],
+        "selected": {
+          "scale": 0.3198624471247266,
+          "log_loss": 0.6904144821564759
+        }
+      }
+    },
+    {
+      "block": "rolling_05",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "glicko2",
+      "scale": 0.2594883238556437,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599454
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.742165092303865
+          },
+          {
+            "scale": 0.2594883238556437,
+            "log_loss": 0.6840056354181981
+          }
+        ],
+        "selected": {
+          "scale": 0.2594883238556437,
+          "log_loss": 0.6840056354181981
+        }
+      }
+    },
+    {
+      "block": "rolling_05",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "player_gaussian",
+      "scale": 0.2888224320981115,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599454
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7697644587118423
+          },
+          {
+            "scale": 0.2888224320981115,
+            "log_loss": 0.665492996295731
+          }
+        ],
+        "selected": {
+          "scale": 0.2888224320981115,
+          "log_loss": 0.665492996295731
+        }
+      }
+    },
+    {
+      "block": "rolling_06",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "elo_k20",
+      "scale": 0.924362206013781,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6666739002977737
+          },
+          {
+            "scale": 0.924362206013781,
+            "log_loss": 0.6665300522106394
+          }
+        ],
+        "selected": {
+          "scale": 0.924362206013781,
+          "log_loss": 0.6665300522106394
+        }
+      }
+    },
+    {
+      "block": "rolling_06",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "glicko2",
+      "scale": 0.3228895958650485,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7389373600755018
+          },
+          {
+            "scale": 0.3228895958650485,
+            "log_loss": 0.6731658426242968
+          }
+        ],
+        "selected": {
+          "scale": 0.3228895958650485,
+          "log_loss": 0.6731658426242968
+        }
+      }
+    },
+    {
+      "block": "rolling_06",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "player_gaussian",
+      "scale": 0.45457941234893806,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6820670390088756
+          },
+          {
+            "scale": 0.45457941234893806,
+            "log_loss": 0.6167098256098412
+          }
+        ],
+        "selected": {
+          "scale": 0.45457941234893806,
+          "log_loss": 0.6167098256098412
+        }
+      }
+    },
+    {
+      "block": "rolling_06",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "elo_k20",
+      "scale": 0.8016106745731546,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6728417546365534
+          },
+          {
+            "scale": 0.8016106745731546,
+            "log_loss": 0.6717855144526029
+          }
+        ],
+        "selected": {
+          "scale": 0.8016106745731546,
+          "log_loss": 0.6717855144526029
+        }
+      }
+    },
+    {
+      "block": "rolling_06",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "glicko2",
+      "scale": 0.34126926903841304,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7298883207285751
+          },
+          {
+            "scale": 0.34126926903841304,
+            "log_loss": 0.6716412170302427
+          }
+        ],
+        "selected": {
+          "scale": 0.34126926903841304,
+          "log_loss": 0.6716412170302427
+        }
+      }
+    },
+    {
+      "block": "rolling_06",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "player_gaussian",
+      "scale": 0.4438778815691805,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6815458204947529
+          },
+          {
+            "scale": 0.4438778815691805,
+            "log_loss": 0.6127783271662999
+          }
+        ],
+        "selected": {
+          "scale": 0.4438778815691805,
+          "log_loss": 0.6127783271662999
+        }
+      }
+    },
+    {
+      "block": "rolling_07",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "elo_k20",
+      "scale": 1.0123188251760016,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6677754843393251
+          },
+          {
+            "scale": 1.0123188251760016,
+            "log_loss": 0.6677720566963565
+          }
+        ],
+        "selected": {
+          "scale": 1.0123188251760016,
+          "log_loss": 0.6677720566963565
+        }
+      }
+    },
+    {
+      "block": "rolling_07",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "glicko2",
+      "scale": 0.3560728678722578,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7203228318705259
+          },
+          {
+            "scale": 0.3560728678722578,
+            "log_loss": 0.6765033905368195
+          }
+        ],
+        "selected": {
+          "scale": 0.3560728678722578,
+          "log_loss": 0.6765033905368195
+        }
+      }
+    },
+    {
+      "block": "rolling_07",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "player_gaussian",
+      "scale": 0.26699903995313534,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7645424139576682
+          },
+          {
+            "scale": 0.26699903995313534,
+            "log_loss": 0.6791537642215333
+          }
+        ],
+        "selected": {
+          "scale": 0.26699903995313534,
+          "log_loss": 0.6791537642215333
+        }
+      }
+    },
+    {
+      "block": "rolling_07",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "elo_k20",
+      "scale": 0.4716186987657381,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6940239243168703
+          },
+          {
+            "scale": 0.4716186987657381,
+            "log_loss": 0.6869530638407773
+          }
+        ],
+        "selected": {
+          "scale": 0.4716186987657381,
+          "log_loss": 0.6869530638407773
+        }
+      }
+    },
+    {
+      "block": "rolling_07",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "glicko2",
+      "scale": 0.10275832547785595,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.814334528850075
+          },
+          {
+            "scale": 0.10275832547785595,
+            "log_loss": 0.6912255577914812
+          }
+        ],
+        "selected": {
+          "scale": 0.10275832547785595,
+          "log_loss": 0.6912255577914812
+        }
+      }
+    },
+    {
+      "block": "rolling_07",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "player_gaussian",
+      "scale": 0.3089000465122509,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7605395640655571
+          },
+          {
+            "scale": 0.3089000465122509,
+            "log_loss": 0.6637578214503739
+          }
+        ],
+        "selected": {
+          "scale": 0.3089000465122509,
+          "log_loss": 0.6637578214503739
+        }
+      }
+    },
+    {
+      "block": "rolling_08",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "elo_k20",
+      "scale": 1.074563828752292,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599454
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6332055295806327
+          },
+          {
+            "scale": 1.074563828752292,
+            "log_loss": 0.6329843936239519
+          }
+        ],
+        "selected": {
+          "scale": 1.074563828752292,
+          "log_loss": 0.6329843936239519
+        }
+      }
+    },
+    {
+      "block": "rolling_08",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "glicko2",
+      "scale": 0.5290600038440271,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599454
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6640522734485325
+          },
+          {
+            "scale": 0.5290600038440271,
+            "log_loss": 0.6338896858145178
+          }
+        ],
+        "selected": {
+          "scale": 0.5290600038440271,
+          "log_loss": 0.6338896858145178
+        }
+      }
+    },
+    {
+      "block": "rolling_08",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "player_gaussian",
+      "scale": 0.6752816211119268,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599454
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6054807303000488
+          },
+          {
+            "scale": 0.6752816211119268,
+            "log_loss": 0.5908880860398035
+          }
+        ],
+        "selected": {
+          "scale": 0.6752816211119268,
+          "log_loss": 0.5908880860398035
+        }
+      }
+    },
+    {
+      "block": "rolling_08",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "elo_k20",
+      "scale": 1.0796971793184724,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599454
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6339187126187278
+          },
+          {
+            "scale": 1.0796971793184724,
+            "log_loss": 0.6336743069487012
+          }
+        ],
+        "selected": {
+          "scale": 1.0796971793184724,
+          "log_loss": 0.6336743069487012
+        }
+      }
+    },
+    {
+      "block": "rolling_08",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "glicko2",
+      "scale": 0.4876752377047378,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599454
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6776025139765336
+          },
+          {
+            "scale": 0.4876752377047378,
+            "log_loss": 0.6420584135138494
+          }
+        ],
+        "selected": {
+          "scale": 0.4876752377047378,
+          "log_loss": 0.6420584135138494
+        }
+      }
+    },
+    {
+      "block": "rolling_08",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "player_gaussian",
+      "scale": 0.43855102210493613,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599454
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6898287501993065
+          },
+          {
+            "scale": 0.43855102210493613,
+            "log_loss": 0.628829236508822
+          }
+        ],
+        "selected": {
+          "scale": 0.43855102210493613,
+          "log_loss": 0.628829236508822
+        }
+      }
+    },
+    {
+      "block": "rolling_09",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "elo_k20",
+      "scale": 1.0,
+      "receipt": {
+        "method": "identity",
+        "reason": "insufficient_calibration_events_or_classes"
+      }
+    },
+    {
+      "block": "rolling_09",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "glicko2",
+      "scale": 1.0,
+      "receipt": {
+        "method": "identity",
+        "reason": "insufficient_calibration_events_or_classes"
+      }
+    },
+    {
+      "block": "rolling_09",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "player_gaussian",
+      "scale": 1.0,
+      "receipt": {
+        "method": "identity",
+        "reason": "insufficient_calibration_events_or_classes"
+      }
+    },
+    {
+      "block": "rolling_09",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "elo_k20",
+      "scale": 1.0,
+      "receipt": {
+        "method": "identity",
+        "reason": "insufficient_calibration_events_or_classes"
+      }
+    },
+    {
+      "block": "rolling_09",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "glicko2",
+      "scale": 1.0,
+      "receipt": {
+        "method": "identity",
+        "reason": "insufficient_calibration_events_or_classes"
+      }
+    },
+    {
+      "block": "rolling_09",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "player_gaussian",
+      "scale": 1.0,
+      "receipt": {
+        "method": "identity",
+        "reason": "insufficient_calibration_events_or_classes"
+      }
+    },
+    {
+      "block": "rolling_10",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "elo_k20",
+      "scale": 0.22721589541871032,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7193613492774266
+          },
+          {
+            "scale": 0.22721589541871032,
+            "log_loss": 0.6904772525884243
+          }
+        ],
+        "selected": {
+          "scale": 0.22721589541871032,
+          "log_loss": 0.6904772525884243
+        }
+      }
+    },
+    {
+      "block": "rolling_10",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "glicko2",
+      "scale": 0.1263317264872472,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.8350930322830654
+          },
+          {
+            "scale": 0.1263317264872472,
+            "log_loss": 0.6892902365380932
+          }
+        ],
+        "selected": {
+          "scale": 0.1263317264872472,
+          "log_loss": 0.6892902365380932
+        }
+      }
+    },
+    {
+      "block": "rolling_10",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "player_gaussian",
+      "scale": 0.21492596309375858,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.8243392513761281
+          },
+          {
+            "scale": 0.21492596309375858,
+            "log_loss": 0.6774624136939318
+          }
+        ],
+        "selected": {
+          "scale": 0.21492596309375858,
+          "log_loss": 0.6774624136939318
+        }
+      }
+    },
+    {
+      "block": "rolling_10",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "elo_k20",
+      "scale": 0.06065420754688637,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7482243553497399
+          },
+          {
+            "scale": 0.06065420754688637,
+            "log_loss": 0.6928945137273306
+          }
+        ],
+        "selected": {
+          "scale": 0.06065420754688637,
+          "log_loss": 0.6928945137273306
+        }
+      }
+    },
+    {
+      "block": "rolling_10",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "glicko2",
+      "scale": 0.010881289060076335,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.9324227726177764
+          },
+          {
+            "scale": 0.010881289060076335,
+            "log_loss": 0.6931117106719384
+          }
+        ],
+        "selected": {
+          "scale": 0.010881289060076335,
+          "log_loss": 0.6931117106719384
+        }
+      }
+    },
+    {
+      "block": "rolling_10",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "player_gaussian",
+      "scale": 0.2218252568512831,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.8411514578211068
+          },
+          {
+            "scale": 0.2218252568512831,
+            "log_loss": 0.6730851496658471
+          }
+        ],
+        "selected": {
+          "scale": 0.2218252568512831,
+          "log_loss": 0.6730851496658471
+        }
+      }
+    },
+    {
+      "block": "rolling_11",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "elo_k20",
+      "scale": 1.2914540189624282,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.584397875642972
+          },
+          {
+            "scale": 1.2914540189624282,
+            "log_loss": 0.5801443617699376
+          }
+        ],
+        "selected": {
+          "scale": 1.2914540189624282,
+          "log_loss": 0.5801443617699376
+        }
+      }
+    },
+    {
+      "block": "rolling_11",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "glicko2",
+      "scale": 0.6497926987911113,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.5991583434399579
+          },
+          {
+            "scale": 0.6497926987911113,
+            "log_loss": 0.5825946917138225
+          }
+        ],
+        "selected": {
+          "scale": 0.6497926987911113,
+          "log_loss": 0.5825946917138225
+        }
+      }
+    },
+    {
+      "block": "rolling_11",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "player_gaussian",
+      "scale": 0.4689271540244052,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6527812639015583
+          },
+          {
+            "scale": 0.4689271540244052,
+            "log_loss": 0.5989589645234914
+          }
+        ],
+        "selected": {
+          "scale": 0.4689271540244052,
+          "log_loss": 0.5989589645234914
+        }
+      }
+    },
+    {
+      "block": "rolling_11",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "elo_k20",
+      "scale": 0.9053542044375779,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6218297423219158
+          },
+          {
+            "scale": 0.9053542044375779,
+            "log_loss": 0.6211944926558873
+          }
+        ],
+        "selected": {
+          "scale": 0.9053542044375779,
+          "log_loss": 0.6211944926558873
+        }
+      }
+    },
+    {
+      "block": "rolling_11",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "glicko2",
+      "scale": 0.42160176162759466,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7059082904341425
+          },
+          {
+            "scale": 0.42160176162759466,
+            "log_loss": 0.6262473515962049
+          }
+        ],
+        "selected": {
+          "scale": 0.42160176162759466,
+          "log_loss": 0.6262473515962049
+        }
+      }
+    },
+    {
+      "block": "rolling_11",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "player_gaussian",
+      "scale": 0.3050556259928797,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.812829952184686
+          },
+          {
+            "scale": 0.3050556259928797,
+            "log_loss": 0.632724140659023
+          }
+        ],
+        "selected": {
+          "scale": 0.3050556259928797,
+          "log_loss": 0.632724140659023
+        }
+      }
+    },
+    {
+      "block": "rolling_12",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "elo_k20",
+      "scale": 0.9804071078504574,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6517511631252355
+          },
+          {
+            "scale": 0.9804071078504574,
+            "log_loss": 0.6517373588409141
+          }
+        ],
+        "selected": {
+          "scale": 0.9804071078504574,
+          "log_loss": 0.6517373588409141
+        }
+      }
+    },
+    {
+      "block": "rolling_12",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "glicko2",
+      "scale": 0.44464506283156424,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6948592664079072
+          },
+          {
+            "scale": 0.44464506283156424,
+            "log_loss": 0.6536909244226787
+          }
+        ],
+        "selected": {
+          "scale": 0.44464506283156424,
+          "log_loss": 0.6536909244226787
+        }
+      }
+    },
+    {
+      "block": "rolling_12",
+      "task": "map_winner",
+      "regime": "online",
+      "model": "player_gaussian",
+      "scale": 0.364790714318575,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7270219849392343
+          },
+          {
+            "scale": 0.364790714318575,
+            "log_loss": 0.6499728905936664
+          }
+        ],
+        "selected": {
+          "scale": 0.364790714318575,
+          "log_loss": 0.6499728905936664
+        }
+      }
+    },
+    {
+      "block": "rolling_12",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "elo_k20",
+      "scale": 0.8283258347703704,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.656572693620593
+          },
+          {
+            "scale": 0.8283258347703704,
+            "log_loss": 0.6552091153527577
+          }
+        ],
+        "selected": {
+          "scale": 0.8283258347703704,
+          "log_loss": 0.6552091153527577
+        }
+      }
+    },
+    {
+      "block": "rolling_12",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "glicko2",
+      "scale": 0.414196731039456,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7071719933455637
+          },
+          {
+            "scale": 0.414196731039456,
+            "log_loss": 0.6567749415317365
+          }
+        ],
+        "selected": {
+          "scale": 0.414196731039456,
+          "log_loss": 0.6567749415317365
+        }
+      }
+    },
+    {
+      "block": "rolling_12",
+      "task": "map_winner",
+      "regime": "frozen",
+      "model": "player_gaussian",
+      "scale": 0.3756026350904238,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.725198142468737
+          },
+          {
+            "scale": 0.3756026350904238,
+            "log_loss": 0.6450667582603873
+          }
+        ],
+        "selected": {
+          "scale": 0.3756026350904238,
+          "log_loss": 0.6450667582603873
+        }
+      }
+    },
+    {
+      "block": "rolling_01",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "elo_k20",
+      "scale": 2.1770362932627845,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6877215566535229
+          },
+          {
+            "scale": 2.1770362932627845,
+            "log_loss": 0.6855430796838726
+          }
+        ],
+        "selected": {
+          "scale": 2.1770362932627845,
+          "log_loss": 0.6855430796838726
+        }
+      }
+    },
+    {
+      "block": "rolling_01",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "glicko2",
+      "scale": 0.4245115038387199,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7011563415895803
+          },
+          {
+            "scale": 0.4245115038387199,
+            "log_loss": 0.677718112356136
+          }
+        ],
+        "selected": {
+          "scale": 0.4245115038387199,
+          "log_loss": 0.677718112356136
+        }
+      }
+    },
+    {
+      "block": "rolling_01",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "player_gaussian",
+      "scale": 0.23146762358304784,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7170670284181886
+          },
+          {
+            "scale": 0.23146762358304784,
+            "log_loss": 0.6904758811462243
+          }
+        ],
+        "selected": {
+          "scale": 0.23146762358304784,
+          "log_loss": 0.6904758811462243
+        }
+      }
+    },
+    {
+      "block": "rolling_01",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "elo_k20",
+      "scale": 1.3660049698240821,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6919008840340009
+          },
+          {
+            "scale": 1.3660049698240821,
+            "log_loss": 0.6918053816958445
+          }
+        ],
+        "selected": {
+          "scale": 1.3660049698240821,
+          "log_loss": 0.6918053816958445
+        }
+      }
+    },
+    {
+      "block": "rolling_01",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "glicko2",
+      "scale": 0.2502502987935792,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7178831086943012
+          },
+          {
+            "scale": 0.2502502987935792,
+            "log_loss": 0.6893343531646016
+          }
+        ],
+        "selected": {
+          "scale": 0.2502502987935792,
+          "log_loss": 0.6893343531646016
+        }
+      }
+    },
+    {
+      "block": "rolling_01",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "player_gaussian",
+      "scale": 0.021749456942747884,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7338789959159979
+          },
+          {
+            "scale": 0.021749456942747884,
+            "log_loss": 0.6931249170879064
+          }
+        ],
+        "selected": {
+          "scale": 0.021749456942747884,
+          "log_loss": 0.6931249170879064
+        }
+      }
+    },
+    {
+      "block": "rolling_02",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "elo_k20",
+      "scale": 3.60668274838765,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6466767055761138
+          },
+          {
+            "scale": 3.60668274838765,
+            "log_loss": 0.6027334762474337
+          }
+        ],
+        "selected": {
+          "scale": 3.60668274838765,
+          "log_loss": 0.6027334762474337
+        }
+      }
+    },
+    {
+      "block": "rolling_02",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "glicko2",
+      "scale": 1.0088432910009937,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.5992269887478372
+          },
+          {
+            "scale": 1.0088432910009937,
+            "log_loss": 0.599221892625068
+          }
+        ],
+        "selected": {
+          "scale": 1.0088432910009937,
+          "log_loss": 0.599221892625068
+        }
+      }
+    },
+    {
+      "block": "rolling_02",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "player_gaussian",
+      "scale": 0.7888157947773099,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6294483527936862
+          },
+          {
+            "scale": 0.7888157947773099,
+            "log_loss": 0.6258668476181684
+          }
+        ],
+        "selected": {
+          "scale": 0.7888157947773099,
+          "log_loss": 0.6258668476181684
+        }
+      }
+    },
+    {
+      "block": "rolling_02",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "elo_k20",
+      "scale": 3.316651227687519,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6597480384246475
+          },
+          {
+            "scale": 3.316651227687519,
+            "log_loss": 0.6311226306320772
+          }
+        ],
+        "selected": {
+          "scale": 3.316651227687519,
+          "log_loss": 0.6311226306320772
+        }
+      }
+    },
+    {
+      "block": "rolling_02",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "glicko2",
+      "scale": 0.726679870578763,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6309825106736888
+          },
+          {
+            "scale": 0.726679870578763,
+            "log_loss": 0.6240197138586457
+          }
+        ],
+        "selected": {
+          "scale": 0.726679870578763,
+          "log_loss": 0.6240197138586457
+        }
+      }
+    },
+    {
+      "block": "rolling_02",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "player_gaussian",
+      "scale": 0.5082948486134056,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6705868791484761
+          },
+          {
+            "scale": 0.5082948486134056,
+            "log_loss": 0.6339507739366665
+          }
+        ],
+        "selected": {
+          "scale": 0.5082948486134056,
+          "log_loss": 0.6339507739366665
+        }
+      }
+    },
+    {
+      "block": "rolling_03",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "elo_k20",
+      "scale": 1.7699077797709646,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6570674636837016
+          },
+          {
+            "scale": 1.7699077797709646,
+            "log_loss": 0.6494426628775531
+          }
+        ],
+        "selected": {
+          "scale": 1.7699077797709646,
+          "log_loss": 0.6494426628775531
+        }
+      }
+    },
+    {
+      "block": "rolling_03",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "glicko2",
+      "scale": 0.654801403985973,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6383324313173033
+          },
+          {
+            "scale": 0.654801403985973,
+            "log_loss": 0.6251953679337563
+          }
+        ],
+        "selected": {
+          "scale": 0.654801403985973,
+          "log_loss": 0.6251953679337563
+        }
+      }
+    },
+    {
+      "block": "rolling_03",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "player_gaussian",
+      "scale": 0.5868726987017177,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6488592241582636
+          },
+          {
+            "scale": 0.5868726987017177,
+            "log_loss": 0.6278374188610165
+          }
+        ],
+        "selected": {
+          "scale": 0.5868726987017177,
+          "log_loss": 0.6278374188610165
+        }
+      }
+    },
+    {
+      "block": "rolling_03",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "elo_k20",
+      "scale": 1.4111913146006858,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6718160836864602
+          },
+          {
+            "scale": 1.4111913146006858,
+            "log_loss": 0.6699964174555596
+          }
+        ],
+        "selected": {
+          "scale": 1.4111913146006858,
+          "log_loss": 0.6699964174555596
+        }
+      }
+    },
+    {
+      "block": "rolling_03",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "glicko2",
+      "scale": 0.4623159352505344,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6903845258315342
+          },
+          {
+            "scale": 0.4623159352505344,
+            "log_loss": 0.6548981122436146
+          }
+        ],
+        "selected": {
+          "scale": 0.4623159352505344,
+          "log_loss": 0.6548981122436146
+        }
+      }
+    },
+    {
+      "block": "rolling_03",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "player_gaussian",
+      "scale": 0.42165936090756984,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7011374735779299
+          },
+          {
+            "scale": 0.42165936090756984,
+            "log_loss": 0.6541775877889381
+          }
+        ],
+        "selected": {
+          "scale": 0.42165936090756984,
+          "log_loss": 0.6541775877889381
+        }
+      }
+    },
+    {
+      "block": "rolling_04",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "elo_k20",
+      "scale": 2.8781740222955587,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6109829723602809
+          },
+          {
+            "scale": 2.8781740222955587,
+            "log_loss": 0.5633271978760616
+          }
+        ],
+        "selected": {
+          "scale": 2.8781740222955587,
+          "log_loss": 0.5633271978760616
+        }
+      }
+    },
+    {
+      "block": "rolling_04",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "glicko2",
+      "scale": 0.8191916220047235,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.5718149852553056
+          },
+          {
+            "scale": 0.8191916220047235,
+            "log_loss": 0.5676173195657508
+          }
+        ],
+        "selected": {
+          "scale": 0.8191916220047235,
+          "log_loss": 0.5676173195657508
+        }
+      }
+    },
+    {
+      "block": "rolling_04",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "player_gaussian",
+      "scale": 0.7924520616963222,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.5703098750181876
+          },
+          {
+            "scale": 0.7924520616963222,
+            "log_loss": 0.5647090428615639
+          }
+        ],
+        "selected": {
+          "scale": 0.7924520616963222,
+          "log_loss": 0.5647090428615639
+        }
+      }
+    },
+    {
+      "block": "rolling_04",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "elo_k20",
+      "scale": 3.0251050200992724,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6574273686516876
+          },
+          {
+            "scale": 3.0251050200992724,
+            "log_loss": 0.633136999846509
+          }
+        ],
+        "selected": {
+          "scale": 3.0251050200992724,
+          "log_loss": 0.633136999846509
+        }
+      }
+    },
+    {
+      "block": "rolling_04",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "glicko2",
+      "scale": 0.5934020266036611,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6628224778548812
+          },
+          {
+            "scale": 0.5934020266036611,
+            "log_loss": 0.6468335320873917
+          }
+        ],
+        "selected": {
+          "scale": 0.5934020266036611,
+          "log_loss": 0.6468335320873917
+        }
+      }
+    },
+    {
+      "block": "rolling_04",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "player_gaussian",
+      "scale": 0.37476148004817905,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7168081819980867
+          },
+          {
+            "scale": 0.37476148004817905,
+            "log_loss": 0.6722256452447012
+          }
+        ],
+        "selected": {
+          "scale": 0.37476148004817905,
+          "log_loss": 0.6722256452447012
+        }
+      }
+    },
+    {
+      "block": "rolling_05",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "elo_k20",
+      "scale": 0.7093178930227595,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6855718255128431
+          },
+          {
+            "scale": 0.7093178930227595,
+            "log_loss": 0.6841622161150684
+          }
+        ],
+        "selected": {
+          "scale": 0.7093178930227595,
+          "log_loss": 0.6841622161150684
+        }
+      }
+    },
+    {
+      "block": "rolling_05",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "glicko2",
+      "scale": 0.5930876160798803,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.667602885060139
+          },
+          {
+            "scale": 0.5930876160798803,
+            "log_loss": 0.6538042259884458
+          }
+        ],
+        "selected": {
+          "scale": 0.5930876160798803,
+          "log_loss": 0.6538042259884458
+        }
+      }
+    },
+    {
+      "block": "rolling_05",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "player_gaussian",
+      "scale": 0.6894749185925488,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6358720174655801
+          },
+          {
+            "scale": 0.6894749185925488,
+            "log_loss": 0.6268638834273272
+          }
+        ],
+        "selected": {
+          "scale": 0.6894749185925488,
+          "log_loss": 0.6268638834273272
+        }
+      }
+    },
+    {
+      "block": "rolling_05",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "elo_k20",
+      "scale": 0.11926316033721501,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7060560884435934
+          },
+          {
+            "scale": 0.11926316033721501,
+            "log_loss": 0.6928966492271801
+          }
+        ],
+        "selected": {
+          "scale": 0.11926316033721501,
+          "log_loss": 0.6928966492271801
+        }
+      }
+    },
+    {
+      "block": "rolling_05",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "glicko2",
+      "scale": 0.43391254534422724,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6989958177585489
+          },
+          {
+            "scale": 0.43391254534422724,
+            "log_loss": 0.6709341346631137
+          }
+        ],
+        "selected": {
+          "scale": 0.43391254534422724,
+          "log_loss": 0.6709341346631137
+        }
+      }
+    },
+    {
+      "block": "rolling_05",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "player_gaussian",
+      "scale": 0.3481051922218361,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7266604641399692
+          },
+          {
+            "scale": 0.3481051922218361,
+            "log_loss": 0.6723090696068014
+          }
+        ],
+        "selected": {
+          "scale": 0.3481051922218361,
+          "log_loss": 0.6723090696068014
+        }
+      }
+    },
+    {
+      "block": "rolling_06",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "elo_k20",
+      "scale": 1.0748944535391083,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6687311235432144
+          },
+          {
+            "scale": 1.0748944535391083,
+            "log_loss": 0.6686278144589652
+          }
+        ],
+        "selected": {
+          "scale": 1.0748944535391083,
+          "log_loss": 0.6686278144589652
+        }
+      }
+    },
+    {
+      "block": "rolling_06",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "glicko2",
+      "scale": 0.4006985253099096,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7093438324537288
+          },
+          {
+            "scale": 0.4006985253099096,
+            "log_loss": 0.6630158442255718
+          }
+        ],
+        "selected": {
+          "scale": 0.4006985253099096,
+          "log_loss": 0.6630158442255718
+        }
+      }
+    },
+    {
+      "block": "rolling_06",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "player_gaussian",
+      "scale": 0.2133172598326809,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.8014150666184058
+          },
+          {
+            "scale": 0.2133172598326809,
+            "log_loss": 0.6797070448219973
+          }
+        ],
+        "selected": {
+          "scale": 0.2133172598326809,
+          "log_loss": 0.6797070448219973
+        }
+      }
+    },
+    {
+      "block": "rolling_06",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "elo_k20",
+      "scale": 0.9289021065522225,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6743440287444049
+          },
+          {
+            "scale": 0.9289021065522225,
+            "log_loss": 0.6742470463810171
+          }
+        ],
+        "selected": {
+          "scale": 0.9289021065522225,
+          "log_loss": 0.6742470463810171
+        }
+      }
+    },
+    {
+      "block": "rolling_06",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "glicko2",
+      "scale": 0.34035690814523456,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7282436331179337
+          },
+          {
+            "scale": 0.34035690814523456,
+            "log_loss": 0.671305456647743
+          }
+        ],
+        "selected": {
+          "scale": 0.34035690814523456,
+          "log_loss": 0.671305456647743
+        }
+      }
+    },
+    {
+      "block": "rolling_06",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "player_gaussian",
+      "scale": 0.2674505900221993,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7566510120647504
+          },
+          {
+            "scale": 0.2674505900221993,
+            "log_loss": 0.6768997552444952
+          }
+        ],
+        "selected": {
+          "scale": 0.2674505900221993,
+          "log_loss": 0.6768997552444952
+        }
+      }
+    },
+    {
+      "block": "rolling_07",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "elo_k20",
+      "scale": 0.7883977006936326,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.682609128374138
+          },
+          {
+            "scale": 0.7883977006936326,
+            "log_loss": 0.6818397656306101
+          }
+        ],
+        "selected": {
+          "scale": 0.7883977006936326,
+          "log_loss": 0.6818397656306101
+        }
+      }
+    },
+    {
+      "block": "rolling_07",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "glicko2",
+      "scale": 0.28270441965372906,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7403448177762099
+          },
+          {
+            "scale": 0.28270441965372906,
+            "log_loss": 0.6820384387942703
+          }
+        ],
+        "selected": {
+          "scale": 0.28270441965372906,
+          "log_loss": 0.6820384387942703
+        }
+      }
+    },
+    {
+      "block": "rolling_07",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "player_gaussian",
+      "scale": 0.3574432258034219,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7201353978044849
+          },
+          {
+            "scale": 0.3574432258034219,
+            "log_loss": 0.6731072457918472
+          }
+        ],
+        "selected": {
+          "scale": 0.3574432258034219,
+          "log_loss": 0.6731072457918472
+        }
+      }
+    },
+    {
+      "block": "rolling_07",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "elo_k20",
+      "scale": 0.9506280261900057,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6804951446582292
+          },
+          {
+            "scale": 0.9506280261900057,
+            "log_loss": 0.6804635316525556
+          }
+        ],
+        "selected": {
+          "scale": 0.9506280261900057,
+          "log_loss": 0.6804635316525556
+        }
+      }
+    },
+    {
+      "block": "rolling_07",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "glicko2",
+      "scale": 0.15732929509265112,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7825373106556743
+          },
+          {
+            "scale": 0.15732929509265112,
+            "log_loss": 0.6891868909962928
+          }
+        ],
+        "selected": {
+          "scale": 0.15732929509265112,
+          "log_loss": 0.6891868909962928
+        }
+      }
+    },
+    {
+      "block": "rolling_07",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "player_gaussian",
+      "scale": 0.25769117546923564,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7535867654589921
+          },
+          {
+            "scale": 0.25769117546923564,
+            "log_loss": 0.6803050129226658
+          }
+        ],
+        "selected": {
+          "scale": 0.25769117546923564,
+          "log_loss": 0.6803050129226658
+        }
+      }
+    },
+    {
+      "block": "rolling_08",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "elo_k20",
+      "scale": 1.8551326480222132,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6045088805090322
+          },
+          {
+            "scale": 1.8551326480222132,
+            "log_loss": 0.5870748104339556
+          }
+        ],
+        "selected": {
+          "scale": 1.8551326480222132,
+          "log_loss": 0.5870748104339556
+        }
+      }
+    },
+    {
+      "block": "rolling_08",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "glicko2",
+      "scale": 0.8370331148507475,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.5733975360564556
+          },
+          {
+            "scale": 0.8370331148507475,
+            "log_loss": 0.5708597468875964
+          }
+        ],
+        "selected": {
+          "scale": 0.8370331148507475,
+          "log_loss": 0.5708597468875964
+        }
+      }
+    },
+    {
+      "block": "rolling_08",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "player_gaussian",
+      "scale": 0.8012067179793234,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.5650693544572097
+          },
+          {
+            "scale": 0.8012067179793234,
+            "log_loss": 0.5606658217688351
+          }
+        ],
+        "selected": {
+          "scale": 0.8012067179793234,
+          "log_loss": 0.5606658217688351
+        }
+      }
+    },
+    {
+      "block": "rolling_08",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "elo_k20",
+      "scale": 1.819388764711158,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6119311634949736
+          },
+          {
+            "scale": 1.819388764711158,
+            "log_loss": 0.5970445108964153
+          }
+        ],
+        "selected": {
+          "scale": 1.819388764711158,
+          "log_loss": 0.5970445108964153
+        }
+      }
+    },
+    {
+      "block": "rolling_08",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "glicko2",
+      "scale": 0.7986910594889429,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.5889676931875626
+          },
+          {
+            "scale": 0.7986910594889429,
+            "log_loss": 0.5852166383407169
+          }
+        ],
+        "selected": {
+          "scale": 0.7986910594889429,
+          "log_loss": 0.5852166383407169
+        }
+      }
+    },
+    {
+      "block": "rolling_08",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "player_gaussian",
+      "scale": 0.5889273967553126,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599452
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6323677572792195
+          },
+          {
+            "scale": 0.5889273967553126,
+            "log_loss": 0.6096239731470845
+          }
+        ],
+        "selected": {
+          "scale": 0.5889273967553126,
+          "log_loss": 0.6096239731470845
+        }
+      }
+    },
+    {
+      "block": "rolling_09",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "elo_k20",
+      "scale": 1.0,
+      "receipt": {
+        "method": "identity",
+        "reason": "insufficient_calibration_events_or_classes"
+      }
+    },
+    {
+      "block": "rolling_09",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "glicko2",
+      "scale": 1.0,
+      "receipt": {
+        "method": "identity",
+        "reason": "insufficient_calibration_events_or_classes"
+      }
+    },
+    {
+      "block": "rolling_09",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "player_gaussian",
+      "scale": 1.0,
+      "receipt": {
+        "method": "identity",
+        "reason": "insufficient_calibration_events_or_classes"
+      }
+    },
+    {
+      "block": "rolling_09",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "elo_k20",
+      "scale": 1.0,
+      "receipt": {
+        "method": "identity",
+        "reason": "insufficient_calibration_events_or_classes"
+      }
+    },
+    {
+      "block": "rolling_09",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "glicko2",
+      "scale": 1.0,
+      "receipt": {
+        "method": "identity",
+        "reason": "insufficient_calibration_events_or_classes"
+      }
+    },
+    {
+      "block": "rolling_09",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "player_gaussian",
+      "scale": 1.0,
+      "receipt": {
+        "method": "identity",
+        "reason": "insufficient_calibration_events_or_classes"
+      }
+    },
+    {
+      "block": "rolling_10",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "elo_k20",
+      "scale": 0.28465647022667995,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7105058029840985
+          },
+          {
+            "scale": 0.28465647022667995,
+            "log_loss": 0.6895154301750619
+          }
+        ],
+        "selected": {
+          "scale": 0.28465647022667995,
+          "log_loss": 0.6895154301750619
+        }
+      }
+    },
+    {
+      "block": "rolling_10",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "glicko2",
+      "scale": 0.13998684357962904,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.8350091627432639
+          },
+          {
+            "scale": 0.13998684357962904,
+            "log_loss": 0.6882724617794396
+          }
+        ],
+        "selected": {
+          "scale": 0.13998684357962904,
+          "log_loss": 0.6882724617794396
+        }
+      }
+    },
+    {
+      "block": "rolling_10",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "player_gaussian",
+      "scale": 0.20058396269102313,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.8190200905658882
+          },
+          {
+            "scale": 0.20058396269102313,
+            "log_loss": 0.6806606670894293
+          }
+        ],
+        "selected": {
+          "scale": 0.20058396269102313,
+          "log_loss": 0.6806606670894293
+        }
+      }
+    },
+    {
+      "block": "rolling_10",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "elo_k20",
+      "scale": 0.17330362702236674,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7239977393711186
+          },
+          {
+            "scale": 0.17330362702236674,
+            "log_loss": 0.6915556555070542
+          }
+        ],
+        "selected": {
+          "scale": 0.17330362702236674,
+          "log_loss": 0.6915556555070542
+        }
+      }
+    },
+    {
+      "block": "rolling_10",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "glicko2",
+      "scale": 0.046495077355580186,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.9110171151015771
+          },
+          {
+            "scale": 0.046495077355580186,
+            "log_loss": 0.6924914721767435
+          }
+        ],
+        "selected": {
+          "scale": 0.046495077355580186,
+          "log_loss": 0.6924914721767435
+        }
+      }
+    },
+    {
+      "block": "rolling_10",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "player_gaussian",
+      "scale": 0.048001260001345296,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.9494649689470669
+          },
+          {
+            "scale": 0.048001260001345296,
+            "log_loss": 0.6922654490622988
+          }
+        ],
+        "selected": {
+          "scale": 0.048001260001345296,
+          "log_loss": 0.6922654490622988
+        }
+      }
+    },
+    {
+      "block": "rolling_11",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "elo_k20",
+      "scale": 2.329040955307339,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.5547348341940221
+          },
+          {
+            "scale": 2.329040955307339,
+            "log_loss": 0.5093026183852168
+          }
+        ],
+        "selected": {
+          "scale": 2.329040955307339,
+          "log_loss": 0.5093026183852168
+        }
+      }
+    },
+    {
+      "block": "rolling_11",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "glicko2",
+      "scale": 0.7945799870709238,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.5267974115065381
+          },
+          {
+            "scale": 0.7945799870709238,
+            "log_loss": 0.5216144056216558
+          }
+        ],
+        "selected": {
+          "scale": 0.7945799870709238,
+          "log_loss": 0.5216144056216558
+        }
+      }
+    },
+    {
+      "block": "rolling_11",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "player_gaussian",
+      "scale": 0.619285766417692,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.562801892188738
+          },
+          {
+            "scale": 0.619285766417692,
+            "log_loss": 0.5394338231175725
+          }
+        ],
+        "selected": {
+          "scale": 0.619285766417692,
+          "log_loss": 0.5394338231175725
+        }
+      }
+    },
+    {
+      "block": "rolling_11",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "elo_k20",
+      "scale": 1.7009062532712036,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.5898254697781384
+          },
+          {
+            "scale": 1.7009062532712036,
+            "log_loss": 0.5730322937715118
+          }
+        ],
+        "selected": {
+          "scale": 1.7009062532712036,
+          "log_loss": 0.5730322937715118
+        }
+      }
+    },
+    {
+      "block": "rolling_11",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "glicko2",
+      "scale": 0.5918119777895465,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6106706365298499
+          },
+          {
+            "scale": 0.5918119777895465,
+            "log_loss": 0.5787122500323592
+          }
+        ],
+        "selected": {
+          "scale": 0.5918119777895465,
+          "log_loss": 0.5787122500323592
+        }
+      }
+    },
+    {
+      "block": "rolling_11",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "player_gaussian",
+      "scale": 0.36580007885907656,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7171091239708446
+          },
+          {
+            "scale": 0.36580007885907656,
+            "log_loss": 0.5875410234126657
+          }
+        ],
+        "selected": {
+          "scale": 0.36580007885907656,
+          "log_loss": 0.5875410234126657
+        }
+      }
+    },
+    {
+      "block": "rolling_12",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "elo_k20",
+      "scale": 1.4603483246035536,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6250666946164178
+          },
+          {
+            "scale": 1.4603483246035536,
+            "log_loss": 0.6190145865693377
+          }
+        ],
+        "selected": {
+          "scale": 1.4603483246035536,
+          "log_loss": 0.6190145865693377
+        }
+      }
+    },
+    {
+      "block": "rolling_12",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "glicko2",
+      "scale": 0.5557923835490137,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6625923138319014
+          },
+          {
+            "scale": 0.5557923835490137,
+            "log_loss": 0.6389263233815485
+          }
+        ],
+        "selected": {
+          "scale": 0.5557923835490137,
+          "log_loss": 0.6389263233815485
+        }
+      }
+    },
+    {
+      "block": "rolling_12",
+      "task": "series_winner",
+      "regime": "online",
+      "model": "player_gaussian",
+      "scale": 0.3728565464193969,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.7226203380654513
+          },
+          {
+            "scale": 0.3728565464193969,
+            "log_loss": 0.6610678243893922
+          }
+        ],
+        "selected": {
+          "scale": 0.3728565464193969,
+          "log_loss": 0.6610678243893922
+        }
+      }
+    },
+    {
+      "block": "rolling_12",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "elo_k20",
+      "scale": 1.4420077656136772,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6187385166574358
+          },
+          {
+            "scale": 1.4420077656136772,
+            "log_loss": 0.6127952708176547
+          }
+        ],
+        "selected": {
+          "scale": 1.4420077656136772,
+          "log_loss": 0.6127952708176547
+        }
+      }
+    },
+    {
+      "block": "rolling_12",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "glicko2",
+      "scale": 0.6028070204081997,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.6404069114082755
+          },
+          {
+            "scale": 0.6028070204081997,
+            "log_loss": 0.6195224800423078
+          }
+        ],
+        "selected": {
+          "scale": 0.6028070204081997,
+          "log_loss": 0.6195224800423078
+        }
+      }
+    },
+    {
+      "block": "rolling_12",
+      "task": "series_winner",
+      "regime": "frozen",
+      "model": "player_gaussian",
+      "scale": 0.5026502727925201,
+      "receipt": {
+        "method": "separate-event nonnegative scalar logit calibration",
+        "candidates": [
+          {
+            "scale": 0.0,
+            "log_loss": 0.6931471805599453
+          },
+          {
+            "scale": 1.0,
+            "log_loss": 0.662835257582876
+          },
+          {
+            "scale": 0.5026502727925201,
+            "log_loss": 0.6206962604009448
+          }
+        ],
+        "selected": {
+          "scale": 0.5026502727925201,
+          "log_loss": 0.6206962604009448
+        }
+      }
+    }
+  ],
+  "interpretation": "Pointwise exploratory complete-event intervals; no primary historical decisions replaced. Check delay identity before isolating refresh."
+}

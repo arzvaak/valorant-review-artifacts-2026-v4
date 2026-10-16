@@ -1,0 +1,123 @@
+{
+  "kind": "private-portable-aggregate-figure-package/2",
+  "inputs": {
+    "data/core/report/core/results.json": {
+      "original_sha256": "6a36fbbe75d41fa99e61c317aa877edae0830f95fa39cc6435601a92a424787e",
+      "projection": [
+        "metrics",
+        "contrasts"
+      ],
+      "original_values_retained": true,
+      "package_sha256": "4399b4feb605ed683fec5baf54ca8e227e73e93849c08e9f84d0fd529933da83"
+    },
+    "data/core/report/players/results.json": {
+      "original_sha256": "caf945da3ccda051a5efc62346fba3e0b3b3c66d161a54662670a713e4720fa6",
+      "projection": [
+        "metrics",
+        "contrasts"
+      ],
+      "original_values_retained": true,
+      "package_sha256": "6a7b7c2a6c1361d9854ca7373e0a791abe1390bce10ea7bea3a3edf421624858"
+    },
+    "data/core/report/removals/results.json": {
+      "original_sha256": "4b5309b4cd51f0198391f28542b751aed4f8a8bbefe154dc0988b37ed607566d",
+      "projection": [
+        "metrics",
+        "contrasts"
+      ],
+      "original_values_retained": true,
+      "package_sha256": "dc1f6eab91ef0a45990b7941c3d26d5ea062206fb69273b3d7862782fca616e9"
+    },
+    "data/online/results.json": {
+      "original_sha256": "76484041980af3219c8805d6392c0e69aeaef1cf8fd950081d410d2d9a81e61d",
+      "projection": [
+        "metrics",
+        "contrasts"
+      ],
+      "original_values_retained": true,
+      "package_sha256": "821a1ee7d3f24fd4b42aff22595a4c84f666716fb9f92730f1b8a398e355873c"
+    },
+    "data/later/results.json": {
+      "original_sha256": "030b48fbdf62d5b5a54bb64ea82005db24221a6c965051d20d96deaf406e5e56",
+      "projection": [
+        "metrics",
+        "primary_contrasts",
+        "denominators"
+      ],
+      "original_values_retained": true,
+      "package_sha256": "259910817f9e17f763652436822fe426026f2018127afde8948f86ca75994b69"
+    }
+  },
+  "files": {
+    "README.md": "7a60c1038ae76d576b838bb4f2379a4b80ce682845adf7cefb220733c3663a6f",
+    "code/core_journal_figures.py": "ea8b5035e8cf18d03ca3716a34b621c4305ca25cf3d8b6fbaea3ab1e7ff819cf",
+    "code/journal_figures.py": "0e43932b4ba611f8e2fa4a15614390a8ccb2972ff1fc0859ccc471d1cda10e7b",
+    "code/later_journal_figure.py": "fb8f621a928251f4c0a0b8574dbdcd2f36701b6a788b7707c6dcb3d745478221",
+    "data/core/report/core/results.json": "4399b4feb605ed683fec5baf54ca8e227e73e93849c08e9f84d0fd529933da83",
+    "data/core/report/players/results.json": "6a7b7c2a6c1361d9854ca7373e0a791abe1390bce10ea7bea3a3edf421624858",
+    "data/core/report/removals/results.json": "dc1f6eab91ef0a45990b7941c3d26d5ea062206fb69273b3d7862782fca616e9",
+    "data/later/results.json": "259910817f9e17f763652436822fe426026f2018127afde8948f86ca75994b69",
+    "data/online/results.json": "821a1ee7d3f24fd4b42aff22595a4c84f666716fb9f92730f1b8a398e355873c",
+    "docs/paper-study/methods-and-evaluation.md": "a5104992341fd4b54ed56615cb08fa58b68f2156ac3e5ac7c654e4202302efb1",
+    "manifest-inputs.json": "a28b438109000189332fee0662b9f1f136003ad059cf8deecc31f1f782311703",
+    "render.py": "7c5295816dc72fe9672fe08a010f1a5e68f942836ef3bd57ca072f3869bf1d4a",
+    "rendered/core/captions.md": "e87217d4222b65556b7e0e381d11b39bff6051f2aba127af733a284af4f48284",
+    "rendered/core/code/core_journal_figures.py": "ea8b5035e8cf18d03ca3716a34b621c4305ca25cf3d8b6fbaea3ab1e7ff819cf",
+    "rendered/core/core-bc-b-journal.pdf": "dd65eceaf2d56eff9c86c22f863f017911fc62156daaf8160911529c8a927c7b",
+    "rendered/core/core-bc-b-journal.png": "6e5f5ef43507e6b9dd4cc915a69665b8565cdf383dad1c9e782e00ccb5faa1a8",
+    "rendered/core/core-bc-b-journal.svg": "306aca878acae99cb7c3f17f1941329f9ea2f6f54af4104fb1bb6be5f395da26",
+    "rendered/core/core-bn-b-journal.pdf": "307c5139437407db7927efd992a08c1333564161b93cf50fb15a1abc7a04240a",
+    "rendered/core/core-bn-b-journal.png": "f6d7217eae07c1601ea069136e9c01b57522502f81b7bd746ee0f11587f755a3",
+    "rendered/core/core-bn-b-journal.svg": "f58b2e9944b92db2e2ef9ad46c21d9d15d5095fb26958f03e5bd1f9825f8d196",
+    "rendered/core/core-bn-bc-journal.pdf": "872913f2e6bdbd209f4b1e94bf079a4cb0304451d2ac0153d440c7bbe91ffe0f",
+    "rendered/core/core-bn-bc-journal.png": "74eb4f0522670d5beae464218c19e58d39843ea55adf31183cbf29e178187197",
+    "rendered/core/core-bn-bc-journal.svg": "bf975f7d410fb727eba5fd80204585e1b00ca4e2a485f84ea06844d5d7e63c42",
+    "rendered/core/core-bnc-bc-journal.pdf": "ed8162306a7b91bb77782052e98bead36ae7129f0ead2c0652466bd5448d0fd4",
+    "rendered/core/core-bnc-bc-journal.png": "94f33cccb597e34c00baded34158163fad5745f60e3eae9588a793c333eb08b6",
+    "rendered/core/core-bnc-bc-journal.svg": "a7268409455881e36be09109f342bddb1f50e531c43b87f694f991ae342ac96e",
+    "rendered/core/core-bnc-bn-journal.pdf": "9996b707f40593d813725a6a80f577d925d0b424cd3b769085cbc45239d0ee5a",
+    "rendered/core/core-bnc-bn-journal.png": "b11402074269bcdb8eadf62e9e32d3ceb0f8b8e6fe632da3c2c9f53f5a9a1cda",
+    "rendered/core/core-bnc-bn-journal.svg": "eba3042deba38734238ee8514064e4383bc3e08272faf1b51eb694c1c4142d19",
+    "rendered/core/core-bnl-bn-journal.pdf": "64e74f5b2785fff7844195caec3147458f46a3ad87fc7a5a6871b4287afe09ba",
+    "rendered/core/core-bnl-bn-journal.png": "75eb8accdefbba2bfa6d4b55cfd82454673c1c8e70bde8a918231454b09b6df4",
+    "rendered/core/core-bnl-bn-journal.svg": "c19417f6c7df1cedc1365c67fa13c2176b99f46f31e6847802ef7aa028fd1d1e",
+    "rendered/core/core-bnlc-bnc-journal.pdf": "2154535584d4f1b5a00770536612e90abf80826b1401b9fb211a027e39c05ec4",
+    "rendered/core/core-bnlc-bnc-journal.png": "fdf499b2f37dfcf44bdf11b2b2ed1e522e388c631a9ce2d6834b1047cb2db1c4",
+    "rendered/core/core-bnlc-bnc-journal.svg": "bdc5547d4ac0e8b2e9b75453e6cedfd91b26b20df33bf85290aa62ae67177cb6",
+    "rendered/core/core-operational-journal.pdf": "e1fe30e78bf2b3c0a51a15a07bfc7fa2798fde301bf30abb66909b997bd756f8",
+    "rendered/core/core-operational-journal.png": "ba274dc26b8a6b75b7bd6f389381dd7ffa31eec48f210015ea7433d12c1fbef9",
+    "rendered/core/core-operational-journal.svg": "5a2c7a2e07aab5c125873ed38a138dfcfe8c17bf2f388557f06754a805d21f44",
+    "rendered/core/specification.json": "a83a76aba1011697e5371cfabb35261653092aec8e33be66ae9921336890421a",
+    "rendered/later/caption.md": "e5519cbf224c766f826f8b355892b84fb462145638db6f1d787fac1df663b408",
+    "rendered/later/code/later_journal_figure.py": "fb8f621a928251f4c0a0b8574dbdcd2f36701b6a788b7707c6dcb3d745478221",
+    "rendered/later/later-loss-contrasts-journal.pdf": "726f55c8f21019db60b51c970fae0ee48823d6811975fc02a6ad261884dae468",
+    "rendered/later/later-loss-contrasts-journal.png": "0065339a9d87ff0e2e35af8d5767995064e376f8bb30bc04b20cc10c4df2fa54",
+    "rendered/later/later-loss-contrasts-journal.svg": "43257d2c89ca2729b0f98549d3f295828824f08799b99815698540bc51ccdcc8",
+    "rendered/later/specification.json": "9fc0c6a23ed8e4c0dcc9e5bd2b2521d4e97d7fce672464b879be0cf73f132ff4",
+    "rendered/secondary/captions.md": "21dd01283f9cce89cfc74fa3fd1aeed6f1a227a4c7d666a40e705e0f687a2cfa",
+    "rendered/secondary/code/journal_figures.py": "0e43932b4ba611f8e2fa4a15614390a8ccb2972ff1fc0859ccc471d1cda10e7b",
+    "rendered/secondary/horizons-chronology-journal.pdf": "102e524543bab28e01b76e827ad6f29240be5f007d84e65d953f257e6bdfb67c",
+    "rendered/secondary/horizons-chronology-journal.png": "a9c3ba1063363e62d5d76e1cf73d00ef1ac8dc0330b742a44aba5bf01de4aa61",
+    "rendered/secondary/horizons-chronology-journal.svg": "698832d31fa2fb4277c0654df8a112380f2475aa5d8000f6535f63a0bb3b9805",
+    "rendered/secondary/online-refresh-journal.pdf": "63d0dd370330c0a65c639b32d59f3b69e0af9bd5c464a3476d8951faa8ab11db",
+    "rendered/secondary/online-refresh-journal.png": "16224cb48bfd8ac10ac2b1617a15c5ab565e34dc1eab50d5225038802a0a76ee",
+    "rendered/secondary/online-refresh-journal.svg": "41a42864274a6ab85d52abe4945534adc2c361c4d1a2dde7eced389220d40f2c",
+    "rendered/secondary/players-map_winner-journal.pdf": "e9eee93714b9b4a1c0f1186aa1ba57d9ac58edfa010f7a6d92e7f915bb2a1dc3",
+    "rendered/secondary/players-map_winner-journal.png": "e3198da9fbe77010edd9ecebb5e6bca5d8cb79c054dd752d367e05108859ee2a",
+    "rendered/secondary/players-map_winner-journal.svg": "76667e04a5b7c083abb2a7dc60c1a86047b091c678adf6a331207d729e315faf",
+    "rendered/secondary/players-series_winner-journal.pdf": "71d12865836c24e8c9422bbc68468fc7aae5aa5e9610d276e9a9cc09690da20e",
+    "rendered/secondary/players-series_winner-journal.png": "c2ecef1a1219e4dab9a6d6b8d1f4e5f1847f7a9e44c33fe5401756e7c080ab02",
+    "rendered/secondary/players-series_winner-journal.svg": "6148df582b7b105dc0ff4ed056a1e001dadce2df6eee8b482b159c5dc8da081c",
+    "rendered/secondary/removals-map_winner-journal.pdf": "f4b1e2ed9b39dfb2521aa2a2a47fbffb92f542563afd675a5a0d169d1265d69c",
+    "rendered/secondary/removals-map_winner-journal.png": "1449a70c71e7035e7bec593a74c82c7b7878281bdaff49f09e417088bfb52bf7",
+    "rendered/secondary/removals-map_winner-journal.svg": "5eb343341ff390cf7d9ae6031a3f3ea1dc03709723206de23b60e30cb0cfb924",
+    "rendered/secondary/removals-series_winner-journal.pdf": "7c8f3c181664821ba63d84b16d9574d80bb523b3c64bdc610d6e236ab424e588",
+    "rendered/secondary/removals-series_winner-journal.png": "2a04d6b284950d74335b830bd18b3b867451cd4e2deb0d248b914e15e90f14f4",
+    "rendered/secondary/removals-series_winner-journal.svg": "34d6b7ecbd99b60f8c5301b96ab0e37212681e748b2aec611983a2335fae40ec",
+    "rendered/secondary/specification.json": "9ae4c779e167ef512db5f03a5bc20d07ce6c1f1e4c6bf6212a7213379670fe2c",
+    "requirements-plotting.txt": "476b0c4f63404e7c283d87abe72f604b1aed4c20b690a7563b4b948010d823ab"
+  },
+  "scope": "Aggregate figure reconstruction only; not fitting, probability scoring, source availability or independent replication",
+  "figures": 15,
+  "public_release_or_rights_clearance": false
+}

@@ -1,0 +1,157 @@
+{
+  "projection_policy": "Allowlisted aggregate-only outputs; source/input identity maps, model arrays, and run-only metadata omitted. Aggregate numeric values are copied unchanged. Event-group summaries may remain; no match/player/team identifiers or row-level arrays are included.",
+  "sources": [
+    {
+      "logical_source": "manuscript-review-revision-20261016-v2/map_winner-diagnostics.json",
+      "input_sha256": "256732d511a0eda78bbae226274bab6fcf0084ae62ff7e642089b4f1a6c27756",
+      "projection": "diagnostics/map_winner-diagnostics.json",
+      "projection_sha256": "47ad98442a8e7567de22d82bbdbe1d314d3db47ebaf7d05669fee8971d78014f",
+      "retained_top_level_fields": [
+        "task",
+        "metrics",
+        "contrasts",
+        "reliability",
+        "block_orientation"
+      ]
+    },
+    {
+      "logical_source": "manuscript-review-revision-20261016-v2/series_winner-diagnostics.json",
+      "input_sha256": "96e13ab96cb4f3a3a5cec1e76ba6073a87ff70be98b2d767eb9faa886f5f4c4b",
+      "projection": "diagnostics/series_winner-diagnostics.json",
+      "projection_sha256": "fb4016f18ee962484d5c31f247808b963cf2932e9e14d1d102a992d694462a68",
+      "retained_top_level_fields": [
+        "task",
+        "metrics",
+        "contrasts",
+        "reliability",
+        "block_orientation"
+      ]
+    },
+    {
+      "logical_source": "manuscript-review-revision-20261016-v2/later-diagnostics.json",
+      "input_sha256": "5eff4c78aadb9861121509fc3bf639f798595c5f975a9c6c29e2823a5e38d530",
+      "projection": "diagnostics/later-diagnostics.json",
+      "projection_sha256": "a4c75edfd793c2663a87150582cfaea9327e30c3cce0f9d500f5b78f6ce7a88e",
+      "retained_top_level_fields": [
+        "tasks"
+      ]
+    },
+    {
+      "logical_source": "manuscript-review-rating-comparison-20261016-frozen6-v1/results.json",
+      "input_sha256": "f17538241d5a2e9b2d964b475cbaada7cc2156290360de9ed39029f335c46c57",
+      "projection": "rating-comparison/results.json",
+      "projection_sha256": "47351b981d0402ae8b6dd3539bf4db9b81a1bb4f5978e7ecd8e160378d52e0e1",
+      "retained_top_level_fields": [
+        "metrics",
+        "contrasts",
+        "calibrations",
+        "interpretation"
+      ]
+    },
+    {
+      "logical_source": "manuscript-review-player-results-20261016-v1/results.json",
+      "input_sha256": "967ee37c564d234878529b938b402f4dec94d4c041bb6dd5b52ec98e47b6d650",
+      "projection": "player-results/results.json",
+      "projection_sha256": "584b877561dedd82515d19cb279f50e6a7ba0b32c08a3ef0dadb935f023bb360",
+      "retained_top_level_fields": [
+        "metrics",
+        "contrasts",
+        "counts",
+        "interpretation"
+      ]
+    },
+    {
+      "logical_source": "manuscript-review-additional-20261016-v1/results.json",
+      "input_sha256": "5e59237ef0446f2212919e6f316a28015dc6714f83e2b2004461f83b463417ba",
+      "projection": "additional/results.json",
+      "projection_sha256": "cc25904602b8637af8a477061668d7106b8e4c086eaa21336059502bb238725d",
+      "retained_top_level_fields": [
+        "tasks"
+      ]
+    },
+    {
+      "logical_source": "manuscript-review-feedback-results-20261016-v1/results.json",
+      "input_sha256": "5886df6ac40a2595fbc9fe70ba14fd003d415cc9b2fd20c1cf4f7c1edfa0ee94",
+      "projection": "feedback-results/results.json",
+      "projection_sha256": "c8290ffca8285ffed0519084c881627574b595b5a7dcc6b6c0743721daca5857",
+      "retained_top_level_fields": [
+        "tasks",
+        "contrasts",
+        "feedback_accounting"
+      ]
+    },
+    {
+      "logical_source": "manuscript-review-online-calibration-20261016-v1/results.json",
+      "input_sha256": "7b143582d883ca3de98defdbafa715012a86a7417bab6511f3b03dff2edd42a7",
+      "projection": "online-calibration/results.json",
+      "projection_sha256": "f74835ab0ec44926868333f33b82b426954479a81dbfc10e816f2ee60a2d23d7",
+      "retained_top_level_fields": [
+        "diagnostics"
+      ]
+    },
+    {
+      "logical_source": "manuscript-review-roster-support-20261016-v1/results.json",
+      "input_sha256": "69643667cbbfa8582c61d948f891eb2a837f022d1c0bae5a93c8414eb1757e57",
+      "projection": "roster-support/results.json",
+      "projection_sha256": "5f995e737e0b46cf46945348109488c6958ca1cb01d26b6a1a0fb8a78cedd26e",
+      "retained_top_level_fields": [
+        "units"
+      ]
+    },
+    {
+      "logical_source": "retuned-removals-20261016-v2/results.json",
+      "input_sha256": "3b2c73b823929caaeed6412cad7fa8b8144b47068f77f6d7caf8fb30e5520f0c",
+      "projection": "retuned-removals/results.json",
+      "projection_sha256": "2cf62f82858a616bc1ecd28c961259b77287b50f27e8fdead2d583406645cce3",
+      "retained_top_level_fields": [
+        "contrasts",
+        "denominators",
+        "interpretation"
+      ],
+      "aggregate_record_counts": {
+        "contrasts": 40,
+        "denominators": 16
+      },
+      "excluded_input_path_map": false
+    },
+    {
+      "logical_source": "retuned-removals-20261016-v2/report-summary.json",
+      "input_sha256": "7e0c00c09a4091aca6788052ae766f5228991092d09283b50459b1920fb80808",
+      "projection": "retuned-removals/report-summary.json",
+      "projection_sha256": "f6cbc9123551b1233b331e3b5d0765423c5767a73b312007c61d37db5ab13ebe",
+      "retained_top_level_fields": [
+        "metrics",
+        "inventory",
+        "contrasts",
+        "fit_completion"
+      ],
+      "aggregate_record_counts": {
+        "metrics": 22,
+        "inventory": 160,
+        "contrasts": 40
+      },
+      "excluded_input_path_map": false
+    },
+    {
+      "logical_source": "secondary-metrics-20261016-v2/results.json",
+      "input_sha256": "830a168e5b23e337d562aadd40c104bcf2de9da2a150573b09c92d733a194f3a",
+      "projection": "secondary-metrics/results.json",
+      "projection_sha256": "3d7fcfed9db131caca3a605b18570e0af3bc990fbc3b87179d02132cdd6ae84d",
+      "retained_top_level_fields": [
+        "metrics"
+      ],
+      "aggregate_record_counts": {
+        "metrics": 104
+      },
+      "excluded_input_path_map": true
+    }
+  ],
+  "policy": "Allowlisted aggregate-only outputs; source/input identity maps, local path maps, model arrays, and run-only metadata omitted. Numeric grouped records are copied unchanged. Event-group summaries may remain; no match/player/team identifiers or row-level arrays are included.",
+  "candidate_revision": "release-preparation-access-20261016-v3",
+  "new_aggregate_counts": {
+    "retuned_removal_contrasts": 40,
+    "retuned_denominator_groups": 16,
+    "retuned_fit_packages": 160,
+    "secondary_metric_rows": 104
+  }
+}

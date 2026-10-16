@@ -1,0 +1,36 @@
+# Complete core comparison figures
+
+All 152 saved task/loss contrasts are retained. No model, score, interval or corrected decision is recalculated.
+
+## core-bn-b-journal
+
+BN-B: General numeric histories added to context. Broad nonglobal retrospective development evidence, with event-equal probability-loss differences. Map support is 55,943 rows / 1,049 events; series support is 25,186 rows / 1,047 events. Intervals are pointwise 95% complete-event bootstrap intervals conditional on saved fitted forecasts; they omit refitting uncertainty. Filled green/red points retain conservative Holm benefit/harm decisions within the original family; hollow points are unresolved, not equivalent. Approximate bootstrap sampling validity, dependence and adaptive development remain limitations. Panels share task scales within each loss and include zero. B=context, N=general numeric histories, C=agent AND map channels, L=linked histories. C is not a pure agent-composition effect. No new scores or inference are computed.
+
+## core-bc-b-journal
+
+BC-B: Agent/map channels added to context. Broad nonglobal retrospective development evidence, with event-equal probability-loss differences. Map support is 55,943 rows / 1,049 events; series support is 25,186 rows / 1,047 events. Intervals are pointwise 95% complete-event bootstrap intervals conditional on saved fitted forecasts; they omit refitting uncertainty. Filled green/red points retain conservative Holm benefit/harm decisions within the original family; hollow points are unresolved, not equivalent. Approximate bootstrap sampling validity, dependence and adaptive development remain limitations. Panels share task scales within each loss and include zero. B=context, N=general numeric histories, C=agent AND map channels, L=linked histories. C is not a pure agent-composition effect. No new scores or inference are computed.
+
+## core-bnc-bn-journal
+
+BNC-BN: Agent/map channels added to context and general history. Broad nonglobal retrospective development evidence, with event-equal probability-loss differences. Map support is 55,943 rows / 1,049 events; series support is 25,186 rows / 1,047 events. Intervals are pointwise 95% complete-event bootstrap intervals conditional on saved fitted forecasts; they omit refitting uncertainty. Filled green/red points retain conservative Holm benefit/harm decisions within the original family; hollow points are unresolved, not equivalent. Approximate bootstrap sampling validity, dependence and adaptive development remain limitations. Panels share task scales within each loss and include zero. B=context, N=general numeric histories, C=agent AND map channels, L=linked histories. C is not a pure agent-composition effect. No new scores or inference are computed.
+
+## core-bnc-bc-journal
+
+BNC-BC: General numeric histories added to context and agent/map channels. Broad nonglobal retrospective development evidence, with event-equal probability-loss differences. Map support is 55,943 rows / 1,049 events; series support is 25,186 rows / 1,047 events. Intervals are pointwise 95% complete-event bootstrap intervals conditional on saved fitted forecasts; they omit refitting uncertainty. Filled green/red points retain conservative Holm benefit/harm decisions within the original family; hollow points are unresolved, not equivalent. Approximate bootstrap sampling validity, dependence and adaptive development remain limitations. Panels share task scales within each loss and include zero. B=context, N=general numeric histories, C=agent AND map channels, L=linked histories. C is not a pure agent-composition effect. No new scores or inference are computed.
+
+## core-bn-bc-journal
+
+BN-BC: General-history versus agent/map-channel packages; not a single addition. Broad nonglobal retrospective development evidence, with event-equal probability-loss differences. Map support is 55,943 rows / 1,049 events; series support is 25,186 rows / 1,047 events. Intervals are pointwise 95% complete-event bootstrap intervals conditional on saved fitted forecasts; they omit refitting uncertainty. Filled green/red points retain conservative Holm benefit/harm decisions within the original family; hollow points are unresolved, not equivalent. Approximate bootstrap sampling validity, dependence and adaptive development remain limitations. Panels share task scales within each loss and include zero. B=context, N=general numeric histories, C=agent AND map channels, L=linked histories. C is not a pure agent-composition effect. No new scores or inference are computed.
+
+## core-bnl-bn-journal
+
+BNL-BN: Linked histories added without agent/map channels. Broad nonglobal retrospective development evidence, with event-equal probability-loss differences. Map support is 55,943 rows / 1,049 events; series support is 25,186 rows / 1,047 events. Intervals are pointwise 95% complete-event bootstrap intervals conditional on saved fitted forecasts; they omit refitting uncertainty. Filled green/red points retain conservative Holm benefit/harm decisions within the original family; hollow points are unresolved, not equivalent. Approximate bootstrap sampling validity, dependence and adaptive development remain limitations. Panels share task scales within each loss and include zero. B=context, N=general numeric histories, C=agent AND map channels, L=linked histories. C is not a pure agent-composition effect. No new scores or inference are computed.
+
+## core-bnlc-bnc-journal
+
+BNLC-BNC: Linked histories added with agent/map channels. Broad nonglobal retrospective development evidence, with event-equal probability-loss differences. Map support is 55,943 rows / 1,049 events; series support is 25,186 rows / 1,047 events. Intervals are pointwise 95% complete-event bootstrap intervals conditional on saved fitted forecasts; they omit refitting uncertainty. Filled green/red points retain conservative Holm benefit/harm decisions within the original family; hollow points are unresolved, not equivalent. Approximate bootstrap sampling validity, dependence and adaptive development remain limitations. Panels share task scales within each loss and include zero. B=context, N=general numeric histories, C=agent AND map channels, L=linked histories. C is not a pure agent-composition effect. No new scores or inference are computed.
+
+## core-operational-journal
+
+operational: Frozen selector versus three declared references. Broad nonglobal retrospective development evidence, with event-equal probability-loss differences. Map support is 55,943 rows / 1,049 events; series support is 25,186 rows / 1,047 events. Intervals are pointwise 95% complete-event bootstrap intervals conditional on saved fitted forecasts; they omit refitting uncertainty. Filled green/red points retain conservative Holm benefit/harm decisions within the original family; hollow points are unresolved, not equivalent. Approximate bootstrap sampling validity, dependence and adaptive development remain limitations. Panels share task scales within each loss and include zero. B=context, N=general numeric histories, C=agent AND map channels, L=linked histories. C is not a pure agent-composition effect. No new scores or inference are computed.
+

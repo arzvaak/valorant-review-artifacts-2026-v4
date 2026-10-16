@@ -1,0 +1,148 @@
+{
+  "candidate_revision": "release-preparation-access-20261016-v3",
+  "file_count": 20,
+  "files": [
+    {
+      "candidate_path": "software/revision-20261016/current-live-source/review_revision_additional.py",
+      "candidate_sha256": "39aa08a5d1bb67ebcb640e05abe245ae886d213fc5606a270138a09026e9568d",
+      "logical_source": "ops/paper-study/review_revision_additional.py",
+      "relationship": "byte-identical",
+      "source_sha256": "39aa08a5d1bb67ebcb640e05abe245ae886d213fc5606a270138a09026e9568d"
+    },
+    {
+      "adaptation": "Replace only the fixed local artifact-root literal with Path(os.environ.get(\"VALORANT_ARTIFACT_ROOT\", \".\")).resolve(); numerical logic unchanged.",
+      "candidate_path": "software/revision-20261016/current-live-source/review_revision_diagnostics.py",
+      "candidate_sha256": "08622b1f6722365a8bb1e2cac41df8116a7b75560e5594deedb6daed44ac9f7c",
+      "logical_source": "ops/paper-study/review_revision_diagnostics.py",
+      "relationship": "path-adapted",
+      "source_sha256": "e6ef606d9d48c9311347a82133e8a88b714d70f0aa0d87d17106e550593dddfc"
+    },
+    {
+      "candidate_path": "software/revision-20261016/current-live-source/review_revision_feedback.py",
+      "candidate_sha256": "e4d642db54decf6d901cd20a5fc9c0ec065b44816d43fc3490fadb40909ac4a3",
+      "logical_source": "ops/paper-study/review_revision_feedback.py",
+      "relationship": "byte-identical",
+      "source_sha256": "e4d642db54decf6d901cd20a5fc9c0ec065b44816d43fc3490fadb40909ac4a3"
+    },
+    {
+      "candidate_path": "software/revision-20261016/current-live-source/review_revision_feedback_report.py",
+      "candidate_sha256": "ca89e55aefed360eb016a0e779f8ab1c38e421a1f9c5e6182281d504aea59990",
+      "logical_source": "ops/paper-study/review_revision_feedback_report.py",
+      "relationship": "byte-identical",
+      "source_sha256": "ca89e55aefed360eb016a0e779f8ab1c38e421a1f9c5e6182281d504aea59990"
+    },
+    {
+      "candidate_path": "software/revision-20261016/current-live-source/review_revision_figures.py",
+      "candidate_sha256": "7b23635a95245f6d3ffa7d161efeb11598f302c0b758eee06b9098c5bb3f1d17",
+      "logical_source": "ops/paper-study/review_revision_figures.py",
+      "relationship": "byte-identical",
+      "source_sha256": "7b23635a95245f6d3ffa7d161efeb11598f302c0b758eee06b9098c5bb3f1d17"
+    },
+    {
+      "candidate_path": "software/revision-20261016/current-live-source/review_revision_online_calibration.py",
+      "candidate_sha256": "bb4b0e0474bffddf0ee55072d6600f23d709a17367ec0e800cb6cf67a37cd33a",
+      "logical_source": "ops/paper-study/review_revision_online_calibration.py",
+      "relationship": "byte-identical",
+      "source_sha256": "bb4b0e0474bffddf0ee55072d6600f23d709a17367ec0e800cb6cf67a37cd33a"
+    },
+    {
+      "candidate_path": "software/revision-20261016/current-live-source/review_revision_player_inputs.py",
+      "candidate_sha256": "ce3f31739d3bd3a27e64a4fedd64e24732f81e61bbc4d19a6c378a30da9422b5",
+      "logical_source": "ops/paper-study/review_revision_player_inputs.py",
+      "relationship": "byte-identical",
+      "source_sha256": "ce3f31739d3bd3a27e64a4fedd64e24732f81e61bbc4d19a6c378a30da9422b5"
+    },
+    {
+      "candidate_path": "software/revision-20261016/current-live-source/review_revision_rating_report.py",
+      "candidate_sha256": "96d96737e4b4faf17af47bc9c7fba0b238d30e9ba40660281502d29630facaa3",
+      "logical_source": "ops/paper-study/review_revision_rating_report.py",
+      "relationship": "byte-identical",
+      "source_sha256": "96d96737e4b4faf17af47bc9c7fba0b238d30e9ba40660281502d29630facaa3"
+    },
+    {
+      "candidate_path": "software/revision-20261016/current-live-source/review_revision_ratings.py",
+      "candidate_sha256": "1242aa0f4afcf1ae963ec8ca0ed76d3801f20f22697649b1dffd2fb33ca1d933",
+      "logical_source": "ops/paper-study/review_revision_ratings.py",
+      "relationship": "byte-identical",
+      "source_sha256": "1242aa0f4afcf1ae963ec8ca0ed76d3801f20f22697649b1dffd2fb33ca1d933"
+    },
+    {
+      "candidate_path": "software/revision-20261016/current-live-source/review_revision_recovery_evidence.py",
+      "candidate_sha256": "8e47a05e563e8e54adb41f7ff3eee94b1a2d70c96c6887f8e5287c0e71b55cd9",
+      "logical_source": "ops/paper-study/review_revision_recovery_evidence.py",
+      "relationship": "byte-identical",
+      "source_sha256": "8e47a05e563e8e54adb41f7ff3eee94b1a2d70c96c6887f8e5287c0e71b55cd9"
+    },
+    {
+      "candidate_path": "software/revision-20261016/current-live-source/review_revision_removal_report.py",
+      "candidate_sha256": "a3da401f788588df9aae3d77ea99e29fc1a40be7c7031d28c888c681f8641c02",
+      "logical_source": "ops/paper-study/review_revision_removal_report.py",
+      "relationship": "byte-identical",
+      "source_sha256": "a3da401f788588df9aae3d77ea99e29fc1a40be7c7031d28c888c681f8641c02"
+    },
+    {
+      "candidate_path": "software/revision-20261016/current-live-source/review_revision_removals.py",
+      "candidate_sha256": "af9dc0c32a59423bdd0e6b929366e0cdc1240dcc2d8ce9fce59ebaf6b21444e3",
+      "logical_source": "ops/paper-study/review_revision_removals.py",
+      "relationship": "byte-identical",
+      "source_sha256": "af9dc0c32a59423bdd0e6b929366e0cdc1240dcc2d8ce9fce59ebaf6b21444e3"
+    },
+    {
+      "candidate_path": "software/revision-20261016/current-live-source/review_revision_report.py",
+      "candidate_sha256": "f9679206957e0abb1f3bb9c7d34a0e44bef1a9ff1b9efa8d115d6cace31a6033",
+      "logical_source": "ops/paper-study/review_revision_report.py",
+      "relationship": "byte-identical",
+      "source_sha256": "f9679206957e0abb1f3bb9c7d34a0e44bef1a9ff1b9efa8d115d6cace31a6033"
+    },
+    {
+      "candidate_path": "software/revision-20261016/current-live-source/review_revision_representation_report.py",
+      "candidate_sha256": "570f61400fff37f5b053c602d031f40ff19a0a39d266b60af2c31993337276fa",
+      "logical_source": "ops/paper-study/review_revision_representation_report.py",
+      "relationship": "byte-identical",
+      "source_sha256": "570f61400fff37f5b053c602d031f40ff19a0a39d266b60af2c31993337276fa"
+    },
+    {
+      "candidate_path": "software/revision-20261016/current-live-source/review_revision_representations.py",
+      "candidate_sha256": "1d9edd1be14362c6012163d34ac436d153865954df830e897104841c7b7fc2dc",
+      "logical_source": "ops/paper-study/review_revision_representations.py",
+      "relationship": "byte-identical",
+      "source_sha256": "1d9edd1be14362c6012163d34ac436d153865954df830e897104841c7b7fc2dc"
+    },
+    {
+      "candidate_path": "software/revision-20261016/current-live-source/review_revision_roster_support.py",
+      "candidate_sha256": "34e6457e1deea6b3e62f8f545f0865893094d0bba562c6b18800391651812efe",
+      "logical_source": "ops/paper-study/review_revision_roster_support.py",
+      "relationship": "byte-identical",
+      "source_sha256": "34e6457e1deea6b3e62f8f545f0865893094d0bba562c6b18800391651812efe"
+    },
+    {
+      "candidate_path": "software/revision-20261016/current-live-source/review_revision_secondary_metrics.py",
+      "candidate_sha256": "453f9da6ae07b966f25290f3af1b39a01efa35a35d72087cc98b93e5332f4774",
+      "logical_source": "ops/paper-study/review_revision_secondary_metrics.py",
+      "relationship": "byte-identical",
+      "source_sha256": "453f9da6ae07b966f25290f3af1b39a01efa35a35d72087cc98b93e5332f4774"
+    },
+    {
+      "candidate_path": "software/revision-20261016/current-live-source/review_revision_secondary_table.py",
+      "candidate_sha256": "9ae3f6154cef5ce00baaa14c8d0e6f36720848db8ecb3b8a8eb300272be0670c",
+      "logical_source": "ops/paper-study/review_revision_secondary_table.py",
+      "relationship": "byte-identical",
+      "source_sha256": "9ae3f6154cef5ce00baaa14c8d0e6f36720848db8ecb3b8a8eb300272be0670c"
+    },
+    {
+      "candidate_path": "software/revision-20261016/current-live-source/review_revision_tie_inventory.py",
+      "candidate_sha256": "8ecdfbca3019bd0da3e1960ded0e1eb32fd75862157266a88caeeb5610681671",
+      "logical_source": "ops/paper-study/review_revision_tie_inventory.py",
+      "relationship": "byte-identical",
+      "source_sha256": "8ecdfbca3019bd0da3e1960ded0e1eb32fd75862157266a88caeeb5610681671"
+    },
+    {
+      "candidate_path": "software/revision-20261016/current-live-source/later_score.py",
+      "candidate_sha256": "27e47bcb9580e437cbf52559464fd799bdc755f8e4f3a335e5f01681449943ae",
+      "logical_source": "ops/paper-study/later_score.py",
+      "relationship": "byte-identical",
+      "source_sha256": "27e47bcb9580e437cbf52559464fd799bdc755f8e4f3a335e5f01681449943ae"
+    }
+  ],
+  "policy": "Logical repository-relative names only; hashes bind current copied helper source. This records source identity, not permission to distribute code."
+}

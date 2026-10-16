@@ -1,0 +1,3023 @@
+{
+  "contrasts": [
+    {
+      "task": "map_winner",
+      "correction_family": "retuned_removals40",
+      "a": "opening",
+      "b": "full_reference",
+      "metric": "brier",
+      "id": "map_winner/opening/brier",
+      "difference": -0.0004142652860739165,
+      "ci95": [
+        -0.0008336163684725762,
+        -4.822384928250587e-06
+      ],
+      "rows": 36624,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.04992637690447308,
+      "mc_upper_p": 0.05204573874356009,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 6543,
+      "seed": 20261019,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.0004439888918336402
+        },
+        "2023": {
+          "events": 605,
+          "difference": -0.00030069624281619205
+        },
+        "2024": {
+          "events": 553,
+          "difference": -0.0003308927636950615
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.00041234639143170434
+        },
+        "2026": {
+          "events": 620,
+          "difference": -0.0005788732259984939
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.0008186065473516162,
+            -2.505411646173653e-05
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.0008525522317763211,
+            1.0028630236370662e-05
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.0008578310141132937,
+            4.074894363940172e-05
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "map_winner",
+      "correction_family": "retuned_removals40",
+      "a": "opening",
+      "b": "full_reference",
+      "metric": "log_loss",
+      "id": "map_winner/opening/log_loss",
+      "difference": -0.0010010605471001731,
+      "ci95": [
+        -0.0019243977756963836,
+        -8.273696423404767e-05
+      ],
+      "rows": 36624,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.03311131964630397,
+      "mc_upper_p": 0.034857986538827594,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 4339,
+      "seed": 20261020,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.0009629798696396198
+        },
+        "2023": {
+          "events": 605,
+          "difference": -0.0007796044684638662
+        },
+        "2024": {
+          "events": 553,
+          "difference": -0.0008808450392745503
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.0009900954893872708
+        },
+        "2026": {
+          "events": 620,
+          "difference": -0.0013644281894929946
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.0019168211985379458,
+            -0.0001333744813584624
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.002020008010375831,
+            -5.4695964273479374e-05
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.00210038832285338,
+            7.78014450851394e-05
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "map_winner",
+      "correction_family": "retuned_removals40",
+      "a": "stars",
+      "b": "full_reference",
+      "metric": "brier",
+      "id": "map_winner/stars/brier",
+      "difference": 4.958583869867855e-06,
+      "ci95": [
+        -0.0006073199626472261,
+        0.0006111062576787333
+      ],
+      "rows": 36624,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.9870759042670878,
+      "mc_upper_p": 0.988134340699157,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 129378,
+      "seed": 20261021,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -3.2782293063528996e-05
+        },
+        "2023": {
+          "events": 605,
+          "difference": -0.00015445267858584064
+        },
+        "2024": {
+          "events": 553,
+          "difference": 0.00018006251959861079
+        },
+        "2025": {
+          "events": 632,
+          "difference": 0.00014118544309388233
+        },
+        "2026": {
+          "events": 620,
+          "difference": -0.00010592177990944154
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.0006323358967589836,
+            0.0006457329951485411
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.0005633576664452752,
+            0.0005744791783702869
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.0005041184595837775,
+            0.0005134192193185701
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "map_winner",
+      "correction_family": "retuned_removals40",
+      "a": "stars",
+      "b": "full_reference",
+      "metric": "log_loss",
+      "id": "map_winner/stars/log_loss",
+      "difference": 1.1313416891627842e-05,
+      "ci95": [
+        -0.0013238543344454635,
+        0.001333742837111154
+      ],
+      "rows": 36624,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.9862366772714442,
+      "mc_upper_p": 0.9873293830110946,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 129268,
+      "seed": 20261022,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": 8.386738122777736e-05
+        },
+        "2023": {
+          "events": 605,
+          "difference": -0.00035608300000182855
+        },
+        "2024": {
+          "events": 553,
+          "difference": 0.0002681054646455789
+        },
+        "2025": {
+          "events": 632,
+          "difference": 0.0002928575665890416
+        },
+        "2026": {
+          "events": 620,
+          "difference": -0.00020121470574409732
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.001421210182727211,
+            0.0013974642919169522
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.00125601331030743,
+            0.0013090387762834626
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.0011572028044611216,
+            0.0011698912896422867
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "map_winner",
+      "correction_family": "retuned_removals40",
+      "a": "economy",
+      "b": "full_reference",
+      "metric": "brier",
+      "id": "map_winner/economy/brier",
+      "difference": -0.00017409136053174733,
+      "ci95": [
+        -0.0005634613993525919,
+        0.00021017648661250427
+      ],
+      "rows": 36624,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.3742189466938271,
+      "mc_upper_p": 0.37887851109666043,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 49049,
+      "seed": 20261023,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.00020795793054585762
+        },
+        "2023": {
+          "events": 605,
+          "difference": -0.0003040196820477809
+        },
+        "2024": {
+          "events": 553,
+          "difference": -2.668648756110862e-05
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.00015182790487910374
+        },
+        "2026": {
+          "events": 620,
+          "difference": -0.00017580341908239548
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.0005651697995037668,
+            0.00021422784083471115
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.0006069747331396987,
+            0.0002363776030769157
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.0006283070392156434,
+            0.0002277202062153567
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "map_winner",
+      "correction_family": "retuned_removals40",
+      "a": "economy",
+      "b": "full_reference",
+      "metric": "log_loss",
+      "id": "map_winner/economy/log_loss",
+      "difference": -0.00032243020832538604,
+      "ci95": [
+        -0.0011804204956731863,
+        0.0005356311772225625
+      ],
+      "rows": 36624,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.4623606692453823,
+      "mc_upper_p": 0.46715619831774036,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 60602,
+      "seed": 20261024,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.0002919461815915209
+        },
+        "2023": {
+          "events": 605,
+          "difference": -0.0006166608126695491
+        },
+        "2024": {
+          "events": 553,
+          "difference": -4.678749046532629e-05
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.00027322462653811975
+        },
+        "2026": {
+          "events": 620,
+          "difference": -0.0003544404141364559
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.001248916130926874,
+            0.0005562488915812638
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.0013300281788946853,
+            0.0006171109858486384
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.0013778297566912241,
+            0.0006639478888569604
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "map_winner",
+      "correction_family": "retuned_removals40",
+      "a": "pistols",
+      "b": "full_reference",
+      "metric": "brier",
+      "id": "map_winner/pistols/brier",
+      "difference": -0.00035030262337790597,
+      "ci95": [
+        -0.0007535810542241153,
+        4.016111009857716e-05
+      ],
+      "rows": 36624,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.08358700876610743,
+      "mc_upper_p": 0.0862714416286444,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 10955,
+      "seed": 20261025,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.00024941847362416853
+        },
+        "2023": {
+          "events": 605,
+          "difference": -0.00031080036000771956
+        },
+        "2024": {
+          "events": 553,
+          "difference": -0.0003516736085009618
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.00038561648158710215
+        },
+        "2026": {
+          "events": 620,
+          "difference": -0.00042810569847783733
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.0007843455154862669,
+            5.959019698720003e-05
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.0007627089520812863,
+            3.427552938875203e-05
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.000713814874826413,
+            -3.2012516425718996e-06
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "map_winner",
+      "correction_family": "retuned_removals40",
+      "a": "pistols",
+      "b": "full_reference",
+      "metric": "log_loss",
+      "id": "map_winner/pistols/log_loss",
+      "difference": -0.0006296239793300628,
+      "ci95": [
+        -0.00152745407488611,
+        0.0002573968159655729
+      ],
+      "rows": 36624,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.1671816468685389,
+      "mc_upper_p": 0.17078785414849762,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 21912,
+      "seed": 20261026,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.00019011979407452522
+        },
+        "2023": {
+          "events": 605,
+          "difference": -0.0005703503435308283
+        },
+        "2024": {
+          "events": 553,
+          "difference": -0.0007473354852652248
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.0006818294619457631
+        },
+        "2026": {
+          "events": 620,
+          "difference": -0.0008624291227709863
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.0016037635805292263,
+            0.00032023429870605465
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.001606978142840995,
+            0.0003172234300937908
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.0015037139225751162,
+            0.00022765403716928367
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "map_winner",
+      "correction_family": "retuned_removals40",
+      "a": "map_side",
+      "b": "full_reference",
+      "metric": "brier",
+      "id": "map_winner/map_side/brier",
+      "difference": -0.00019688283662415212,
+      "ci95": [
+        -0.0007686141767125163,
+        0.0003571687785572267
+      ],
+      "rows": 36624,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.4921074515727877,
+      "mc_upper_p": 0.4969143396628242,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 64501,
+      "seed": 20261027,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.0003824462004481478
+        },
+        "2023": {
+          "events": 605,
+          "difference": -3.596690814357159e-05
+        },
+        "2024": {
+          "events": 553,
+          "difference": 3.3363285617630044e-05
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.00029187688686519483
+        },
+        "2026": {
+          "events": 620,
+          "difference": -0.0003217686778835712
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.000791729774662397,
+            0.000379246750445519
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.0007472044043889683,
+            0.00035044675466552747
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.0007126558708518537,
+            0.0002914901230380767
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "map_winner",
+      "correction_family": "retuned_removals40",
+      "a": "map_side",
+      "b": "full_reference",
+      "metric": "log_loss",
+      "id": "map_winner/map_side/log_loss",
+      "difference": -0.0006051467938555611,
+      "ci95": [
+        -0.0018597124460049803,
+        0.0006226960285049343
+      ],
+      "rows": 36624,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.33872727411442477,
+      "mc_upper_p": 0.3432865176417583,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 44397,
+      "seed": 20261028,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.0009039745368856065
+        },
+        "2023": {
+          "events": 605,
+          "difference": -0.00034052150801193616
+        },
+        "2024": {
+          "events": 553,
+          "difference": -2.2880315349502978e-05
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.000815999470179594
+        },
+        "2026": {
+          "events": 620,
+          "difference": -0.0009412495839980341
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.0019296331538094416,
+            0.0007047920006637763
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.0018659922449539106,
+            0.0006252586784669093
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.0018523805231476823,
+            0.0005379445307577645
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "map_winner",
+      "correction_family": "retuned_removals40",
+      "a": "impact",
+      "b": "full_reference",
+      "metric": "brier",
+      "id": "map_winner/impact/brier",
+      "difference": -0.00010912994362620844,
+      "ci95": [
+        -0.0005788484399737273,
+        0.00035173532449536823
+      ],
+      "rows": 36624,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.6454037063315862,
+      "mc_upper_p": 0.6499947759150073,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 84594,
+      "seed": 20261029,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.00013145123747117975
+        },
+        "2023": {
+          "events": 605,
+          "difference": -5.066429903684569e-05
+        },
+        "2024": {
+          "events": 553,
+          "difference": 6.82048833041467e-05
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.00013208812061414312
+        },
+        "2026": {
+          "events": 620,
+          "difference": -0.00028402881186094975
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.0006139798302966584,
+            0.00037138562895254034
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.0005853002981489731,
+            0.00036446682035198613
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.0005955053375995097,
+            0.00033266165232311696
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "map_winner",
+      "correction_family": "retuned_removals40",
+      "a": "impact",
+      "b": "full_reference",
+      "metric": "log_loss",
+      "id": "map_winner/impact/log_loss",
+      "difference": -0.0003536777984764841,
+      "ci95": [
+        -0.0013994314583639304,
+        0.0006801539261101012
+      ],
+      "rows": 36624,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.5024986076461209,
+      "mc_upper_p": 0.5073054471599906,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 65863,
+      "seed": 20261030,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.0003656052845589658
+        },
+        "2023": {
+          "events": 605,
+          "difference": -0.0002539452442452927
+        },
+        "2024": {
+          "events": 553,
+          "difference": 9.979224118789755e-06
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.0004358001383422296
+        },
+        "2026": {
+          "events": 620,
+          "difference": -0.0006826024622686447
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.001474813893954787,
+            0.0007387081181837449
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.0015074198103199403,
+            0.0007065233681350943
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.0015024827156836788,
+            0.000666315528667635
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "map_winner",
+      "correction_family": "retuned_removals40",
+      "a": "experience",
+      "b": "full_reference",
+      "metric": "brier",
+      "id": "map_winner/experience/brier",
+      "difference": 0.0002007516592534052,
+      "ci95": [
+        -0.00032118508217131926,
+        0.000717393351369537
+      ],
+      "rows": 36624,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.4465832017272817,
+      "mc_upper_p": 0.451365751609553,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 58534,
+      "seed": 20261031,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -7.107335915590855e-05
+        },
+        "2023": {
+          "events": 605,
+          "difference": 9.421272711320358e-05
+        },
+        "2024": {
+          "events": 553,
+          "difference": 0.0005770745446356468
+        },
+        "2025": {
+          "events": 632,
+          "difference": 0.00017580206953932213
+        },
+        "2026": {
+          "events": 620,
+          "difference": 0.00020055068776972832
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.0003421161226773014,
+            0.0007679280266165732
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.00041053594090044497,
+            0.0008506915508122698
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.0004922752651489444,
+            0.0009601391549222155
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "map_winner",
+      "correction_family": "retuned_removals40",
+      "a": "experience",
+      "b": "full_reference",
+      "metric": "log_loss",
+      "id": "map_winner/experience/log_loss",
+      "difference": 0.0003181952983140945,
+      "ci95": [
+        -0.0008264017425891427,
+        0.0014469638823842003
+      ],
+      "rows": 36624,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.5806001235952485,
+      "mc_upper_p": 0.5853397403313003,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 76100,
+      "seed": 20261032,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.000267539030693947
+        },
+        "2023": {
+          "events": 605,
+          "difference": 7.474730330065263e-05
+        },
+        "2024": {
+          "events": 553,
+          "difference": 0.0011885590298913056
+        },
+        "2025": {
+          "events": 632,
+          "difference": 0.0002583908506586582
+        },
+        "2026": {
+          "events": 620,
+          "difference": 0.0002844314902059494
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.0009276454005804327,
+            0.0015961881018140248
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.0011575337659774554,
+            0.0017780021500463285
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.0013650417239922615,
+            0.0019507750873971298
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "map_winner",
+      "correction_family": "retuned_removals40",
+      "a": "schedule_stability",
+      "b": "full_reference",
+      "metric": "brier",
+      "id": "map_winner/schedule_stability/brier",
+      "difference": -0.0005700808574652506,
+      "ci95": [
+        -0.001246161329036113,
+        8.764665981288843e-05
+      ],
+      "rows": 36624,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.09414601023856935,
+      "mc_upper_p": 0.09697659575303007,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 12339,
+      "seed": 20261033,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.0004924174695414431
+        },
+        "2023": {
+          "events": 605,
+          "difference": -0.0006218961016698317
+        },
+        "2024": {
+          "events": 553,
+          "difference": -0.0010937963533223646
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.00012532221241795186
+        },
+        "2026": {
+          "events": 620,
+          "difference": -0.0005646395091448099
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.0013584983549662865,
+            0.00018179518610445984
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.0014664188551574222,
+            0.0003371814248384903
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.001621631724443028,
+            0.0005522309092662503
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "map_winner",
+      "correction_family": "retuned_removals40",
+      "a": "schedule_stability",
+      "b": "full_reference",
+      "metric": "log_loss",
+      "id": "map_winner/schedule_stability/log_loss",
+      "difference": -0.0007352800315452946,
+      "ci95": [
+        -0.002305268907091684,
+        0.0007961035351682851
+      ],
+      "rows": 36624,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.3524905968429806,
+      "mc_upper_p": 0.357092024639944,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 46201,
+      "seed": 20261034,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.00023306971217723602
+        },
+        "2023": {
+          "events": 605,
+          "difference": -0.0007910965395367836
+        },
+        "2024": {
+          "events": 553,
+          "difference": -0.002311859529121875
+        },
+        "2025": {
+          "events": 632,
+          "difference": 0.0003418775888372071
+        },
+        "2026": {
+          "events": 620,
+          "difference": -0.0007533203810453415
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.0027088207999865217,
+            0.0011204114077716227
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.003058885366966327,
+            0.0016879819998414148
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.003391374149359763,
+            0.002275765870646056
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "map_winner",
+      "correction_family": "retuned_removals40",
+      "a": "matchups",
+      "b": "full_reference",
+      "metric": "brier",
+      "id": "map_winner/matchups/brier",
+      "difference": 0.0005160356250902017,
+      "ci95": [
+        3.367708193966084e-05,
+        0.0009944799766203178
+      ],
+      "rows": 36624,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.03534671518924569,
+      "mc_upper_p": 0.03714831704632804,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 4632,
+      "seed": 20261035,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": 0.0005544738883667804
+        },
+        "2023": {
+          "events": 605,
+          "difference": 0.0005208109405415118
+        },
+        "2024": {
+          "events": 553,
+          "difference": 0.0006303485503140669
+        },
+        "2025": {
+          "events": 632,
+          "difference": 0.0006072883600298362
+        },
+        "2026": {
+          "events": 620,
+          "difference": 0.00028725848683426456
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            9.873656504270104e-05,
+            0.0009579169548427065
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            0.0001299014836291058,
+            0.0009078317846999398
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            9.162230261911949e-05,
+            0.0009583676378760069
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "map_winner",
+      "correction_family": "retuned_removals40",
+      "a": "matchups",
+      "b": "full_reference",
+      "metric": "log_loss",
+      "id": "map_winner/matchups/log_loss",
+      "difference": 0.00120517797768116,
+      "ci95": [
+        0.00015932585216230818,
+        0.0022519290809416104
+      ],
+      "rows": 36624,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.024688532344571346,
+      "mc_upper_p": 0.026207320487161144,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 3235,
+      "seed": 20261036,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": 0.0013561554094578356
+        },
+        "2023": {
+          "events": 605,
+          "difference": 0.001196589105385394
+        },
+        "2024": {
+          "events": 553,
+          "difference": 0.0015742303988817157
+        },
+        "2025": {
+          "events": 632,
+          "difference": 0.0014325617046295842
+        },
+        "2026": {
+          "events": 620,
+          "difference": 0.0005381527687272718
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            0.00022388048832201298,
+            0.0022258317470550534
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            0.00029247498967581323,
+            0.002161730408358077
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            0.0001299654423362679,
+            0.0023256261496701143
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 0.8394100997154258,
+      "holm_mc_upper_p": 0.8910488965634789,
+      "conservative_rejection": false
+    },
+    {
+      "task": "map_winner",
+      "correction_family": "retuned_removals40",
+      "a": "coverage",
+      "b": "full_reference",
+      "metric": "brier",
+      "id": "map_winner/coverage/brier",
+      "difference": 0.0038047011501880154,
+      "ci95": [
+        0.001588629766742492,
+        0.005936470490285297
+      ],
+      "rows": 36624,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.0007247869507831514,
+      "mc_upper_p": 0.0010120877419748735,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 94,
+      "seed": 20261037,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": 0.0045241875336208244
+        },
+        "2023": {
+          "events": 605,
+          "difference": 0.003969921664265561
+        },
+        "2024": {
+          "events": 553,
+          "difference": 0.003557333951751966
+        },
+        "2025": {
+          "events": 632,
+          "difference": 0.004219760985667759
+        },
+        "2026": {
+          "events": 620,
+          "difference": 0.0028956031396744713
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            0.0012179429419080005,
+            0.0061987340450286865
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            0.0013439487919418348,
+            0.006168167653959245
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            0.0012623494741274045,
+            0.00638183346794297
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 0.028991478031326054,
+      "holm_mc_upper_p": 0.040483509678994944,
+      "conservative_rejection": true
+    },
+    {
+      "task": "map_winner",
+      "correction_family": "retuned_removals40",
+      "a": "coverage",
+      "b": "full_reference",
+      "metric": "log_loss",
+      "id": "map_winner/coverage/log_loss",
+      "difference": 0.008465131361865335,
+      "ci95": [
+        0.0034306504567050275,
+        0.013410038447214497
+      ],
+      "rows": 36624,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.0008773736772638148,
+      "mc_upper_p": 0.0011905522279298405,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 114,
+      "seed": 20261038,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": 0.010448220007597132
+        },
+        "2023": {
+          "events": 605,
+          "difference": 0.007794710402646341
+        },
+        "2024": {
+          "events": 553,
+          "difference": 0.008841634861060552
+        },
+        "2025": {
+          "events": 632,
+          "difference": 0.009435573651726488
+        },
+        "2026": {
+          "events": 620,
+          "difference": 0.006290981449907826
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            0.0027210263618164593,
+            0.014129994589731925
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            0.0029940761312738894,
+            0.01393863398814574
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            0.002470272897173547,
+            0.014576909058313402
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 0.03421757341328878,
+      "holm_mc_upper_p": 0.046431536889263776,
+      "conservative_rejection": true
+    },
+    {
+      "task": "series_winner",
+      "correction_family": "retuned_removals40",
+      "a": "opening",
+      "b": "full_reference",
+      "metric": "brier",
+      "id": "series_winner/opening/brier",
+      "difference": -0.0005500097526237368,
+      "ci95": [
+        -0.0009481451276224106,
+        -0.00016335213712106148
+      ],
+      "rows": 16319,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.006164503749818803,
+      "mc_upper_p": 0.006945060518385624,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 807,
+      "seed": 20261039,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.0008249369984928598
+        },
+        "2023": {
+          "events": 605,
+          "difference": -0.0006935678083788265
+        },
+        "2024": {
+          "events": 553,
+          "difference": -0.0007818826149212732
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.0005481183098605539
+        },
+        "2026": {
+          "events": 620,
+          "difference": 3.3752962706550473e-06
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.00104495021857373,
+            -7.21968306202661e-05
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.001137152828095067,
+            -1.08002437951255e-05
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.0013165505283460437,
+            0.00011522252235509864
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 0.21575763124365813,
+      "holm_mc_upper_p": 0.24307711814349683,
+      "conservative_rejection": false
+    },
+    {
+      "task": "series_winner",
+      "correction_family": "retuned_removals40",
+      "a": "opening",
+      "b": "full_reference",
+      "metric": "log_loss",
+      "id": "series_winner/opening/log_loss",
+      "difference": -0.0014526383330424628,
+      "ci95": [
+        -0.002391757274356981,
+        -0.0005430806816245123
+      ],
+      "rows": 16319,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.001998886116896691,
+      "mc_upper_p": 0.0024566601923348185,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 261,
+      "seed": 20261040,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.002184462420483853
+        },
+        "2023": {
+          "events": 605,
+          "difference": -0.001814612130488246
+        },
+        "2024": {
+          "events": 553,
+          "difference": -0.0019654623261412055
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.0014817895297008226
+        },
+        "2026": {
+          "events": 620,
+          "difference": -5.75307636491714e-05
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.0026221838164039784,
+            -0.00034535961691290243
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.0028585456042653987,
+            -0.000140011077746749
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.003398852358158264,
+            0.00015100754538757908
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 0.07595767244207427,
+      "holm_mc_upper_p": 0.0933530873087231,
+      "conservative_rejection": false
+    },
+    {
+      "task": "series_winner",
+      "correction_family": "retuned_removals40",
+      "a": "stars",
+      "b": "full_reference",
+      "metric": "brier",
+      "id": "series_winner/stars/brier",
+      "difference": -0.00021799791138619185,
+      "ci95": [
+        -0.000830116282708736,
+        0.00039986851728624726
+      ],
+      "rows": 16319,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.48465358998420727,
+      "mc_upper_p": 0.4894592336504052,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 63524,
+      "seed": 20261041,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.000380807286722863
+        },
+        "2023": {
+          "events": 605,
+          "difference": -6.350944788495371e-05
+        },
+        "2024": {
+          "events": 553,
+          "difference": -0.0005281559355004571
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.00016625886606170406
+        },
+        "2026": {
+          "events": 620,
+          "difference": -2.1428239321516406e-05
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.0008362908221574293,
+            0.00038502820088372853
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.0008028942291598974,
+            0.00036131174846862726
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.0008172136910596035,
+            0.00036540929687261153
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "series_winner",
+      "correction_family": "retuned_removals40",
+      "a": "stars",
+      "b": "full_reference",
+      "metric": "log_loss",
+      "id": "series_winner/stars/log_loss",
+      "difference": -0.0002789373406105571,
+      "ci95": [
+        -0.0016846466856077313,
+        0.0011584649007353503
+      ],
+      "rows": 16319,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.6989997940079192,
+      "mc_upper_p": 0.7033984570104213,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 91619,
+      "seed": 20261042,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.0005149345765722559
+        },
+        "2023": {
+          "events": 605,
+          "difference": 0.00010095093368498747
+        },
+        "2024": {
+          "events": 553,
+          "difference": -0.0008425770519439393
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.00013688209030447127
+        },
+        "2026": {
+          "events": 620,
+          "difference": -0.00011280808717973771
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.0016736118790383141,
+            0.0011533546696106591
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.0015607350981897779,
+            0.0009606446879398483
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.0015660873153764342,
+            0.0009583551752277544
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "series_winner",
+      "correction_family": "retuned_removals40",
+      "a": "economy",
+      "b": "full_reference",
+      "metric": "brier",
+      "id": "series_winner/economy/brier",
+      "difference": -0.00019016157214840252,
+      "ci95": [
+        -0.0006053104776138854,
+        0.00023118448437243273
+      ],
+      "rows": 16319,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.3720979911957459,
+      "mc_upper_p": 0.37675232774049294,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 48771,
+      "seed": 20261043,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.00029568423299079245
+        },
+        "2023": {
+          "events": 605,
+          "difference": -0.00010213321151812214
+        },
+        "2024": {
+          "events": 553,
+          "difference": -0.0005217876527828937
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.00015911062637084648
+        },
+        "2026": {
+          "events": 620,
+          "difference": 6.806990732589076e-05
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.0006118645975624936,
+            0.00022586337846910718
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.0006403667281847448,
+            0.00025233539539234074
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.000662402600929555,
+            0.0002625987010671653
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "series_winner",
+      "correction_family": "retuned_removals40",
+      "a": "economy",
+      "b": "full_reference",
+      "metric": "log_loss",
+      "id": "series_winner/economy/log_loss",
+      "difference": -0.0006052227690815926,
+      "ci95": [
+        -0.0015745262377378014,
+        0.0003702144987053339
+      ],
+      "rows": 16319,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.22315045814164625,
+      "mc_upper_p": 0.22716902143990272,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 29248,
+      "seed": 20261044,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.0009349886724289427
+        },
+        "2023": {
+          "events": 605,
+          "difference": -0.0004678014142454163
+        },
+        "2024": {
+          "events": 553,
+          "difference": -0.0014479603571227835
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.0005617402258175837
+        },
+        "2026": {
+          "events": 620,
+          "difference": 0.00021800783372694446
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.0016288242861628532,
+            0.0004039360862225292
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.001781307655490107,
+            0.00048801520580632766
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.0019195970623857445,
+            0.0005663418014430326
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "series_winner",
+      "correction_family": "retuned_removals40",
+      "a": "pistols",
+      "b": "full_reference",
+      "metric": "brier",
+      "id": "series_winner/pistols/brier",
+      "difference": -0.0002220258970434467,
+      "ci95": [
+        -0.0007698501645225204,
+        0.00029077264680785794
+      ],
+      "rows": 16319,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.4078566905464894,
+      "mc_upper_p": 0.4125866090741179,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 53458,
+      "seed": 20261045,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.0003465333557192315
+        },
+        "2023": {
+          "events": 605,
+          "difference": -2.951610002143324e-05
+        },
+        "2024": {
+          "events": 553,
+          "difference": -0.0006414148518664065
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.0002484826188345876
+        },
+        "2026": {
+          "events": 620,
+          "difference": 8.554316516364775e-05
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.0008108761457131348,
+            0.00030302418150111193
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.0008748309550962101,
+            0.00035748562490981454
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.0009374820246982078,
+            0.00041314182602541724
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "series_winner",
+      "correction_family": "retuned_removals40",
+      "a": "pistols",
+      "b": "full_reference",
+      "metric": "log_loss",
+      "id": "series_winner/pistols/log_loss",
+      "difference": -0.0004834362616141637,
+      "ci95": [
+        -0.0016809317122937904,
+        0.0006593874935060738
+      ],
+      "rows": 16319,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.41452473049369437,
+      "mc_upper_p": 0.41926584279949297,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 54332,
+      "seed": 20261046,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.000755114568040726
+        },
+        "2023": {
+          "events": 605,
+          "difference": -0.00012601806112557404
+        },
+        "2024": {
+          "events": 553,
+          "difference": -0.001574251093441927
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.0005406679326220404
+        },
+        "2026": {
+          "events": 620,
+          "difference": 0.000405018271938447
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.0018759110295731162,
+            0.0007724528035355934
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.0020984298280543752,
+            0.0010087054279736324
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.0023197203662453426,
+            0.0011623529044704302
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "series_winner",
+      "correction_family": "retuned_removals40",
+      "a": "map_side",
+      "b": "full_reference",
+      "metric": "brier",
+      "id": "series_winner/map_side/brier",
+      "difference": 8.574614508284462e-06,
+      "ci95": [
+        -0.0005704396390097423,
+        0.00055421967660853
+      ],
+      "rows": 16319,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.9764024627497654,
+      "mc_upper_p": 0.977834929698225,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 127979,
+      "seed": 20261047,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.00027492353890804536
+        },
+        "2023": {
+          "events": 605,
+          "difference": 0.00032149064393082924
+        },
+        "2024": {
+          "events": 553,
+          "difference": 3.813028968803275e-05
+        },
+        "2025": {
+          "events": 632,
+          "difference": 1.0162297211870363e-05
+        },
+        "2026": {
+          "events": 620,
+          "difference": -0.00010984114281112148
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.0005836615739907656,
+            0.0005669792639350312
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.0006287303503551004,
+            0.0005587393888789742
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.0006384679800572081,
+            0.000545556588201887
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "series_winner",
+      "correction_family": "retuned_removals40",
+      "a": "map_side",
+      "b": "full_reference",
+      "metric": "log_loss",
+      "id": "series_winner/map_side/log_loss",
+      "difference": -0.00010800672074158986,
+      "ci95": [
+        -0.0013796759526141817,
+        0.0011008045522289123
+      ],
+      "rows": 16319,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.8627711275396154,
+      "mc_upper_p": 0.866058731994402,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 113085,
+      "seed": 20261048,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.0007722670093495795
+        },
+        "2023": {
+          "events": 605,
+          "difference": 0.00047774575958567215
+        },
+        "2024": {
+          "events": 553,
+          "difference": -1.0980754605684745e-05
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.0001221538250204883
+        },
+        "2026": {
+          "events": 620,
+          "difference": -0.0002481555986788965
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.00149267781060189,
+            0.0011877279361296033
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.0015518258915593226,
+            0.0011631562007177203
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.0015080103443728553,
+            0.0011013923833767573
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "series_winner",
+      "correction_family": "retuned_removals40",
+      "a": "impact",
+      "b": "full_reference",
+      "metric": "brier",
+      "id": "series_winner/impact/brier",
+      "difference": -0.00032815744634717703,
+      "ci95": [
+        -0.0009545358557564518,
+        0.00028328236069581885
+      ],
+      "rows": 16319,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.2968193296865106,
+      "mc_upper_p": 0.30122307346778254,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 38904,
+      "seed": 20261049,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.0004840716997042615
+        },
+        "2023": {
+          "events": 605,
+          "difference": -0.00014439279075003852
+        },
+        "2024": {
+          "events": 553,
+          "difference": -0.0004453714431733378
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.00032310642573180835
+        },
+        "2026": {
+          "events": 620,
+          "difference": -0.000289884579157637
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.0009718738156112118,
+            0.00033415369864087536
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.0010070870673775465,
+            0.0003201850661490526
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.00095518687811111,
+            0.0002216677561066007
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "series_winner",
+      "correction_family": "retuned_removals40",
+      "a": "impact",
+      "b": "full_reference",
+      "metric": "log_loss",
+      "id": "series_winner/impact/log_loss",
+      "difference": -0.0008269607606861326,
+      "ci95": [
+        -0.0021704447497096326,
+        0.0004907005626915229
+      ],
+      "rows": 16319,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.21917557391682496,
+      "mc_upper_p": 0.22316868721437108,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 28727,
+      "seed": 20261050,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.001219575899712583
+        },
+        "2023": {
+          "events": 605,
+          "difference": -0.0005118750836238388
+        },
+        "2024": {
+          "events": 553,
+          "difference": -0.0010770656316664076
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.000829171106407914
+        },
+        "2026": {
+          "events": 620,
+          "difference": -0.0006114652560603234
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.002222479788793458,
+            0.0006058925871426858
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.002315356952862607,
+            0.0005755963098878662
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.002196608851146367,
+            0.0003621447200162536
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "series_winner",
+      "correction_family": "retuned_removals40",
+      "a": "experience",
+      "b": "full_reference",
+      "metric": "brier",
+      "id": "series_winner/experience/brier",
+      "difference": -0.0006757147584317459,
+      "ci95": [
+        -0.0011578318677169996,
+        -0.00021308490366209312
+      ],
+      "rows": 16319,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.005325276754175154,
+      "mc_upper_p": 0.00605308933459427,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 697,
+      "seed": 20261051,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.0010173698015352513
+        },
+        "2023": {
+          "events": 605,
+          "difference": -0.0008472232748407963
+        },
+        "2024": {
+          "events": 553,
+          "difference": -0.0008735889417353418
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.0006679295049390838
+        },
+        "2026": {
+          "events": 620,
+          "difference": -8.080400706779572e-05
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.0012630237745017642,
+            -0.00013621101000656688
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.0013823283062730399,
+            -5.9980199180750417e-05
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.0015033410515429247,
+            7.681583254856771e-05
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 0.19170996315030556,
+      "holm_mc_upper_p": 0.2179112160453937,
+      "conservative_rejection": false
+    },
+    {
+      "task": "series_winner",
+      "correction_family": "retuned_removals40",
+      "a": "experience",
+      "b": "full_reference",
+      "metric": "log_loss",
+      "id": "series_winner/experience/log_loss",
+      "difference": -0.0017417001848419507,
+      "ci95": [
+        -0.0028651026150004733,
+        -0.000662772927640216
+      ],
+      "rows": 16319,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.0022353955429417196,
+      "mc_upper_p": 0.0027177852229629275,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 292,
+      "seed": 20261052,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.002632756848284539
+        },
+        "2023": {
+          "events": 605,
+          "difference": -0.0021605450998653064
+        },
+        "2024": {
+          "events": 553,
+          "difference": -0.002185660153357935
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.0017610675879294359
+        },
+        "2026": {
+          "events": 620,
+          "difference": -0.00024178427073263354
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.003089114741111795,
+            -0.0004934013764270484
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.0033972794153831073,
+            -0.00024775788498421577
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.0038555662054568533,
+            9.528049785229755e-05
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 0.08270963508884363,
+      "holm_mc_upper_p": 0.10055805324962831,
+      "conservative_rejection": false
+    },
+    {
+      "task": "series_winner",
+      "correction_family": "retuned_removals40",
+      "a": "schedule_stability",
+      "b": "full_reference",
+      "metric": "brier",
+      "id": "series_winner/schedule_stability/brier",
+      "difference": -0.0005395757577692469,
+      "ci95": [
+        -0.001687526474836179,
+        0.0006898759033841387
+      ],
+      "rows": 16319,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.36335477176840386,
+      "mc_upper_p": 0.3679865429627719,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 47625,
+      "seed": 20261053,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.0009008988936213736
+        },
+        "2023": {
+          "events": 605,
+          "difference": -0.000207127603001831
+        },
+        "2024": {
+          "events": 553,
+          "difference": -0.00044598595439633234
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.0005520079903823289
+        },
+        "2026": {
+          "events": 620,
+          "difference": -0.0006608777739588291
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.001702172960051232,
+            0.0005848217900428507
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.0014723783118986628,
+            0.0003182606649998977
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.0014006272217698603,
+            0.00019037820023691467
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "series_winner",
+      "correction_family": "retuned_removals40",
+      "a": "schedule_stability",
+      "b": "full_reference",
+      "metric": "log_loss",
+      "id": "series_winner/schedule_stability/log_loss",
+      "difference": -0.0009330654102894995,
+      "ci95": [
+        -0.0035236767218965624,
+        0.0019386423731015756
+      ],
+      "rows": 16319,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.495174444775049,
+      "mc_upper_p": 0.49998153450958005,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 64903,
+      "seed": 20261054,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.0015834137163263685
+        },
+        "2023": {
+          "events": 605,
+          "difference": -0.0004534227542640749
+        },
+        "2024": {
+          "events": 553,
+          "difference": -0.0004986608384099618
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.0009239842950166026
+        },
+        "2026": {
+          "events": 620,
+          "difference": -0.0013048155653861261
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.003555976374385258,
+            0.0017215911076507633
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.003066006475645635,
+            0.0011966526601463517
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.002857892153163751,
+            0.0007947000328244425
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "series_winner",
+      "correction_family": "retuned_removals40",
+      "a": "matchups",
+      "b": "full_reference",
+      "metric": "brier",
+      "id": "series_winner/matchups/brier",
+      "difference": -0.00023817456741299895,
+      "ci95": [
+        -0.0007446408553126579,
+        0.0002788934451139842
+      ],
+      "rows": 16319,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.3618289045035972,
+      "mc_upper_p": 0.36645656904991175,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 47425,
+      "seed": 20261055,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.00041988228071243203
+        },
+        "2023": {
+          "events": 605,
+          "difference": -0.00029537221493799824
+        },
+        "2024": {
+          "events": 553,
+          "difference": -0.00027922136375636776
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.000176316003397673
+        },
+        "2026": {
+          "events": 620,
+          "difference": -7.105929656855522e-05
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.0008413355726386524,
+            0.00033072532646151047
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.0007749675303542367,
+            0.0003118683690101736
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.0007334446026167522,
+            0.00027104617917858467
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "series_winner",
+      "correction_family": "retuned_removals40",
+      "a": "matchups",
+      "b": "full_reference",
+      "metric": "log_loss",
+      "id": "series_winner/matchups/log_loss",
+      "difference": -0.0007676655426621437,
+      "ci95": [
+        -0.0018884497249705924,
+        0.0003779948994310352
+      ],
+      "rows": 16319,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.18450786966041824,
+      "mc_upper_p": 0.18825499810399451,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 24183,
+      "seed": 20261056,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.001290059375002029
+        },
+        "2023": {
+          "events": 605,
+          "difference": -0.000934771392956253
+        },
+        "2024": {
+          "events": 553,
+          "difference": -0.000829647317070642
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.0006659903528192376
+        },
+        "2026": {
+          "events": 620,
+          "difference": -0.00025695370089623236
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.0021185375838023096,
+            0.0005198277439922093
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.002058015322416193,
+            0.0004821204109531309
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.0019348757269067897,
+            0.0003850497517527799
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "series_winner",
+      "correction_family": "retuned_removals40",
+      "a": "coverage",
+      "b": "full_reference",
+      "metric": "brier",
+      "id": "series_winner/coverage/brier",
+      "difference": -0.000883371783937845,
+      "ci95": [
+        -0.0022361218025778525,
+        0.00043367431790102223
+      ],
+      "rows": 16319,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.19270177687242987,
+      "mc_upper_p": 0.19651115427969848,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 25257,
+      "seed": 20261057,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.002074591557871788
+        },
+        "2023": {
+          "events": 605,
+          "difference": -0.00042128597101396767
+        },
+        "2024": {
+          "events": 553,
+          "difference": -0.000339629462032594
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.0008816923563003163
+        },
+        "2026": {
+          "events": 620,
+          "difference": -0.0009179516635354488
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.002352640991189724,
+            0.0004529786472752061
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.0024973565212632015,
+            0.0005803129532270952
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.0027361143768454593,
+            0.0006851084225086698
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    },
+    {
+      "task": "series_winner",
+      "correction_family": "retuned_removals40",
+      "a": "coverage",
+      "b": "full_reference",
+      "metric": "log_loss",
+      "id": "series_winner/coverage/log_loss",
+      "difference": -0.0024530842072433895,
+      "ci95": [
+        -0.005616985861108535,
+        0.0006333499536332151
+      ],
+      "rows": 16319,
+      "events": 720,
+      "draws": 131072,
+      "p_approx": 0.1232977043327001,
+      "mc_upper_p": 0.1264799237644698,
+      "mc_simultaneous_confidence": 0.99,
+      "extreme_count": 16160,
+      "seed": 20261058,
+      "interpretation": "negative difference favors a; intervals conditional on fitted forecasts",
+      "year_omissions": {
+        "2022": {
+          "events": 470,
+          "difference": -0.00529995433827664
+        },
+        "2023": {
+          "events": 605,
+          "difference": -0.0016614137109646127
+        },
+        "2024": {
+          "events": 553,
+          "difference": -0.0010502070835227346
+        },
+        "2025": {
+          "events": 632,
+          "difference": -0.002523318687571755
+        },
+        "2026": {
+          "events": 620,
+          "difference": -0.0022471721854902082
+        }
+      },
+      "moving_blocks": {
+        "10": {
+          "draws": 8192,
+          "ci95": [
+            -0.0057597513186434905,
+            0.0007386670660020551
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "25": {
+          "draws": 8192,
+          "ci95": [
+            -0.006543747830825547,
+            0.0009274574803809318
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        },
+        "50": {
+          "draws": 8192,
+          "ci95": [
+            -0.006967961877687938,
+            0.0012052529527702227
+          ],
+          "method": "circular moving complete-event blocks; descriptive"
+        }
+      },
+      "holm_p": 1.0,
+      "holm_mc_upper_p": 1.0,
+      "conservative_rejection": false
+    }
+  ],
+  "denominators": [
+    {
+      "block": "rolling_03",
+      "task": "map_winner",
+      "rows": 5841,
+      "events": 92
+    },
+    {
+      "block": "rolling_04",
+      "task": "map_winner",
+      "rows": 3130,
+      "events": 86
+    },
+    {
+      "block": "rolling_05",
+      "task": "map_winner",
+      "rows": 3870,
+      "events": 92
+    },
+    {
+      "block": "rolling_06",
+      "task": "map_winner",
+      "rows": 5296,
+      "events": 91
+    },
+    {
+      "block": "rolling_08",
+      "task": "map_winner",
+      "rows": 6138,
+      "events": 87
+    },
+    {
+      "block": "rolling_09",
+      "task": "map_winner",
+      "rows": 2527,
+      "events": 85
+    },
+    {
+      "block": "rolling_10",
+      "task": "map_winner",
+      "rows": 4565,
+      "events": 87
+    },
+    {
+      "block": "rolling_12",
+      "task": "map_winner",
+      "rows": 5257,
+      "events": 100
+    },
+    {
+      "block": "rolling_03",
+      "task": "series_winner",
+      "rows": 2676,
+      "events": 92
+    },
+    {
+      "block": "rolling_04",
+      "task": "series_winner",
+      "rows": 1462,
+      "events": 86
+    },
+    {
+      "block": "rolling_05",
+      "task": "series_winner",
+      "rows": 1909,
+      "events": 92
+    },
+    {
+      "block": "rolling_06",
+      "task": "series_winner",
+      "rows": 2445,
+      "events": 91
+    },
+    {
+      "block": "rolling_08",
+      "task": "series_winner",
+      "rows": 2696,
+      "events": 87
+    },
+    {
+      "block": "rolling_09",
+      "task": "series_winner",
+      "rows": 1090,
+      "events": 85
+    },
+    {
+      "block": "rolling_10",
+      "task": "series_winner",
+      "rows": 1937,
+      "events": 87
+    },
+    {
+      "block": "rolling_12",
+      "task": "series_winner",
+      "rows": 2104,
+      "events": 100
+    }
+  ],
+  "interpretation": "conditional reliance with hyperparameter retuning inside fixed selected architecture; new family, original decisions unchanged"
+}

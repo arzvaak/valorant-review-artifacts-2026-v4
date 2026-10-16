@@ -1,0 +1,17 @@
+block,events,rows,task
+rolling_03,92,5841,map_winner
+rolling_04,86,3130,map_winner
+rolling_05,92,3870,map_winner
+rolling_06,91,5296,map_winner
+rolling_08,87,6138,map_winner
+rolling_09,85,2527,map_winner
+rolling_10,87,4565,map_winner
+rolling_12,100,5257,map_winner
+rolling_03,92,2676,series_winner
+rolling_04,86,1462,series_winner
+rolling_05,92,1909,series_winner
+rolling_06,91,2445,series_winner
+rolling_08,87,2696,series_winner
+rolling_09,85,1090,series_winner
+rolling_10,87,1937,series_winner
+rolling_12,100,2104,series_winner

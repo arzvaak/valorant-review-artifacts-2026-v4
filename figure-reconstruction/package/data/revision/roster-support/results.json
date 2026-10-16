@@ -1,0 +1,580 @@
+{
+  "units": [
+    {
+      "block": "rolling_01",
+      "task": "map_winner",
+      "regime": "frozen_2h",
+      "rows": 6905,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 2284
+    },
+    {
+      "block": "rolling_01",
+      "task": "series_winner",
+      "regime": "frozen_2h",
+      "rows": 3250,
+      "incomplete_proxy_fallbacks": 2737,
+      "full_roster_without_any_task_player_history": 61
+    },
+    {
+      "block": "rolling_01",
+      "task": "map_winner",
+      "regime": "frozen_6h",
+      "rows": 6905,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 2284
+    },
+    {
+      "block": "rolling_01",
+      "task": "map_winner",
+      "regime": "online_6h",
+      "rows": 6905,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 104
+    },
+    {
+      "block": "rolling_01",
+      "task": "series_winner",
+      "regime": "frozen_6h",
+      "rows": 3250,
+      "incomplete_proxy_fallbacks": 2737,
+      "full_roster_without_any_task_player_history": 67
+    },
+    {
+      "block": "rolling_01",
+      "task": "series_winner",
+      "regime": "online_6h",
+      "rows": 3250,
+      "incomplete_proxy_fallbacks": 1230,
+      "full_roster_without_any_task_player_history": 45
+    },
+    {
+      "block": "rolling_02",
+      "task": "map_winner",
+      "regime": "frozen_2h",
+      "rows": 6711,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 945
+    },
+    {
+      "block": "rolling_02",
+      "task": "series_winner",
+      "regime": "frozen_2h",
+      "rows": 3133,
+      "incomplete_proxy_fallbacks": 2590,
+      "full_roster_without_any_task_player_history": 2
+    },
+    {
+      "block": "rolling_02",
+      "task": "map_winner",
+      "regime": "frozen_6h",
+      "rows": 6711,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 945
+    },
+    {
+      "block": "rolling_02",
+      "task": "map_winner",
+      "regime": "online_6h",
+      "rows": 6711,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 101
+    },
+    {
+      "block": "rolling_02",
+      "task": "series_winner",
+      "regime": "frozen_6h",
+      "rows": 3133,
+      "incomplete_proxy_fallbacks": 2590,
+      "full_roster_without_any_task_player_history": 4
+    },
+    {
+      "block": "rolling_02",
+      "task": "series_winner",
+      "regime": "online_6h",
+      "rows": 3133,
+      "incomplete_proxy_fallbacks": 1033,
+      "full_roster_without_any_task_player_history": 23
+    },
+    {
+      "block": "rolling_03",
+      "task": "map_winner",
+      "regime": "frozen_2h",
+      "rows": 5841,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 372
+    },
+    {
+      "block": "rolling_03",
+      "task": "series_winner",
+      "regime": "frozen_2h",
+      "rows": 2676,
+      "incomplete_proxy_fallbacks": 2115,
+      "full_roster_without_any_task_player_history": 0
+    },
+    {
+      "block": "rolling_03",
+      "task": "map_winner",
+      "regime": "frozen_6h",
+      "rows": 5841,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 372
+    },
+    {
+      "block": "rolling_03",
+      "task": "map_winner",
+      "regime": "online_6h",
+      "rows": 5841,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 17
+    },
+    {
+      "block": "rolling_03",
+      "task": "series_winner",
+      "regime": "frozen_6h",
+      "rows": 2676,
+      "incomplete_proxy_fallbacks": 2115,
+      "full_roster_without_any_task_player_history": 0
+    },
+    {
+      "block": "rolling_03",
+      "task": "series_winner",
+      "regime": "online_6h",
+      "rows": 2676,
+      "incomplete_proxy_fallbacks": 482,
+      "full_roster_without_any_task_player_history": 11
+    },
+    {
+      "block": "rolling_04",
+      "task": "map_winner",
+      "regime": "frozen_2h",
+      "rows": 3130,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 171
+    },
+    {
+      "block": "rolling_04",
+      "task": "series_winner",
+      "regime": "frozen_2h",
+      "rows": 1462,
+      "incomplete_proxy_fallbacks": 1038,
+      "full_roster_without_any_task_player_history": 2
+    },
+    {
+      "block": "rolling_04",
+      "task": "map_winner",
+      "regime": "frozen_6h",
+      "rows": 3130,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 171
+    },
+    {
+      "block": "rolling_04",
+      "task": "map_winner",
+      "regime": "online_6h",
+      "rows": 3130,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 19
+    },
+    {
+      "block": "rolling_04",
+      "task": "series_winner",
+      "regime": "frozen_6h",
+      "rows": 1462,
+      "incomplete_proxy_fallbacks": 1038,
+      "full_roster_without_any_task_player_history": 2
+    },
+    {
+      "block": "rolling_04",
+      "task": "series_winner",
+      "regime": "online_6h",
+      "rows": 1462,
+      "incomplete_proxy_fallbacks": 290,
+      "full_roster_without_any_task_player_history": 4
+    },
+    {
+      "block": "rolling_05",
+      "task": "map_winner",
+      "regime": "frozen_2h",
+      "rows": 3870,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 39
+    },
+    {
+      "block": "rolling_05",
+      "task": "series_winner",
+      "regime": "frozen_2h",
+      "rows": 1909,
+      "incomplete_proxy_fallbacks": 1224,
+      "full_roster_without_any_task_player_history": 0
+    },
+    {
+      "block": "rolling_05",
+      "task": "map_winner",
+      "regime": "frozen_6h",
+      "rows": 3870,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 39
+    },
+    {
+      "block": "rolling_05",
+      "task": "map_winner",
+      "regime": "online_6h",
+      "rows": 3870,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 14
+    },
+    {
+      "block": "rolling_05",
+      "task": "series_winner",
+      "regime": "frozen_6h",
+      "rows": 1909,
+      "incomplete_proxy_fallbacks": 1224,
+      "full_roster_without_any_task_player_history": 0
+    },
+    {
+      "block": "rolling_05",
+      "task": "series_winner",
+      "regime": "online_6h",
+      "rows": 1909,
+      "incomplete_proxy_fallbacks": 367,
+      "full_roster_without_any_task_player_history": 3
+    },
+    {
+      "block": "rolling_06",
+      "task": "map_winner",
+      "regime": "frozen_2h",
+      "rows": 5296,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 34
+    },
+    {
+      "block": "rolling_06",
+      "task": "series_winner",
+      "regime": "frozen_2h",
+      "rows": 2445,
+      "incomplete_proxy_fallbacks": 1555,
+      "full_roster_without_any_task_player_history": 0
+    },
+    {
+      "block": "rolling_06",
+      "task": "map_winner",
+      "regime": "frozen_6h",
+      "rows": 5296,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 34
+    },
+    {
+      "block": "rolling_06",
+      "task": "map_winner",
+      "regime": "online_6h",
+      "rows": 5296,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 5
+    },
+    {
+      "block": "rolling_06",
+      "task": "series_winner",
+      "regime": "frozen_6h",
+      "rows": 2445,
+      "incomplete_proxy_fallbacks": 1555,
+      "full_roster_without_any_task_player_history": 0
+    },
+    {
+      "block": "rolling_06",
+      "task": "series_winner",
+      "regime": "online_6h",
+      "rows": 2445,
+      "incomplete_proxy_fallbacks": 387,
+      "full_roster_without_any_task_player_history": 2
+    },
+    {
+      "block": "rolling_07",
+      "task": "map_winner",
+      "regime": "frozen_2h",
+      "rows": 2682,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 15
+    },
+    {
+      "block": "rolling_07",
+      "task": "series_winner",
+      "regime": "frozen_2h",
+      "rows": 1180,
+      "incomplete_proxy_fallbacks": 826,
+      "full_roster_without_any_task_player_history": 0
+    },
+    {
+      "block": "rolling_07",
+      "task": "map_winner",
+      "regime": "frozen_6h",
+      "rows": 2682,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 15
+    },
+    {
+      "block": "rolling_07",
+      "task": "map_winner",
+      "regime": "online_6h",
+      "rows": 2682,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 8
+    },
+    {
+      "block": "rolling_07",
+      "task": "series_winner",
+      "regime": "frozen_6h",
+      "rows": 1180,
+      "incomplete_proxy_fallbacks": 826,
+      "full_roster_without_any_task_player_history": 0
+    },
+    {
+      "block": "rolling_07",
+      "task": "series_winner",
+      "regime": "online_6h",
+      "rows": 1180,
+      "incomplete_proxy_fallbacks": 305,
+      "full_roster_without_any_task_player_history": 3
+    },
+    {
+      "block": "rolling_08",
+      "task": "map_winner",
+      "regime": "frozen_2h",
+      "rows": 6138,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 22
+    },
+    {
+      "block": "rolling_08",
+      "task": "series_winner",
+      "regime": "frozen_2h",
+      "rows": 2696,
+      "incomplete_proxy_fallbacks": 1626,
+      "full_roster_without_any_task_player_history": 0
+    },
+    {
+      "block": "rolling_08",
+      "task": "map_winner",
+      "regime": "frozen_6h",
+      "rows": 6138,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 22
+    },
+    {
+      "block": "rolling_08",
+      "task": "map_winner",
+      "regime": "online_6h",
+      "rows": 6138,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 14
+    },
+    {
+      "block": "rolling_08",
+      "task": "series_winner",
+      "regime": "frozen_6h",
+      "rows": 2696,
+      "incomplete_proxy_fallbacks": 1626,
+      "full_roster_without_any_task_player_history": 0
+    },
+    {
+      "block": "rolling_08",
+      "task": "series_winner",
+      "regime": "online_6h",
+      "rows": 2696,
+      "incomplete_proxy_fallbacks": 413,
+      "full_roster_without_any_task_player_history": 0
+    },
+    {
+      "block": "rolling_09",
+      "task": "map_winner",
+      "regime": "frozen_2h",
+      "rows": 2527,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 15
+    },
+    {
+      "block": "rolling_09",
+      "task": "series_winner",
+      "regime": "frozen_2h",
+      "rows": 1090,
+      "incomplete_proxy_fallbacks": 739,
+      "full_roster_without_any_task_player_history": 0
+    },
+    {
+      "block": "rolling_09",
+      "task": "map_winner",
+      "regime": "frozen_6h",
+      "rows": 2527,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 15
+    },
+    {
+      "block": "rolling_09",
+      "task": "map_winner",
+      "regime": "online_6h",
+      "rows": 2527,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 0
+    },
+    {
+      "block": "rolling_09",
+      "task": "series_winner",
+      "regime": "frozen_6h",
+      "rows": 1090,
+      "incomplete_proxy_fallbacks": 739,
+      "full_roster_without_any_task_player_history": 0
+    },
+    {
+      "block": "rolling_09",
+      "task": "series_winner",
+      "regime": "online_6h",
+      "rows": 1090,
+      "incomplete_proxy_fallbacks": 184,
+      "full_roster_without_any_task_player_history": 1
+    },
+    {
+      "block": "rolling_10",
+      "task": "map_winner",
+      "regime": "frozen_2h",
+      "rows": 4565,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 3
+    },
+    {
+      "block": "rolling_10",
+      "task": "series_winner",
+      "regime": "frozen_2h",
+      "rows": 1937,
+      "incomplete_proxy_fallbacks": 1147,
+      "full_roster_without_any_task_player_history": 0
+    },
+    {
+      "block": "rolling_10",
+      "task": "map_winner",
+      "regime": "frozen_6h",
+      "rows": 4565,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 3
+    },
+    {
+      "block": "rolling_10",
+      "task": "map_winner",
+      "regime": "online_6h",
+      "rows": 4565,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 0
+    },
+    {
+      "block": "rolling_10",
+      "task": "series_winner",
+      "regime": "frozen_6h",
+      "rows": 1937,
+      "incomplete_proxy_fallbacks": 1147,
+      "full_roster_without_any_task_player_history": 0
+    },
+    {
+      "block": "rolling_10",
+      "task": "series_winner",
+      "regime": "online_6h",
+      "rows": 1937,
+      "incomplete_proxy_fallbacks": 217,
+      "full_roster_without_any_task_player_history": 0
+    },
+    {
+      "block": "rolling_11",
+      "task": "map_winner",
+      "regime": "frozen_2h",
+      "rows": 3021,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 10
+    },
+    {
+      "block": "rolling_11",
+      "task": "series_winner",
+      "regime": "frozen_2h",
+      "rows": 1304,
+      "incomplete_proxy_fallbacks": 729,
+      "full_roster_without_any_task_player_history": 0
+    },
+    {
+      "block": "rolling_11",
+      "task": "map_winner",
+      "regime": "frozen_6h",
+      "rows": 3021,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 10
+    },
+    {
+      "block": "rolling_11",
+      "task": "map_winner",
+      "regime": "online_6h",
+      "rows": 3021,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 10
+    },
+    {
+      "block": "rolling_11",
+      "task": "series_winner",
+      "regime": "frozen_6h",
+      "rows": 1304,
+      "incomplete_proxy_fallbacks": 729,
+      "full_roster_without_any_task_player_history": 0
+    },
+    {
+      "block": "rolling_11",
+      "task": "series_winner",
+      "regime": "online_6h",
+      "rows": 1304,
+      "incomplete_proxy_fallbacks": 185,
+      "full_roster_without_any_task_player_history": 1
+    },
+    {
+      "block": "rolling_12",
+      "task": "map_winner",
+      "regime": "frozen_2h",
+      "rows": 5257,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 6
+    },
+    {
+      "block": "rolling_12",
+      "task": "series_winner",
+      "regime": "frozen_2h",
+      "rows": 2104,
+      "incomplete_proxy_fallbacks": 1091,
+      "full_roster_without_any_task_player_history": 0
+    },
+    {
+      "block": "rolling_12",
+      "task": "map_winner",
+      "regime": "frozen_6h",
+      "rows": 5257,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 6
+    },
+    {
+      "block": "rolling_12",
+      "task": "map_winner",
+      "regime": "online_6h",
+      "rows": 5257,
+      "incomplete_proxy_fallbacks": 0,
+      "full_roster_without_any_task_player_history": 0
+    },
+    {
+      "block": "rolling_12",
+      "task": "series_winner",
+      "regime": "frozen_6h",
+      "rows": 2104,
+      "incomplete_proxy_fallbacks": 1091,
+      "full_roster_without_any_task_player_history": 0
+    },
+    {
+      "block": "rolling_12",
+      "task": "series_winner",
+      "regime": "online_6h",
+      "rows": 2104,
+      "incomplete_proxy_fallbacks": 216,
+      "full_roster_without_any_task_player_history": 1
+    }
+  ]
+}

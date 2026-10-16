@@ -1,0 +1,1595 @@
+{
+  "version": "journal-width-evidence/1",
+  "code_sha256": "0e43932b4ba611f8e2fa4a15614390a8ccb2972ff1fc0859ccc471d1cda10e7b",
+  "inputs": {
+    "players": {
+      "path": "data/core/report/players/results.json",
+      "sha256": "6a7b7c2a6c1361d9854ca7373e0a791abe1390bce10ea7bea3a3edf421624858"
+    },
+    "removals": {
+      "path": "data/core/report/removals/results.json",
+      "sha256": "dc1f6eab91ef0a45990b7941c3d26d5ea062206fb69273b3d7862782fca616e9"
+    },
+    "online": {
+      "path": "data/online/results.json",
+      "sha256": "821a1ee7d3f24fd4b42aff22595a4c84f666716fb9f92730f1b8a398e355873c"
+    },
+    "methods": {
+      "path": "docs/paper-study/methods-and-evaluation.md",
+      "sha256": "a5104992341fd4b54ed56615cb08fa58b68f2156ac3e5ac7c654e4202302efb1"
+    }
+  },
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.10.8"
+  },
+  "width_inches": 7.16,
+  "minimum_declared_font_points": 8,
+  "new_fits_or_scores": false,
+  "protected_or_raw_source_access": false,
+  "figures": {
+    "players-map_winner-journal": {
+      "size_inches": [
+        7.16,
+        4.3
+      ],
+      "minimum_font_points": 8,
+      "caption": "Player-set controls \u00b7 maps after picks. Broad nonglobal development evidence: 55,943 rows / 1,049 events. All 24 task/loss contrasts are plotted with pointwise 95% complete-event bootstrap intervals conditional on saved fits, omitting refitting uncertainty. Panels share scales across tasks within each loss. None has conservative Holm support in its declared family; a pointwise interval excluding zero is not an adjusted decision. Nonsignificance does not establish equivalence. DS = Deep Sets; ST = Set Transformer; Sel = frozen selector. BN uses general numeric histories; BNLC jointly adds linked histories and composition. Full-minus-general and set-versus-summary contrasts change more than one factor.",
+      "geometry": "points and complete horizontal intervals; Cartesian zero reference; no truncation",
+      "plotted_rows": [
+        {
+          "id": "map_winner/BN/deep_sets-mlp/brier",
+          "a": "BN-deep_sets",
+          "b": "BN-mlp",
+          "task": "map_winner",
+          "metric": "brier",
+          "difference": 0.00041717138439700986,
+          "ci95": [
+            -0.0007020804103289876,
+            0.0015333678198932138
+          ],
+          "rows": 55943,
+          "events": 1049,
+          "conservative_rejection": false,
+          "display_label": "BN DS \u2212 MLP"
+        },
+        {
+          "id": "map_winner/BN/deep_sets-tabm/brier",
+          "a": "BN-deep_sets",
+          "b": "BN-tabm",
+          "task": "map_winner",
+          "metric": "brier",
+          "difference": 0.0006923517602912237,
+          "ci95": [
+            -0.0004156822380427807,
+            0.001792905704443253
+          ],
+          "rows": 55943,
+          "events": 1049,
+          "conservative_rejection": false,
+          "display_label": "BN DS \u2212 TabM"
+        },
+        {
+          "id": "map_winner/BN/set_transformer-mlp/brier",
+          "a": "BN-set_transformer",
+          "b": "BN-mlp",
+          "task": "map_winner",
+          "metric": "brier",
+          "difference": 3.4268739481445036e-05,
+          "ci95": [
+            -0.0008509277849963327,
+            0.0009265798393519741
+          ],
+          "rows": 55943,
+          "events": 1049,
+          "conservative_rejection": false,
+          "display_label": "BN ST \u2212 MLP"
+        },
+        {
+          "id": "map_winner/BN/set_transformer-tabm/brier",
+          "a": "BN-set_transformer",
+          "b": "BN-tabm",
+          "task": "map_winner",
+          "metric": "brier",
+          "difference": 0.0003094491153756588,
+          "ci95": [
+            -0.0005361255161549444,
+            0.0011604655443471423
+          ],
+          "rows": 55943,
+          "events": 1049,
+          "conservative_rejection": false,
+          "display_label": "BN ST \u2212 TabM"
+        },
+        {
+          "id": "map_winner/BNLC/deep_sets-mlp/brier",
+          "a": "BNLC-deep_sets",
+          "b": "BNLC-mlp",
+          "task": "map_winner",
+          "metric": "brier",
+          "difference": 0.00044683842530014175,
+          "ci95": [
+            -0.00016550820683074974,
+            0.0010787537820402837
+          ],
+          "rows": 55943,
+          "events": 1049,
+          "conservative_rejection": false,
+          "display_label": "BNLC DS \u2212 MLP"
+        },
+        {
+          "id": "map_winner/BNLC/deep_sets-tabm/brier",
+          "a": "BNLC-deep_sets",
+          "b": "BNLC-tabm",
+          "task": "map_winner",
+          "metric": "brier",
+          "difference": -0.00032191058785944923,
+          "ci95": [
+            -0.001245244279205515,
+            0.0005568946746343991
+          ],
+          "rows": 55943,
+          "events": 1049,
+          "conservative_rejection": false,
+          "display_label": "BNLC DS \u2212 TabM"
+        },
+        {
+          "id": "map_winner/BNLC/set_transformer-mlp/brier",
+          "a": "BNLC-set_transformer",
+          "b": "BNLC-mlp",
+          "task": "map_winner",
+          "metric": "brier",
+          "difference": 0.0007050427918040945,
+          "ci95": [
+            -0.0001379962057031485,
+            0.0015666833267262198
+          ],
+          "rows": 55943,
+          "events": 1049,
+          "conservative_rejection": false,
+          "display_label": "BNLC ST \u2212 MLP"
+        },
+        {
+          "id": "map_winner/BNLC/set_transformer-tabm/brier",
+          "a": "BNLC-set_transformer",
+          "b": "BNLC-tabm",
+          "task": "map_winner",
+          "metric": "brier",
+          "difference": -6.370622135549642e-05,
+          "ci95": [
+            -0.0009036976386845338,
+            0.0007510447903963301
+          ],
+          "rows": 55943,
+          "events": 1049,
+          "conservative_rejection": false,
+          "display_label": "BNLC ST \u2212 TabM"
+        },
+        {
+          "id": "map_winner/deep_sets-selector/brier",
+          "a": "BNLC-deep_sets",
+          "b": "selector",
+          "task": "map_winner",
+          "metric": "brier",
+          "difference": -0.0018522419635600652,
+          "ci95": [
+            -0.0033078095738068433,
+            -0.00040035546620556723
+          ],
+          "rows": 55943,
+          "events": 1049,
+          "conservative_rejection": false,
+          "display_label": "BNLC DS \u2212 Sel"
+        },
+        {
+          "id": "map_winner/deep_sets/full-general/brier",
+          "a": "BNLC-deep_sets",
+          "b": "BN-deep_sets",
+          "task": "map_winner",
+          "metric": "brier",
+          "difference": -0.0009928510237566849,
+          "ci95": [
+            -0.0019665642752240207,
+            -3.965015117402232e-05
+          ],
+          "rows": 55943,
+          "events": 1049,
+          "conservative_rejection": false,
+          "display_label": "DS full \u2212 general"
+        },
+        {
+          "id": "map_winner/set_transformer-selector/brier",
+          "a": "BNLC-set_transformer",
+          "b": "selector",
+          "task": "map_winner",
+          "metric": "brier",
+          "difference": -0.0015940375970561124,
+          "ci95": [
+            -0.0031259365983527542,
+            -5.954883964261993e-05
+          ],
+          "rows": 55943,
+          "events": 1049,
+          "conservative_rejection": false,
+          "display_label": "BNLC ST \u2212 Sel"
+        },
+        {
+          "id": "map_winner/set_transformer/full-general/brier",
+          "a": "BNLC-set_transformer",
+          "b": "BN-set_transformer",
+          "task": "map_winner",
+          "metric": "brier",
+          "difference": -0.00035174401233716734,
+          "ci95": [
+            -0.001104294355369188,
+            0.00039868418276452016
+          ],
+          "rows": 55943,
+          "events": 1049,
+          "conservative_rejection": false,
+          "display_label": "ST full \u2212 general"
+        },
+        {
+          "id": "map_winner/BN/deep_sets-mlp/log_loss",
+          "a": "BN-deep_sets",
+          "b": "BN-mlp",
+          "task": "map_winner",
+          "metric": "log_loss",
+          "difference": 0.0023159925018866024,
+          "ci95": [
+            -0.00047403540785421745,
+            0.0051279230927560185
+          ],
+          "rows": 55943,
+          "events": 1049,
+          "conservative_rejection": false,
+          "display_label": "BN DS \u2212 MLP"
+        },
+        {
+          "id": "map_winner/BN/deep_sets-tabm/log_loss",
+          "a": "BN-deep_sets",
+          "b": "BN-tabm",
+          "task": "map_winner",
+          "metric": "log_loss",
+          "difference": 0.002632258198906741,
+          "ci95": [
+            -3.29744136466993e-05,
+            0.005306508730887456
+          ],
+          "rows": 55943,
+          "events": 1049,
+          "conservative_rejection": false,
+          "display_label": "BN DS \u2212 TabM"
+        },
+        {
+          "id": "map_winner/BN/set_transformer-mlp/log_loss",
+          "a": "BN-set_transformer",
+          "b": "BN-mlp",
+          "task": "map_winner",
+          "metric": "log_loss",
+          "difference": 0.001055839021394546,
+          "ci95": [
+            -0.0010783093328897559,
+            0.003236624256870198
+          ],
+          "rows": 55943,
+          "events": 1049,
+          "conservative_rejection": false,
+          "display_label": "BN ST \u2212 MLP"
+        },
+        {
+          "id": "map_winner/BN/set_transformer-tabm/log_loss",
+          "a": "BN-set_transformer",
+          "b": "BN-tabm",
+          "task": "map_winner",
+          "metric": "log_loss",
+          "difference": 0.0013721047184146848,
+          "ci95": [
+            -0.0005331867174720401,
+            0.0033114744458628102
+          ],
+          "rows": 55943,
+          "events": 1049,
+          "conservative_rejection": false,
+          "display_label": "BN ST \u2212 TabM"
+        },
+        {
+          "id": "map_winner/BNLC/deep_sets-mlp/log_loss",
+          "a": "BNLC-deep_sets",
+          "b": "BNLC-mlp",
+          "task": "map_winner",
+          "metric": "log_loss",
+          "difference": 0.0017133391789871811,
+          "ci95": [
+            0.00024057884475978017,
+            0.003242960202199601
+          ],
+          "rows": 55943,
+          "events": 1049,
+          "conservative_rejection": false,
+          "display_label": "BNLC DS \u2212 MLP"
+        },
+        {
+          "id": "map_winner/BNLC/deep_sets-tabm/log_loss",
+          "a": "BNLC-deep_sets",
+          "b": "BNLC-tabm",
+          "task": "map_winner",
+          "metric": "log_loss",
+          "difference": -0.00044315331770876,
+          "ci95": [
+            -0.002533795583719748,
+            0.0015570815386263042
+          ],
+          "rows": 55943,
+          "events": 1049,
+          "conservative_rejection": false,
+          "display_label": "BNLC DS \u2212 TabM"
+        },
+        {
+          "id": "map_winner/BNLC/set_transformer-mlp/log_loss",
+          "a": "BNLC-set_transformer",
+          "b": "BNLC-mlp",
+          "task": "map_winner",
+          "metric": "log_loss",
+          "difference": 0.0023070780491124343,
+          "ci95": [
+            0.0002901569605441862,
+            0.004401968310882752
+          ],
+          "rows": 55943,
+          "events": 1049,
+          "conservative_rejection": false,
+          "display_label": "BNLC ST \u2212 MLP"
+        },
+        {
+          "id": "map_winner/BNLC/set_transformer-tabm/log_loss",
+          "a": "BNLC-set_transformer",
+          "b": "BNLC-tabm",
+          "task": "map_winner",
+          "metric": "log_loss",
+          "difference": 0.00015058555241649325,
+          "ci95": [
+            -0.0016740731411996174,
+            0.0019451278838035137
+          ],
+          "rows": 55943,
+          "events": 1049,
+          "conservative_rejection": false,
+          "display_label": "BNLC ST \u2212 TabM"
+        },
+        {
+          "id": "map_winner/deep_sets-selector/log_loss",
+          "a": "BNLC-deep_sets",
+          "b": "selector",
+          "task": "map_winner",
+          "metric": "log_loss",
+          "difference": -0.004948142585695301,
+          "ci95": [
+            -0.008384696917308298,
+            -0.0015011079818919464
+          ],
+          "rows": 55943,
+          "events": 1049,
+          "conservative_rejection": false,
+          "display_label": "BNLC DS \u2212 Sel"
+        },
+        {
+          "id": "map_winner/deep_sets/full-general/log_loss",
+          "a": "BNLC-deep_sets",
+          "b": "BN-deep_sets",
+          "task": "map_winner",
+          "metric": "log_loss",
+          "difference": -0.0029134860242742717,
+          "ci95": [
+            -0.005260858197010223,
+            -0.0006019480240569447
+          ],
+          "rows": 55943,
+          "events": 1049,
+          "conservative_rejection": false,
+          "display_label": "DS full \u2212 general"
+        },
+        {
+          "id": "map_winner/set_transformer-selector/log_loss",
+          "a": "BNLC-set_transformer",
+          "b": "selector",
+          "task": "map_winner",
+          "metric": "log_loss",
+          "difference": -0.004354403715570048,
+          "ci95": [
+            -0.008001409357749244,
+            -0.0007316160712700104
+          ],
+          "rows": 55943,
+          "events": 1049,
+          "conservative_rejection": false,
+          "display_label": "BNLC ST \u2212 Sel"
+        },
+        {
+          "id": "map_winner/set_transformer/full-general/log_loss",
+          "a": "BNLC-set_transformer",
+          "b": "BN-set_transformer",
+          "task": "map_winner",
+          "metric": "log_loss",
+          "difference": -0.0010595936736569618,
+          "ci95": [
+            -0.002821706001379583,
+            0.0006929163997717644
+          ],
+          "rows": 55943,
+          "events": 1049,
+          "conservative_rejection": false,
+          "display_label": "ST full \u2212 general"
+        }
+      ]
+    },
+    "players-series_winner-journal": {
+      "size_inches": [
+        7.16,
+        4.3
+      ],
+      "minimum_font_points": 8,
+      "caption": "Player-set controls \u00b7 series before play. Broad nonglobal development evidence: 25,186 rows / 1,047 events. All 24 task/loss contrasts are plotted with pointwise 95% complete-event bootstrap intervals conditional on saved fits, omitting refitting uncertainty. Panels share scales across tasks within each loss. None has conservative Holm support in its declared family; a pointwise interval excluding zero is not an adjusted decision. Nonsignificance does not establish equivalence. DS = Deep Sets; ST = Set Transformer; Sel = frozen selector. BN uses general numeric histories; BNLC jointly adds linked histories and composition. Full-minus-general and set-versus-summary contrasts change more than one factor.",
+      "geometry": "points and complete horizontal intervals; Cartesian zero reference; no truncation",
+      "plotted_rows": [
+        {
+          "id": "series_winner/BN/deep_sets-mlp/brier",
+          "a": "BN-deep_sets",
+          "b": "BN-mlp",
+          "task": "series_winner",
+          "metric": "brier",
+          "difference": -0.00022097254828429836,
+          "ci95": [
+            -0.0016091619817933213,
+            0.001232826712860616
+          ],
+          "rows": 25186,
+          "events": 1047,
+          "conservative_rejection": false,
+          "display_label": "BN DS \u2212 MLP"
+        },
+        {
+          "id": "series_winner/BN/deep_sets-tabm/brier",
+          "a": "BN-deep_sets",
+          "b": "BN-tabm",
+          "task": "series_winner",
+          "metric": "brier",
+          "difference": 0.00045702412525243494,
+          "ci95": [
+            -0.0012140290153416543,
+            0.0022062422442601305
+          ],
+          "rows": 25186,
+          "events": 1047,
+          "conservative_rejection": false,
+          "display_label": "BN DS \u2212 TabM"
+        },
+        {
+          "id": "series_winner/BN/set_transformer-mlp/brier",
+          "a": "BN-set_transformer",
+          "b": "BN-mlp",
+          "task": "series_winner",
+          "metric": "brier",
+          "difference": -0.0007726884346522939,
+          "ci95": [
+            -0.001975334107292302,
+            0.00038415687790259657
+          ],
+          "rows": 25186,
+          "events": 1047,
+          "conservative_rejection": false,
+          "display_label": "BN ST \u2212 MLP"
+        },
+        {
+          "id": "series_winner/BN/set_transformer-tabm/brier",
+          "a": "BN-set_transformer",
+          "b": "BN-tabm",
+          "task": "series_winner",
+          "metric": "brier",
+          "difference": -9.469176111556056e-05,
+          "ci95": [
+            -0.001492400459479096,
+            0.00132514357428069
+          ],
+          "rows": 25186,
+          "events": 1047,
+          "conservative_rejection": false,
+          "display_label": "BN ST \u2212 TabM"
+        },
+        {
+          "id": "series_winner/BNLC/deep_sets-mlp/brier",
+          "a": "BNLC-deep_sets",
+          "b": "BNLC-mlp",
+          "task": "series_winner",
+          "metric": "brier",
+          "difference": 0.0004109910901888508,
+          "ci95": [
+            -0.0006496367211975763,
+            0.0015189566943036616
+          ],
+          "rows": 25186,
+          "events": 1047,
+          "conservative_rejection": false,
+          "display_label": "BNLC DS \u2212 MLP"
+        },
+        {
+          "id": "series_winner/BNLC/deep_sets-tabm/brier",
+          "a": "BNLC-deep_sets",
+          "b": "BNLC-tabm",
+          "task": "series_winner",
+          "metric": "brier",
+          "difference": -3.8134663542794865e-05,
+          "ci95": [
+            -0.00149792764320749,
+            0.0014697926461878085
+          ],
+          "rows": 25186,
+          "events": 1047,
+          "conservative_rejection": false,
+          "display_label": "BNLC DS \u2212 TabM"
+        },
+        {
+          "id": "series_winner/BNLC/set_transformer-mlp/brier",
+          "a": "BNLC-set_transformer",
+          "b": "BNLC-mlp",
+          "task": "series_winner",
+          "metric": "brier",
+          "difference": 0.00027603154188980916,
+          "ci95": [
+            -0.0005213684564742767,
+            0.0011059433394827744
+          ],
+          "rows": 25186,
+          "events": 1047,
+          "conservative_rejection": false,
+          "display_label": "BNLC ST \u2212 MLP"
+        },
+        {
+          "id": "series_winner/BNLC/set_transformer-tabm/brier",
+          "a": "BNLC-set_transformer",
+          "b": "BNLC-tabm",
+          "task": "series_winner",
+          "metric": "brier",
+          "difference": -0.00017309421184183646,
+          "ci95": [
+            -0.0013306109394803428,
+            0.0010087311352356737
+          ],
+          "rows": 25186,
+          "events": 1047,
+          "conservative_rejection": false,
+          "display_label": "BNLC ST \u2212 TabM"
+        },
+        {
+          "id": "series_winner/deep_sets-selector/brier",
+          "a": "BNLC-deep_sets",
+          "b": "selector",
+          "task": "series_winner",
+          "metric": "brier",
+          "difference": -0.0009838408748721553,
+          "ci95": [
+            -0.0028181221767318897,
+            0.0008550556634313489
+          ],
+          "rows": 25186,
+          "events": 1047,
+          "conservative_rejection": false,
+          "display_label": "BNLC DS \u2212 Sel"
+        },
+        {
+          "id": "series_winner/deep_sets/full-general/brier",
+          "a": "BNLC-deep_sets",
+          "b": "BN-deep_sets",
+          "task": "series_winner",
+          "metric": "brier",
+          "difference": 0.00013076144678886436,
+          "ci95": [
+            -0.0005939275653429735,
+            0.0009228943656763519
+          ],
+          "rows": 25186,
+          "events": 1047,
+          "conservative_rejection": false,
+          "display_label": "DS full \u2212 general"
+        },
+        {
+          "id": "series_winner/set_transformer-selector/brier",
+          "a": "BNLC-set_transformer",
+          "b": "selector",
+          "task": "series_winner",
+          "metric": "brier",
+          "difference": -0.001118800423171197,
+          "ci95": [
+            -0.0027493471333111257,
+            0.0004992124846262034
+          ],
+          "rows": 25186,
+          "events": 1047,
+          "conservative_rejection": false,
+          "display_label": "BNLC ST \u2212 Sel"
+        },
+        {
+          "id": "series_winner/set_transformer/full-general/brier",
+          "a": "BNLC-set_transformer",
+          "b": "BN-set_transformer",
+          "task": "series_winner",
+          "metric": "brier",
+          "difference": 0.0005475177848578182,
+          "ci95": [
+            -0.00020898990737809776,
+            0.0013415180417996365
+          ],
+          "rows": 25186,
+          "events": 1047,
+          "conservative_rejection": false,
+          "display_label": "ST full \u2212 general"
+        },
+        {
+          "id": "series_winner/BN/deep_sets-mlp/log_loss",
+          "a": "BN-deep_sets",
+          "b": "BN-mlp",
+          "task": "series_winner",
+          "metric": "log_loss",
+          "difference": -7.815752978994374e-05,
+          "ci95": [
+            -0.0031536561491211593,
+            0.0032795875609888834
+          ],
+          "rows": 25186,
+          "events": 1047,
+          "conservative_rejection": false,
+          "display_label": "BN DS \u2212 MLP"
+        },
+        {
+          "id": "series_winner/BN/deep_sets-tabm/log_loss",
+          "a": "BN-deep_sets",
+          "b": "BN-tabm",
+          "task": "series_winner",
+          "metric": "log_loss",
+          "difference": 0.0010433052564191045,
+          "ci95": [
+            -0.002698923238582461,
+            0.00504632293715461
+          ],
+          "rows": 25186,
+          "events": 1047,
+          "conservative_rejection": false,
+          "display_label": "BN DS \u2212 TabM"
+        },
+        {
+          "id": "series_winner/BN/set_transformer-mlp/log_loss",
+          "a": "BN-set_transformer",
+          "b": "BN-mlp",
+          "task": "series_winner",
+          "metric": "log_loss",
+          "difference": -0.0012081653989830126,
+          "ci95": [
+            -0.0037993662778035503,
+            0.0013317807583776997
+          ],
+          "rows": 25186,
+          "events": 1047,
+          "conservative_rejection": false,
+          "display_label": "BN ST \u2212 MLP"
+        },
+        {
+          "id": "series_winner/BN/set_transformer-tabm/log_loss",
+          "a": "BN-set_transformer",
+          "b": "BN-tabm",
+          "task": "series_winner",
+          "metric": "log_loss",
+          "difference": -8.670261277396449e-05,
+          "ci95": [
+            -0.0032035769718595083,
+            0.0031099762991711162
+          ],
+          "rows": 25186,
+          "events": 1047,
+          "conservative_rejection": false,
+          "display_label": "BN ST \u2212 TabM"
+        },
+        {
+          "id": "series_winner/BNLC/deep_sets-mlp/log_loss",
+          "a": "BNLC-deep_sets",
+          "b": "BNLC-mlp",
+          "task": "series_winner",
+          "metric": "log_loss",
+          "difference": 0.0011644435418483293,
+          "ci95": [
+            -0.0011748201390790619,
+            0.0035889414360581284
+          ],
+          "rows": 25186,
+          "events": 1047,
+          "conservative_rejection": false,
+          "display_label": "BNLC DS \u2212 MLP"
+        },
+        {
+          "id": "series_winner/BNLC/deep_sets-tabm/log_loss",
+          "a": "BNLC-deep_sets",
+          "b": "BNLC-tabm",
+          "task": "series_winner",
+          "metric": "log_loss",
+          "difference": 0.00016196033674529766,
+          "ci95": [
+            -0.002990659962852113,
+            0.0034271954557900212
+          ],
+          "rows": 25186,
+          "events": 1047,
+          "conservative_rejection": false,
+          "display_label": "BNLC DS \u2212 TabM"
+        },
+        {
+          "id": "series_winner/BNLC/set_transformer-mlp/log_loss",
+          "a": "BNLC-set_transformer",
+          "b": "BNLC-mlp",
+          "task": "series_winner",
+          "metric": "log_loss",
+          "difference": 0.0008234369435988957,
+          "ci95": [
+            -0.0009146725657505428,
+            0.0026581666217947867
+          ],
+          "rows": 25186,
+          "events": 1047,
+          "conservative_rejection": false,
+          "display_label": "BNLC ST \u2212 MLP"
+        },
+        {
+          "id": "series_winner/BNLC/set_transformer-tabm/log_loss",
+          "a": "BNLC-set_transformer",
+          "b": "BNLC-tabm",
+          "task": "series_winner",
+          "metric": "log_loss",
+          "difference": -0.00017904626150413592,
+          "ci95": [
+            -0.0026722521038144227,
+            0.002356421174668308
+          ],
+          "rows": 25186,
+          "events": 1047,
+          "conservative_rejection": false,
+          "display_label": "BNLC ST \u2212 TabM"
+        },
+        {
+          "id": "series_winner/deep_sets-selector/log_loss",
+          "a": "BNLC-deep_sets",
+          "b": "selector",
+          "task": "series_winner",
+          "metric": "log_loss",
+          "difference": -0.0021513880523136943,
+          "ci95": [
+            -0.006221068193984805,
+            0.0019727382186262954
+          ],
+          "rows": 25186,
+          "events": 1047,
+          "conservative_rejection": false,
+          "display_label": "BNLC DS \u2212 Sel"
+        },
+        {
+          "id": "series_winner/deep_sets/full-general/log_loss",
+          "a": "BNLC-deep_sets",
+          "b": "BN-deep_sets",
+          "task": "series_winner",
+          "metric": "log_loss",
+          "difference": 8.066160801830128e-05,
+          "ci95": [
+            -0.0016482769407566774,
+            0.0018924432410836322
+          ],
+          "rows": 25186,
+          "events": 1047,
+          "conservative_rejection": false,
+          "display_label": "DS full \u2212 general"
+        },
+        {
+          "id": "series_winner/set_transformer-selector/log_loss",
+          "a": "BNLC-set_transformer",
+          "b": "selector",
+          "task": "series_winner",
+          "metric": "log_loss",
+          "difference": -0.002492394650563128,
+          "ci95": [
+            -0.006044434903700121,
+            0.001082966248251305
+          ],
+          "rows": 25186,
+          "events": 1047,
+          "conservative_rejection": false,
+          "display_label": "BNLC ST \u2212 Sel"
+        },
+        {
+          "id": "series_winner/set_transformer/full-general/log_loss",
+          "a": "BNLC-set_transformer",
+          "b": "BN-set_transformer",
+          "task": "series_winner",
+          "metric": "log_loss",
+          "difference": 0.0008696628789619365,
+          "ci95": [
+            -0.0008515494465543297,
+            0.0026292610070254526
+          ],
+          "rows": 25186,
+          "events": 1047,
+          "conservative_rejection": false,
+          "display_label": "ST full \u2212 general"
+        }
+      ]
+    },
+    "removals-map_winner-journal": {
+      "size_inches": [
+        7.16,
+        4.3
+      ],
+      "minimum_font_points": 8,
+      "caption": "Conditional removals \u00b7 maps after picks. Broad nonglobal development evidence: 36,624 rows / 720 events. All 20 task/loss contrasts are plotted with pointwise 95% complete-event bootstrap intervals conditional on saved fits, omitting refitting uncertainty. Panels share scales across tasks within each loss. None has conservative Holm support in its declared family; a pointwise interval excluding zero is not an adjusted decision. Nonsignificance does not establish equivalence. Each drop and coverage-only procedure is compared with its fixed selected full reference. Removal inference is conditional procedure analysis, not causal gameplay evidence; eight blocks provide support.",
+      "geometry": "points and complete horizontal intervals; Cartesian zero reference; no truncation",
+      "plotted_rows": [
+        {
+          "id": "map_winner/opening-full/brier",
+          "a": "drop_opening",
+          "b": "full_reference",
+          "task": "map_winner",
+          "metric": "brier",
+          "difference": -0.000545750211717354,
+          "ci95": [
+            -0.0010106615100004192,
+            -9.317739181117149e-05
+          ],
+          "rows": 36624,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "opening"
+        },
+        {
+          "id": "map_winner/stars-full/brier",
+          "a": "drop_stars",
+          "b": "full_reference",
+          "task": "map_winner",
+          "metric": "brier",
+          "difference": 7.130464849372705e-05,
+          "ci95": [
+            -0.0004913263354036543,
+            0.0006328654871322208
+          ],
+          "rows": 36624,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "stars"
+        },
+        {
+          "id": "map_winner/economy-full/brier",
+          "a": "drop_economy",
+          "b": "full_reference",
+          "task": "map_winner",
+          "metric": "brier",
+          "difference": -7.977799978107215e-05,
+          "ci95": [
+            -0.0005746638952728568,
+            0.0003985125037919103
+          ],
+          "rows": 36624,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "economy"
+        },
+        {
+          "id": "map_winner/pistols-full/brier",
+          "a": "drop_pistols",
+          "b": "full_reference",
+          "task": "map_winner",
+          "metric": "brier",
+          "difference": 6.335516874161032e-05,
+          "ci95": [
+            -0.0001904745020955387,
+            0.0003179735522199836
+          ],
+          "rows": 36624,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "pistols"
+        },
+        {
+          "id": "map_winner/map_side-full/brier",
+          "a": "drop_map_side",
+          "b": "full_reference",
+          "task": "map_winner",
+          "metric": "brier",
+          "difference": -9.645734034064743e-05,
+          "ci95": [
+            -0.0005782772734528408,
+            0.0003763622263472317
+          ],
+          "rows": 36624,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "map side"
+        },
+        {
+          "id": "map_winner/impact-full/brier",
+          "a": "drop_impact",
+          "b": "full_reference",
+          "task": "map_winner",
+          "metric": "brier",
+          "difference": -3.995483404853278e-05,
+          "ci95": [
+            -0.00042783732137953245,
+            0.00034859643760784006
+          ],
+          "rows": 36624,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "impact"
+        },
+        {
+          "id": "map_winner/experience-full/brier",
+          "a": "drop_experience",
+          "b": "full_reference",
+          "task": "map_winner",
+          "metric": "brier",
+          "difference": -0.00014737150114443566,
+          "ci95": [
+            -0.0005287695189084237,
+            0.00023678539191476148
+          ],
+          "rows": 36624,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "experience"
+        },
+        {
+          "id": "map_winner/schedule_stability-full/brier",
+          "a": "drop_schedule_stability",
+          "b": "full_reference",
+          "task": "map_winner",
+          "metric": "brier",
+          "difference": -0.00028400943459322057,
+          "ci95": [
+            -0.0009513937970364673,
+            0.0003665488569014187
+          ],
+          "rows": 36624,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "schedule"
+        },
+        {
+          "id": "map_winner/matchups-full/brier",
+          "a": "drop_matchups",
+          "b": "full_reference",
+          "task": "map_winner",
+          "metric": "brier",
+          "difference": 0.0002283088681805465,
+          "ci95": [
+            -0.00018457788320827402,
+            0.0006341927455246654
+          ],
+          "rows": 36624,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "matchups"
+        },
+        {
+          "id": "map_winner/coverage-full/brier",
+          "a": "coverage",
+          "b": "full_reference",
+          "task": "map_winner",
+          "metric": "brier",
+          "difference": 0.003648345923284069,
+          "ci95": [
+            0.0014293746481093372,
+            0.0058047993764921545
+          ],
+          "rows": 36624,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "coverage only"
+        },
+        {
+          "id": "map_winner/opening-full/log_loss",
+          "a": "drop_opening",
+          "b": "full_reference",
+          "task": "map_winner",
+          "metric": "log_loss",
+          "difference": -0.0014316841959953308,
+          "ci95": [
+            -0.002506578654671709,
+            -0.0003853054468830435
+          ],
+          "rows": 36624,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "opening"
+        },
+        {
+          "id": "map_winner/stars-full/log_loss",
+          "a": "drop_stars",
+          "b": "full_reference",
+          "task": "map_winner",
+          "metric": "log_loss",
+          "difference": -7.525732119878133e-05,
+          "ci95": [
+            -0.001336628063581884,
+            0.0011775592155754567
+          ],
+          "rows": 36624,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "stars"
+        },
+        {
+          "id": "map_winner/economy-full/log_loss",
+          "a": "drop_economy",
+          "b": "full_reference",
+          "task": "map_winner",
+          "metric": "log_loss",
+          "difference": -0.00040799184805817074,
+          "ci95": [
+            -0.0016338138815222515,
+            0.000759559911675751
+          ],
+          "rows": 36624,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "economy"
+        },
+        {
+          "id": "map_winner/pistols-full/log_loss",
+          "a": "drop_pistols",
+          "b": "full_reference",
+          "task": "map_winner",
+          "metric": "log_loss",
+          "difference": 0.0002454372122883797,
+          "ci95": [
+            -0.0003217367476059331,
+            0.0008174415703655944
+          ],
+          "rows": 36624,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "pistols"
+        },
+        {
+          "id": "map_winner/map_side-full/log_loss",
+          "a": "drop_map_side",
+          "b": "full_reference",
+          "task": "map_winner",
+          "metric": "log_loss",
+          "difference": -0.0003806196567085054,
+          "ci95": [
+            -0.0014665234425208634,
+            0.0006906336483856035
+          ],
+          "rows": 36624,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "map side"
+        },
+        {
+          "id": "map_winner/impact-full/log_loss",
+          "a": "drop_impact",
+          "b": "full_reference",
+          "task": "map_winner",
+          "metric": "log_loss",
+          "difference": -0.0002636703145172861,
+          "ci95": [
+            -0.0011690062056812975,
+            0.0006355949310171924
+          ],
+          "rows": 36624,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "impact"
+        },
+        {
+          "id": "map_winner/experience-full/log_loss",
+          "a": "drop_experience",
+          "b": "full_reference",
+          "task": "map_winner",
+          "metric": "log_loss",
+          "difference": -0.00046632888002528085,
+          "ci95": [
+            -0.0013765683485608962,
+            0.00042767863720655355
+          ],
+          "rows": 36624,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "experience"
+        },
+        {
+          "id": "map_winner/schedule_stability-full/log_loss",
+          "a": "drop_schedule_stability",
+          "b": "full_reference",
+          "task": "map_winner",
+          "metric": "log_loss",
+          "difference": -2.009907944334878e-06,
+          "ci95": [
+            -0.0015784530036358371,
+            0.0015181223975701446
+          ],
+          "rows": 36624,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "schedule"
+        },
+        {
+          "id": "map_winner/matchups-full/log_loss",
+          "a": "drop_matchups",
+          "b": "full_reference",
+          "task": "map_winner",
+          "metric": "log_loss",
+          "difference": 0.0005728070727652973,
+          "ci95": [
+            -0.0003401068442811569,
+            0.0014734609533722201
+          ],
+          "rows": 36624,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "matchups"
+        },
+        {
+          "id": "map_winner/coverage-full/log_loss",
+          "a": "coverage",
+          "b": "full_reference",
+          "task": "map_winner",
+          "metric": "log_loss",
+          "difference": 0.00859414600353274,
+          "ci95": [
+            0.003421332465303648,
+            0.013658794118867567
+          ],
+          "rows": 36624,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "coverage only"
+        }
+      ]
+    },
+    "removals-series_winner-journal": {
+      "size_inches": [
+        7.16,
+        4.3
+      ],
+      "minimum_font_points": 8,
+      "caption": "Conditional removals \u00b7 series before play. Broad nonglobal development evidence: 16,319 rows / 720 events. All 20 task/loss contrasts are plotted with pointwise 95% complete-event bootstrap intervals conditional on saved fits, omitting refitting uncertainty. Panels share scales across tasks within each loss. None has conservative Holm support in its declared family; a pointwise interval excluding zero is not an adjusted decision. Nonsignificance does not establish equivalence. Each drop and coverage-only procedure is compared with its fixed selected full reference. Removal inference is conditional procedure analysis, not causal gameplay evidence; eight blocks provide support.",
+      "geometry": "points and complete horizontal intervals; Cartesian zero reference; no truncation",
+      "plotted_rows": [
+        {
+          "id": "series_winner/opening-full/brier",
+          "a": "drop_opening",
+          "b": "full_reference",
+          "task": "series_winner",
+          "metric": "brier",
+          "difference": -0.00033642701261366406,
+          "ci95": [
+            -0.0007329220088690313,
+            4.524592588293466e-05
+          ],
+          "rows": 16319,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "opening"
+        },
+        {
+          "id": "series_winner/stars-full/brier",
+          "a": "drop_stars",
+          "b": "full_reference",
+          "task": "series_winner",
+          "metric": "brier",
+          "difference": -0.0002392632964377602,
+          "ci95": [
+            -0.0007923224320014318,
+            0.00031834422280856714
+          ],
+          "rows": 16319,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "stars"
+        },
+        {
+          "id": "series_winner/economy-full/brier",
+          "a": "drop_economy",
+          "b": "full_reference",
+          "task": "series_winner",
+          "metric": "brier",
+          "difference": -0.0005953971865690417,
+          "ci95": [
+            -0.0010248411686754684,
+            -0.00017405294457502272
+          ],
+          "rows": 16319,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "economy"
+        },
+        {
+          "id": "series_winner/pistols-full/brier",
+          "a": "drop_pistols",
+          "b": "full_reference",
+          "task": "series_winner",
+          "metric": "brier",
+          "difference": -0.0003111718584679895,
+          "ci95": [
+            -0.0006552976805121742,
+            3.758902034153121e-05
+          ],
+          "rows": 16319,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "pistols"
+        },
+        {
+          "id": "series_winner/map_side-full/brier",
+          "a": "drop_map_side",
+          "b": "full_reference",
+          "task": "series_winner",
+          "metric": "brier",
+          "difference": 3.705667073114051e-05,
+          "ci95": [
+            -0.00037013092789695495,
+            0.00044745439107322856
+          ],
+          "rows": 16319,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "map side"
+        },
+        {
+          "id": "series_winner/impact-full/brier",
+          "a": "drop_impact",
+          "b": "full_reference",
+          "task": "series_winner",
+          "metric": "brier",
+          "difference": 6.500964647986823e-05,
+          "ci95": [
+            -0.0003285718313094953,
+            0.0004929967561555611
+          ],
+          "rows": 16319,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "impact"
+        },
+        {
+          "id": "series_winner/experience-full/brier",
+          "a": "drop_experience",
+          "b": "full_reference",
+          "task": "series_winner",
+          "metric": "brier",
+          "difference": -0.0004172405590199762,
+          "ci95": [
+            -0.0008247349280605299,
+            -5.303208987849826e-06
+          ],
+          "rows": 16319,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "experience"
+        },
+        {
+          "id": "series_winner/schedule_stability-full/brier",
+          "a": "drop_schedule_stability",
+          "b": "full_reference",
+          "task": "series_winner",
+          "metric": "brier",
+          "difference": -0.0005074690277170803,
+          "ci95": [
+            -0.0015423874684428382,
+            0.0005739233042630879
+          ],
+          "rows": 16319,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "schedule"
+        },
+        {
+          "id": "series_winner/matchups-full/brier",
+          "a": "drop_matchups",
+          "b": "full_reference",
+          "task": "series_winner",
+          "metric": "brier",
+          "difference": -0.00045708954696440035,
+          "ci95": [
+            -0.0009050781537856286,
+            -6.613156874664257e-06
+          ],
+          "rows": 16319,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "matchups"
+        },
+        {
+          "id": "series_winner/coverage-full/brier",
+          "a": "coverage",
+          "b": "full_reference",
+          "task": "series_winner",
+          "metric": "brier",
+          "difference": -0.0010991060873493553,
+          "ci95": [
+            -0.0024080741206934262,
+            0.00017567468587205613
+          ],
+          "rows": 16319,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "coverage only"
+        },
+        {
+          "id": "series_winner/opening-full/log_loss",
+          "a": "drop_opening",
+          "b": "full_reference",
+          "task": "series_winner",
+          "metric": "log_loss",
+          "difference": -0.0009053664281964302,
+          "ci95": [
+            -0.0018644799380045799,
+            2.451204332626437e-05
+          ],
+          "rows": 16319,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "opening"
+        },
+        {
+          "id": "series_winner/stars-full/log_loss",
+          "a": "drop_stars",
+          "b": "full_reference",
+          "task": "series_winner",
+          "metric": "log_loss",
+          "difference": -0.00032250334819157916,
+          "ci95": [
+            -0.0016282914656524858,
+            0.0010062515704582112
+          ],
+          "rows": 16319,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "stars"
+        },
+        {
+          "id": "series_winner/economy-full/log_loss",
+          "a": "drop_economy",
+          "b": "full_reference",
+          "task": "series_winner",
+          "metric": "log_loss",
+          "difference": -0.0016658798687987858,
+          "ci95": [
+            -0.002709385461898314,
+            -0.0006517483221573963
+          ],
+          "rows": 16319,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "economy"
+        },
+        {
+          "id": "series_winner/pistols-full/log_loss",
+          "a": "drop_pistols",
+          "b": "full_reference",
+          "task": "series_winner",
+          "metric": "log_loss",
+          "difference": -0.0009665656006998485,
+          "ci95": [
+            -0.001792508238512609,
+            -0.0001502118078577867
+          ],
+          "rows": 16319,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "pistols"
+        },
+        {
+          "id": "series_winner/map_side-full/log_loss",
+          "a": "drop_map_side",
+          "b": "full_reference",
+          "task": "series_winner",
+          "metric": "log_loss",
+          "difference": -7.453269014755885e-05,
+          "ci95": [
+            -0.0010335141689413125,
+            0.0008761276894559459
+          ],
+          "rows": 16319,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "map side"
+        },
+        {
+          "id": "series_winner/impact-full/log_loss",
+          "a": "drop_impact",
+          "b": "full_reference",
+          "task": "series_winner",
+          "metric": "log_loss",
+          "difference": -3.024912956688139e-05,
+          "ci95": [
+            -0.0009018116754790147,
+            0.0009053380911548929
+          ],
+          "rows": 16319,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "impact"
+        },
+        {
+          "id": "series_winner/experience-full/log_loss",
+          "a": "drop_experience",
+          "b": "full_reference",
+          "task": "series_winner",
+          "metric": "log_loss",
+          "difference": -0.0012625794236858685,
+          "ci95": [
+            -0.0022596879986425244,
+            -0.00026844010481403955
+          ],
+          "rows": 16319,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "experience"
+        },
+        {
+          "id": "series_winner/schedule_stability-full/log_loss",
+          "a": "drop_schedule_stability",
+          "b": "full_reference",
+          "task": "series_winner",
+          "metric": "log_loss",
+          "difference": -0.000890408456325531,
+          "ci95": [
+            -0.003177814675598509,
+            0.0015883919586324013
+          ],
+          "rows": 16319,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "schedule"
+        },
+        {
+          "id": "series_winner/matchups-full/log_loss",
+          "a": "drop_matchups",
+          "b": "full_reference",
+          "task": "series_winner",
+          "metric": "log_loss",
+          "difference": -0.001161564907266034,
+          "ci95": [
+            -0.0021866674964419667,
+            -0.00013406832029836112
+          ],
+          "rows": 16319,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "matchups"
+        },
+        {
+          "id": "series_winner/coverage-full/log_loss",
+          "a": "coverage",
+          "b": "full_reference",
+          "task": "series_winner",
+          "metric": "log_loss",
+          "difference": -0.002924733608961105,
+          "ci95": [
+            -0.006026352581878503,
+            9.638337056255768e-05
+          ],
+          "rows": 16319,
+          "events": 720,
+          "conservative_rejection": false,
+          "display_label": "coverage only"
+        }
+      ]
+    },
+    "online-refresh-journal": {
+      "size_inches": [
+        7.16,
+        3.5
+      ],
+      "minimum_font_points": 8,
+      "caption": "Online performance refresh versus the earlier residual and feedback-matched K20, broad nonglobal development population: 55,943 maps / 1,049 events and 25,186 series / 1,047 events. Points and intervals are percentage-point accuracy differences, with row and event weighting distinguished by both color and marker. All four comparisons are retained on a common scale. Pointwise 95% complete-event bootstrap intervals condition on saved fits, omit refitting uncertainty and are unadjusted. The six-hour scheduled availability proxy and global-update exclusion remain explicit. These are post-result exploratory accuracy comparisons, not adjusted probability-loss gains or prospective validation.",
+      "geometry": "offset circle/square points and full intervals; common task scale; visible zero reference",
+      "plotted_rows": [
+        {
+          "task": "map_winner",
+          "scope": "broad_nonglobal",
+          "a": "online_rich_residual",
+          "b": "previous_residual",
+          "row_difference": 0.0032711867436497864,
+          "row_ci95": [
+            0.0010305770206035798,
+            0.005534338965502081
+          ],
+          "event_difference": 0.0027392557891286343,
+          "event_ci95": [
+            -0.0020616873546499643,
+            0.007696625434925848
+          ],
+          "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+        },
+        {
+          "task": "map_winner",
+          "scope": "broad_nonglobal",
+          "a": "online_rich_residual",
+          "b": "online_elo",
+          "row_difference": 0.005898861341007811,
+          "row_ci95": [
+            0.0008251851216598256,
+            0.010956744603548669
+          ],
+          "event_difference": 0.013580258067319854,
+          "event_ci95": [
+            0.0011531508754730121,
+            0.02603833187862988
+          ],
+          "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+        },
+        {
+          "task": "series_winner",
+          "scope": "broad_nonglobal",
+          "a": "online_rich_residual",
+          "b": "previous_residual",
+          "row_difference": 0.01119669657746367,
+          "row_ci95": [
+            0.006718165205713746,
+            0.01569303589854947
+          ],
+          "event_difference": 0.016116011853144697,
+          "event_ci95": [
+            0.0038553783009693723,
+            0.028706061649843375
+          ],
+          "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+        },
+        {
+          "task": "series_winner",
+          "scope": "broad_nonglobal",
+          "a": "online_rich_residual",
+          "b": "online_elo",
+          "row_difference": -0.0025807988565075836,
+          "row_ci95": [
+            -0.008741720728703634,
+            0.003567297750777457
+          ],
+          "event_difference": -0.0004816820981674511,
+          "event_ci95": [
+            -0.014031267874899703,
+            0.012973482558906325
+          ],
+          "inference": "pointwise conditional event bootstrap, unadjusted exploratory"
+        }
+      ]
+    },
+    "horizons-chronology-journal": {
+      "size_inches": [
+        7.16,
+        5.0
+      ],
+      "minimum_font_points": 8,
+      "caption": "Schematic of the two target horizons and permitted chronological stages. Map forecasts assume the observed map and lineups/compositions are known before round one; series forecasts use earlier-appearance/usage proxies. Both use the declared scheduled-start lead, which does not verify historical publication timing. The core block-local source release proxy is two hours; online state uses six hours with strictly prior, equal-time frozen feedback and global exclusion. New unreviewed later-cohort rows are score-only. The five fitting/selection/calibration/evaluation stages describe the original protocol; retained later inference performs no new fit, threshold selection or calibration. This diagram is conceptual, not a measured timeline or proof of prospective operational availability.",
+      "geometry": "schematic directed boxes; explicit source/horizon assumptions; not to scale",
+      "plotted_rows": []
+    }
+  },
+  "outputs": {
+    "captions.md": "21dd01283f9cce89cfc74fa3fd1aeed6f1a227a4c7d666a40e705e0f687a2cfa",
+    "code/journal_figures.py": "0e43932b4ba611f8e2fa4a15614390a8ccb2972ff1fc0859ccc471d1cda10e7b",
+    "horizons-chronology-journal.pdf": "102e524543bab28e01b76e827ad6f29240be5f007d84e65d953f257e6bdfb67c",
+    "horizons-chronology-journal.png": "6ca36ef4d6313cd249ecd596a2eebadabdbfa905da102f9fafad163364ac8c30",
+    "horizons-chronology-journal.svg": "b7c74d2a89e6097578dd45594cb51d8e70b6a8483c175b9e9c27ba64e2411ea8",
+    "online-refresh-journal.pdf": "63d0dd370330c0a65c639b32d59f3b69e0af9bd5c464a3476d8951faa8ab11db",
+    "online-refresh-journal.png": "0331ba13875599615e367814ff1be71cc5bcc3be72b2f72141c290963839d47c",
+    "online-refresh-journal.svg": "d3e4b24f087b2714835d115bf42cdac76c973a18bb0acb959837190f2d0c9618",
+    "players-map_winner-journal.pdf": "e9eee93714b9b4a1c0f1186aa1ba57d9ac58edfa010f7a6d92e7f915bb2a1dc3",
+    "players-map_winner-journal.png": "a6cd2ff906dc68c64e7a0d5a3092d1c7a5f1461a3032a0371bffd1e4f9a167dd",
+    "players-map_winner-journal.svg": "1a885fc1b5c2ea27fcd686d6698c53e72f529040cb1c05cc7d04eea595c75a20",
+    "players-series_winner-journal.pdf": "71d12865836c24e8c9422bbc68468fc7aae5aa5e9610d276e9a9cc09690da20e",
+    "players-series_winner-journal.png": "d03106629a05bd9f48ba6fe5ac6a14b4a73cb3f5a4e2f3d1352378926875962d",
+    "players-series_winner-journal.svg": "d96504f3e8e64d5391a7f53b1debbfca39647b04bf38e3eb17555d35e7299d1e",
+    "removals-map_winner-journal.pdf": "f4b1e2ed9b39dfb2521aa2a2a47fbffb92f542563afd675a5a0d169d1265d69c",
+    "removals-map_winner-journal.png": "11d5119d0b7588e5b6a519788d9298cc36dc2de5e4412f53244a42766c27fa6e",
+    "removals-map_winner-journal.svg": "81ab2d7c6349e2e1446fb796e8796b8cd808405f2cc73a27469087f9ae19d6a0",
+    "removals-series_winner-journal.pdf": "7c8f3c181664821ba63d84b16d9574d80bb523b3c64bdc610d6e236ab424e588",
+    "removals-series_winner-journal.png": "d53aff0816c581e0dd3cc8a3eede78e50ced626af2703b12d7cc52f7b11d43ea",
+    "removals-series_winner-journal.svg": "ad831cfdf5b04f75fbe6474f94f2e8eb4885d7cf5a4900c0a06fc0469837372e"
+  }
+}

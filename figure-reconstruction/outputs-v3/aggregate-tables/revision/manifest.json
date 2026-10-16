@@ -1,0 +1,244 @@
+{
+  "inputs": [
+    {
+      "path": "additional/results.json",
+      "sha256": "cc25904602b8637af8a477061668d7106b8e4c086eaa21336059502bb238725d"
+    },
+    {
+      "path": "diagnostics/later-diagnostics.json",
+      "sha256": "a4c75edfd793c2663a87150582cfaea9327e30c3cce0f9d500f5b78f6ce7a88e"
+    },
+    {
+      "path": "diagnostics/map_winner-diagnostics.json",
+      "sha256": "47ad98442a8e7567de22d82bbdbe1d314d3db47ebaf7d05669fee8971d78014f"
+    },
+    {
+      "path": "diagnostics/series_winner-diagnostics.json",
+      "sha256": "fb4016f18ee962484d5c31f247808b963cf2932e9e14d1d102a992d694462a68"
+    },
+    {
+      "path": "feedback-results/results.json",
+      "sha256": "c8290ffca8285ffed0519084c881627574b595b5a7dcc6b6c0743721daca5857"
+    },
+    {
+      "path": "online-calibration/results.json",
+      "sha256": "f74835ab0ec44926868333f33b82b426954479a81dbfc10e816f2ee60a2d23d7"
+    },
+    {
+      "path": "player-results/results.json",
+      "sha256": "584b877561dedd82515d19cb279f50e6a7ba0b32c08a3ef0dadb935f023bb360"
+    },
+    {
+      "path": "rating-comparison/results.json",
+      "sha256": "47351b981d0402ae8b6dd3539bf4db9b81a1bb4f5978e7ecd8e160378d52e0e1"
+    },
+    {
+      "path": "retuned-removals/report-summary.json",
+      "sha256": "f6cbc9123551b1233b331e3b5d0765423c5767a73b312007c61d37db5ab13ebe"
+    },
+    {
+      "path": "retuned-removals/results.json",
+      "sha256": "2cf62f82858a616bc1ecd28c961259b77287b50f27e8fdead2d583406645cce3"
+    },
+    {
+      "path": "roster-support/results.json",
+      "sha256": "5f995e737e0b46cf46945348109488c6958ca1cb01d26b6a1a0fb8a78cedd26e"
+    },
+    {
+      "path": "secondary-metrics/completion.json",
+      "sha256": "1dfa608ac2e9fc827409b6138bb28e6ebbbb8743cdfd3ec290947f8ac848bf09"
+    },
+    {
+      "path": "secondary-metrics/results.json",
+      "sha256": "3d7fcfed9db131caca3a605b18570e0af3bc990fbc3b87179d02132cdd6ae84d"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "aggregate-tables/revision/additional_results_tasks.csv",
+      "sha256": "8c2f2d1d24f58935bacfff0ee7bd9e3c0b5d670adb0928cc0d0dad3e4516c6d9",
+      "aggregate_records": 2
+    },
+    {
+      "path": "aggregate-tables/revision/additional_results_tasks_nested_orientation.csv",
+      "sha256": "3d9c77907c4644dcdee0e90ca249aedf555492a20051497d8c8889d5f6d92510",
+      "aggregate_records": 24
+    },
+    {
+      "path": "aggregate-tables/revision/additional_results_tasks_nested_policy.csv",
+      "sha256": "c01a368f7ab8234ba35984934d9077f122877b7904bf34b0da0875b2ddaef83d",
+      "aggregate_records": 24
+    },
+    {
+      "path": "aggregate-tables/revision/additional_results_tasks_nested_rating_comparisons.csv",
+      "sha256": "09b03748ec890c36812447bdfd511840f2a40698015510101f8def3142e21557",
+      "aggregate_records": 4
+    },
+    {
+      "path": "aggregate-tables/revision/additional_results_tasks_nested_reviewed2025_events.csv",
+      "sha256": "379d45d366d43bb6dab069a7ea58ce8526eea466999d68e46850ec14eef17cb1",
+      "aggregate_records": 89
+    },
+    {
+      "path": "aggregate-tables/revision/additional_results_tasks_nested_reviewed2025_leave_one_out_brier_difference.csv",
+      "sha256": "d9f4e83b191bece0255158adf825faf6b575838ecf130c06f38a02244610ea66",
+      "aggregate_records": 89
+    },
+    {
+      "path": "aggregate-tables/revision/additional_results_tasks_nested_reviewed2025_reliability.csv",
+      "sha256": "2edfd8e790d5b98a60061329f5771c52fe160fffc914a7a42e2e338e49035b3c",
+      "aggregate_records": 3
+    },
+    {
+      "path": "aggregate-tables/revision/diagnostics_later-diagnostics_tasks.csv",
+      "sha256": "e06ad4dd764b737d0033083af766356b3ddcbfc350ab11f56885b619ea4b8eab",
+      "aggregate_records": 2
+    },
+    {
+      "path": "aggregate-tables/revision/diagnostics_later-diagnostics_tasks_nested_contrasts.csv",
+      "sha256": "156d46fc2b071da79a581b177a6930afdb028a0d0135cd0e1230b531c1cc3856",
+      "aggregate_records": 6
+    },
+    {
+      "path": "aggregate-tables/revision/diagnostics_later-diagnostics_tasks_nested_reliability.csv",
+      "sha256": "62f3833d236e7b8b7c9a266140e27d0920715eb9bebe065a210bebcedc94282b",
+      "aggregate_records": 4
+    },
+    {
+      "path": "aggregate-tables/revision/diagnostics_map_winner-diagnostics_block_orientation.csv",
+      "sha256": "90e489ffaa7a953cbc0341e02a2c573d244997aa75ce663e721574f6fadea77e",
+      "aggregate_records": 12
+    },
+    {
+      "path": "aggregate-tables/revision/diagnostics_map_winner-diagnostics_contrasts.csv",
+      "sha256": "86035c4c76d9ad585ba76ffb58eb2dbb3970b123670321184c5c30b317e079d3",
+      "aggregate_records": 10
+    },
+    {
+      "path": "aggregate-tables/revision/diagnostics_map_winner-diagnostics_metrics.csv",
+      "sha256": "34641744d8975b7ed841a49cdbbe7ad264e11050d40741dc02cb252be27599a5",
+      "aggregate_records": 16
+    },
+    {
+      "path": "aggregate-tables/revision/diagnostics_map_winner-diagnostics_reliability.csv",
+      "sha256": "e5ec2e2782451ef318d4152d7a9f9b03f76cc94016c2e5679ca55d782a657375",
+      "aggregate_records": 6
+    },
+    {
+      "path": "aggregate-tables/revision/diagnostics_series_winner-diagnostics_block_orientation.csv",
+      "sha256": "6edbce56c7d319d90271bf730382e562d85ce953b4ff50f8f524f68e3cc42c06",
+      "aggregate_records": 12
+    },
+    {
+      "path": "aggregate-tables/revision/diagnostics_series_winner-diagnostics_contrasts.csv",
+      "sha256": "beda33f8705b42f06c4c4bdecc5c4a008d1bde76d17186a9adf7a1e1ca5d4ba1",
+      "aggregate_records": 10
+    },
+    {
+      "path": "aggregate-tables/revision/diagnostics_series_winner-diagnostics_metrics.csv",
+      "sha256": "e4c3ba8039600c0af6e849ec0bf13d879703bce2f7f6fc5e4a1c96554583add1",
+      "aggregate_records": 16
+    },
+    {
+      "path": "aggregate-tables/revision/diagnostics_series_winner-diagnostics_reliability.csv",
+      "sha256": "2d22ec3fabcbd0c119cc239723231fd0378218f844fdbe3cc9d462126d6cd9f0",
+      "aggregate_records": 6
+    },
+    {
+      "path": "aggregate-tables/revision/feedback-results_results_contrasts.csv",
+      "sha256": "c0ccf60b58cf144430746afdca2634439c84cf6b9a6cebe182a3f830d48c2dc0",
+      "aggregate_records": 16
+    },
+    {
+      "path": "aggregate-tables/revision/feedback-results_results_tasks.csv",
+      "sha256": "1284e01af76581c5f8746a790aa7ba8e990924c5dcb8f414a4e733241ecee688",
+      "aggregate_records": 2
+    },
+    {
+      "path": "aggregate-tables/revision/feedback-results_results_tasks_nested_accuracy.csv",
+      "sha256": "a6ba64928adc22f139e0bbbaf4a999564ecfb7570a603060a1fd44ffb546cc35",
+      "aggregate_records": 8
+    },
+    {
+      "path": "aggregate-tables/revision/feedback-results_results_tasks_nested_metrics.csv",
+      "sha256": "15358b6800183e05fbcf999b29604ffb1ba95f1485adb33bbd9fb7cdc3111f0c",
+      "aggregate_records": 16
+    },
+    {
+      "path": "aggregate-tables/revision/online-calibration_results_diagnostics.csv",
+      "sha256": "75e05f1ebfbc0b249f093aaf925a1a7f8926713873a8455de3d0545fa74a4640",
+      "aggregate_records": 8
+    },
+    {
+      "path": "aggregate-tables/revision/player-results_results_contrasts.csv",
+      "sha256": "9c2cc65d8e5e05c12c81e0aacda55ae7bc9977217f0217a6e8c6df716b0dd5e9",
+      "aggregate_records": 148
+    },
+    {
+      "path": "aggregate-tables/revision/player-results_results_metrics.csv",
+      "sha256": "d3448ea2a9e86a907340c3edc7a45754d27f019c52166856023bfe281cd98119",
+      "aggregate_records": 34
+    },
+    {
+      "path": "aggregate-tables/revision/rating-comparison_results_calibrations.csv",
+      "sha256": "55cd428dd8f6b08f4ce4e24bda0680357262da255d51b09492c032b87a5020e5",
+      "aggregate_records": 144
+    },
+    {
+      "path": "aggregate-tables/revision/rating-comparison_results_calibrations_nested_receipt_candidates.csv",
+      "sha256": "53b237f49545637c2b72e808d0fbeca78db9d07b850370fe01e2a07eb00c5930",
+      "aggregate_records": 396
+    },
+    {
+      "path": "aggregate-tables/revision/rating-comparison_results_contrasts.csv",
+      "sha256": "697f3a4cb86fb4a69908a3a6a9ab45082c1969ec53da9d7bc9d0b11896145715",
+      "aggregate_records": 20
+    },
+    {
+      "path": "aggregate-tables/revision/rating-comparison_results_metrics.csv",
+      "sha256": "4d70154ad6eef8720be30ee8a9eda17918ccbc6e96e21e0f7cf96d45a499d7e1",
+      "aggregate_records": 24
+    },
+    {
+      "path": "aggregate-tables/revision/retuned-removals_report-summary_contrasts.csv",
+      "sha256": "b73e5df16e092de131fbbaf6f7ddfa41d2e8e174439f1328a8fb20c6acbd15e9",
+      "aggregate_records": 40
+    },
+    {
+      "path": "aggregate-tables/revision/retuned-removals_report-summary_inventory.csv",
+      "sha256": "c3d58cd70480b9f0acc3b666a1e484a772f1d700b9ea623ff32e57e083a0754f",
+      "aggregate_records": 160
+    },
+    {
+      "path": "aggregate-tables/revision/retuned-removals_report-summary_metrics.csv",
+      "sha256": "da728a32f7c6dcb20fb915a20926e64291756e99d4ac6c62704d6e183cf06925",
+      "aggregate_records": 22
+    },
+    {
+      "path": "aggregate-tables/revision/retuned-removals_results_contrasts.csv",
+      "sha256": "b73e5df16e092de131fbbaf6f7ddfa41d2e8e174439f1328a8fb20c6acbd15e9",
+      "aggregate_records": 40
+    },
+    {
+      "path": "aggregate-tables/revision/retuned-removals_results_denominators.csv",
+      "sha256": "82088658741e375b4f59abda94c374e2bf1dffff61647e3eaa7f3964371174c0",
+      "aggregate_records": 16
+    },
+    {
+      "path": "aggregate-tables/revision/roster-support_results_units.csv",
+      "sha256": "38318aeb0ad57e2e4a9b844746f6eac4cf71222e091bde01adb074687f1931b2",
+      "aggregate_records": 72
+    },
+    {
+      "path": "aggregate-tables/revision/secondary-metrics_results_metrics.csv",
+      "sha256": "88603dc69abb4ace771e8bcb62d6fd706d1e91e2e8985b8f8548ccae002b6c71",
+      "aggregate_records": 104
+    },
+    {
+      "path": "schemas/revision-aggregate-layout.json",
+      "sha256": "5ffa92fc2a07bbab4579be4e1eaa8e0c6d9d5ea54463fe5034e3300266262f07",
+      "aggregate_records": null
+    }
+  ],
+  "rule": "CSV records are aggregate groups already present in included JSON; no row-level observations, metric computation, or resampling is performed."
+}

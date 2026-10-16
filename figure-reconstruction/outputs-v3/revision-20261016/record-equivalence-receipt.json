@@ -1,0 +1,41 @@
+{
+  "candidate_revision": "release-preparation-access-20261016-v3",
+  "cross_environment_render_byte_identity_asserted": false,
+  "figure_code_identity_equal": true,
+  "figure_count": 5,
+  "figures": [
+    {
+      "caption_equal": true,
+      "name": "chronology",
+      "record_count": 0,
+      "records_equal": true
+    },
+    {
+      "caption_equal": true,
+      "name": "exact-tie-contribution",
+      "record_count": 6,
+      "records_equal": true
+    },
+    {
+      "caption_equal": true,
+      "name": "later-feedback-losses",
+      "record_count": 16,
+      "records_equal": true
+    },
+    {
+      "caption_equal": true,
+      "name": "online-calibration-slopes",
+      "record_count": 8,
+      "records_equal": true
+    },
+    {
+      "caption_equal": true,
+      "name": "online-probability-losses",
+      "record_count": 12,
+      "records_equal": true
+    }
+  ],
+  "package_spec_sha256": "ad98bbf78a52e2fc4763671cb8e6ce0537e514286c798c7e8ebc92f29a000a26",
+  "qualification": "source-record and caption equivalence for five revision figures",
+  "source_spec_sha256": "3992f2ef96e6d977aff485b1d55515cd6f572008f5ac00365b64409374a9f0b8"
+}

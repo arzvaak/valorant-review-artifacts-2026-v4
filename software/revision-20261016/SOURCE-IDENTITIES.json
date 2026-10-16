@@ -1,0 +1,390 @@
+{
+  "aggregate_projection_receipt_sha256": "c5c2891fef3221ca0b54ee0c736a58644b54e0f80b5425069841f5b92908eda0",
+  "aggregate_reconstruction_receipt_sha256": "7818b30e680177330d0374a3daa3c3f077602c1a6087293ea560319f78bd7a96",
+  "candidate_revision": "release-preparation-access-20261016-v3",
+  "code_identities": [
+    {
+      "candidate_path": "software/revision-20261016/execution-sources/original/review_revision_diagnostics.py",
+      "candidate_sha256": "08622b1f6722365a8bb1e2cac41df8116a7b75560e5594deedb6daed44ac9f7c",
+      "logical_identity": "executed/diagnostics-module",
+      "relationship": "path-adapted",
+      "source_sha256": "e6ef606d9d48c9311347a82133e8a88b714d70f0aa0d87d17106e550593dddfc"
+    },
+    {
+      "candidate_path": "software/revision-20261016/execution-sources/original/review_revision_report.py",
+      "candidate_sha256": "f9679206957e0abb1f3bb9c7d34a0e44bef1a9ff1b9efa8d115d6cace31a6033",
+      "logical_identity": "executed/diagnostics-report",
+      "relationship": "byte-identical",
+      "source_sha256": "f9679206957e0abb1f3bb9c7d34a0e44bef1a9ff1b9efa8d115d6cace31a6033"
+    },
+    {
+      "candidate_path": "software/revision-20261016/execution-sources/original/review_revision_additional.py",
+      "candidate_sha256": "39aa08a5d1bb67ebcb640e05abe245ae886d213fc5606a270138a09026e9568d",
+      "logical_identity": "executed/additional-report",
+      "relationship": "byte-identical",
+      "source_sha256": "39aa08a5d1bb67ebcb640e05abe245ae886d213fc5606a270138a09026e9568d"
+    },
+    {
+      "candidate_path": "software/revision-20261016/execution-sources/original/review_revision_feedback_report.py",
+      "candidate_sha256": "ca89e55aefed360eb016a0e779f8ab1c38e421a1f9c5e6182281d504aea59990",
+      "logical_identity": "executed/feedback-report",
+      "relationship": "byte-identical",
+      "source_sha256": "ca89e55aefed360eb016a0e779f8ab1c38e421a1f9c5e6182281d504aea59990"
+    },
+    {
+      "candidate_path": "software/revision-20261016/historical-code-snapshots/feedback-generation-original-v1.py",
+      "candidate_sha256": "f60d902454094dddd9586c2d692fefe30f8695fd9f6f95bacdb98c3e059c135d",
+      "logical_identity": "historical/feedback-generator-v1",
+      "relationship": "byte-identical",
+      "source_sha256": "f60d902454094dddd9586c2d692fefe30f8695fd9f6f95bacdb98c3e059c135d"
+    },
+    {
+      "candidate_path": "software/revision-20261016/historical-code-snapshots/player-fit-original-v1.py",
+      "candidate_sha256": "7107b1e9f462e6c9cd8178550733308e39c0b03903b358ae4b89488056bfeebe",
+      "logical_identity": "historical/player-fit-v1",
+      "relationship": "byte-identical",
+      "source_sha256": "7107b1e9f462e6c9cd8178550733308e39c0b03903b358ae4b89488056bfeebe"
+    },
+    {
+      "candidate_path": "software/revision-20261016/historical-code-snapshots/player-input-projection-original-v1.py",
+      "candidate_sha256": "ce3f31739d3bd3a27e64a4fedd64e24732f81e61bbc4d19a6c378a30da9422b5",
+      "logical_identity": "historical/player-input-projection-v1",
+      "relationship": "byte-identical",
+      "source_sha256": "ce3f31739d3bd3a27e64a4fedd64e24732f81e61bbc4d19a6c378a30da9422b5"
+    },
+    {
+      "candidate_path": "software/revision-20261016/execution-sources/original/rating-code-frozen6.py",
+      "candidate_sha256": "1242aa0f4afcf1ae963ec8ca0ed76d3801f20f22697649b1dffd2fb33ca1d933",
+      "logical_identity": "executed/rating-fit-frozen6",
+      "relationship": "byte-identical",
+      "source_sha256": "1242aa0f4afcf1ae963ec8ca0ed76d3801f20f22697649b1dffd2fb33ca1d933"
+    },
+    {
+      "candidate_path": "software/revision-20261016/execution-sources/original/review_revision_online_calibration.py",
+      "candidate_sha256": "bb4b0e0474bffddf0ee55072d6600f23d709a17367ec0e800cb6cf67a37cd33a",
+      "logical_identity": "executed/online-calibration",
+      "relationship": "byte-identical",
+      "source_sha256": "bb4b0e0474bffddf0ee55072d6600f23d709a17367ec0e800cb6cf67a37cd33a"
+    },
+    {
+      "candidate_path": "software/revision-20261016/execution-sources/original/review_revision_roster_support.py",
+      "candidate_sha256": "34e6457e1deea6b3e62f8f545f0865893094d0bba562c6b18800391651812efe",
+      "logical_identity": "executed/roster-support",
+      "relationship": "byte-identical",
+      "source_sha256": "34e6457e1deea6b3e62f8f545f0865893094d0bba562c6b18800391651812efe"
+    },
+    {
+      "candidate_path": "software/revision-20261016/repaired-future-source/review_revision_feedback.py",
+      "candidate_sha256": "e4d642db54decf6d901cd20a5fc9c0ec065b44816d43fc3490fadb40909ac4a3",
+      "logical_identity": "current/repaired-feedback",
+      "relationship": "current source copy; not a claim that this revision produced historical aggregates",
+      "source_sha256": "e4d642db54decf6d901cd20a5fc9c0ec065b44816d43fc3490fadb40909ac4a3"
+    },
+    {
+      "candidate_path": "software/revision-20261016/repaired-future-source/review_revision_player_inputs.py",
+      "candidate_sha256": "ce3f31739d3bd3a27e64a4fedd64e24732f81e61bbc4d19a6c378a30da9422b5",
+      "logical_identity": "current/repaired-player-inputs",
+      "relationship": "current source copy; not a claim that this revision produced historical aggregates",
+      "source_sha256": "ce3f31739d3bd3a27e64a4fedd64e24732f81e61bbc4d19a6c378a30da9422b5"
+    },
+    {
+      "candidate_path": "software/revision-20261016/repaired-future-source/review_revision_ratings.py",
+      "candidate_sha256": "1242aa0f4afcf1ae963ec8ca0ed76d3801f20f22697649b1dffd2fb33ca1d933",
+      "logical_identity": "current/ratings",
+      "relationship": "current source copy; not a claim that this revision produced historical aggregates",
+      "source_sha256": "1242aa0f4afcf1ae963ec8ca0ed76d3801f20f22697649b1dffd2fb33ca1d933"
+    },
+    {
+      "candidate_path": "software/revision-20261016/repaired-future-source/review_revision_rating_report.py",
+      "candidate_sha256": "96d96737e4b4faf17af47bc9c7fba0b238d30e9ba40660281502d29630facaa3",
+      "logical_identity": "current/rating-report",
+      "relationship": "current source copy; not a claim that this revision produced historical aggregates",
+      "source_sha256": "96d96737e4b4faf17af47bc9c7fba0b238d30e9ba40660281502d29630facaa3"
+    },
+    {
+      "candidate_path": "software/revision-20261016/repaired-future-source/review_revision_representations.py",
+      "candidate_sha256": "1d9edd1be14362c6012163d34ac436d153865954df830e897104841c7b7fc2dc",
+      "logical_identity": "current/representation-fit",
+      "relationship": "current source copy; not a claim that this revision produced historical aggregates",
+      "source_sha256": "1d9edd1be14362c6012163d34ac436d153865954df830e897104841c7b7fc2dc"
+    },
+    {
+      "candidate_path": "software/revision-20261016/repaired-future-source/review_revision_representation_report.py",
+      "candidate_sha256": "570f61400fff37f5b053c602d031f40ff19a0a39d266b60af2c31993337276fa",
+      "logical_identity": "current/representation-report",
+      "relationship": "current source copy; not a claim that this revision produced historical aggregates",
+      "source_sha256": "570f61400fff37f5b053c602d031f40ff19a0a39d266b60af2c31993337276fa"
+    },
+    {
+      "candidate_path": "software/revision-20261016/repaired-future-source/review_revision_additional.py",
+      "candidate_sha256": "39aa08a5d1bb67ebcb640e05abe245ae886d213fc5606a270138a09026e9568d",
+      "logical_identity": "current/additional",
+      "relationship": "current source copy; not a claim that this revision produced historical aggregates",
+      "source_sha256": "39aa08a5d1bb67ebcb640e05abe245ae886d213fc5606a270138a09026e9568d"
+    },
+    {
+      "candidate_path": "software/revision-20261016/repaired-future-source/review_revision_roster_support.py",
+      "candidate_sha256": "34e6457e1deea6b3e62f8f545f0865893094d0bba562c6b18800391651812efe",
+      "logical_identity": "current/roster-support",
+      "relationship": "current source copy; not a claim that this revision produced historical aggregates",
+      "source_sha256": "34e6457e1deea6b3e62f8f545f0865893094d0bba562c6b18800391651812efe"
+    },
+    {
+      "candidate_path": "software/revision-20261016/execution-sources/original/review_revision_rating_report.py",
+      "candidate_sha256": "96d96737e4b4faf17af47bc9c7fba0b238d30e9ba40660281502d29630facaa3",
+      "logical_identity": "executed/rating-comparison-report",
+      "relationship": "byte-identical copy; SHA-256 agrees with saved aggregate result code identity",
+      "source_sha256": "96d96737e4b4faf17af47bc9c7fba0b238d30e9ba40660281502d29630facaa3"
+    },
+    {
+      "candidate_path": "software/revision-20261016/execution-sources/original/review_revision_representation_report.py",
+      "candidate_sha256": "570f61400fff37f5b053c602d031f40ff19a0a39d266b60af2c31993337276fa",
+      "logical_identity": "executed/controlled-player-report",
+      "relationship": "byte-identical copy; SHA-256 agrees with saved aggregate result code identity",
+      "source_sha256": "570f61400fff37f5b053c602d031f40ff19a0a39d266b60af2c31993337276fa"
+    }
+  ],
+  "created_on": "2026-10-16",
+  "method_document_hashes": [
+    {
+      "candidate_path": "aggregate-review/revision-2026-10-16/additional-diagnostics-method.md",
+      "sha256": "0c024f579f08edec896f196252f4121db3454c17ff622288ac81408b59273d46"
+    },
+    {
+      "candidate_path": "aggregate-review/revision-2026-10-16/additional-findings.md",
+      "sha256": "62af7db0bef9220c24f4ff71ef64b2280916681ed048dfb83a57fd4d44101895"
+    },
+    {
+      "candidate_path": "aggregate-review/revision-2026-10-16/calibration-complete-tables.md",
+      "sha256": "8a82580191ddecc18d246766ac32f869bd080b605959ecfb8e8829460461e3b0"
+    },
+    {
+      "candidate_path": "aggregate-review/revision-2026-10-16/controlled-player-results.md",
+      "sha256": "b8b05dd24a5e1c63a26cfd7a8e1db7ad77f815172de4166909696bd69253845d"
+    },
+    {
+      "candidate_path": "aggregate-review/revision-2026-10-16/feedback-findings.md",
+      "sha256": "92091cfd7577f4e263afd6332076f0496d03361bb936ff40287d2842955bba0c"
+    },
+    {
+      "candidate_path": "aggregate-review/revision-2026-10-16/feedback-method.md",
+      "sha256": "983d40a3c542fa0e79831ba84abe4b4386c6e29eee27a02e01b74c26fb7af421"
+    },
+    {
+      "candidate_path": "aggregate-review/revision-2026-10-16/methods.md",
+      "sha256": "b3e5c8206f1e3b507521f020280be05f0e1ee661eefe28da4ca3e929d5c89ad4"
+    },
+    {
+      "candidate_path": "aggregate-review/revision-2026-10-16/rating-and-pooling-methods.md",
+      "sha256": "46544aee14c4f42701b5997f049b17c5edf7d22dae298e480536a1b1e1841dbc"
+    },
+    {
+      "candidate_path": "aggregate-review/revision-2026-10-16/rating-results-manuscript-review-ratings-20261016-frozen6-v2.md",
+      "sha256": "6f877e5082a6b200e3698eda08aee939d764a014b39185c3b3da2d259ed09f60"
+    },
+    {
+      "candidate_path": "aggregate-review/revision-2026-10-16/rating-roster-support.md",
+      "sha256": "1f172fd244177506900e2f6ead67bb12572bdc529399dcab9f5fe062d690ac8d"
+    },
+    {
+      "candidate_path": "aggregate-review/revision-2026-10-16/representation-inference-method.md",
+      "sha256": "1531982bb7246fb503350331fa773096bf639c1227bb855c1eddcd43a48af9c6"
+    },
+    {
+      "candidate_path": "aggregate-review/revision-2026-10-16/saved-forecast-findings.md",
+      "sha256": "bfb9db6d8c6c70ed4a021c6fa4803c46b58e02af253dbe201561bb0c8d8d6fb4"
+    },
+    {
+      "candidate_path": "software/revision-20261016/execution-sources/original/additional-execution-methods.md",
+      "sha256": "1b5b074346177882a276955562eccffaff3c124d994fb98a6bbf8f8253b95d15"
+    },
+    {
+      "candidate_path": "software/revision-20261016/execution-sources/original/feedback-report-methods.md",
+      "sha256": "983d40a3c542fa0e79831ba84abe4b4386c6e29eee27a02e01b74c26fb7af421"
+    },
+    {
+      "candidate_path": "software/revision-20261016/execution-sources/original/methods-at-diagnostic-execution.md",
+      "sha256": "82c9abbeda131b61ee62f168ae3277088f672dcc0d8bc6922dafeb353707dfc6"
+    },
+    {
+      "candidate_path": "software/revision-20261016/execution-sources/original/online-calibration-methods.md",
+      "sha256": "0c024f579f08edec896f196252f4121db3454c17ff622288ac81408b59273d46"
+    },
+    {
+      "candidate_path": "software/revision-20261016/execution-sources/original/additional-execution-methods.md",
+      "sha256": "1b5b074346177882a276955562eccffaff3c124d994fb98a6bbf8f8253b95d15"
+    },
+    {
+      "candidate_path": "software/revision-20261016/execution-sources/original/feedback-report-methods.md",
+      "sha256": "983d40a3c542fa0e79831ba84abe4b4386c6e29eee27a02e01b74c26fb7af421"
+    },
+    {
+      "candidate_path": "software/revision-20261016/execution-sources/original/online-calibration-methods.md",
+      "sha256": "0c024f579f08edec896f196252f4121db3454c17ff622288ac81408b59273d46"
+    }
+  ],
+  "owner_reported_checkpoint_statement": "All 816 real player seed checkpoint/prediction hashes and original feedback source hashes agree; no reruns were required. Checkpoints and individual predictions are excluded; this is recorded as owner-provided evidence, not independently requalified here.",
+  "policy": "Logical release identifiers only; no local absolute paths, row data, model arrays, or owner identities. Raw result hashes bind the aggregate inputs; projection hashes bind the exact release-safe table fields.",
+  "renderer_base_image": "python:3.12.14-slim-bookworm@sha256:392307d22300de8b5986851a12d9176dfc0fc073e65bf6523ebd7dcbeb23564e",
+  "renderer_lock_sha256": "8c20390e50a36565dd56754710887a35a0b53af45f50d2c74820a550f7aded6c",
+  "renderer_platform": "linux/amd64",
+  "source_releases": [
+    {
+      "completion_and_identity_receipts": [
+        {
+          "name": "diagnostics-completion.json",
+          "sha256": "c8e617cb325cf5c6d5fa5b11d450b9aba747348eca864e501315d8e75bfb3c18"
+        },
+        {
+          "name": "diagnostics-identity.json",
+          "sha256": "50bc58b91079ec45b32fff5a77e6f48d3b42c5446aa5fe874c3c41fd23ad6857"
+        },
+        {
+          "name": "report-completion.json",
+          "sha256": "407a86865f9fc56596147ee3b5728403449690564c0c6bf433f83d5fc5c8eda9"
+        }
+      ],
+      "release_id": "revision-diagnostics-20261016-v2",
+      "result_files": [
+        {
+          "name": "map_winner-diagnostics.json",
+          "sha256": "256732d511a0eda78bbae226274bab6fcf0084ae62ff7e642089b4f1a6c27756"
+        },
+        {
+          "name": "series_winner-diagnostics.json",
+          "sha256": "96e13ab96cb4f3a3a5cec1e76ba6073a87ff70be98b2d767eb9faa886f5f4c4b"
+        },
+        {
+          "name": "later-diagnostics.json",
+          "sha256": "5eff4c78aadb9861121509fc3bf639f798595c5f975a9c6c29e2823a5e38d530"
+        }
+      ]
+    },
+    {
+      "completion_and_identity_receipts": [
+        {
+          "name": "completion.json",
+          "sha256": "80a7e24a0b2ddc085e8f48ba0457682cc90646dcfa03d0f1273c6ebed389fcc7"
+        }
+      ],
+      "release_id": "rating-comparison-20261016-frozen6-v1",
+      "result_files": [
+        {
+          "name": "results.json",
+          "sha256": "f17538241d5a2e9b2d964b475cbaada7cc2156290360de9ed39029f335c46c57"
+        }
+      ]
+    },
+    {
+      "completion_and_identity_receipts": [
+        {
+          "name": "completion.json",
+          "sha256": "00a62fbd9ccedc6aeef7e80b728badcc32167e17b44c92ec1ee17ee38e75d78d"
+        },
+        {
+          "name": "identity.json",
+          "sha256": "ed8581411c38afda99d06d185c9afdb9b687d84768dc5fc918abd3720577fbd1"
+        }
+      ],
+      "release_id": "player-results-20261016-v1",
+      "result_files": [
+        {
+          "name": "results.json",
+          "sha256": "967ee37c564d234878529b938b402f4dec94d4c041bb6dd5b52ec98e47b6d650"
+        }
+      ]
+    },
+    {
+      "completion_and_identity_receipts": [
+        {
+          "name": "completion.json",
+          "sha256": "7c9341f3799c524a813f17784e434bd0204c669439ee67ac7ea55b01a89bf333"
+        },
+        {
+          "name": "identity.json",
+          "sha256": "0090eef33e0ae19baef869009e0741c18a6957e94da1d553f96d1d0521d3a0a5"
+        }
+      ],
+      "release_id": "additional-20261016-v1",
+      "result_files": [
+        {
+          "name": "results.json",
+          "sha256": "5e59237ef0446f2212919e6f316a28015dc6714f83e2b2004461f83b463417ba"
+        }
+      ]
+    },
+    {
+      "completion_and_identity_receipts": [
+        {
+          "name": "completion.json",
+          "sha256": "02bbb262afc8e125820da3d962a3550f6cbffac2c2b1b73295cfb86850ea0858"
+        }
+      ],
+      "release_id": "feedback-results-20261016-v1",
+      "result_files": [
+        {
+          "name": "results.json",
+          "sha256": "5886df6ac40a2595fbc9fe70ba14fd003d415cc9b2fd20c1cf4f7c1edfa0ee94"
+        }
+      ]
+    },
+    {
+      "completion_and_identity_receipts": [
+        {
+          "name": "completion.json",
+          "sha256": "502083bf5c01bbcfaf970a62ebfe136020cd8bb4c9e2b37e4d31528ec7dd6710"
+        },
+        {
+          "name": "identity.json",
+          "sha256": "c6b48705214e6ec248f6ee096ed7ee4f779e8d424e8edcfab2e7168e78721cc0"
+        }
+      ],
+      "release_id": "online-calibration-20261016-v1",
+      "result_files": [
+        {
+          "name": "results.json",
+          "sha256": "7b143582d883ca3de98defdbafa715012a86a7417bab6511f3b03dff2edd42a7"
+        }
+      ]
+    },
+    {
+      "completion_and_identity_receipts": [
+        {
+          "name": "completion.json",
+          "sha256": "1a9978ecc980a0f83ab315ba7ab2c06da8637d8572a84d4af3c99245f2ae6f23"
+        }
+      ],
+      "release_id": "roster-support-20261016-v1",
+      "result_files": [
+        {
+          "name": "results.json",
+          "sha256": "69643667cbbfa8582c61d948f891eb2a837f022d1c0bae5a93c8414eb1757e57"
+        }
+      ]
+    },
+    {
+      "completion_and_identity_receipts": [],
+      "release_id": "retuned-removals-20261016-v2",
+      "result_files": [
+        {
+          "name": "results.json",
+          "sha256": "3b2c73b823929caaeed6412cad7fa8b8144b47068f77f6d7caf8fb30e5520f0c"
+        },
+        {
+          "name": "report-summary.json",
+          "sha256": "7e0c00c09a4091aca6788052ae766f5228991092d09283b50459b1920fb80808"
+        }
+      ]
+    },
+    {
+      "completion_and_identity_receipts": [],
+      "release_id": "secondary-metrics-20261016-v2",
+      "result_files": [
+        {
+          "name": "results.json",
+          "sha256": "830a168e5b23e337d562aadd40c104bcf2de9da2a150573b09c92d733a194f3a"
+        }
+      ]
+    }
+  ]
+}

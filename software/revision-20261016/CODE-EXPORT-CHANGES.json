@@ -1,0 +1,148 @@
+{
+  "scope": "The exported diagnostics module changes only the artifact-root path literal to a configurable VALORANT_ARTIFACT_ROOT environment variable; no numerical logic changed. Other execution snapshots are byte-identical or SHA-256 matched to saved result code identities. Repaired feedback/player source is listed separately as future code.",
+  "path_adapted_exports": [
+    {
+      "source_sha256": "e6ef606d9d48c9311347a82133e8a88b714d70f0aa0d87d17106e550593dddfc",
+      "candidate_path": "software/revision-20261016/execution-sources/original/review_revision_diagnostics.py",
+      "candidate_sha256": "08622b1f6722365a8bb1e2cac41df8116a7b75560e5594deedb6daed44ac9f7c",
+      "change": "Replace the fixed local artifact root with Path(os.environ.get(\"VALORANT_ARTIFACT_ROOT\", \".\")).resolve(). No formulas, model settings, fields, or numerical behavior changed."
+    }
+  ],
+  "execution_code_identities": [
+    {
+      "logical_identity": "executed/diagnostics-report",
+      "source_sha256": "f9679206957e0abb1f3bb9c7d34a0e44bef1a9ff1b9efa8d115d6cace31a6033",
+      "candidate_path": "software/revision-20261016/execution-sources/original/review_revision_report.py",
+      "candidate_sha256": "f9679206957e0abb1f3bb9c7d34a0e44bef1a9ff1b9efa8d115d6cace31a6033",
+      "relationship": "byte-identical"
+    },
+    {
+      "logical_identity": "executed/additional-report",
+      "source_sha256": "39aa08a5d1bb67ebcb640e05abe245ae886d213fc5606a270138a09026e9568d",
+      "candidate_path": "software/revision-20261016/execution-sources/original/review_revision_additional.py",
+      "candidate_sha256": "39aa08a5d1bb67ebcb640e05abe245ae886d213fc5606a270138a09026e9568d",
+      "relationship": "byte-identical"
+    },
+    {
+      "logical_identity": "executed/feedback-report",
+      "source_sha256": "ca89e55aefed360eb016a0e779f8ab1c38e421a1f9c5e6182281d504aea59990",
+      "candidate_path": "software/revision-20261016/execution-sources/original/review_revision_feedback_report.py",
+      "candidate_sha256": "ca89e55aefed360eb016a0e779f8ab1c38e421a1f9c5e6182281d504aea59990",
+      "relationship": "byte-identical"
+    },
+    {
+      "logical_identity": "historical/feedback-generator-v1",
+      "source_sha256": "f60d902454094dddd9586c2d692fefe30f8695fd9f6f95bacdb98c3e059c135d",
+      "candidate_path": "software/revision-20261016/historical-code-snapshots/feedback-generation-original-v1.py",
+      "candidate_sha256": "f60d902454094dddd9586c2d692fefe30f8695fd9f6f95bacdb98c3e059c135d",
+      "relationship": "byte-identical"
+    },
+    {
+      "logical_identity": "historical/player-fit-v1",
+      "source_sha256": "7107b1e9f462e6c9cd8178550733308e39c0b03903b358ae4b89488056bfeebe",
+      "candidate_path": "software/revision-20261016/historical-code-snapshots/player-fit-original-v1.py",
+      "candidate_sha256": "7107b1e9f462e6c9cd8178550733308e39c0b03903b358ae4b89488056bfeebe",
+      "relationship": "byte-identical"
+    },
+    {
+      "logical_identity": "historical/player-input-projection-v1",
+      "source_sha256": "ce3f31739d3bd3a27e64a4fedd64e24732f81e61bbc4d19a6c378a30da9422b5",
+      "candidate_path": "software/revision-20261016/historical-code-snapshots/player-input-projection-original-v1.py",
+      "candidate_sha256": "ce3f31739d3bd3a27e64a4fedd64e24732f81e61bbc4d19a6c378a30da9422b5",
+      "relationship": "byte-identical"
+    },
+    {
+      "logical_identity": "executed/rating-fit-frozen6",
+      "source_sha256": "1242aa0f4afcf1ae963ec8ca0ed76d3801f20f22697649b1dffd2fb33ca1d933",
+      "candidate_path": "software/revision-20261016/execution-sources/original/rating-code-frozen6.py",
+      "candidate_sha256": "1242aa0f4afcf1ae963ec8ca0ed76d3801f20f22697649b1dffd2fb33ca1d933",
+      "relationship": "byte-identical"
+    },
+    {
+      "logical_identity": "executed/online-calibration",
+      "source_sha256": "bb4b0e0474bffddf0ee55072d6600f23d709a17367ec0e800cb6cf67a37cd33a",
+      "candidate_path": "software/revision-20261016/execution-sources/original/review_revision_online_calibration.py",
+      "candidate_sha256": "bb4b0e0474bffddf0ee55072d6600f23d709a17367ec0e800cb6cf67a37cd33a",
+      "relationship": "byte-identical"
+    },
+    {
+      "logical_identity": "executed/roster-support",
+      "source_sha256": "34e6457e1deea6b3e62f8f545f0865893094d0bba562c6b18800391651812efe",
+      "candidate_path": "software/revision-20261016/execution-sources/original/review_revision_roster_support.py",
+      "candidate_sha256": "34e6457e1deea6b3e62f8f545f0865893094d0bba562c6b18800391651812efe",
+      "relationship": "byte-identical"
+    },
+    {
+      "logical_identity": "executed/rating-comparison-report",
+      "source_sha256": "96d96737e4b4faf17af47bc9c7fba0b238d30e9ba40660281502d29630facaa3",
+      "candidate_path": "software/revision-20261016/execution-sources/original/review_revision_rating_report.py",
+      "candidate_sha256": "96d96737e4b4faf17af47bc9c7fba0b238d30e9ba40660281502d29630facaa3",
+      "relationship": "byte-identical copy; SHA-256 agrees with saved aggregate result code identity"
+    },
+    {
+      "logical_identity": "executed/controlled-player-report",
+      "source_sha256": "570f61400fff37f5b053c602d031f40ff19a0a39d266b60af2c31993337276fa",
+      "candidate_path": "software/revision-20261016/execution-sources/original/review_revision_representation_report.py",
+      "candidate_sha256": "570f61400fff37f5b053c602d031f40ff19a0a39d266b60af2c31993337276fa",
+      "relationship": "byte-identical copy; SHA-256 agrees with saved aggregate result code identity"
+    }
+  ],
+  "future_source_not_used_for_historical_results": [
+    {
+      "logical_identity": "current/repaired-feedback",
+      "source_sha256": "e4d642db54decf6d901cd20a5fc9c0ec065b44816d43fc3490fadb40909ac4a3",
+      "candidate_path": "software/revision-20261016/repaired-future-source/review_revision_feedback.py",
+      "candidate_sha256": "e4d642db54decf6d901cd20a5fc9c0ec065b44816d43fc3490fadb40909ac4a3",
+      "relationship": "current source copy; not a claim that this revision produced historical aggregates"
+    },
+    {
+      "logical_identity": "current/repaired-player-inputs",
+      "source_sha256": "ce3f31739d3bd3a27e64a4fedd64e24732f81e61bbc4d19a6c378a30da9422b5",
+      "candidate_path": "software/revision-20261016/repaired-future-source/review_revision_player_inputs.py",
+      "candidate_sha256": "ce3f31739d3bd3a27e64a4fedd64e24732f81e61bbc4d19a6c378a30da9422b5",
+      "relationship": "current source copy; not a claim that this revision produced historical aggregates"
+    },
+    {
+      "logical_identity": "current/ratings",
+      "source_sha256": "1242aa0f4afcf1ae963ec8ca0ed76d3801f20f22697649b1dffd2fb33ca1d933",
+      "candidate_path": "software/revision-20261016/repaired-future-source/review_revision_ratings.py",
+      "candidate_sha256": "1242aa0f4afcf1ae963ec8ca0ed76d3801f20f22697649b1dffd2fb33ca1d933",
+      "relationship": "current source copy; not a claim that this revision produced historical aggregates"
+    },
+    {
+      "logical_identity": "current/rating-report",
+      "source_sha256": "96d96737e4b4faf17af47bc9c7fba0b238d30e9ba40660281502d29630facaa3",
+      "candidate_path": "software/revision-20261016/repaired-future-source/review_revision_rating_report.py",
+      "candidate_sha256": "96d96737e4b4faf17af47bc9c7fba0b238d30e9ba40660281502d29630facaa3",
+      "relationship": "current source copy; not a claim that this revision produced historical aggregates"
+    },
+    {
+      "logical_identity": "current/representation-fit",
+      "source_sha256": "1d9edd1be14362c6012163d34ac436d153865954df830e897104841c7b7fc2dc",
+      "candidate_path": "software/revision-20261016/repaired-future-source/review_revision_representations.py",
+      "candidate_sha256": "1d9edd1be14362c6012163d34ac436d153865954df830e897104841c7b7fc2dc",
+      "relationship": "current source copy; not a claim that this revision produced historical aggregates"
+    },
+    {
+      "logical_identity": "current/representation-report",
+      "source_sha256": "570f61400fff37f5b053c602d031f40ff19a0a39d266b60af2c31993337276fa",
+      "candidate_path": "software/revision-20261016/repaired-future-source/review_revision_representation_report.py",
+      "candidate_sha256": "570f61400fff37f5b053c602d031f40ff19a0a39d266b60af2c31993337276fa",
+      "relationship": "current source copy; not a claim that this revision produced historical aggregates"
+    },
+    {
+      "logical_identity": "current/additional",
+      "source_sha256": "39aa08a5d1bb67ebcb640e05abe245ae886d213fc5606a270138a09026e9568d",
+      "candidate_path": "software/revision-20261016/repaired-future-source/review_revision_additional.py",
+      "candidate_sha256": "39aa08a5d1bb67ebcb640e05abe245ae886d213fc5606a270138a09026e9568d",
+      "relationship": "current source copy; not a claim that this revision produced historical aggregates"
+    },
+    {
+      "logical_identity": "current/roster-support",
+      "source_sha256": "34e6457e1deea6b3e62f8f545f0865893094d0bba562c6b18800391651812efe",
+      "candidate_path": "software/revision-20261016/repaired-future-source/review_revision_roster_support.py",
+      "candidate_sha256": "34e6457e1deea6b3e62f8f545f0865893094d0bba562c6b18800391651812efe",
+      "relationship": "current source copy; not a claim that this revision produced historical aggregates"
+    }
+  ]
+}
