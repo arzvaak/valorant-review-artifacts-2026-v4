@@ -1,6 +1,6 @@
 # Finding-to-evidence map
 
-This map accompanies the matching manuscript and supplement. Original controlled comparisons, later continuation and new retrospective sensitivities have separate inference families. All probabilities, decisions, fits and inferential results are retained from completed execution. New presentation diagnostics add no hypothesis tests.
+This map accompanies the manuscript and supplement revision dated 25 October 2026. Original controlled comparisons, the later continuation, and the completed retrospective sensitivities have separate inference families. Probabilities, decisions, fits, and inferential results come from the saved completed analyses. The presentation diagnostics add no hypothesis tests.
 
 | Question / finding | Read first | Inspect the supplied evidence | What this establishes |
 |---|---|---|---|
@@ -28,4 +28,4 @@ The first uses supplied complete-event loss/correct-count summaries to reconstru
 
 ## Access boundary
 
-The shared software and aggregates are sufficient for these score/figure reconstruction routes and inspecting comparison families. They do not constitute a row-level training dataset, independently regenerate original features, or permit full forecasting refits without compatible lawful source inputs. Raw captures, source row keys, per-target probabilities/labels and model binaries remain restricted. The data card and feature/split/environment documentation identify the additional requirements. No prospective prediction or public source-data license is implied.
+The shared software and aggregates support the score and figure reconstruction routes above and inspection of the comparison families. They are not a row-level training dataset, do not regenerate the original features, and do not support full forecasting refits without compatible, lawfully obtained source inputs. Raw captures, source row keys, per-target probabilities and labels, and model binaries are not included. The data card and feature, split, and environment records describe what additional inputs a refit would require. These retrospective results do not establish prospective prediction availability or grant a license to redistribute source data.

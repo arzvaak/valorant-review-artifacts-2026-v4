@@ -3,8 +3,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 3898,
-      "sha256": "d7f5ea9740684069d0c8c43d85ed778a0b0b1b9905e770cfc3c5864e089731b2"
+      "bytes": 4018,
+      "sha256": "f3545ee97ce58102f29868d83c49c3dff77dc182e1e70e26c6f0e20eb80d3b68"
     },
     {
       "path": "aggregates/aggregate-reconstruction/core-audit.json",
@@ -183,8 +183,8 @@
     },
     {
       "path": "methods/EVIDENCE_MAP.md",
-      "bytes": 4344,
-      "sha256": "381a55e63b954a299081b70c59cd3aab6b92f9029d23fb884f49d7e310460a18"
+      "bytes": 4473,
+      "sha256": "a501c5d5dcc6802ab57d62c1a830edccadbcf6db063dc6f3622da68e6505e4fb"
     },
     {
       "path": "methods/METHODS-AND-EXECUTION.md",
@@ -193,13 +193,13 @@
     },
     {
       "path": "methods/RECONSTRUCTION.md",
-      "bytes": 5915,
-      "sha256": "9e45bda632e1005e132b1078822f78dd3297c0a9b4c433b008ab992d0290396f"
+      "bytes": 5638,
+      "sha256": "879760ec36bd1fb38f21721c4b0f46702c04c3275b442ed51672578fcedfbad8"
     },
     {
       "path": "methods/data-card.md",
-      "bytes": 5858,
-      "sha256": "d95468bc597f8f260514df0a2b1584892873970672e95dc9fa0e1d5af1047f9f"
+      "bytes": 5857,
+      "sha256": "28ff46807b1f4156de366d1f53df8e748907a7660d800fc14874b8c75e200a97"
     },
     {
       "path": "methods/leakage-audit.md",
@@ -208,8 +208,8 @@
     },
     {
       "path": "software/README.md",
-      "bytes": 1248,
-      "sha256": "32db6c80c410771b6af0384f7a4d812c9c2b60076b86832ebb4fcef36cf8d4ae"
+      "bytes": 1250,
+      "sha256": "a5c5a96fcf77bc0045bb6cf89b4e227d1398de7192538dab2fafdce2db988f1c"
     },
     {
       "path": "software/aggregate-renderers/plot_final_sensitivities.py",

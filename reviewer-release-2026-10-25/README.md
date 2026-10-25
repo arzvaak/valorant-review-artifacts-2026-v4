@@ -1,6 +1,6 @@
 # VALORANT history benchmark: software and aggregate companion (25 October 2026)
 
-This dated companion supports the matching double-anonymous review materials. It adds completed aggregate evidence and current execution source to the older v4.1 software/aggregate release. The v4.1 files remain unchanged. This repository contains no manuscript or supplement PDF.
+This is the v4.2 software and aggregate companion for the manuscript and supplement revision dated 25 October 2026. It adds completed sensitivity summaries, current execution source, and reconstruction instructions to the preserved v4.1 release. The earlier files remain unchanged. The manuscript and supplement are distributed separately; this repository contains neither PDF.
 
 ## What is included
 
@@ -10,7 +10,7 @@ This dated companion supports the matching double-anonymous review materials. It
 - Methods, a data card, leakage/availability audit, a finding-to-evidence map, reconstruction limits, and exact recorded execution environments.
 - A per-file SHA-256 manifest and package qualification receipt.
 
-The original v4.1 release remains available in the root paths, including the pinned source software, original schemas and feature dictionaries, third-party notices, and aggregate reconstruction environment. Start with [the original artifact README](../../README.md), [`schemas/`](../../schemas/), [`software/revision-20261016/`](../../software/revision-20261016/), and [`figure-reconstruction/`](../../figure-reconstruction/).
+The original v4.1 release remains in the repository root. It contains the pinned source software, original schemas and feature dictionaries, third-party notices, and aggregate reconstruction environment. Start with [the original artifact README](../../README.md), [`schemas/`](../../schemas/), [`software/revision-20261016/`](../../software/revision-20261016/), and [`figure-reconstruction/`](../../figure-reconstruction/).
 
 ## Reconstruct supplied aggregate scores
 
@@ -42,7 +42,7 @@ These commands plot already-reported estimates and intervals; they do not recalc
 
 ## Limits and access boundary
 
-Shared aggregates permit inspection and the reconstruction described above. They are not a row-level training/evaluation dataset and cannot independently regenerate every feature, refit the forecast models, or validate historical publication times. Raw records, source IDs, row-level targets and forecasts, fitted model binaries, checkpoints, credentials, and protected confirmation are not included. Full model refitting requires compatible inputs obtained lawfully through a separate arrangement.
+The shared aggregates support the inspections and reconstruction described above. They are not a row-level training or evaluation dataset, and they cannot independently regenerate every feature, refit the forecast models, or establish when historical inputs became available. Raw records, source IDs, row-level targets and forecasts, fitted model binaries, checkpoints, credentials, and protected confirmation are not included. Full model refitting requires compatible inputs obtained through a lawful, separate arrangement.
 
 The new sensitivity estimates include saved fits from two recorded environments; see [`methods/METHODS-AND-EXECUTION.md`](methods/METHODS-AND-EXECUTION.md) and [`environments/runtime-record.json`](environments/runtime-record.json). These are mixed-environment sensitivity results, not hardware-matched replication. Non-rejection is not evidence of equivalence.
 

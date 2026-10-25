@@ -1,6 +1,6 @@
 # Reconstructing the reported evidence
 
-The original hosted v4.1 snapshot and this dated companion have distinct scopes. The v4.1 snapshot remains unchanged; this versioned companion adds the completed 25 October software and aggregate evidence. Neither anonymous mirror hosts the manuscript or supplement.
+The original v4.1 snapshot and the v4.2 companion have distinct scopes. Version 4.1 is preserved unchanged; the dated v4.2 directory adds the completed 25 October software and aggregate evidence. The manuscript and supplement are distributed separately and are not included in this repository.
 
 ## Primary probability losses and fixed-decision accuracy
 
@@ -30,13 +30,13 @@ This reconstructs the original aggregate CSVs and figure sets. It does not fit f
 
 ## Documents and access
 
-The editable TeX, BibTeX, adjacent input tables and figure assets reproduce the article PDF using the supplied class/style and the package's build instructions. The Markdown supplement uses the bundled graphics. The data card explains populations, missingness, availability and redistribution scope. No reconstruction command here accesses protected confirmation, runs a repository test suite or establishes a prospective prediction timestamp.
+The editable TeX, BibTeX, adjacent input tables, and figure assets reproduce the article PDF using the supplied class, style, and build instructions. The Markdown supplement uses the bundled graphics. The data card describes populations, missingness, availability, and redistribution scope. The supplied reconstruction commands do not access protected confirmation or establish a prospective prediction timestamp.
 
 ## Completed sensitivity aggregates
 
 `final-sensitivities/all-88-contrasts.csv` contains every declared new contrast, pointwise interval, Monte Carlo quantities and separate-family adjusted decision. `procedure-metrics.csv` separately labels event-equal and row-weighted losses. Its p >0.5 accuracy is a diagnostic, not the original residual decision thresholds. `core-ties-by-block.csv`, `calibration-candidates.csv`, `schedule-gaps.csv` and `removal-parent-metrics.csv` expose the bounded saved-output audits. These summaries permit inspection and figure reconstruction, not fresh bootstrap inference or independent row-level refitting. `specification.json` binds the figure inputs to the saved-report hashes.
 
-The report-to-document renderer is `software/audit-renderers/integrate_final_round.py` in the versioned companion. It reads already-scored private report JSONs, verifies result/completion hashes, emits aggregate CSV/Markdown and draws the figure with Matplotlib; it does not read row-level forecasts or fit models. Re-execution requires the private reports at their recorded local layout or a lawful equivalent supplied with matching identities. The distributed aggregate inputs and figure are available without those private files. The original v4.1 hosted snapshot remains a separate historical release; this dated companion contains the new aggregate outputs listed below.
+The companion also includes `software/audit-renderers/integrate_final_round.py`, a renderer for saved analysis reports that are not included here. It checks their recorded identities and emits aggregate tables and a figure; it does not read row-level forecasts or fit models. Re-executing it requires those reports or a lawful equivalent with matching identities. The aggregate inputs and figure supplied here can be used without the reports.
 
 To reconstruct the new figure from shared aggregates alone (Python 3 with Matplotlib):
 
@@ -50,4 +50,4 @@ This plots recorded estimates and intervals; it neither recalculates inference n
 
 `reader-evidence/later-exact-ties.csv` gives all six original later-cohort procedures with actual tied-subset class counts and original/half-credit row/event decision summaries. It does not expose source IDs and changes no probabilities or loss findings. `online-rating-display.csv` supplies all seven procedures in the expanded online probability-loss figure. Reconstruct that figure using `python software/aggregate-renderers/plot_rating_display.py --input reader-evidence/online-rating-display.csv --output reconstructed-rating-figure` with the supplied plotting environment. The saved-output provenance file binds the aggregate sources and diagnostic implementation by hash. No new inference or model fitting is performed.
 
-The optional `software/audit-renderers/presentation_saved_outputs.py` audit renderer requires explicit `--later`, `--aggregates` and `--output` paths. `--later` refers to restricted frozen forecasts/targets, so this optional command is not runnable from shared aggregates alone. Reviewer score/figure reconstruction above does not need it. No author-local path is embedded in this renderer.
+The optional `software/audit-renderers/presentation_saved_outputs.py` renderer requires explicit `--later`, `--aggregates`, and `--output` paths. Its `--later` input refers to restricted saved forecasts and targets, so this command cannot be run from the shared aggregates alone. The score and figure reconstruction commands above do not require it.

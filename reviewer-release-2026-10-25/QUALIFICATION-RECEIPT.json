@@ -1,13 +1,15 @@
 {
   "release": "reviewer-release-2026-10-25",
-  "artifact_type": "public software and aggregate companion",
-  "status": "prepared v4.2 release; anonymous mirror verification remains pending",
+  "tag": "v4.2.1",
+  "artifact_type": "software and aggregate companion",
+  "status": "Versioned public release; payload file digests and sizes are listed in SHA256SUMS.json.",
   "files": 56,
+  "total_payload_bytes": 7620911,
   "maximum_file_bytes": 6456779,
   "service_limit_bytes": 8388608,
   "sha256_manifest": "SHA256SUMS.json",
-  "sha256_manifest_sha256": "e2e0962665d789cd4d331a8a7724ded5fc60ea5c5cf840f03c8168be5a8cf344",
-  "excluded": "manuscript and supplement PDFs/sources, raw/source rows, source IDs, row-level targets or forecasts, model binaries/checkpoints, private correspondence, credentials, protected data and superseded availability experiment remnants",
-  "reconstruction_scope": "supplied aggregate score and figure reconstruction only; no model refit or row-level rescoring",
-  "source_release": "existing v4.1 software/dictionaries/environment retained in repository root; new content isolated in this directory"
+  "sha256_manifest_sha256": "9bc1534a61861a8d8529fed3226096854c732886f13b085864397fae8a9de2e9",
+  "excluded": "manuscript and supplement PDFs and sources, raw/source rows, source IDs, row-level targets or forecasts, model binaries/checkpoints, private correspondence, credentials, protected data, and superseded incomplete experiment remnants",
+  "reconstruction_scope": "aggregate score and figure reconstruction only; no model refit or row-level rescoring",
+  "source_release": "the v4.1 software, dictionaries, schemas, notices, and environment remain preserved in the repository root; the v4.2 companion is in this directory"
 }
