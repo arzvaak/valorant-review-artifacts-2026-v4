@@ -10,7 +10,7 @@ This is the v4.2 software and aggregate companion for the manuscript and supplem
 - Methods, a data card, leakage/availability audit, a finding-to-evidence map, reconstruction limits, and exact recorded execution environments.
 - A per-file SHA-256 manifest and package qualification receipt.
 
-The original v4.1 release remains in the repository root. It contains the pinned source software, original schemas and feature dictionaries, third-party notices, and aggregate reconstruction environment. Start with [the original artifact README](../../README.md), [`schemas/`](../../schemas/), [`software/revision-20261016/`](../../software/revision-20261016/), and [`figure-reconstruction/`](../../figure-reconstruction/).
+The original v4.1 release remains at the repository root. It contains the pinned source software, original schemas and feature dictionaries, third-party notices, and aggregate reconstruction environment. Start with the [original artifact README](https://anonymous.4open.science/r/valorant-temporal-benchmark-2026/README.md), then browse [`schemas/`](https://anonymous.4open.science/r/valorant-temporal-benchmark-2026/schemas/), [`software/revision-20261016/`](https://anonymous.4open.science/r/valorant-temporal-benchmark-2026/software/revision-20261016/), and [`figure-reconstruction/`](https://anonymous.4open.science/r/valorant-temporal-benchmark-2026/figure-reconstruction/).
 
 ## Reconstruct supplied aggregate scores
 

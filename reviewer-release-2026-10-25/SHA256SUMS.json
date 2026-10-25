@@ -3,8 +3,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 4018,
-      "sha256": "f3545ee97ce58102f29868d83c49c3dff77dc182e1e70e26c6f0e20eb80d3b68"
+      "bytes": 4274,
+      "sha256": "35d7b7b0fb2f81258e0067ef5569eff8f2eab654b94ff66ef2cf9f4b64936314"
     },
     {
       "path": "aggregates/aggregate-reconstruction/core-audit.json",
@@ -183,8 +183,8 @@
     },
     {
       "path": "methods/EVIDENCE_MAP.md",
-      "bytes": 4473,
-      "sha256": "a501c5d5dcc6802ab57d62c1a830edccadbcf6db063dc6f3622da68e6505e4fb"
+      "bytes": 4789,
+      "sha256": "2fd7ca114ce84fc2582669594f61c929ba4890b08fce618d40594c7e4dce42bb"
     },
     {
       "path": "methods/METHODS-AND-EXECUTION.md",
@@ -193,8 +193,8 @@
     },
     {
       "path": "methods/RECONSTRUCTION.md",
-      "bytes": 5638,
-      "sha256": "879760ec36bd1fb38f21721c4b0f46702c04c3275b442ed51672578fcedfbad8"
+      "bytes": 6500,
+      "sha256": "090221bf2b38086f662fa7194cfb7e592ac06b76f514d14004711255210cbdb3"
     },
     {
       "path": "methods/data-card.md",
