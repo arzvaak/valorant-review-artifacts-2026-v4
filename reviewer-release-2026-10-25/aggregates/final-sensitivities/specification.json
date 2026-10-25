@@ -1,0 +1,20 @@
+{
+  "inputs": {
+    "refresh8": "008feef8800c92ff87755e265bd18c0e0944744213ad0f85b67ba2d9593e1fbb",
+    "fresh20": "0a2b23b14f1fd67364399f1f8e58050e2742cb26ab7dc9f91f63431f0d0ed081",
+    "change20": "44a8594cdb6e2c4a8afa54c292fd655794382338333a2429491640bd6c2dcafb",
+    "clocks40": "dd5f4410a295cf5dba1829c30b5c59721ffb112e559b4de13b656811e94bb650",
+    "audits": "54822efa991a1fa86a0446ed28dd833192fb19ce66cdc51ea9cb34f0011f0870"
+  },
+  "scope": "broad nonglobal; exploratory; conditional saved fits",
+  "figure": "Event-equal Brier differences with pointwise 95% intervals; negative favors BN",
+  "mappings": {
+    "x": "BN minus B Brier",
+    "y": "model family",
+    "color": "history/clock arm",
+    "panels": "map and series",
+    "interval": "pointwise event bootstrap 95%"
+  },
+  "filtering": "Brier BN-versus-B only; all five fresh families and three declared clock families",
+  "code_sha256": "a069e3dd6cacc8778faf6b6c7bc6dac204ed23653ca53ecf098485cf022bfb4f"
+}

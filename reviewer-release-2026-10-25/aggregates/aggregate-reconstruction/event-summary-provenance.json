@@ -1,0 +1,9 @@
+{
+  "export_code_sha256": "c1708698e3621907765c0adff6d8b05746954023a55529ba47c2ad060faf1be7",
+  "original_release_sha256": "0edb63547a4e880041184f6adf8f08a22b8f04b5e8cd80cd5378ea2957ed41b8",
+  "output_sha256": "89dc2f7fb0e2ea252901752b42a8988e69e0477ffa5d50511b83fa01663a761d",
+  "granularity": "one procedure/event; opaque event cluster labels preserve pairing within each analysis/task",
+  "excludes": "row-level probabilities, labels, source identity keys, names and raw content",
+  "scope": "reconstruct event/row probability loss and fixed-0.5 core decisions; not calibration curves or feature/model refitting",
+  "scope_disposition": "This file summarizes original completed core forecasts only; the separately declared 25 October history and stricter-clock sensitivities are in final-sensitivities/all-88-contrasts.csv."
+}

@@ -1,0 +1,3 @@
+entity,entities,entities_with_2_to_under_6_hour_interval,consecutive_distinct_schedule_intervals,two_to_under_six_hours,two_to_under_six_fraction,meaning
+team,5603,1840,49158,5620,0.11432523699092721,"scheduled start gaps, not verified result-publication or turnaround duration; equal scheduled timestamps do not establish order"
+player,18745,6613,256185,28053,0.10950289829615317,"scheduled start gaps, not verified result-publication or turnaround duration; equal scheduled timestamps do not establish order"

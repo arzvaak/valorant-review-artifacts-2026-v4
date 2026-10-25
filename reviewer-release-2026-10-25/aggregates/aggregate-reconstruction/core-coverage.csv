@@ -1,0 +1,17 @@
+task,definition,count,denominator,fraction
+map_winner,both_team_history,19121,55943,0.3417943263679102
+map_winner,either_team_history,39760,55943,0.7107234149044563
+map_winner,both_roster,55943,55943,1.0
+map_winner,both_full_player,20011,55943,0.3577033766512343
+map_winner,either_player,52027,55943,0.9300001787533739
+map_winner,both_full_linked_acs,105,55943,0.0018769104266843036
+map_winner,either_linked_acs,40261,55943,0.7196789589403499
+map_winner,all_agents_training_vocabulary,34595,55943,0.6183972972489856
+series_winner,both_team_history,8230,25186,0.3267688398316525
+series_winner,either_team_history,17605,25186,0.6989994441356309
+series_winner,both_roster,7769,25186,0.30846502024934486
+series_winner,both_full_player,7769,25186,0.30846502024934486
+series_winner,either_player,17360,25186,0.6892718176764869
+series_winner,both_full_linked_acs,7767,25186,0.30838561105376
+series_winner,either_linked_acs,17360,25186,0.6892718176764869
+series_winner,all_agents_training_vocabulary,7769,25186,0.30846502024934486

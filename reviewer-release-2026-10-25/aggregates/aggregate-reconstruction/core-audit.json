@@ -1,0 +1,2057 @@
+{
+  "code": "dc84ad5502c2595273ba408885b5c44a8769901077c686f0145eb7ddbb2a570b",
+  "input_hashes": {
+    "original-core/blocks/rolling_01/inputs/prepared.json": "b75882bf2c40aa33e39f041eacdd08d570f57ade6319cecc0b2866515cfa82b7",
+    "original-core/blocks/rolling_01/selector/map_winner/predictions.npz": "70af86a187c3785e52075b415d123e78ccfbafdfc0317eebc8a33fdc875a2603",
+    "original-core/blocks/rolling_01/selector/series_winner/predictions.npz": "584b2371cd2ad16c0d6e1bd26e3cd5c6452745b5065e1143b2771f3f76039ccc",
+    "original-core/blocks/rolling_02/inputs/prepared.json": "67a19a2e350c520287175cc5631c7e725a1492094f7f241c3124631f0152e61f",
+    "original-core/blocks/rolling_02/selector/map_winner/predictions.npz": "e2badd275c5b79b3ac2ea8bc1d38fdf83c07209093c1f98f81be14618935d8be",
+    "original-core/blocks/rolling_02/selector/series_winner/predictions.npz": "68d5663b80fafb854be4a1527d9a3df0d20c4b3901467728c42b0b00645ca064",
+    "original-core/blocks/rolling_03/inputs/prepared.json": "a9506f1602223ce1adc4e74be31b4931f461b7b00c8fa63131a5888add646233",
+    "original-core/blocks/rolling_03/selector/map_winner/predictions.npz": "9bc27f2da468cf2b6bc0c5e08e0eb5e2000cbb1665a2a5ec26f1b31dfb96158e",
+    "original-core/blocks/rolling_03/selector/series_winner/predictions.npz": "b33306921b14dc1cf9a17836a0d2c4170754cc09e01589a83e8ca62567165fdf",
+    "original-core/blocks/rolling_04/inputs/prepared.json": "82e63f566cebbae1d1bb4dcf77d1c22d2a93ae522827c1fd13de92fc638ba56d",
+    "original-core/blocks/rolling_04/selector/map_winner/predictions.npz": "f3fde0848c1959950a4ac76f6b8d938cda78e982511e81cb487b00950abce417",
+    "original-core/blocks/rolling_04/selector/series_winner/predictions.npz": "00a3903ff0fcfc438a81d18d7f21747644b1f59f9cb62aacff02d495836f1827",
+    "original-core/blocks/rolling_05/inputs/prepared.json": "533a07d769515501fc04c4af76d58fb72aa34ad1842a86b238dacb7ff4ddfacf",
+    "original-core/blocks/rolling_05/selector/map_winner/predictions.npz": "8317759d58fb810f9ef3161f2acab378351aa2fbb15817ae4c5449f444fd80e8",
+    "original-core/blocks/rolling_05/selector/series_winner/predictions.npz": "d8e7abbca42983d950caed71e6aea12ad094694324991b713f477f9fe7f68600",
+    "original-core/blocks/rolling_06/inputs/prepared.json": "b7088f12ff2071cf93210f7e7a0ba91cf35c4515f34d65c0b5f73c226d2c25d9",
+    "original-core/blocks/rolling_06/selector/map_winner/predictions.npz": "60a07deaf3e3cb8e182eed4ce87bf7009b339a1589b13487b6d541eec531c0ee",
+    "original-core/blocks/rolling_06/selector/series_winner/predictions.npz": "a57a4b5e59bf8db0aeebeebce2581a3e98635b97651543b9bde194f4b733702b",
+    "original-core/blocks/rolling_07/inputs/prepared.json": "c94552155ac0a32be82737a97d2d1f1ad0a8b23fe807c8f958a9e2c29be6bbbe",
+    "original-core/blocks/rolling_07/selector/map_winner/predictions.npz": "cd49aaf2227714c8d9767f59ec50f70aead6cd94735b22e7e8cfaa05109e4311",
+    "original-core/blocks/rolling_07/selector/series_winner/predictions.npz": "d56a58fd5adcd7f1ea3ebb8e1fe3200b8c90dbf8420d38b2a969e1b361828280",
+    "original-core/blocks/rolling_08/inputs/prepared.json": "2d246e0fdc265d2da98ba4e32e1120c87b182d5e335f3334166089b00ef6580a",
+    "original-core/blocks/rolling_08/selector/map_winner/predictions.npz": "4dfd43bc4b4c8a025615459a0d14715568c7149ff4f06398ef928120f27921c0",
+    "original-core/blocks/rolling_08/selector/series_winner/predictions.npz": "368c50d894f2bf49c3d374c2b5c2ebbe04ba81beec79698ac146f1bc1437e501",
+    "original-core/blocks/rolling_09/inputs/prepared.json": "d94445053354afe280e7d224e31b6c5567e448d8e577cf51f1dac1a98325fd1f",
+    "original-core/blocks/rolling_09/selector/map_winner/predictions.npz": "04d015a074c785fdecd3660d9df21521b868d40ad8c86377586797c36cd13cd7",
+    "original-core/blocks/rolling_09/selector/series_winner/predictions.npz": "b9b64db9cd5e45cf101557c783d63ad15df3de87a81c0d5df11d2abf48315bf4",
+    "original-core/blocks/rolling_10/inputs/prepared.json": "05f423be82cc38d3c75dde8073c296691e5b6c45e495bd06b60aed874d730316",
+    "original-core/blocks/rolling_10/selector/map_winner/predictions.npz": "6fccc720680a11fde3457b7e58e8e22da5dd835a95d9c87e49395e8770f64806",
+    "original-core/blocks/rolling_10/selector/series_winner/predictions.npz": "3189b6d1de81e92ff090420560786ac00858557e4b7a5f0db314f71747a02503",
+    "original-core/blocks/rolling_11/inputs/prepared.json": "4859b03db63d038a8a7a73eb7ecec25bdcd987730d7ba11a970035aa9c5f9624",
+    "original-core/blocks/rolling_11/selector/map_winner/predictions.npz": "6bef6b274209db1a476d6926339a1d2cd38dd1acf05b1db0dffff0acf70346cb",
+    "original-core/blocks/rolling_11/selector/series_winner/predictions.npz": "546cf8074007a10460b21cfc49b3f732c6bb999befa720e21c974cced84eb58b",
+    "original-core/blocks/rolling_12/inputs/prepared.json": "e60f6ad57bc42492eb640dddf74bb2e9de98ac3f2e7e70ed0d2a8e930927344f",
+    "original-core/blocks/rolling_12/selector/map_winner/predictions.npz": "01b2314c48f792baaed10eaba48ed1f7fe742a428e49844445e4d69d9c2ede1b",
+    "original-core/blocks/rolling_12/selector/series_winner/predictions.npz": "f9b55e0e0ff172d3ce2f92b7575fc09a9340f112c6b47c634103fbea8e37efd0"
+  },
+  "phase_counts": [
+    {
+      "block": "rolling_01",
+      "task": "map_winner",
+      "phase": "train",
+      "rows": 990,
+      "events": 10,
+      "matches": 584
+    },
+    {
+      "block": "rolling_01",
+      "task": "map_winner",
+      "phase": "stopping",
+      "rows": 0,
+      "events": 0,
+      "matches": 0
+    },
+    {
+      "block": "rolling_01",
+      "task": "map_winner",
+      "phase": "selection",
+      "rows": 61,
+      "events": 1,
+      "matches": 28
+    },
+    {
+      "block": "rolling_01",
+      "task": "map_winner",
+      "phase": "calibration",
+      "rows": 689,
+      "events": 9,
+      "matches": 433
+    },
+    {
+      "block": "rolling_01",
+      "task": "map_winner",
+      "phase": "evaluation",
+      "rows": 6906,
+      "events": 68,
+      "matches": 3305
+    },
+    {
+      "block": "rolling_01",
+      "task": "series_winner",
+      "phase": "train",
+      "rows": 576,
+      "events": 10,
+      "matches": 576
+    },
+    {
+      "block": "rolling_01",
+      "task": "series_winner",
+      "phase": "stopping",
+      "rows": 0,
+      "events": 0,
+      "matches": 0
+    },
+    {
+      "block": "rolling_01",
+      "task": "series_winner",
+      "phase": "selection",
+      "rows": 28,
+      "events": 1,
+      "matches": 28
+    },
+    {
+      "block": "rolling_01",
+      "task": "series_winner",
+      "phase": "calibration",
+      "rows": 418,
+      "events": 9,
+      "matches": 418
+    },
+    {
+      "block": "rolling_01",
+      "task": "series_winner",
+      "phase": "evaluation",
+      "rows": 3269,
+      "events": 68,
+      "matches": 3269
+    },
+    {
+      "block": "rolling_02",
+      "task": "map_winner",
+      "phase": "train",
+      "rows": 4317,
+      "events": 49,
+      "matches": 2355
+    },
+    {
+      "block": "rolling_02",
+      "task": "map_winner",
+      "phase": "stopping",
+      "rows": 0,
+      "events": 0,
+      "matches": 0
+    },
+    {
+      "block": "rolling_02",
+      "task": "map_winner",
+      "phase": "selection",
+      "rows": 684,
+      "events": 5,
+      "matches": 357
+    },
+    {
+      "block": "rolling_02",
+      "task": "map_winner",
+      "phase": "calibration",
+      "rows": 1029,
+      "events": 16,
+      "matches": 478
+    },
+    {
+      "block": "rolling_02",
+      "task": "map_winner",
+      "phase": "evaluation",
+      "rows": 6714,
+      "events": 81,
+      "matches": 3217
+    },
+    {
+      "block": "rolling_02",
+      "task": "series_winner",
+      "phase": "train",
+      "rows": 2297,
+      "events": 49,
+      "matches": 2297
+    },
+    {
+      "block": "rolling_02",
+      "task": "series_winner",
+      "phase": "stopping",
+      "rows": 0,
+      "events": 0,
+      "matches": 0
+    },
+    {
+      "block": "rolling_02",
+      "task": "series_winner",
+      "phase": "selection",
+      "rows": 348,
+      "events": 5,
+      "matches": 348
+    },
+    {
+      "block": "rolling_02",
+      "task": "series_winner",
+      "phase": "calibration",
+      "rows": 466,
+      "events": 16,
+      "matches": 466
+    },
+    {
+      "block": "rolling_02",
+      "task": "series_winner",
+      "phase": "evaluation",
+      "rows": 3188,
+      "events": 81,
+      "matches": 3188
+    },
+    {
+      "block": "rolling_03",
+      "task": "map_winner",
+      "phase": "train",
+      "rows": 10440,
+      "events": 104,
+      "matches": 5345
+    },
+    {
+      "block": "rolling_03",
+      "task": "map_winner",
+      "phase": "stopping",
+      "rows": 1647,
+      "events": 11,
+      "matches": 752
+    },
+    {
+      "block": "rolling_03",
+      "task": "map_winner",
+      "phase": "selection",
+      "rows": 484,
+      "events": 10,
+      "matches": 203
+    },
+    {
+      "block": "rolling_03",
+      "task": "map_winner",
+      "phase": "calibration",
+      "rows": 1305,
+      "events": 18,
+      "matches": 638
+    },
+    {
+      "block": "rolling_03",
+      "task": "map_winner",
+      "phase": "evaluation",
+      "rows": 5841,
+      "events": 92,
+      "matches": 2711
+    },
+    {
+      "block": "rolling_03",
+      "task": "series_winner",
+      "phase": "train",
+      "rows": 5234,
+      "events": 104,
+      "matches": 5234
+    },
+    {
+      "block": "rolling_03",
+      "task": "series_winner",
+      "phase": "stopping",
+      "rows": 737,
+      "events": 11,
+      "matches": 737
+    },
+    {
+      "block": "rolling_03",
+      "task": "series_winner",
+      "phase": "selection",
+      "rows": 185,
+      "events": 10,
+      "matches": 185
+    },
+    {
+      "block": "rolling_03",
+      "task": "series_winner",
+      "phase": "calibration",
+      "rows": 633,
+      "events": 18,
+      "matches": 633
+    },
+    {
+      "block": "rolling_03",
+      "task": "series_winner",
+      "phase": "evaluation",
+      "rows": 2688,
+      "events": 92,
+      "matches": 2688
+    },
+    {
+      "block": "rolling_04",
+      "task": "map_winner",
+      "phase": "train",
+      "rows": 15786,
+      "events": 174,
+      "matches": 7868
+    },
+    {
+      "block": "rolling_04",
+      "task": "map_winner",
+      "phase": "stopping",
+      "rows": 526,
+      "events": 11,
+      "matches": 237
+    },
+    {
+      "block": "rolling_04",
+      "task": "map_winner",
+      "phase": "selection",
+      "rows": 325,
+      "events": 10,
+      "matches": 143
+    },
+    {
+      "block": "rolling_04",
+      "task": "map_winner",
+      "phase": "calibration",
+      "rows": 736,
+      "events": 17,
+      "matches": 379
+    },
+    {
+      "block": "rolling_04",
+      "task": "map_winner",
+      "phase": "evaluation",
+      "rows": 3130,
+      "events": 86,
+      "matches": 1479
+    },
+    {
+      "block": "rolling_04",
+      "task": "series_winner",
+      "phase": "train",
+      "rows": 7708,
+      "events": 174,
+      "matches": 7708
+    },
+    {
+      "block": "rolling_04",
+      "task": "series_winner",
+      "phase": "stopping",
+      "rows": 235,
+      "events": 11,
+      "matches": 235
+    },
+    {
+      "block": "rolling_04",
+      "task": "series_winner",
+      "phase": "selection",
+      "rows": 141,
+      "events": 10,
+      "matches": 141
+    },
+    {
+      "block": "rolling_04",
+      "task": "series_winner",
+      "phase": "calibration",
+      "rows": 379,
+      "events": 17,
+      "matches": 379
+    },
+    {
+      "block": "rolling_04",
+      "task": "series_winner",
+      "phase": "evaluation",
+      "rows": 1472,
+      "events": 86,
+      "matches": 1472
+    },
+    {
+      "block": "rolling_05",
+      "task": "map_winner",
+      "phase": "train",
+      "rows": 21484,
+      "events": 274,
+      "matches": 10426
+    },
+    {
+      "block": "rolling_05",
+      "task": "map_winner",
+      "phase": "stopping",
+      "rows": 191,
+      "events": 5,
+      "matches": 98
+    },
+    {
+      "block": "rolling_05",
+      "task": "map_winner",
+      "phase": "selection",
+      "rows": 254,
+      "events": 8,
+      "matches": 101
+    },
+    {
+      "block": "rolling_05",
+      "task": "map_winner",
+      "phase": "calibration",
+      "rows": 826,
+      "events": 26,
+      "matches": 401
+    },
+    {
+      "block": "rolling_05",
+      "task": "map_winner",
+      "phase": "evaluation",
+      "rows": 3870,
+      "events": 92,
+      "matches": 1934
+    },
+    {
+      "block": "rolling_05",
+      "task": "series_winner",
+      "phase": "train",
+      "rows": 10215,
+      "events": 274,
+      "matches": 10215
+    },
+    {
+      "block": "rolling_05",
+      "task": "series_winner",
+      "phase": "stopping",
+      "rows": 98,
+      "events": 5,
+      "matches": 98
+    },
+    {
+      "block": "rolling_05",
+      "task": "series_winner",
+      "phase": "selection",
+      "rows": 100,
+      "events": 8,
+      "matches": 100
+    },
+    {
+      "block": "rolling_05",
+      "task": "series_winner",
+      "phase": "calibration",
+      "rows": 400,
+      "events": 26,
+      "matches": 400
+    },
+    {
+      "block": "rolling_05",
+      "task": "series_winner",
+      "phase": "evaluation",
+      "rows": 1923,
+      "events": 92,
+      "matches": 1923
+    },
+    {
+      "block": "rolling_06",
+      "task": "map_winner",
+      "phase": "train",
+      "rows": 25897,
+      "events": 368,
+      "matches": 12561
+    },
+    {
+      "block": "rolling_06",
+      "task": "map_winner",
+      "phase": "stopping",
+      "rows": 142,
+      "events": 8,
+      "matches": 70
+    },
+    {
+      "block": "rolling_06",
+      "task": "map_winner",
+      "phase": "selection",
+      "rows": 141,
+      "events": 8,
+      "matches": 58
+    },
+    {
+      "block": "rolling_06",
+      "task": "map_winner",
+      "phase": "calibration",
+      "rows": 393,
+      "events": 19,
+      "matches": 175
+    },
+    {
+      "block": "rolling_06",
+      "task": "map_winner",
+      "phase": "evaluation",
+      "rows": 5520,
+      "events": 94,
+      "matches": 2557
+    },
+    {
+      "block": "rolling_06",
+      "task": "series_winner",
+      "phase": "train",
+      "rows": 12330,
+      "events": 368,
+      "matches": 12330
+    },
+    {
+      "block": "rolling_06",
+      "task": "series_winner",
+      "phase": "stopping",
+      "rows": 69,
+      "events": 8,
+      "matches": 69
+    },
+    {
+      "block": "rolling_06",
+      "task": "series_winner",
+      "phase": "selection",
+      "rows": 58,
+      "events": 8,
+      "matches": 58
+    },
+    {
+      "block": "rolling_06",
+      "task": "series_winner",
+      "phase": "calibration",
+      "rows": 172,
+      "events": 19,
+      "matches": 172
+    },
+    {
+      "block": "rolling_06",
+      "task": "series_winner",
+      "phase": "evaluation",
+      "rows": 2550,
+      "events": 94,
+      "matches": 2550
+    },
+    {
+      "block": "rolling_07",
+      "task": "map_winner",
+      "phase": "train",
+      "rows": 28177,
+      "events": 445,
+      "matches": 13620
+    },
+    {
+      "block": "rolling_07",
+      "task": "map_winner",
+      "phase": "stopping",
+      "rows": 68,
+      "events": 3,
+      "matches": 42
+    },
+    {
+      "block": "rolling_07",
+      "task": "map_winner",
+      "phase": "selection",
+      "rows": 340,
+      "events": 7,
+      "matches": 176
+    },
+    {
+      "block": "rolling_07",
+      "task": "map_winner",
+      "phase": "calibration",
+      "rows": 857,
+      "events": 24,
+      "matches": 349
+    },
+    {
+      "block": "rolling_07",
+      "task": "map_winner",
+      "phase": "evaluation",
+      "rows": 2717,
+      "events": 95,
+      "matches": 1212
+    },
+    {
+      "block": "rolling_07",
+      "task": "series_winner",
+      "phase": "train",
+      "rows": 13371,
+      "events": 445,
+      "matches": 13371
+    },
+    {
+      "block": "rolling_07",
+      "task": "series_winner",
+      "phase": "stopping",
+      "rows": 38,
+      "events": 3,
+      "matches": 38
+    },
+    {
+      "block": "rolling_07",
+      "task": "series_winner",
+      "phase": "selection",
+      "rows": 175,
+      "events": 7,
+      "matches": 175
+    },
+    {
+      "block": "rolling_07",
+      "task": "series_winner",
+      "phase": "calibration",
+      "rows": 349,
+      "events": 24,
+      "matches": 349
+    },
+    {
+      "block": "rolling_07",
+      "task": "series_winner",
+      "phase": "evaluation",
+      "rows": 1200,
+      "events": 94,
+      "matches": 1200
+    },
+    {
+      "block": "rolling_08",
+      "task": "map_winner",
+      "phase": "train",
+      "rows": 35067,
+      "events": 550,
+      "matches": 16962
+    },
+    {
+      "block": "rolling_08",
+      "task": "map_winner",
+      "phase": "stopping",
+      "rows": 354,
+      "events": 13,
+      "matches": 175
+    },
+    {
+      "block": "rolling_08",
+      "task": "map_winner",
+      "phase": "selection",
+      "rows": 137,
+      "events": 10,
+      "matches": 63
+    },
+    {
+      "block": "rolling_08",
+      "task": "map_winner",
+      "phase": "calibration",
+      "rows": 389,
+      "events": 20,
+      "matches": 174
+    },
+    {
+      "block": "rolling_08",
+      "task": "map_winner",
+      "phase": "evaluation",
+      "rows": 6247,
+      "events": 89,
+      "matches": 2754
+    },
+    {
+      "block": "rolling_08",
+      "task": "series_winner",
+      "phase": "train",
+      "rows": 16673,
+      "events": 550,
+      "matches": 16673
+    },
+    {
+      "block": "rolling_08",
+      "task": "series_winner",
+      "phase": "stopping",
+      "rows": 169,
+      "events": 13,
+      "matches": 169
+    },
+    {
+      "block": "rolling_08",
+      "task": "series_winner",
+      "phase": "selection",
+      "rows": 62,
+      "events": 10,
+      "matches": 62
+    },
+    {
+      "block": "rolling_08",
+      "task": "series_winner",
+      "phase": "calibration",
+      "rows": 174,
+      "events": 20,
+      "matches": 174
+    },
+    {
+      "block": "rolling_08",
+      "task": "series_winner",
+      "phase": "evaluation",
+      "rows": 2736,
+      "events": 89,
+      "matches": 2736
+    },
+    {
+      "block": "rolling_09",
+      "task": "map_winner",
+      "phase": "train",
+      "rows": 37657,
+      "events": 642,
+      "matches": 18140
+    },
+    {
+      "block": "rolling_09",
+      "task": "map_winner",
+      "phase": "stopping",
+      "rows": 600,
+      "events": 8,
+      "matches": 251
+    },
+    {
+      "block": "rolling_09",
+      "task": "map_winner",
+      "phase": "selection",
+      "rows": 113,
+      "events": 9,
+      "matches": 48
+    },
+    {
+      "block": "rolling_09",
+      "task": "map_winner",
+      "phase": "calibration",
+      "rows": 137,
+      "events": 4,
+      "matches": 58
+    },
+    {
+      "block": "rolling_09",
+      "task": "map_winner",
+      "phase": "evaluation",
+      "rows": 2657,
+      "events": 87,
+      "matches": 1149
+    },
+    {
+      "block": "rolling_09",
+      "task": "series_winner",
+      "phase": "train",
+      "rows": 17834,
+      "events": 641,
+      "matches": 17834
+    },
+    {
+      "block": "rolling_09",
+      "task": "series_winner",
+      "phase": "stopping",
+      "rows": 249,
+      "events": 8,
+      "matches": 249
+    },
+    {
+      "block": "rolling_09",
+      "task": "series_winner",
+      "phase": "selection",
+      "rows": 47,
+      "events": 9,
+      "matches": 47
+    },
+    {
+      "block": "rolling_09",
+      "task": "series_winner",
+      "phase": "calibration",
+      "rows": 56,
+      "events": 4,
+      "matches": 56
+    },
+    {
+      "block": "rolling_09",
+      "task": "series_winner",
+      "phase": "evaluation",
+      "rows": 1146,
+      "events": 87,
+      "matches": 1146
+    },
+    {
+      "block": "rolling_10",
+      "task": "map_winner",
+      "phase": "train",
+      "rows": 44029,
+      "events": 732,
+      "matches": 20927
+    },
+    {
+      "block": "rolling_10",
+      "task": "map_winner",
+      "phase": "stopping",
+      "rows": 134,
+      "events": 7,
+      "matches": 56
+    },
+    {
+      "block": "rolling_10",
+      "task": "map_winner",
+      "phase": "selection",
+      "rows": 109,
+      "events": 8,
+      "matches": 46
+    },
+    {
+      "block": "rolling_10",
+      "task": "map_winner",
+      "phase": "calibration",
+      "rows": 710,
+      "events": 32,
+      "matches": 310
+    },
+    {
+      "block": "rolling_10",
+      "task": "map_winner",
+      "phase": "evaluation",
+      "rows": 4668,
+      "events": 89,
+      "matches": 2025
+    },
+    {
+      "block": "rolling_10",
+      "task": "series_winner",
+      "phase": "train",
+      "rows": 20602,
+      "events": 731,
+      "matches": 20602
+    },
+    {
+      "block": "rolling_10",
+      "task": "series_winner",
+      "phase": "stopping",
+      "rows": 56,
+      "events": 7,
+      "matches": 56
+    },
+    {
+      "block": "rolling_10",
+      "task": "series_winner",
+      "phase": "selection",
+      "rows": 46,
+      "events": 8,
+      "matches": 46
+    },
+    {
+      "block": "rolling_10",
+      "task": "series_winner",
+      "phase": "calibration",
+      "rows": 306,
+      "events": 32,
+      "matches": 306
+    },
+    {
+      "block": "rolling_10",
+      "task": "series_winner",
+      "phase": "evaluation",
+      "rows": 2021,
+      "events": 89,
+      "matches": 2021
+    },
+    {
+      "block": "rolling_11",
+      "task": "map_winner",
+      "phase": "train",
+      "rows": 46635,
+      "events": 813,
+      "matches": 22076
+    },
+    {
+      "block": "rolling_11",
+      "task": "map_winner",
+      "phase": "stopping",
+      "rows": 54,
+      "events": 4,
+      "matches": 24
+    },
+    {
+      "block": "rolling_11",
+      "task": "map_winner",
+      "phase": "selection",
+      "rows": 51,
+      "events": 8,
+      "matches": 19
+    },
+    {
+      "block": "rolling_11",
+      "task": "map_winner",
+      "phase": "calibration",
+      "rows": 213,
+      "events": 8,
+      "matches": 84
+    },
+    {
+      "block": "rolling_11",
+      "task": "map_winner",
+      "phase": "evaluation",
+      "rows": 3157,
+      "events": 88,
+      "matches": 1378
+    },
+    {
+      "block": "rolling_11",
+      "task": "series_winner",
+      "phase": "train",
+      "rows": 21745,
+      "events": 812,
+      "matches": 21745
+    },
+    {
+      "block": "rolling_11",
+      "task": "series_winner",
+      "phase": "stopping",
+      "rows": 24,
+      "events": 4,
+      "matches": 24
+    },
+    {
+      "block": "rolling_11",
+      "task": "series_winner",
+      "phase": "selection",
+      "rows": 19,
+      "events": 8,
+      "matches": 19
+    },
+    {
+      "block": "rolling_11",
+      "task": "series_winner",
+      "phase": "calibration",
+      "rows": 82,
+      "events": 8,
+      "matches": 82
+    },
+    {
+      "block": "rolling_11",
+      "task": "series_winner",
+      "phase": "evaluation",
+      "rows": 1371,
+      "events": 87,
+      "matches": 1371
+    },
+    {
+      "block": "rolling_12",
+      "task": "map_winner",
+      "phase": "train",
+      "rows": 50674,
+      "events": 902,
+      "matches": 23836
+    },
+    {
+      "block": "rolling_12",
+      "task": "map_winner",
+      "phase": "stopping",
+      "rows": 70,
+      "events": 5,
+      "matches": 24
+    },
+    {
+      "block": "rolling_12",
+      "task": "map_winner",
+      "phase": "selection",
+      "rows": 231,
+      "events": 7,
+      "matches": 90
+    },
+    {
+      "block": "rolling_12",
+      "task": "map_winner",
+      "phase": "calibration",
+      "rows": 460,
+      "events": 28,
+      "matches": 233
+    },
+    {
+      "block": "rolling_12",
+      "task": "map_winner",
+      "phase": "evaluation",
+      "rows": 5381,
+      "events": 102,
+      "matches": 2156
+    },
+    {
+      "block": "rolling_12",
+      "task": "series_winner",
+      "phase": "train",
+      "rows": 23457,
+      "events": 901,
+      "matches": 23457
+    },
+    {
+      "block": "rolling_12",
+      "task": "series_winner",
+      "phase": "stopping",
+      "rows": 24,
+      "events": 5,
+      "matches": 24
+    },
+    {
+      "block": "rolling_12",
+      "task": "series_winner",
+      "phase": "selection",
+      "rows": 90,
+      "events": 7,
+      "matches": 90
+    },
+    {
+      "block": "rolling_12",
+      "task": "series_winner",
+      "phase": "calibration",
+      "rows": 231,
+      "events": 27,
+      "matches": 231
+    },
+    {
+      "block": "rolling_12",
+      "task": "series_winner",
+      "phase": "evaluation",
+      "rows": 2152,
+      "events": 102,
+      "matches": 2152
+    }
+  ],
+  "label_release_bounds": [
+    {
+      "block": "rolling_01",
+      "task": "map_winner",
+      "earlier": "train",
+      "later": "selection",
+      "release_clearance_hours": 104.75
+    },
+    {
+      "block": "rolling_01",
+      "task": "map_winner",
+      "earlier": "selection",
+      "later": "calibration",
+      "release_clearance_hours": 73.75
+    },
+    {
+      "block": "rolling_01",
+      "task": "map_winner",
+      "earlier": "calibration",
+      "later": "evaluation",
+      "release_clearance_hours": 36.505833333333335
+    },
+    {
+      "block": "rolling_01",
+      "task": "series_winner",
+      "earlier": "train",
+      "later": "selection",
+      "release_clearance_hours": 104.75
+    },
+    {
+      "block": "rolling_01",
+      "task": "series_winner",
+      "earlier": "selection",
+      "later": "calibration",
+      "release_clearance_hours": 73.75
+    },
+    {
+      "block": "rolling_01",
+      "task": "series_winner",
+      "earlier": "calibration",
+      "later": "evaluation",
+      "release_clearance_hours": 36.505833333333335
+    },
+    {
+      "block": "rolling_02",
+      "task": "map_winner",
+      "earlier": "train",
+      "later": "selection",
+      "release_clearance_hours": 228.75
+    },
+    {
+      "block": "rolling_02",
+      "task": "map_winner",
+      "earlier": "selection",
+      "later": "calibration",
+      "release_clearance_hours": 86.41666666666667
+    },
+    {
+      "block": "rolling_02",
+      "task": "map_winner",
+      "earlier": "calibration",
+      "later": "evaluation",
+      "release_clearance_hours": 786.75
+    },
+    {
+      "block": "rolling_02",
+      "task": "series_winner",
+      "earlier": "train",
+      "later": "selection",
+      "release_clearance_hours": 228.75
+    },
+    {
+      "block": "rolling_02",
+      "task": "series_winner",
+      "earlier": "selection",
+      "later": "calibration",
+      "release_clearance_hours": 86.41666666666667
+    },
+    {
+      "block": "rolling_02",
+      "task": "series_winner",
+      "earlier": "calibration",
+      "later": "evaluation",
+      "release_clearance_hours": 786.75
+    },
+    {
+      "block": "rolling_03",
+      "task": "map_winner",
+      "earlier": "train",
+      "later": "stopping",
+      "release_clearance_hours": 122.75
+    },
+    {
+      "block": "rolling_03",
+      "task": "map_winner",
+      "earlier": "stopping",
+      "later": "selection",
+      "release_clearance_hours": 89.25
+    },
+    {
+      "block": "rolling_03",
+      "task": "map_winner",
+      "earlier": "selection",
+      "later": "calibration",
+      "release_clearance_hours": 733.75
+    },
+    {
+      "block": "rolling_03",
+      "task": "map_winner",
+      "earlier": "calibration",
+      "later": "evaluation",
+      "release_clearance_hours": 37.75
+    },
+    {
+      "block": "rolling_03",
+      "task": "series_winner",
+      "earlier": "train",
+      "later": "stopping",
+      "release_clearance_hours": 122.75
+    },
+    {
+      "block": "rolling_03",
+      "task": "series_winner",
+      "earlier": "stopping",
+      "later": "selection",
+      "release_clearance_hours": 89.25
+    },
+    {
+      "block": "rolling_03",
+      "task": "series_winner",
+      "earlier": "selection",
+      "later": "calibration",
+      "release_clearance_hours": 733.75
+    },
+    {
+      "block": "rolling_03",
+      "task": "series_winner",
+      "earlier": "calibration",
+      "later": "evaluation",
+      "release_clearance_hours": 37.75
+    },
+    {
+      "block": "rolling_04",
+      "task": "map_winner",
+      "earlier": "train",
+      "later": "stopping",
+      "release_clearance_hours": 217.75
+    },
+    {
+      "block": "rolling_04",
+      "task": "map_winner",
+      "earlier": "stopping",
+      "later": "selection",
+      "release_clearance_hours": 31.75
+    },
+    {
+      "block": "rolling_04",
+      "task": "map_winner",
+      "earlier": "selection",
+      "later": "calibration",
+      "release_clearance_hours": 16.75
+    },
+    {
+      "block": "rolling_04",
+      "task": "map_winner",
+      "earlier": "calibration",
+      "later": "evaluation",
+      "release_clearance_hours": 48.75
+    },
+    {
+      "block": "rolling_04",
+      "task": "series_winner",
+      "earlier": "train",
+      "later": "stopping",
+      "release_clearance_hours": 217.75
+    },
+    {
+      "block": "rolling_04",
+      "task": "series_winner",
+      "earlier": "stopping",
+      "later": "selection",
+      "release_clearance_hours": 31.75
+    },
+    {
+      "block": "rolling_04",
+      "task": "series_winner",
+      "earlier": "selection",
+      "later": "calibration",
+      "release_clearance_hours": 16.75
+    },
+    {
+      "block": "rolling_04",
+      "task": "series_winner",
+      "earlier": "calibration",
+      "later": "evaluation",
+      "release_clearance_hours": 48.75
+    },
+    {
+      "block": "rolling_05",
+      "task": "map_winner",
+      "earlier": "train",
+      "later": "stopping",
+      "release_clearance_hours": 13.75
+    },
+    {
+      "block": "rolling_05",
+      "task": "map_winner",
+      "earlier": "stopping",
+      "later": "selection",
+      "release_clearance_hours": 56.0
+    },
+    {
+      "block": "rolling_05",
+      "task": "map_winner",
+      "earlier": "selection",
+      "later": "calibration",
+      "release_clearance_hours": 125.75
+    },
+    {
+      "block": "rolling_05",
+      "task": "map_winner",
+      "earlier": "calibration",
+      "later": "evaluation",
+      "release_clearance_hours": 43.25
+    },
+    {
+      "block": "rolling_05",
+      "task": "series_winner",
+      "earlier": "train",
+      "later": "stopping",
+      "release_clearance_hours": 13.75
+    },
+    {
+      "block": "rolling_05",
+      "task": "series_winner",
+      "earlier": "stopping",
+      "later": "selection",
+      "release_clearance_hours": 56.0
+    },
+    {
+      "block": "rolling_05",
+      "task": "series_winner",
+      "earlier": "selection",
+      "later": "calibration",
+      "release_clearance_hours": 125.75
+    },
+    {
+      "block": "rolling_05",
+      "task": "series_winner",
+      "earlier": "calibration",
+      "later": "evaluation",
+      "release_clearance_hours": 43.25
+    },
+    {
+      "block": "rolling_06",
+      "task": "map_winner",
+      "earlier": "train",
+      "later": "stopping",
+      "release_clearance_hours": 248.0
+    },
+    {
+      "block": "rolling_06",
+      "task": "map_winner",
+      "earlier": "stopping",
+      "later": "selection",
+      "release_clearance_hours": 4.916666666666667
+    },
+    {
+      "block": "rolling_06",
+      "task": "map_winner",
+      "earlier": "selection",
+      "later": "calibration",
+      "release_clearance_hours": 64.83333333333333
+    },
+    {
+      "block": "rolling_06",
+      "task": "map_winner",
+      "earlier": "calibration",
+      "later": "evaluation",
+      "release_clearance_hours": 252.16666666666666
+    },
+    {
+      "block": "rolling_06",
+      "task": "series_winner",
+      "earlier": "train",
+      "later": "stopping",
+      "release_clearance_hours": 248.0
+    },
+    {
+      "block": "rolling_06",
+      "task": "series_winner",
+      "earlier": "stopping",
+      "later": "selection",
+      "release_clearance_hours": 4.916666666666667
+    },
+    {
+      "block": "rolling_06",
+      "task": "series_winner",
+      "earlier": "selection",
+      "later": "calibration",
+      "release_clearance_hours": 64.83333333333333
+    },
+    {
+      "block": "rolling_06",
+      "task": "series_winner",
+      "earlier": "calibration",
+      "later": "evaluation",
+      "release_clearance_hours": 252.16666666666666
+    },
+    {
+      "block": "rolling_07",
+      "task": "map_winner",
+      "earlier": "train",
+      "later": "stopping",
+      "release_clearance_hours": 141.75
+    },
+    {
+      "block": "rolling_07",
+      "task": "map_winner",
+      "earlier": "stopping",
+      "later": "selection",
+      "release_clearance_hours": 439.75
+    },
+    {
+      "block": "rolling_07",
+      "task": "map_winner",
+      "earlier": "selection",
+      "later": "calibration",
+      "release_clearance_hours": 72.75
+    },
+    {
+      "block": "rolling_07",
+      "task": "map_winner",
+      "earlier": "calibration",
+      "later": "evaluation",
+      "release_clearance_hours": 37.75
+    },
+    {
+      "block": "rolling_07",
+      "task": "series_winner",
+      "earlier": "train",
+      "later": "stopping",
+      "release_clearance_hours": 141.75
+    },
+    {
+      "block": "rolling_07",
+      "task": "series_winner",
+      "earlier": "stopping",
+      "later": "selection",
+      "release_clearance_hours": 439.75
+    },
+    {
+      "block": "rolling_07",
+      "task": "series_winner",
+      "earlier": "selection",
+      "later": "calibration",
+      "release_clearance_hours": 72.75
+    },
+    {
+      "block": "rolling_07",
+      "task": "series_winner",
+      "earlier": "calibration",
+      "later": "evaluation",
+      "release_clearance_hours": 37.75
+    },
+    {
+      "block": "rolling_08",
+      "task": "map_winner",
+      "earlier": "train",
+      "later": "stopping",
+      "release_clearance_hours": 146.75
+    },
+    {
+      "block": "rolling_08",
+      "task": "map_winner",
+      "earlier": "stopping",
+      "later": "selection",
+      "release_clearance_hours": 10.75
+    },
+    {
+      "block": "rolling_08",
+      "task": "map_winner",
+      "earlier": "selection",
+      "later": "calibration",
+      "release_clearance_hours": 35.75
+    },
+    {
+      "block": "rolling_08",
+      "task": "map_winner",
+      "earlier": "calibration",
+      "later": "evaluation",
+      "release_clearance_hours": 82.08333333333333
+    },
+    {
+      "block": "rolling_08",
+      "task": "series_winner",
+      "earlier": "train",
+      "later": "stopping",
+      "release_clearance_hours": 146.75
+    },
+    {
+      "block": "rolling_08",
+      "task": "series_winner",
+      "earlier": "stopping",
+      "later": "selection",
+      "release_clearance_hours": 10.75
+    },
+    {
+      "block": "rolling_08",
+      "task": "series_winner",
+      "earlier": "selection",
+      "later": "calibration",
+      "release_clearance_hours": 35.75
+    },
+    {
+      "block": "rolling_08",
+      "task": "series_winner",
+      "earlier": "calibration",
+      "later": "evaluation",
+      "release_clearance_hours": 82.08333333333333
+    },
+    {
+      "block": "rolling_09",
+      "task": "map_winner",
+      "earlier": "train",
+      "later": "stopping",
+      "release_clearance_hours": 300.75
+    },
+    {
+      "block": "rolling_09",
+      "task": "map_winner",
+      "earlier": "stopping",
+      "later": "selection",
+      "release_clearance_hours": 315.75
+    },
+    {
+      "block": "rolling_09",
+      "task": "map_winner",
+      "earlier": "selection",
+      "later": "calibration",
+      "release_clearance_hours": 431.75
+    },
+    {
+      "block": "rolling_09",
+      "task": "map_winner",
+      "earlier": "calibration",
+      "later": "evaluation",
+      "release_clearance_hours": 109.75
+    },
+    {
+      "block": "rolling_09",
+      "task": "series_winner",
+      "earlier": "train",
+      "later": "stopping",
+      "release_clearance_hours": 300.75
+    },
+    {
+      "block": "rolling_09",
+      "task": "series_winner",
+      "earlier": "stopping",
+      "later": "selection",
+      "release_clearance_hours": 315.75
+    },
+    {
+      "block": "rolling_09",
+      "task": "series_winner",
+      "earlier": "selection",
+      "later": "calibration",
+      "release_clearance_hours": 431.75
+    },
+    {
+      "block": "rolling_09",
+      "task": "series_winner",
+      "earlier": "calibration",
+      "later": "evaluation",
+      "release_clearance_hours": 109.75
+    },
+    {
+      "block": "rolling_10",
+      "task": "map_winner",
+      "earlier": "train",
+      "later": "stopping",
+      "release_clearance_hours": 612.75
+    },
+    {
+      "block": "rolling_10",
+      "task": "map_winner",
+      "earlier": "stopping",
+      "later": "selection",
+      "release_clearance_hours": 97.75
+    },
+    {
+      "block": "rolling_10",
+      "task": "map_winner",
+      "earlier": "selection",
+      "later": "calibration",
+      "release_clearance_hours": 93.08333333333333
+    },
+    {
+      "block": "rolling_10",
+      "task": "map_winner",
+      "earlier": "calibration",
+      "later": "evaluation",
+      "release_clearance_hours": 91.75
+    },
+    {
+      "block": "rolling_10",
+      "task": "series_winner",
+      "earlier": "train",
+      "later": "stopping",
+      "release_clearance_hours": 612.75
+    },
+    {
+      "block": "rolling_10",
+      "task": "series_winner",
+      "earlier": "stopping",
+      "later": "selection",
+      "release_clearance_hours": 97.75
+    },
+    {
+      "block": "rolling_10",
+      "task": "series_winner",
+      "earlier": "selection",
+      "later": "calibration",
+      "release_clearance_hours": 93.08333333333333
+    },
+    {
+      "block": "rolling_10",
+      "task": "series_winner",
+      "earlier": "calibration",
+      "later": "evaluation",
+      "release_clearance_hours": 91.75
+    },
+    {
+      "block": "rolling_11",
+      "task": "map_winner",
+      "earlier": "train",
+      "later": "stopping",
+      "release_clearance_hours": 166.75
+    },
+    {
+      "block": "rolling_11",
+      "task": "map_winner",
+      "earlier": "stopping",
+      "later": "selection",
+      "release_clearance_hours": 131.25
+    },
+    {
+      "block": "rolling_11",
+      "task": "map_winner",
+      "earlier": "selection",
+      "later": "calibration",
+      "release_clearance_hours": 26.75
+    },
+    {
+      "block": "rolling_11",
+      "task": "map_winner",
+      "earlier": "calibration",
+      "later": "evaluation",
+      "release_clearance_hours": 52.75
+    },
+    {
+      "block": "rolling_11",
+      "task": "series_winner",
+      "earlier": "train",
+      "later": "stopping",
+      "release_clearance_hours": 166.75
+    },
+    {
+      "block": "rolling_11",
+      "task": "series_winner",
+      "earlier": "stopping",
+      "later": "selection",
+      "release_clearance_hours": 131.25
+    },
+    {
+      "block": "rolling_11",
+      "task": "series_winner",
+      "earlier": "selection",
+      "later": "calibration",
+      "release_clearance_hours": 26.75
+    },
+    {
+      "block": "rolling_11",
+      "task": "series_winner",
+      "earlier": "calibration",
+      "later": "evaluation",
+      "release_clearance_hours": 52.75
+    },
+    {
+      "block": "rolling_12",
+      "task": "map_winner",
+      "earlier": "train",
+      "later": "stopping",
+      "release_clearance_hours": 223.75
+    },
+    {
+      "block": "rolling_12",
+      "task": "map_winner",
+      "earlier": "stopping",
+      "later": "selection",
+      "release_clearance_hours": 154.75
+    },
+    {
+      "block": "rolling_12",
+      "task": "map_winner",
+      "earlier": "selection",
+      "later": "calibration",
+      "release_clearance_hours": 90.75
+    },
+    {
+      "block": "rolling_12",
+      "task": "map_winner",
+      "earlier": "calibration",
+      "later": "evaluation",
+      "release_clearance_hours": 84.75
+    },
+    {
+      "block": "rolling_12",
+      "task": "series_winner",
+      "earlier": "train",
+      "later": "stopping",
+      "release_clearance_hours": 223.75
+    },
+    {
+      "block": "rolling_12",
+      "task": "series_winner",
+      "earlier": "stopping",
+      "later": "selection",
+      "release_clearance_hours": 154.75
+    },
+    {
+      "block": "rolling_12",
+      "task": "series_winner",
+      "earlier": "selection",
+      "later": "calibration",
+      "release_clearance_hours": 90.75
+    },
+    {
+      "block": "rolling_12",
+      "task": "series_winner",
+      "earlier": "calibration",
+      "later": "evaluation",
+      "release_clearance_hours": 84.75
+    }
+  ],
+  "coverage": [
+    {
+      "task": "map_winner",
+      "definition": "both_team_history",
+      "count": 19121,
+      "denominator": 55943,
+      "fraction": 0.3417943263679102
+    },
+    {
+      "task": "map_winner",
+      "definition": "either_team_history",
+      "count": 39760,
+      "denominator": 55943,
+      "fraction": 0.7107234149044563
+    },
+    {
+      "task": "map_winner",
+      "definition": "both_roster",
+      "count": 55943,
+      "denominator": 55943,
+      "fraction": 1.0
+    },
+    {
+      "task": "map_winner",
+      "definition": "both_full_player",
+      "count": 20011,
+      "denominator": 55943,
+      "fraction": 0.3577033766512343
+    },
+    {
+      "task": "map_winner",
+      "definition": "either_player",
+      "count": 52027,
+      "denominator": 55943,
+      "fraction": 0.9300001787533739
+    },
+    {
+      "task": "map_winner",
+      "definition": "both_full_linked_acs",
+      "count": 105,
+      "denominator": 55943,
+      "fraction": 0.0018769104266843036
+    },
+    {
+      "task": "map_winner",
+      "definition": "either_linked_acs",
+      "count": 40261,
+      "denominator": 55943,
+      "fraction": 0.7196789589403499
+    },
+    {
+      "task": "map_winner",
+      "definition": "all_agents_training_vocabulary",
+      "count": 34595,
+      "denominator": 55943,
+      "fraction": 0.6183972972489856
+    },
+    {
+      "task": "series_winner",
+      "definition": "both_team_history",
+      "count": 8230,
+      "denominator": 25186,
+      "fraction": 0.3267688398316525
+    },
+    {
+      "task": "series_winner",
+      "definition": "either_team_history",
+      "count": 17605,
+      "denominator": 25186,
+      "fraction": 0.6989994441356309
+    },
+    {
+      "task": "series_winner",
+      "definition": "both_roster",
+      "count": 7769,
+      "denominator": 25186,
+      "fraction": 0.30846502024934486
+    },
+    {
+      "task": "series_winner",
+      "definition": "both_full_player",
+      "count": 7769,
+      "denominator": 25186,
+      "fraction": 0.30846502024934486
+    },
+    {
+      "task": "series_winner",
+      "definition": "either_player",
+      "count": 17360,
+      "denominator": 25186,
+      "fraction": 0.6892718176764869
+    },
+    {
+      "task": "series_winner",
+      "definition": "both_full_linked_acs",
+      "count": 7767,
+      "denominator": 25186,
+      "fraction": 0.30838561105376
+    },
+    {
+      "task": "series_winner",
+      "definition": "either_linked_acs",
+      "count": 17360,
+      "denominator": 25186,
+      "fraction": 0.6892718176764869
+    },
+    {
+      "task": "series_winner",
+      "definition": "all_agents_training_vocabulary",
+      "count": 7769,
+      "denominator": 25186,
+      "fraction": 0.30846502024934486
+    }
+  ],
+  "forecast_inventory": [
+    {
+      "block": "rolling_01",
+      "task": "map_winner",
+      "mode": "selected",
+      "rows": 6906
+    },
+    {
+      "block": "rolling_01",
+      "task": "map_winner",
+      "mode": "k20",
+      "rows": 6906
+    },
+    {
+      "block": "rolling_01",
+      "task": "series_winner",
+      "mode": "selected",
+      "rows": 3269
+    },
+    {
+      "block": "rolling_01",
+      "task": "series_winner",
+      "mode": "k20",
+      "rows": 3269
+    },
+    {
+      "block": "rolling_02",
+      "task": "map_winner",
+      "mode": "selected",
+      "rows": 6714
+    },
+    {
+      "block": "rolling_02",
+      "task": "map_winner",
+      "mode": "k20",
+      "rows": 6714
+    },
+    {
+      "block": "rolling_02",
+      "task": "series_winner",
+      "mode": "selected",
+      "rows": 3188
+    },
+    {
+      "block": "rolling_02",
+      "task": "series_winner",
+      "mode": "k20",
+      "rows": 3188
+    },
+    {
+      "block": "rolling_03",
+      "task": "map_winner",
+      "mode": "selected",
+      "rows": 5841
+    },
+    {
+      "block": "rolling_03",
+      "task": "map_winner",
+      "mode": "k20",
+      "rows": 5841
+    },
+    {
+      "block": "rolling_03",
+      "task": "series_winner",
+      "mode": "selected",
+      "rows": 2688
+    },
+    {
+      "block": "rolling_03",
+      "task": "series_winner",
+      "mode": "k20",
+      "rows": 2688
+    },
+    {
+      "block": "rolling_04",
+      "task": "map_winner",
+      "mode": "selected",
+      "rows": 3130
+    },
+    {
+      "block": "rolling_04",
+      "task": "map_winner",
+      "mode": "k20",
+      "rows": 3130
+    },
+    {
+      "block": "rolling_04",
+      "task": "series_winner",
+      "mode": "selected",
+      "rows": 1472
+    },
+    {
+      "block": "rolling_04",
+      "task": "series_winner",
+      "mode": "k20",
+      "rows": 1472
+    },
+    {
+      "block": "rolling_05",
+      "task": "map_winner",
+      "mode": "selected",
+      "rows": 3870
+    },
+    {
+      "block": "rolling_05",
+      "task": "map_winner",
+      "mode": "k20",
+      "rows": 3870
+    },
+    {
+      "block": "rolling_05",
+      "task": "series_winner",
+      "mode": "selected",
+      "rows": 1923
+    },
+    {
+      "block": "rolling_05",
+      "task": "series_winner",
+      "mode": "k20",
+      "rows": 1923
+    },
+    {
+      "block": "rolling_06",
+      "task": "map_winner",
+      "mode": "selected",
+      "rows": 5520
+    },
+    {
+      "block": "rolling_06",
+      "task": "map_winner",
+      "mode": "k20",
+      "rows": 5520
+    },
+    {
+      "block": "rolling_06",
+      "task": "series_winner",
+      "mode": "selected",
+      "rows": 2550
+    },
+    {
+      "block": "rolling_06",
+      "task": "series_winner",
+      "mode": "k20",
+      "rows": 2550
+    },
+    {
+      "block": "rolling_07",
+      "task": "map_winner",
+      "mode": "selected",
+      "rows": 2717
+    },
+    {
+      "block": "rolling_07",
+      "task": "map_winner",
+      "mode": "k20",
+      "rows": 2717
+    },
+    {
+      "block": "rolling_07",
+      "task": "series_winner",
+      "mode": "selected",
+      "rows": 1200
+    },
+    {
+      "block": "rolling_07",
+      "task": "series_winner",
+      "mode": "k20",
+      "rows": 1200
+    },
+    {
+      "block": "rolling_08",
+      "task": "map_winner",
+      "mode": "selected",
+      "rows": 6247
+    },
+    {
+      "block": "rolling_08",
+      "task": "map_winner",
+      "mode": "k20",
+      "rows": 6247
+    },
+    {
+      "block": "rolling_08",
+      "task": "series_winner",
+      "mode": "selected",
+      "rows": 2736
+    },
+    {
+      "block": "rolling_08",
+      "task": "series_winner",
+      "mode": "k20",
+      "rows": 2736
+    },
+    {
+      "block": "rolling_09",
+      "task": "map_winner",
+      "mode": "selected",
+      "rows": 2657
+    },
+    {
+      "block": "rolling_09",
+      "task": "map_winner",
+      "mode": "k20",
+      "rows": 2657
+    },
+    {
+      "block": "rolling_09",
+      "task": "series_winner",
+      "mode": "selected",
+      "rows": 1146
+    },
+    {
+      "block": "rolling_09",
+      "task": "series_winner",
+      "mode": "k20",
+      "rows": 1146
+    },
+    {
+      "block": "rolling_10",
+      "task": "map_winner",
+      "mode": "selected",
+      "rows": 4668
+    },
+    {
+      "block": "rolling_10",
+      "task": "map_winner",
+      "mode": "k20",
+      "rows": 4668
+    },
+    {
+      "block": "rolling_10",
+      "task": "series_winner",
+      "mode": "selected",
+      "rows": 2021
+    },
+    {
+      "block": "rolling_10",
+      "task": "series_winner",
+      "mode": "k20",
+      "rows": 2021
+    },
+    {
+      "block": "rolling_11",
+      "task": "map_winner",
+      "mode": "selected",
+      "rows": 3157
+    },
+    {
+      "block": "rolling_11",
+      "task": "map_winner",
+      "mode": "k20",
+      "rows": 3157
+    },
+    {
+      "block": "rolling_11",
+      "task": "series_winner",
+      "mode": "selected",
+      "rows": 1371
+    },
+    {
+      "block": "rolling_11",
+      "task": "series_winner",
+      "mode": "k20",
+      "rows": 1371
+    },
+    {
+      "block": "rolling_12",
+      "task": "map_winner",
+      "mode": "selected",
+      "rows": 5381
+    },
+    {
+      "block": "rolling_12",
+      "task": "map_winner",
+      "mode": "k20",
+      "rows": 5381
+    },
+    {
+      "block": "rolling_12",
+      "task": "series_winner",
+      "mode": "selected",
+      "rows": 2152
+    },
+    {
+      "block": "rolling_12",
+      "task": "series_winner",
+      "mode": "k20",
+      "rows": 2152
+    }
+  ],
+  "scope": "bounded original snapshot/code audit; no proof of real publication clocks, no independent model replication",
+  "tests_run": false,
+  "original_code_hash_match": true,
+  "original_release_sha256": "0edb63547a4e880041184f6adf8f08a22b8f04b5e8cd80cd5378ea2957ed41b8"
+}

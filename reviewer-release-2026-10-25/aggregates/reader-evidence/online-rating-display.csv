@@ -1,0 +1,15 @@
+task,procedure,probability_policy,rows,events,event_brier,event_log_loss
+map_winner,Earlier residual,separate residual calibration,55943,1049,0.2291214838683695,0.6502936192690654
+map_winner,Online-rich residual,separate residual calibration,55943,1049,0.22710284107843193,0.6456411460935245
+map_winner,Dynamic strength,raw,55943,1049,0.23549352463593282,0.6632834183521268
+map_winner,K20 raw,raw,55943,1049,0.23342116857092277,0.6586425438763385
+map_winner,K20 calibrated,common separate-event calibration,55943,1049,0.23468284611673593,0.6621109181090219
+map_winner,Glicko-2 calibrated,common separate-event calibration,55943,1049,0.23425842547561979,0.6627748479594088
+map_winner,Player Gaussian calibrated,common separate-event calibration,55943,1049,0.23159662537591816,0.6589681474250392
+series_winner,Earlier residual,separate residual calibration,25186,1047,0.23091628441469222,0.6538634743901135
+series_winner,Online-rich residual,separate residual calibration,25186,1047,0.22728985613330543,0.646150571076368
+series_winner,Dynamic strength,raw,25186,1047,0.22943873630108894,0.6504701928331554
+series_winner,K20 raw,raw,25186,1047,0.23096115081183305,0.6537029527284756
+series_winner,K20 calibrated,common separate-event calibration,25186,1047,0.23248552036647757,0.6606271434875748
+series_winner,Glicko-2 calibrated,common separate-event calibration,25186,1047,0.22491592815648842,0.64234790558503
+series_winner,Player Gaussian calibrated,common separate-event calibration,25186,1047,0.22600151500948884,0.6460704501706765

@@ -1,0 +1,46 @@
+{
+  "release": "reviewer-release-2026-10-25",
+  "execution_records": [
+    {
+      "role": "retained frozen-history controls and fixed-weight/audit outputs",
+      "device": "Tesla T4",
+      "python": "3.13.16",
+      "torch": "2.11.0+cu130",
+      "numpy": "2.1.3",
+      "scipy": "1.16.3",
+      "scikit_learn": "1.6.1",
+      "cuda": "13.0",
+      "neural_precision": "16-mixed",
+      "xgboost": "3.4.1",
+      "catboost": "1.2.10",
+      "duckdb": "1.5.0",
+      "lightning": "2.6.6",
+      "torchmetrics": "1.9.0",
+      "tabm": "0.0.3",
+      "rtdl_revisiting_models": "0.0.2",
+      "rtdl_num_embeddings": "0.0.12",
+      "cupy_cuda13x": "14.2.0"
+    },
+    {
+      "role": "advancing-history unfinished units and stricter-clock arms",
+      "device": "NVIDIA GeForce RTX 4080 SUPER",
+      "python": "3.12.14",
+      "torch": "2.14.0+cu130",
+      "numpy": "2.5.3",
+      "scipy": "1.18.1",
+      "scikit_learn": "1.9.1",
+      "cuda": "13.0",
+      "neural_precision": "16-mixed",
+      "xgboost": "3.4.1",
+      "catboost": "1.2.10",
+      "duckdb": "1.5.0",
+      "lightning": "2.6.6",
+      "torchmetrics": "1.9.0",
+      "tabm": "0.0.3",
+      "rtdl_revisiting_models": "0.0.2",
+      "rtdl_num_embeddings": "0.0.12",
+      "cupy_cuda13x": "14.2.0"
+    }
+  ],
+  "qualification_note": "Mixed cloud/local environment; retained units keep original identities. This is not hardware-matched replication."
+}

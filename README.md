@@ -1,6 +1,12 @@
-# Review revision software and aggregate artifact v4.1
+# Review revision software and aggregate artifact releases
 
-This public artifact contains project-authored scientific helper source, grouped aggregate results and schemas, figure/table specifications and outputs, and a pinned aggregate-only reconstruction environment. It is separate from the local double-anonymous review archive; no manuscript or supplement is included here.
+## Current reviewer companion: v4.2 (25 October 2026)
+
+The dated [`reviewer-release-2026-10-25/`](reviewer-release-2026-10-25/README.md) directory adds completed aggregate evidence, current retrospective-execution source, a finding-to-evidence map, reconstruction instructions, and a recorded mixed cloud/local environment. The matching manuscript and supplement are supplied separately through the review system and are not included in this public repository. The existing v4.1 software/aggregate release remains intact as a historical snapshot.
+
+## Original software and aggregate release: v4.1
+
+The original v4.1 materials are retained below, byte-for-byte, including the original feature dictionaries, schemas, notices and pinned aggregate-only reconstruction environment.
 
 ## Included material
 

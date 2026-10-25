@@ -1,0 +1,18 @@
+{
+  "code_sha256": "5a20853bcd344afe7ff5128dff3dc087e5504ca928b445a4ae7d8679fa4f20a8",
+  "inputs": {
+    "later": {
+      "context/projection.json": "52d096db21ba4d7cc4194ed983314a30a22c42ac0509c92321ebc1cab4b2a537",
+      "forecasts/frozen.json": "fa545800ee10e277d9b9b3c26177f6f66bd075f4e5afe96ebb0ab176804481ce",
+      "targets/frozen.json": "30bb05d27e62ee1f28c14956949c674a8bdb3fbd5188adf02ba034a71dc2209c",
+      "scoring/results.json": "030b48fbdf62d5b5a54bb64ea82005db24221a6c965051d20d96deaf406e5e56"
+    },
+    "rating": {
+      "rating_aggregate": "4d70154ad6eef8720be30ee8a9eda17918ccbc6e96e21e0f7cf96d45a499d7e1",
+      "map_winner_diagnostic_aggregate": "34641744d8975b7ed841a49cdbbe7ad264e11050d40741dc02cb252be27599a5",
+      "series_winner_diagnostic_aggregate": "e4c3ba8039600c0af6e849ec0bf13d879703bce2f7f6fc5e4a1c96554583add1"
+    }
+  },
+  "scope": "descriptive saved-output summaries only; no new experiments or inferential comparisons",
+  "exports": "aggregate counts and metrics only; no source identifiers or row forecasts"
+}

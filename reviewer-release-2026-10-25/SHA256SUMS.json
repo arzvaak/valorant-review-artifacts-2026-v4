@@ -1,0 +1,285 @@
+{
+  "release": "reviewer-release-2026-10-25",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3898,
+      "sha256": "d7f5ea9740684069d0c8c43d85ed778a0b0b1b9905e770cfc3c5864e089731b2"
+    },
+    {
+      "path": "aggregates/aggregate-reconstruction/core-audit.json",
+      "bytes": 48516,
+      "sha256": "57fb11987cbff9422f0a1e603e314c7ad5b3c41f9d46a467f00cd2f314894f24"
+    },
+    {
+      "path": "aggregates/aggregate-reconstruction/core-coverage.csv",
+      "bytes": 1023,
+      "sha256": "50a538e717695eef2619dd8c66bae31c3eb7e943279c617a7fc722e1e1548efe"
+    },
+    {
+      "path": "aggregates/aggregate-reconstruction/core-phase-counts.csv",
+      "bytes": 5372,
+      "sha256": "2746b82b5e61a9427c0fcb757d787c80c34915d08cd80523fbfe6d5117776e5c"
+    },
+    {
+      "path": "aggregates/aggregate-reconstruction/coverage.tex",
+      "bytes": 1186,
+      "sha256": "4fae45dec0f09bae838b479d0873d5933a93756a4bc28d331be738e16792445c"
+    },
+    {
+      "path": "aggregates/aggregate-reconstruction/event-forecast-losses.csv",
+      "bytes": 6456779,
+      "sha256": "89dc2f7fb0e2ea252901752b42a8988e69e0477ffa5d50511b83fa01663a761d"
+    },
+    {
+      "path": "aggregates/aggregate-reconstruction/event-summary-provenance.json",
+      "bytes": 830,
+      "sha256": "eae1f1f34a50f5dacaede9ded05e4bf45a06c4e908d2b98922020c3ff2371000"
+    },
+    {
+      "path": "aggregates/aggregate-reconstruction/phase-counts.tex",
+      "bytes": 1032,
+      "sha256": "9452725802e3bca4271973262c998e5f8acc7e44c5b10a9c9543f33e5a4348dd"
+    },
+    {
+      "path": "aggregates/aggregate-reconstruction/reconstructed-scores.csv",
+      "bytes": 11175,
+      "sha256": "0e4e3590035cdaef12b0a37a7183eb0c47186cf309674e581b9055dd19118fb8"
+    },
+    {
+      "path": "aggregates/final-sensitivities/all-88-contrasts.csv",
+      "bytes": 35505,
+      "sha256": "0368f847252c98e744d297001e20db18b516b8645792cbe4486d417255bfa41b"
+    },
+    {
+      "path": "aggregates/final-sensitivities/calibration-candidates.csv",
+      "bytes": 65588,
+      "sha256": "b22fc1566ea7fd986db4291f9e8d062ac5257bfc1f13e17398d6080a9d28d9a2"
+    },
+    {
+      "path": "aggregates/final-sensitivities/core-ties-by-block.csv",
+      "bytes": 68331,
+      "sha256": "401be3c04c4fc688a599390a9491249616b5b4235d9972bbcc29ad659713568c"
+    },
+    {
+      "path": "aggregates/final-sensitivities/history-sensitivities.png",
+      "bytes": 61764,
+      "sha256": "cf6f638f8b12ebba0ddea9a3fdd79867d64b0108a6d69ed0ba6af3632ef83ef2"
+    },
+    {
+      "path": "aggregates/final-sensitivities/procedure-metrics.csv",
+      "bytes": 19848,
+      "sha256": "30198b45f48c5241cb78ad12f7d7ec3da985de024348c959e75547c7ea204e77"
+    },
+    {
+      "path": "aggregates/final-sensitivities/removal-parent-metrics.csv",
+      "bytes": 451,
+      "sha256": "46824f424e407414b3e4788fed9fa3d1fdf3257ed973ced30f76c419b78a0d08"
+    },
+    {
+      "path": "aggregates/final-sensitivities/schedule-gaps.csv",
+      "bytes": 514,
+      "sha256": "e59a2934e45b11ea81775bfdc2c66c79b8dbd2648068e959b20c2ba348707c95"
+    },
+    {
+      "path": "aggregates/final-sensitivities/specification.json",
+      "bytes": 973,
+      "sha256": "8c731153a76dce913bf185e40fba53cbe07f7fc71c729fc37d24102a177c2bc2"
+    },
+    {
+      "path": "aggregates/reader-evidence/decision-methods.md",
+      "bytes": 2466,
+      "sha256": "715ac30a005bc3d18c607883ecb864a429e76d1d8b04e394ccb0d3d1edd3d8e8"
+    },
+    {
+      "path": "aggregates/reader-evidence/later-exact-ties.csv",
+      "bytes": 1817,
+      "sha256": "499e27f0f4c63f4f19568e58870ef6cb8a57ed7796fcc0968387e9416eda10c8"
+    },
+    {
+      "path": "aggregates/reader-evidence/later-ties.md",
+      "bytes": 2186,
+      "sha256": "3a4dd73a398e4a4e774e6070031ff3a7ad78728dbeb3bbae7ef6e4dd0afd8169"
+    },
+    {
+      "path": "aggregates/reader-evidence/online-methods.md",
+      "bytes": 4989,
+      "sha256": "520260b1820b8f78de8ebf3269450c9022e5d75ca842dd7b05b372a6e1d10c99"
+    },
+    {
+      "path": "aggregates/reader-evidence/online-rating-display.csv",
+      "bytes": 1549,
+      "sha256": "47bffea1f432aed8e0b10bacca625977a0c5bc02b76e9398003cac5f771d8155"
+    },
+    {
+      "path": "aggregates/reader-evidence/online-rating-display.png",
+      "bytes": 81336,
+      "sha256": "6f74f0f377420a28288eb222d5fea2755c155b561653eba7bc6b93240637fe45"
+    },
+    {
+      "path": "aggregates/reader-evidence/online-score-table.md",
+      "bytes": 1224,
+      "sha256": "b7156a27997828848e6f23bc6c2e140ee6284c4de6211fe1c62aaf6e686c11a5"
+    },
+    {
+      "path": "aggregates/reader-evidence/saved-output-provenance.json",
+      "bytes": 1050,
+      "sha256": "b85d70c800399e8b6244a2ae06f7aa04d7d251ed03225ee360d87f037ee3ed21"
+    },
+    {
+      "path": "aggregates/revision-figures/chronology.png",
+      "bytes": 134754,
+      "sha256": "a8e337cdbc68b299d22230692a266b6c3dd7ceedcc72c4518fdcbd04d758c513"
+    },
+    {
+      "path": "aggregates/revision-figures/chronology.svg",
+      "bytes": 81579,
+      "sha256": "d909810b535f8f2b6c196dc2afbe2d62a1bc340c7d4efd35f6bcde1d1dd6a980"
+    },
+    {
+      "path": "aggregates/revision-figures/exact-tie-contribution.png",
+      "bytes": 39202,
+      "sha256": "388f556fd7b84b8d48c6ab5f2ac254e1ee2781049f0899df17c642c1695fdea7"
+    },
+    {
+      "path": "aggregates/revision-figures/exact-tie-contribution.svg",
+      "bytes": 47046,
+      "sha256": "e44674ca14ccf5d267ebab45494b4f0d8fcbc4e560c966f057c0ee66041ffddd"
+    },
+    {
+      "path": "aggregates/revision-figures/later-feedback-losses.png",
+      "bytes": 57842,
+      "sha256": "63567d49c059400206632951bda9ee01f0756e3f684fc5b08174a2b065576cb8"
+    },
+    {
+      "path": "aggregates/revision-figures/later-feedback-losses.svg",
+      "bytes": 68319,
+      "sha256": "71f3cccab9f7f7f575edc0103fb57d479dd659cb783b72654012967c1f2df324"
+    },
+    {
+      "path": "aggregates/revision-figures/online-calibration-slopes.png",
+      "bytes": 33219,
+      "sha256": "099c5770e77001f75de109b2df5ea3f6f6fa87600d2eb1236f701209886c9d03"
+    },
+    {
+      "path": "aggregates/revision-figures/online-calibration-slopes.svg",
+      "bytes": 44636,
+      "sha256": "1600b099ff341ef34c036397e932bf2b9d7e26612e3f0ad36c19a26443c72709"
+    },
+    {
+      "path": "aggregates/revision-figures/online-probability-losses.png",
+      "bytes": 55913,
+      "sha256": "a7be5fe5b14db28b6d1cce39ba82eddd55248f93847341c5c02cd223fcb0cf39"
+    },
+    {
+      "path": "aggregates/revision-figures/online-probability-losses.svg",
+      "bytes": 62680,
+      "sha256": "4c84cdd7028e9c11ba511345bf70b8defbcc74604aee177dd91f6eab71713e7a"
+    },
+    {
+      "path": "environments/runtime-record.json",
+      "bytes": 1417,
+      "sha256": "a1284ccb117039bb54870ae73fed13f023de62d9f365a1c4b3ec4bb4e158b24e"
+    },
+    {
+      "path": "methods/EVIDENCE_MAP.md",
+      "bytes": 4344,
+      "sha256": "381a55e63b954a299081b70c59cd3aab6b92f9029d23fb884f49d7e310460a18"
+    },
+    {
+      "path": "methods/METHODS-AND-EXECUTION.md",
+      "bytes": 3799,
+      "sha256": "cbec248aba8e3f13409343d9fabda3c6954f5bd1a590e57a1057c9947d833fa6"
+    },
+    {
+      "path": "methods/RECONSTRUCTION.md",
+      "bytes": 5915,
+      "sha256": "9e45bda632e1005e132b1078822f78dd3297c0a9b4c433b008ab992d0290396f"
+    },
+    {
+      "path": "methods/data-card.md",
+      "bytes": 5858,
+      "sha256": "d95468bc597f8f260514df0a2b1584892873970672e95dc9fa0e1d5af1047f9f"
+    },
+    {
+      "path": "methods/leakage-audit.md",
+      "bytes": 3785,
+      "sha256": "98f322ce0a2f4bb66d2911013ed9d69d199e7a9998821b4b24dc830a089a2c2a"
+    },
+    {
+      "path": "software/README.md",
+      "bytes": 1248,
+      "sha256": "32db6c80c410771b6af0384f7a4d812c9c2b60076b86832ebb4fcef36cf8d4ae"
+    },
+    {
+      "path": "software/aggregate-renderers/plot_final_sensitivities.py",
+      "bytes": 2754,
+      "sha256": "566d36c36efd8bf56b92e0ec416cff658257868ca89184546230f0aab8dd1a56"
+    },
+    {
+      "path": "software/aggregate-renderers/plot_rating_display.py",
+      "bytes": 1938,
+      "sha256": "d5d36071247cea7fecc5401a3dd0a38e8ee7a1e37efe3bfbcdbfd7acc55c97da"
+    },
+    {
+      "path": "software/aggregate-renderers/reconstruct_event_scores.py",
+      "bytes": 1601,
+      "sha256": "68f7a1af43ec57ba0181f0c1f20d257f806305475732cd16ac2916d64846443f"
+    },
+    {
+      "path": "software/audit-renderers/integrate_final_round.py",
+      "bytes": 15027,
+      "sha256": "a069e3dd6cacc8778faf6b6c7bc6dac204ed23653ca53ecf098485cf022bfb4f"
+    },
+    {
+      "path": "software/audit-renderers/presentation_saved_outputs.py",
+      "bytes": 7657,
+      "sha256": "5a20853bcd344afe7ff5128dff3dc087e5504ca928b445a4ae7d8679fa4f20a8"
+    },
+    {
+      "path": "software/final_colab/audits.py",
+      "bytes": 7120,
+      "sha256": "c4bd69121eeab9ca127e6c5c9c99bcd40de0b296a95a83779736cadfdec0cbc6"
+    },
+    {
+      "path": "software/final_colab/campaign.py",
+      "bytes": 1841,
+      "sha256": "215b2914488812f71834a0aae90138b9cec4f68b1fa51e61d943079e12841a98"
+    },
+    {
+      "path": "software/final_colab/context.py",
+      "bytes": 7059,
+      "sha256": "311c9d918fecf8abd7f5ff2c8302d382d540907fab902338b85773cf4ecae620"
+    },
+    {
+      "path": "software/final_colab/history.py",
+      "bytes": 14637,
+      "sha256": "4a5b8eadf64edabd76f22667531dd7b24ddf4334b30fcaf675ba7cb2d2ef23c7"
+    },
+    {
+      "path": "software/final_colab/local_resume.py",
+      "bytes": 6538,
+      "sha256": "df049234df2a0847ba85849fe56e391e33b560e13d177b1246492a1212edb696"
+    },
+    {
+      "path": "software/final_colab/refresh.py",
+      "bytes": 4536,
+      "sha256": "9cd71ded1352d73fa45864712d179d49f56025e668a74d0f045ac886efb81798"
+    },
+    {
+      "path": "software/final_colab/report.py",
+      "bytes": 8733,
+      "sha256": "edaa466d98047db3e374da1329d9d3e3ea8a21a27b6b67b087b4552c2170541c"
+    },
+    {
+      "path": "software/final_colab/run.py",
+      "bytes": 7421,
+      "sha256": "0fc86ed5257f79b0d77880ab6a4d710f9713abb905be2427ad4bd88cfc5958d0"
+    },
+    {
+      "path": "software/final_colab/storage.py",
+      "bytes": 3118,
+      "sha256": "77e8050778b2f5a043605b761a4d3076865b453a96cc649ba4c9c8e07455044c"
+    }
+  ]
+}
